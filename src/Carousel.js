@@ -18,9 +18,10 @@ class PortfolioCarousel extends Component {
             infiniteLoop={true} 
             showThumbs={false} 
             showIndicators={false}
-            showStatus={false}
+            showStatus={true}
             useKeyboardArrows={true} 
-            autoPlay={true}>
+            autoPlay={true}
+            className='animated slideInUp'>
                 <div>
                     <img className='carousel-img' src={Albert} alt={''}/>
                 </div>
