@@ -1,0 +1,164 @@
+/*---- PROPERTIES COMMON ACROSS ALL PAGES ----*/
+/*----CAN BE OVERRIDDEN BY PAGE-SPECIFIC PROPERTIES ----*/
+
+html, body {
+    height: 100%;
+    font-family: "FuturaPTWebLight", "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .nav-item {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-family: "Nanum Gothic", "Montserrat", sans-serif !important;
+    color: #1a1a1a;
+}
+
+.header {
+    height: 6rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header strong {
+    font-family: "FuturaWebDemi", sans-serif !important;
+}
+
+.nav_banner {
+    position: fixed;
+    top: 1.75rem;
+    left: 7.5vw;
+    right: 7.5vw;
+    padding: 0;
+}
+
+.desktop_nav, .sidebar {
+    display: none;
+}
+
+.navbar_left, .desktop_nav {
+    font-size: 1.25rem !important;
+    color: white !important;
+}
+
+.mobile_nav {
+    font-size: 1rem !important;
+}
+
+.menu_bar {
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.navbar-nav {
+    z-index: 10 !important;
+}
+
+.nav_drop {
+    padding-left: 10px;
+    background-color: #004080;
+}
+
+.nav-item {
+    color: white !important;
+}
+
+.sidebar {
+    width: 20vw;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    z-index: 9;
+}
+
+.side_items {
+    position: fixed;
+    top: 50vh;
+    bottom: 12.5vh;
+    left: 3vw;
+    line-height: 10px;
+}
+
+.side_logo {
+    width: 28px;
+    height: 28px;
+}
+
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 4rem;
+    bottom: 0;
+    left: 0;
+    padding-top: 1.4rem;
+    padding-left: 3.25vw;
+}
+
+.footer_txt {
+    font-family: "FuturaPTWebBook", "Montserrat", sans-serif;
+}
+
+/*---- HEADER AND SIDEBAR QUERIES ----*/
+
+/*----- HORIZONTAL QUERIES -----*/
+
+@media (min-width: 768px) and (max-width: 1023px) {     /*md; iPad*/
+    .nav_banner {
+        left: 7.5vw;
+        right: 7.5vw;
+    }
+}
+
+@media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+    p {
+        font-size: 0.9rem;
+    }
+    .header {
+        background-color: transparent;
+    }
+    .mobile_nav, #navbarNav {
+        display: none;
+    }
+    .desktop_nav, .sidebar {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {    /*lg; iPad Pro; small PC*/
+    .nav_banner {
+        left: 4.5vw;
+        right: 4.5vw;
+    }
+}
+
+@media (min-width: 1440px) {    /*lg; PC*/
+    .nav_banner {
+        left: 3.5vw;
+        right: 3.5vw;
+    }
+}

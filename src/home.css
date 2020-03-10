@@ -1,0 +1,157 @@
+/*---- PROPERTIES SPECIFIC TO LANDING PAGE ----*/
+
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.blue_block {
+    width: 100%;
+    height: 70%;
+    position: fixed;
+    top: 0;
+    background-color: #004080;
+    color: white;
+}
+
+.pop_tab {
+    height: 56%;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: transparent;
+    color: black;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.pop_tab, .tab_img {
+    width: 80vw;
+}
+
+.intro_sm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 15vh;
+}
+
+.intro_md, .intro_lg, .footer {
+    display: none;
+    position: absolute;
+}
+
+.intro_md {
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 15vh;
+}
+
+.intro_md p {
+    color: #FFFFFF !important;
+}
+
+.intro_lg {
+    color: #004080;
+    text-align: left;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: #004080;
+}
+
+/*---- MEDIA QUERIES ----*/
+
+@media (min-width: 577px) and (max-width: 767px) {      /*SM; MOBILE*/
+    .pop_tab, .tab_img {
+        width: 420px;
+    }
+}
+
+@media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
+    .intro_sm {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {     /*MD; iPAD*/
+    .pop_tab, .tab_img {
+        width: 548px;
+    }
+    .pop_tab {
+        height: 50%;
+    }
+    .intro_md {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+    .navbar_left {
+        color: #004080 !important;
+    }
+    .blue_block {
+        height: 100%;
+        position: fixed;
+        left: 58.33333333333333%;
+        right: 0;
+    }
+    .footer, .intro_lg {
+        display: block;
+    }
+    .footer {
+        background-color: transparent;
+        color: #004080;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {    /*LG; iPAD PRO*/
+    .pop_tab, .tab_img {
+        width: 505px;
+    }
+    .pop_tab {
+        height: 80%;
+        left: 50.7%;
+    }
+    .intro_lg {
+        top: 22.5vh;
+        left: 7.5vw;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1439px) {    /*LG; PC*/
+    .pop_tab, .tab_img {
+        width: 550px;
+    }
+    .pop_tab {
+        height: 85%;
+        left: 51.5%;
+    }
+    .intro_lg {
+        top: 22.5%;
+        left: 11%;
+    }
+}
+
+@media (min-width: 1440px) {    /*LG; PC*/
+    .pop_tab, .tab_img {
+        width: 590px;
+    }
+    .pop_tab {
+        height: 82.5%;
+        left: 52%;
+    }
+    .intro_lg {
+        top: 23vh;
+        left: 12vw;
+    }
+}
