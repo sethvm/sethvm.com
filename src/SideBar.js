@@ -12,7 +12,6 @@ import contactLogo from './svg/contact-logo.svg';
 
 import resumeFile from './pdf/sethvm_resume.pdf';
 
-
 function SideBar() {
   return (
     <div className='sidebar'>
