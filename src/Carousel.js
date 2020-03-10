@@ -22,13 +22,13 @@ class PortfolioCarousel extends Component {
             useKeyboardArrows={true} 
             autoPlay={true}
             className='animated slideInUp'>
-                <div>
+                <div className='carousel-img'>
                     <img className='carousel-img' src={Albert} alt={''}/>
                 </div>
-                <div>
+                <div className='carousel-img'>
                     <img className='carousel-img' src={FASSB} alt={''}/>
                 </div>
-                <div>
+                <div className='carousel-img'>
                     <img className='carousel-img' src={Vector} alt={''}/>
                 </div>
             </Carousel>
