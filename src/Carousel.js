@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-/*import './animate.min.css';
+import './animate.min.css';
+import './index.css';
 import './home.css';
-import './style.css';*/
+import './style.css';
 
 import Albert from './svg/albert-carousel.svg';
 import FASSB from './svg/fassb-carousel.svg';
@@ -17,19 +17,18 @@ class PortfolioCarousel extends Component {
             <Carousel 
             infiniteLoop={true} 
             showThumbs={false} 
-            showStatus={false} 
-            showThumbs={false} 
+            showIndicators={false}
+            showStatus={false}
             useKeyboardArrows={true} 
-            autoPlay={true}
-            width={'30vw'}>
+            autoPlay={true}>
                 <div>
-                    <img src={Albert}/>
+                    <img className='carousel-img' src={Albert} alt={''}/>
                 </div>
                 <div>
-                    <img src={FASSB}/>
+                    <img className='carousel-img' src={FASSB} alt={''}/>
                 </div>
                 <div>
-                    <img src={Vector}/>
+                    <img className='carousel-img' src={Vector} alt={''}/>
                 </div>
             </Carousel>
         );
