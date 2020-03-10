@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-import './bootstrap.min.css';
-import './animate.min.css';
+/*import './animate.min.css';
 import './home.css';
-import './style.css';
+import './style.css';*/
 
 import Albert from './svg/albert-carousel.svg';
 import FASSB from './svg/fassb-carousel.svg';
@@ -22,7 +21,7 @@ class PortfolioCarousel extends Component {
             showThumbs={false} 
             useKeyboardArrows={true} 
             autoPlay={true}
-            width={'60vw'}>
+            width={'30vw'}>
                 <div>
                     <img src={Albert}/>
                 </div>
