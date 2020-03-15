@@ -63,9 +63,6 @@ html, body {
 }
 
 @media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
-    .navbar_left {
-        color: #004080 !important;
-    }
     .blue_block {
         height: 100%;
         position: fixed;
