@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -16,7 +16,7 @@ class PortfolioCarousel extends Component {
             infiniteLoop={true} 
             showThumbs={false} 
             showIndicators={false}
-            showStatus={true}
+            showStatus={false}
             useKeyboardArrows={true} 
             autoPlay={true}
             className='animated slideInUp'>
