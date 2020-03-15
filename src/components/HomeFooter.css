@@ -1,0 +1,12 @@
+.footer {
+    display: none;
+    position: absolute;
+}
+
+@media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+    .footer {
+        display: block;
+        background-color: transparent;
+        color: #004080;
+    }
+}

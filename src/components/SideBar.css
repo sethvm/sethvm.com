@@ -1,0 +1,30 @@
+.sidebar {
+    display: none;
+    width: 20vw;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    z-index: 9;
+}
+
+.side_items {
+    position: fixed;
+    top: 50vh;
+    bottom: 12.5vh;
+    left: 3vw;
+    line-height: 10px;
+}
+
+.side_logo {
+    width: 28px;
+    height: 28px;
+}
+
+@media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+    .sidebar {
+        display: block;
+    }
+}
+

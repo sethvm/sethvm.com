@@ -1,0 +1,54 @@
+#carousel {
+    width: 80vw;
+    height: 56%;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 9;
+}
+
+.carousel-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+@media (min-width: 577px) and (max-width: 767px) {      /*SM; MOBILE*/
+    #carousel {
+        width: 420px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {     /*MD; iPAD*/
+    #carousel {
+        width: 548px;
+        height: 50%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {    /*LG; iPAD PRO*/
+    #carousel {
+        width: 505px;
+        height: 80%;
+        left: 50.7%;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1439px) {    /*LG; PC*/
+    #carousel {
+        width: 550px;
+        height: 85%;
+        left: 51.5%;
+    }
+}
+
+@media (min-width: 1440px) {    /*LG; PC*/
+    #carousel {
+        width: 590px;
+        height: 82.5%;
+        left: 52%;
+    }
+}

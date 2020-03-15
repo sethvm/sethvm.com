@@ -2,7 +2,7 @@ import React from 'react';
 
 import './bootstrap.min.css';
 import './animate.min.css';
-import './style.css';
+import './components/SideBar.css';
 
 import resumeLogo from './svg/resume-logo.svg';
 import linkedinLogo from './svg/linkedin-logo.svg';

@@ -1,9 +1,7 @@
 import React from 'react';
 
-import './bootstrap.min.css';
 import './animate.min.css';
-import './style.css';
-import './home.css';
+import './components/HomeFooter.css';
 
 import './fonts/Futura PT_Light.css';
 import './fonts/Futura PT_Book.css';

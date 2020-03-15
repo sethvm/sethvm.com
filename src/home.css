@@ -24,7 +24,7 @@ html, body {
     top: 15vh;
 }
 
-.intro_md, .intro_lg, .footer {
+.intro_md, .intro_lg {
     display: none;
     position: absolute;
 }
@@ -72,12 +72,8 @@ html, body {
         left: 58.33333333333333%;
         right: 0;
     }
-    .footer, .intro_lg {
+    .intro_lg {
         display: block;
-    }
-    .footer {
-        background-color: transparent;
-        color: #004080;
     }
 }
 

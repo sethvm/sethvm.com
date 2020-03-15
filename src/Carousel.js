@@ -3,9 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import './animate.min.css';
-import './index.css';
-import './home.css';
-import './style.css';
+import './components/Carousel.css';
 
 import Albert from './svg/albert-carousel.svg';
 import FASSB from './svg/fassb-carousel.svg';
