@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './animate.min.css';
-import './components/HomeFooter.css';
+import './components/Footer.css';
 
 import './fonts/Futura PT_Light.css';
 import './fonts/Futura PT_Book.css';
 import './fonts/Futura_Demi.css';
 
-function HomeFooter() {
+function Footer() {
     return (
         <div className='footer animated fadeIn'>
             <div className='footer_txt'>
@@ -17,4 +17,4 @@ function HomeFooter() {
     );
 }
 
-export default HomeFooter;
+export default Footer;

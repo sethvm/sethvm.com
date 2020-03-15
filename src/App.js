@@ -49,7 +49,7 @@ function App() {
                     <br /><strong>front-end development</strong>.
                     <br />
                     <br />Previous position:
-                    <br /><strong>UI/UX Designer</strong> at the Government of Ontario.
+                    <br /><strong>UX and Web Designer</strong> at Ontario Public Service.
                 </p>
             </div>
         </>
