@@ -15,7 +15,7 @@ import resumeFile from './pdf/sethvm_resume.pdf';
 export default function Header() {
     return (
         <div className='header animated fadeIn'>
-            <Navbar className='nav_banner' bg='transparent' expand='lg'>
+            <Navbar className='nav_banner' bg='transparent' expand='1024px'>
                 <Navbar.Brand className='navbar_left' href={''}>SETH MORENOS</Navbar.Brand>
                 <Navbar.Toggle className='mobile_nav' aria-controls='navbarNav'>
                     <span>
