@@ -12,7 +12,8 @@ class PortfolioCarousel extends React.Component {
     render() {
         return (
             <div id='carousel'>
-                <Carousel>
+                <Carousel
+                indicators={false}>
                     <Carousel.Item>
                         <img src={Albert} className='carousel_img' alt={''} />
                     </Carousel.Item>
