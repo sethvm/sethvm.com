@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './animate.min.css';
-import './components/SideBar.css';
+import './SideBar.css';
 
 import resumeLogo from './svg/resume-logo.svg';
 import linkedinLogo from './svg/linkedin-logo.svg';

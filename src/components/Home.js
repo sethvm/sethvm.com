@@ -1,14 +1,15 @@
 import React from 'react';
 
 import './animate.min.css';
-import './style.css';
-import './home.css';
+/*import './style.css';*/
+import './Content.css';
+import './Home.css';
 
 import './fonts/Futura PT_Light.css';
 import './fonts/Futura PT_Book.css';
 import './fonts/Futura_Demi.css';
 
-function App() {
+export default function Home() {
     return (
         <>
         <div className='blue_block animated fadeIn'>
@@ -55,5 +56,3 @@ function App() {
         </>
     );
 }
-
-export default App;
