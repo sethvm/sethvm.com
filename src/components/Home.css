@@ -7,6 +7,16 @@ html, body {
     overflow: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-size: 0.9rem;
+    font-family: "Nanum Gothic", "Montserrat", sans-serif;
+    color: #1a1a1a;
+}
+
 .blue_block {
     width: 100%;
     height: 70%;

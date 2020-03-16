@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './animate.min.css';
-/*import './style.css';*/
 import './Content.css';
 import './Home.css';
 
