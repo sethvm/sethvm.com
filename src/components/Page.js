@@ -15,8 +15,12 @@ export default function Page() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact={true} path='/' render={Home} />
-                <Route exact={true} path='/about' render={NotHome} />
+                <Route exact path='/'>
+                    <Home />
+                </Route>
+                <Route path='/about'>
+                    <NotHome />
+                </Route>
             </Switch>
         </BrowserRouter>
     );
