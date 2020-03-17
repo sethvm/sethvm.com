@@ -34,11 +34,11 @@ export default function Header() {
                     <Navbar.Collapse id='navbarNav'>
                         <Nav className='nav_drop'>
                             <Nav.Link className='nav_item' href={'/about'}>About</Nav.Link>
-                            <Nav.Link className='nav_item' href={resumeFile}>Resume</Nav.Link>
-                            <Nav.Link className='nav_item' href={'https://www.linkedin.com/in/sethvm'} target={'_blank'}>LinkedIn</Nav.Link>
-                            <Nav.Link className='nav_item' href={'https://www.behance.net/sethvm/'} target={'_blank'}>Behance</Nav.Link>
-                            <Nav.Link className='nav_item' href={'https://github.com/sethvm'} target={'_blank'}>GitHub</Nav.Link>
-                            <Nav.Link className='nav_item' href={'mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'} target={'_blank'}>Contact Me</Nav.Link>
+                            <Nav.Link className='nav_item' rel='noopener noreferrer' href={resumeFile} target={'_blank'}>Resume</Nav.Link>
+                            <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://www.linkedin.com/in/sethvm'} target={'_blank'}>LinkedIn</Nav.Link>
+                            <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://www.behance.net/sethvm/'} target={'_blank'}>Behance</Nav.Link>
+                            <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://github.com/sethvm'} target={'_blank'}>GitHub</Nav.Link>
+                            <Nav.Link className='nav_item' rel='noopener noreferrer' href={'mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'} target={'_blank'}>Contact Me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     <Nav className='desktop_nav'><Link to='/about' className='link'>ABOUT</Link></Nav>
