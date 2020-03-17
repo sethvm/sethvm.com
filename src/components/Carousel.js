@@ -24,5 +24,5 @@ export default function HomeCarousel() {
                 </Carousel.Item>
             </Carousel>
         </div>
-    )
+    );
 }

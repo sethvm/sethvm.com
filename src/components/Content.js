@@ -16,18 +16,10 @@ export default function Content() {
         <BrowserRouter>
             <Switch>
                 <Route path='/' component={Home}/>
-                <Route path='/about'>
-                    <About />
-                </Route>
-                <Route path='/albert'>
-                    <Albert />
-                </Route>
-                <Route path='/fassb'>
-                    <FASSB />
-                </Route>
-                <Route path='/vector'>
-                    <Vector />
-                </Route>
+                <Route path='/about' component={About}/>
+                <Route path='/albert' component={Albert}/>
+                <Route path='/fassb' component={FASSB}/>
+                <Route path='/vector' component={Vector}/>
             </Switch>
         </BrowserRouter>
     );
