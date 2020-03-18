@@ -14,37 +14,13 @@ import Footer from './Footer';
 export default function Page() {
     return (
         <BrowserRouter>
+            <Header />
+            <Content />
             <Switch>
-                <Route exact={true} path='/'>
-                    <Home />
-                </Route>
-                <Route path='/about'>
-                    <NotHome />
-                </Route>
+                <Route exact={true} path='/' component={HomeCarousel} />
             </Switch>
+            <SideBar />
+            <Footer />
         </BrowserRouter>
-    );
-}
-
-function Home() {
-    return (
-        <>
-            <Header />
-            <Content />
-            <HomeCarousel />
-            <SideBar />
-            <Footer />
-        </> 
-    );
-}
-
-function NotHome() {
-    return (
-        <>
-            <Header />
-            <Content />
-            <SideBar />
-            <Footer />
-        </> 
     );
 }
