@@ -10,7 +10,7 @@ import Vector from './svg/formula1-carousel.svg';
 
 export default function HomeCarousel() {
     return (
-        <div id='carousel'>
+        <div id='carousel' className='animated fadeInUp'>
             <Carousel
             indicators={false}>
                 <Carousel.Item>

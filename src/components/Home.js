@@ -11,12 +11,12 @@ import './fonts/Futura_Demi.css';
 export default function Home() {
     return (
         <>
-        <div className='blue_block animated fadeIn'>
+        <div className='blue_block animated slideInDown'>
             <>
                 <div className='intro_sm'>
                     <h1>DESIGNER</h1>
-                    <h5>SYSTEMS DESIGN ENGINEERING</h5>
-                    <h5>UNIVERSITY OF WATERLOO</h5>
+                    <h6>SYSTEMS DESIGN ENGINEERING</h6>
+                    <h6>UNIVERSITY OF WATERLOO</h6>
                 </div>
                 <div className='intro_md'>
                     <h1>DESIGNER</h1>
