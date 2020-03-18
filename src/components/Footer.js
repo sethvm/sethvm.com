@@ -51,18 +51,18 @@ function FooterText() {
 
 function AlbertLink() {
     return (
-        <Link href={'/albert'} className='link footer_txt'><strong>PROJECT ALBERT</strong></Link>
+        <Link to='/albert' className='link footer_txt'><strong>PROJECT ALBERT</strong></Link>
     );
 }
 
 function FASSBLink() {
     return (
-        <Link href={'/fassb'} className='link footer_txt'><strong>FASSB</strong></Link>
+        <Link to='/fassb' className='link footer_txt'><strong>FASSB</strong></Link>
     );
 }
 
 function VectorLink() {
     return(
-        <Link href={'/vector'} className='link footer_txt'><strong>VECTOR COLLECTION</strong></Link>
+        <Link to='/vector' className='link footer_txt'><strong>VECTOR COLLECTION</strong></Link>
     );
 }

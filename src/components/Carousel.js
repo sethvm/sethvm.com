@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './animate.min.css';
 import './Carousel.css';
@@ -14,13 +15,13 @@ export default function HomeCarousel() {
             <Carousel
             indicators={false}>
                 <Carousel.Item>
-                    <img src={Albert} className='carousel_img' alt={''} />
+                    <Link to='/albert'><img src={Albert} className='carousel_img' alt={''} /></Link>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={FASSB} className='carousel_img' alt={''} />
+                    <Link to='/fassb'><img src={FASSB} className='carousel_img' alt={''} /></Link>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={Vector} className='carousel_img' alt={''} />
+                    <Link to='/vector'><img src={Vector} className='carousel_img' alt={''} /></Link>
                 </Carousel.Item>
             </Carousel>
         </div>
