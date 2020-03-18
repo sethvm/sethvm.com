@@ -1,6 +1,11 @@
-.link, .link:hover {
+.link {
     color: inherit;
     text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #0073E7;
 }
 
 #homefooter {

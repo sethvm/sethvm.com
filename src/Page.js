@@ -24,22 +24,38 @@ import PageFooter from './components/PageFooter';
 export default function Page() {
     return (
         <BrowserRouter>
+            <Switch>
+                <Route exact={true} path='/' component={HomePage} />
+                <Route exact={false} path='/' component={RegPage} />
+            </Switch>
+        </BrowserRouter>
+    );
+}
+
+function HomePage() {
+    return (
+        <>
+        <Header />
+        <Home />
+        <HomeCarousel />
+        <SideBar />
+        <HomeFooter />
+        </>
+    );
+}
+
+function RegPage() {
+    return(
+        <BrowserRouter>
             <Header />
             <Switch>
-                <Route exact={true} path='/' component={Home} />
                 <Route exact={true} path='/about' component={About} />
                 <Route exact={true} path='/albert' component={Albert} />
                 <Route exact={true} path='/fassb' component={FASSB} />
                 <Route exact={true} path='/vector' component={Vector} />
             </Switch>
-            <Switch>
-                <Route exact={true} path='/' component={HomeCarousel} />
-            </Switch>
             <SideBar />
-            <Switch>
-                <Route exact={true} path='/' component={HomeFooter} />
-                <Route exact={false} path='/' component={PageFooter} />
-            </Switch>
+            <PageFooter />
         </BrowserRouter>
     );
 }

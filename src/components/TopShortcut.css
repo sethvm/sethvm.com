@@ -1,0 +1,13 @@
+.top_shortcut {
+    float: right;
+    font-family: "FuturaPTWebBook", "Montserrat", sans-serif;
+}
+
+.shortcut_txt {
+    color: #004080;
+}
+
+.shortcut_txt:hover {
+    text-decoration: none;
+    color: #0073E7;
+}
