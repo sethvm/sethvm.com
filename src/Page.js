@@ -5,21 +5,21 @@ import {
     Route
 } from 'react-router-dom';
 
-import './animate.min.css';
+import './components/animate.min.css';
 
-import Header from './Header';
+import Header from './components/Header';
 
-import Home from './Home';
-import About from './About';
-import Albert from './Albert';
-import FASSB from './FASSB';
-import Vector from './Vector';
+import Home from './components/Home';
+import About from './components/About';
+import Albert from './components/Albert';
+import FASSB from './components/FASSB';
+import Vector from './components/Vector';
 
-import HomeCarousel from './Carousel';
-import SideBar from './SideBar';
+import HomeCarousel from './components/Carousel';
+import SideBar from './components/SideBar';
 
-import HomeFooter from './HomeFooter';
-import PageFooter from './PageFooter';
+import HomeFooter from './components/HomeFooter';
+import PageFooter from './components/PageFooter';
 
 export default function Page() {
     return (
