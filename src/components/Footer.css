@@ -1,4 +1,9 @@
-.footer {
+.link, .link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+#homefooter {
     display: none;
     position: absolute;
     width: 100%;
@@ -9,14 +14,23 @@
     padding-left: 3.25vw;
 }
 
+#footer {
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+    padding-top: 0;
+    background: transparent;
+    color: #004080;
+}
+
 .footer_txt {
     font-family: "FuturaPTWebBook", "Montserrat", sans-serif;
+    color: #004080;
 }
 
 @media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
-    .footer {
+    #homefooter {
         display: block;
         background-color: transparent;
-        color: #004080;
     }
 }

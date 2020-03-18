@@ -46,10 +46,6 @@ html, body {
     text-align: center;
 }
 
-#formula1:hover {
-    background: local("src/png/formula1-image.png");
-}
-
 /*---- CSSS OVERRIDES ----*/
 
 h1 {

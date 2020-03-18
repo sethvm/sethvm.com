@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function About() {
     return(
-        <div>About page goes here!</div>
+        <div>About page content goes here</div>
     );
 }
