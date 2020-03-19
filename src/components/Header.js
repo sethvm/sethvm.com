@@ -4,9 +4,10 @@ import Nav from 'react-bootstrap/Nav';
 import {
     BrowserRouter,
     Switch,
-    Route
+    Route,
+    Link
 } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap';
+/*import { LinkContainer } from 'react-router-bootstrap';*/
 
 import './bootstrap.min.css';
 import './animate.min.css';
@@ -43,10 +44,10 @@ function HomeMenu() {
             <>
             <Switch>
                 <Route exact={true} path='/'>
-                    <Navbar.Brand className='home_name' href={'/'}>SETH MORENOS</Navbar.Brand>
+                    <Navbar.Brand className='home_name' as={Link} to='/'>SETH MORENOS</Navbar.Brand>
                 </Route>
                 <Route exact={false} path='/'>
-                    <Navbar.Brand className='name' href={'/'}>SETH MORENOS</Navbar.Brand>
+                    <Navbar.Brand className='name' href={'/'} as={Link} to='/'>SETH MORENOS</Navbar.Brand>
                 </Route>
             </Switch>
             <Navbar.Toggle className='mobile_nav' aria-controls='navbarNav'>
@@ -60,7 +61,7 @@ function HomeMenu() {
             </Navbar.Toggle>
             <Navbar.Collapse id='navbarNav'>
                 <Nav className='nav_drop'>
-                    <Nav.Link className='nav_item' href={'/about'}>About</Nav.Link>
+                    <Nav.Link className='nav_item' as={Link} to='/'>About</Nav.Link>
                     <Nav.Link className='nav_item' rel='noopener noreferrer' href={resumeFile} target={'_blank'}>Resume</Nav.Link>
                     <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://www.linkedin.com/in/sethvm'} target={'_blank'}>LinkedIn</Nav.Link>
                     <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://www.behance.net/sethvm/'} target={'_blank'}>Behance</Nav.Link>
@@ -68,7 +69,7 @@ function HomeMenu() {
                     <Nav.Link className='nav_item' rel='noopener noreferrer' href={'mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'} target={'_blank'}>Contact Me</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-            <Nav.Link className='desktop_nav link' href={'/about'}>ABOUT</Nav.Link>
+            <Nav.Link className='desktop_nav link' as={Link} to='/'>ABOUT</Nav.Link>
             </>
         </Navbar>
     );

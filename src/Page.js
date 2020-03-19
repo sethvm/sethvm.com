@@ -52,18 +52,18 @@ function HomePage() {
 function RegPage() {
     return(
         <div id='wrapper'>
-            <BrowserRouter>
-                <ScrollToTop />
-                <Header />
-                <Switch>
-                    <Route exact={true} path='/about' component={About} />
-                    <Route exact={true} path='/albert' component={Albert} />
-                    <Route exact={true} path='/fassb' component={FASSB} />
-                    <Route exact={true} path='/vector' component={Vector} />
-                </Switch>
-                <SideBar />
-                <PageFooter />
-            </BrowserRouter>
+            <>
+            <ScrollToTop />
+            <Header />
+            <Switch>
+                <Route exact={true} path='/about' component={About} />
+                <Route exact={true} path='/albert' component={Albert} />
+                <Route exact={true} path='/fassb' component={FASSB} />
+                <Route exact={true} path='/vector' component={Vector} />
+            </Switch>
+            <SideBar />
+            <PageFooter />
+            </>
         </div>
     );
 }
