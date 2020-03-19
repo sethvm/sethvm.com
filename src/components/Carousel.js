@@ -13,7 +13,8 @@ export default function HomeCarousel() {
     return (
         <div id='carousel' className='animated fadeInUp'>
             <Carousel
-            indicators={false}>
+            indicators={false}
+            interval={3000}>
                 <Carousel.Item>
                     <Link to='/albert'><img src={Albert} className='carousel_img' alt={''} /></Link>
                 </Carousel.Item>
