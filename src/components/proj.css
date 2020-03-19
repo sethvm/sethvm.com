@@ -24,30 +24,12 @@
     text-align: center;
 }
 
-/*---- CSSS OVERRIDES ----*/
-
-/*h1 {
-    font-size: 1.8rem;
-}
-
-h6 {
-    font-size: 0.9rem;
-}*/
-
 .img_fluid {
     padding: 0;
     margin-bottom: 7%;
 }
 
-/*---- MEDIA QUERIES ----*/
-
 @media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
-    /*h1 {
-        font-size: 2.5rem;
-    }
-    h6 {
-        font-size: 1rem;
-    }*/
     .img_fluid {
         display: flex;
         padding: 0;
