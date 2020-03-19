@@ -41,7 +41,7 @@ export default function Home() {
                     <br />I'm a <strong>designer</strong> pursuing a BASc. in
                     <br /><strong>Systems Design Engineering</strong> with a
                     <br />passion for creating products that leave
-                    <br />a positive impact on the world around me.
+                    <br />a positive impact in the world around me.
                     <br />
                     <br />Experienced in <strong>UI/UX</strong> with an
                     <br />interest in <strong>product design</strong> and
