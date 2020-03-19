@@ -19,7 +19,7 @@ import './fonts/Futura_Demi.css';
 
 import resumeFile from './pdf/sethvm_resume.pdf';
 
-class Header extends React.Component {
+export default class Header extends React.Component {
     render() {
         return (
             <BrowserRouter>
@@ -78,5 +78,3 @@ class HomeMenu extends React.Component {
         );
     }
 }
-
-export default Header;
