@@ -15,7 +15,7 @@ class SideBar extends Component {
     render() {
         return (
             <div className='sidebar'>
-                <div className='side_items animated fadeInLeft'>
+                <div className='side_items animated fadeIn'>
                     <a rel='noopener noreferrer' href={resumeFile} target={'_blank'}><img src={resumeLogo} alt={'Resume'} className='side_logo' /></a>
                     <p><br /></p>
                     <a rel='noopener noreferrer' href={'https://www.linkedin.com/in/sethvm'} target={'_blank'}><img src={linkedinLogo} alt={'linkedin.com/in/sethvm'} className='side_logo' /></a>

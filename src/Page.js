@@ -9,7 +9,8 @@ import './components/animate.min.css';
 
 import ScrollToTop from './components/ScrollToTop';
 
-import Header from './components/Header';
+import HomeHeader from './components/HomeHeader';
+import PageHeader from './components/PageHeader';
 
 import Home from './components/Home';
 import About from './components/About';
@@ -26,7 +27,6 @@ import PageFooter from './components/PageFooter';
 export default function Page() {
     return (
         <BrowserRouter>
-            <ScrollToTop />
             <Switch>
                 <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={RegPage} />
@@ -39,7 +39,7 @@ function HomePage() {
     return (
         <div id='wrapper'>
             <>
-            <Header />
+            <HomeHeader />
             <Home />
             <HomeCarousel />
             <SideBar />
@@ -54,7 +54,7 @@ function RegPage() {
         <div id='wrapper'>
             <>
             <ScrollToTop />
-            <Header />
+            <PageHeader />
             <Switch>
                 <Route exact={true} path='/about' component={About} />
                 <Route exact={true} path='/albert' component={Albert} />
