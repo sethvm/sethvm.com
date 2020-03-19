@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 import './animate.min.css';
 import './SideBar.css';
 
-import resumeLogo from './svg/resume-logo.svg';
-import linkedinLogo from './svg/linkedin-logo.svg';
-import behanceLogo from './svg/behance-logo.svg';
-import githubLogo from './svg/github-logo.svg';
-import contactLogo from './svg/contact-logo.svg';
+import resumeLogo from './SideBar/resume-logo.svg';
+import linkedinLogo from './SideBar/linkedin-logo.svg';
+import behanceLogo from './SideBar/behance-logo.svg';
+import githubLogo from './SideBar/github-logo.svg';
+import contactLogo from './SideBar/contact-logo.svg';
 
 import resumeFile from './pdf/sethvm_resume.pdf';
 

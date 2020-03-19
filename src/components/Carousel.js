@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 import './animate.min.css';
 import './Carousel.css';
 
-import Albert from './svg/albert-carousel.svg';
-import FASSB from './svg/fassb-carousel.svg';
-import Vector from './svg/formula1-carousel.svg';
+import Albert from './albert/albert-carousel.svg';
+import FASSB from './fassb/fassb-carousel.svg';
+import Vector from './vector/vector-carousel.svg';
 
 export default function HomeCarousel() {
     return (

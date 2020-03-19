@@ -34,28 +34,32 @@ export default function Page() {
 
 function HomePage() {
     return (
-        <>
-        <Header />
-        <Home />
-        <HomeCarousel />
-        <SideBar />
-        <HomeFooter />
-        </>
+        <div id='wrapper'>
+            <>
+            <Header />
+            <Home />
+            <HomeCarousel />
+            <SideBar />
+            <HomeFooter />
+            </>
+        </div>
     );
 }
 
 function RegPage() {
     return(
-        <BrowserRouter>
-            <Header />
-            <Switch>
-                <Route exact={true} path='/about' component={About} />
-                <Route exact={true} path='/albert' component={Albert} />
-                <Route exact={true} path='/fassb' component={FASSB} />
-                <Route exact={true} path='/vector' component={Vector} />
-            </Switch>
-            <SideBar />
-            <PageFooter />
-        </BrowserRouter>
+        <div id='wrapper'>
+            <BrowserRouter>
+                <Header />
+                <Switch>
+                    <Route exact={true} path='/about' component={About} />
+                    <Route exact={true} path='/albert' component={Albert} />
+                    <Route exact={true} path='/fassb' component={FASSB} />
+                    <Route exact={true} path='/vector' component={Vector} />
+                </Switch>
+                <SideBar />
+                <PageFooter />
+            </BrowserRouter>
+        </div>
     );
 }

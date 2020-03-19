@@ -7,7 +7,7 @@ import Portrait from './about/about-banner.png';
 
 export default function About() {
     return(
-        <div id='wrapper' class='project animated fadeIn'>
+        <div class='project animated fadeIn'>
             <div class='proj_txt'>
                 <img class='proj_img' src={Portrait} alt={'portrait'} />
                 <p>
