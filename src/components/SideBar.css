@@ -27,7 +27,7 @@
 
 .side_logo:hover {
     cursor: pointer;
-    margin-left: 3px;
+    margin-left: 4px;
 }
 
 @media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
