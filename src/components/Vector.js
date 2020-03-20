@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './proj.css';
+import './Project.css';
 import TopShortcut from './TopShortcut';
 
 import Formula1 from './vector/formula1_vector.svg';
