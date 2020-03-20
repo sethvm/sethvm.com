@@ -20,6 +20,14 @@
 .side_logo {
     width: 28px;
     height: 28px;
+    -webkit-transition: margin 0.15s ease-out;
+    -moz-transition: margin 0.15s ease-out;
+    -o-transition: margin 0.15s ease-out;
+}
+
+.side_logo:hover {
+    cursor: pointer;
+    margin-left: 3px;
 }
 
 @media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
