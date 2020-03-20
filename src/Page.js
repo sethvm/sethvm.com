@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter,
+    HashRouter,
     Switch,
     Route
 } from 'react-router-dom';
@@ -26,12 +26,12 @@ import PageFooter from './components/PageFooter';
 
 export default function Page() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Switch>
                 <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={RegPage} />
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
