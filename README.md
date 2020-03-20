@@ -1,4 +1,4 @@
 # sethvm.react
-Portfolio website built using HTML, CSS and React.js
+Portfolio website built using React.js
 
 Contains projects and resume
