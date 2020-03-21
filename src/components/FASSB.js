@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Project.css';
-import TopShortcut from './TopShortcut';
 
 import Banner from './fassb/banner_fassb.svg';
 import Methodology from './fassb/methodology_fassb.svg';
@@ -24,9 +23,9 @@ import DataVis from './fassb/data-visualization_fassb.svg';
 
 export default function FASSB() {
     return(
-        <div class='project animated fadeIn'>
-            <img class='proj_banner' src={Banner} alt='fassb' />   
-            <div class='proj_txt'>
+        <div className='project animated fadeIn'>
+            <img className='proj_banner' src={Banner} alt='fassb' />   
+            <div className='proj_txt'>
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
                     The Finance, Analysis, and Systems Support Branch (FASSB) is a Toronto-based
@@ -70,7 +69,7 @@ export default function FASSB() {
                     <abbr title='Digital Business Unit'>DBU</abbr> follows an <strong>Agile development model</strong>, operating
                     in two-week sprints.
                     <br />
-                    <img class='proj_img' src={Methodology} alt='methodology' />
+                    <img className='proj_img' src={Methodology} alt='methodology' />
                     <br />
                     <strong>User stories</strong> were created for development of new interface components (be it a button or a navigation bar)
                     and were used as a "starting point" for how they were to be incorporated into each interface.
@@ -110,10 +109,10 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img class='proj_img_inline' src={RecordList} alt={'record list screen'} />
-                <img class='proj_img_inline' src={CreateRecord} alt={'create record screen'} />
-                <img class='proj_img_inline' src={RecordOptions} alt={'record options screen'} />
-                <img class='proj_img_inline' src={ModifyRecord} alt={'modify record screen'} />
+                <img className='proj_img_inline' src={RecordList} alt={'record list screen'} />
+                <img className='proj_img_inline' src={CreateRecord} alt={'create record screen'} />
+                <img className='proj_img_inline' src={RecordOptions} alt={'record options screen'} />
+                <img className='proj_img_inline' src={ModifyRecord} alt={'modify record screen'} />
                 <p>
                     <br />
                     <br />
@@ -128,8 +127,8 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img class='proj_img_inline' src={Assessment0} alt={'assessment screen 1'} />
-                <img class='proj_img_inline' src={Assessment1} alt={'assessment screen 2'} />
+                <img className='proj_img_inline' src={Assessment0} alt={'assessment screen 1'} />
+                <img className='proj_img_inline' src={Assessment1} alt={'assessment screen 2'} />
                 <p>
                     <br />
                     <br />
@@ -143,8 +142,8 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img class='proj_img_inline' src={Survey0} alt={'survey screen 1'} />
-                <img class='proj_img_inline' src={Survey1} alt={'survey screen 2'} />
+                <img className='proj_img_inline' src={Survey0} alt={'survey screen 1'} />
+                <img className='proj_img_inline' src={Survey1} alt={'survey screen 2'} />
                 <p>
                     <br />
                     <br />
@@ -166,7 +165,7 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img class='proj_img' src={DataVis} alt={'data visualization graphic'} />
+                <img className='proj_img' src={DataVis} alt={'data visualization graphic'} />
                 <p>
                     <br />
                     <br />
@@ -182,14 +181,8 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img class='proj_img' src={Flow0} alt={'flow diagram 1'} />
-                <img class='proj_img' src={Flow1} alt={'flow diagram 2'} />
-                <p>
-                    <br />
-                </p>
-            </div>
-            <div class='proj_txt'>
-                <TopShortcut />
+                <img className='proj_img' src={Flow0} alt={'flow diagram 1'} />
+                <img className='proj_img' src={Flow1} alt={'flow diagram 2'} />
             </div>
         </div>
     );

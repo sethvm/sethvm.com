@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Project.css';
-import TopShortcut from './TopShortcut';
 
 import Banner from './albert/banner_albert.svg';
 import Ideation from './albert/logo-ideation_albert.png';
@@ -10,9 +9,9 @@ import ColourGuide from './albert/colour-guide_albert.svg';
 
 export default function Albert() {
     return(
-        <div class='project animated fadeIn'>
-            <img class='proj_banner' src={Banner} alt={'project albert'} />   
-            <div class='proj_txt'>
+        <div className='project animated fadeIn'>
+            <img className='proj_banner' src={Banner} alt={'project albert'} />   
+            <div className='proj_txt'>
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
                     Project Albert is an ongoing development of a web-based application that provides assistance to any 
@@ -97,14 +96,14 @@ export default function Albert() {
                     I have found during ideation that the letters P and A could be manipulated such that P resembles a
                     map marker and A resembles a house, and iterated my design as such.
                     <br />
-                    <img class='proj_img' src={Ideation} alt={'logo ideation'} />
+                    <img className='proj_img' src={Ideation} alt={'logo ideation'} />
                     <br />
                     The final iteration sketch (the rightmost logo pictured above) was then created in Figma, where I proceeded
                     to experiment some more with the volume and geometry of each symbol. Fine-tuning the gap and notch on the
                     letter A allowed me to create structures resembling a window and a door, respectively. After making more design 
                     changes to balance out the volume filled by each shape, the finalized logo (below) is eventually finished.
                     <br />
-                    <img class='proj_img' src={PlainLogo} alt={'plain logo'} />
+                    <img className='proj_img' src={PlainLogo} alt={'plain logo'} />
                     <br />
                     The logo palettes have been chosen
                     following Google's Material Design guidelines, coming in both dark and light variants. The shades
@@ -112,12 +111,8 @@ export default function Albert() {
                     the red and orange embody the warmth and security provided by shelter.
                     <br />
                     <br />
-                    <img class='proj_img' src={ColourGuide} alt={'colour guide'} />
-                    <br />
+                    <img className='proj_img' src={ColourGuide} alt={'colour guide'} />
                 </p>
-            </div>
-            <div class='proj_txt'>
-                <TopShortcut />
             </div>
         </div>
     );

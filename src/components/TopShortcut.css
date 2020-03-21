@@ -1,13 +1,20 @@
 .top_shortcut {
     float: right;
     font-family: "FuturaPTWebBook", "Montserrat", sans-serif;
+    z-index: 10;
 }
 
-.shortcut_txt {
-    color: #004080;
+.shortcut_logo {
+    width: 28px;
+    height: 28px;
+    bottom: 7.2rem;
+    right: 8%;
+    position: fixed;
 }
 
-.shortcut_txt:hover {
-    text-decoration: none;
-    color: #0073E7;
+@media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
+    .shortcut_logo {
+        bottom: 7rem;
+        right: 12.5%;
+    }
 }

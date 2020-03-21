@@ -7,9 +7,9 @@ import Portrait from './about/about-banner.png';
 
 export default function About() {
     return(
-        <div class='project animated fadeIn'>
-            <div class='proj_txt'>
-                <img class='proj_img' src={Portrait} alt={'portrait'} />
+        <div className='project animated fadeIn'>
+            <div className='proj_txt'>
+                <img className='proj_img' src={Portrait} alt={'portrait'} />
                 <p>
                     <br />
                 </p>
@@ -35,9 +35,7 @@ export default function About() {
                     Sometimes I also draw and create vector artwork.
                 </p>
             </div>
-            <div class='proj_txt'>
-                <TopShortcut />
-            </div>
+            <TopShortcut />
         </div>
     );
 }

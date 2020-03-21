@@ -21,6 +21,8 @@ import Vector from './components/Vector';
 import HomeCarousel from './components/Carousel';
 import SideBar from './components/SideBar';
 
+import TopShortcut from './components/TopShortcut';
+
 import HomeFooter from './components/HomeFooter';
 import PageFooter from './components/PageFooter';
 
@@ -37,33 +39,30 @@ export default function Page() {
 
 function HomePage() {
     return (
-        <div id='wrapper'>
-            <>
-            <HomeHeader />
-            <Home />
-            <HomeCarousel />
-            <SideBar />
-            <HomeFooter />
-            </>
-        </div>
+        <>
+        <HomeHeader />
+        <Home />
+        <HomeCarousel />
+        <SideBar />
+        <HomeFooter />
+        </>
     );
 }
 
 function RegPage() {
     return(
-        <div id='wrapper'>
-            <>
-            <ScrollToTop />
-            <PageHeader />
-            <Switch>
-                <Route exact={true} path='/about' component={About} />
-                <Route exact={true} path='/albert' component={Albert} />
-                <Route exact={true} path='/fassb' component={FASSB} />
-                <Route exact={true} path='/vector' component={Vector} />
-            </Switch>
-            <SideBar />
-            <PageFooter />
-            </>
-        </div>
+        <>
+        <ScrollToTop />
+        <PageHeader />
+        <Switch>
+            <Route exact={true} path='/about' component={About} />
+            <Route exact={true} path='/albert' component={Albert} />
+            <Route exact={true} path='/fassb' component={FASSB} />
+            <Route exact={true} path='/vector' component={Vector} />
+        </Switch>
+        <SideBar />
+        <TopShortcut />
+        <PageFooter />
+        </>
     );
 }
