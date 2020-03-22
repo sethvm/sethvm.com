@@ -1,0 +1,13 @@
+#contact {
+    color: #004080;
+}
+
+.contact_txt {
+    color: inherit;
+    font-family: "FuturaPTWebBook", "Montserrat", sans-serif;
+}
+
+.contact_txt:hover {
+    color: #0180FF;
+    text-decoration: none;
+}

@@ -4,6 +4,7 @@ import './Project.css';
 import TopShortcut from './TopShortcut';
 
 import Portrait from './about/about-banner.png';
+import ContactInfo from './ContactInfo';
 
 export default function About() {
     return(
@@ -33,6 +34,12 @@ export default function About() {
                     <br />
                     Outside of class and design, you'll often find me in a bouldering gym, weight room or driving in my sim rig.
                     Sometimes I also draw and create vector artwork.
+                    <br />
+                    <br />
+                    Feel free to reach out! I'm always up for a chat about new ideas or opportunities!
+                    <br />
+                    <br />
+                    <ContactInfo />
                 </p>
             </div>
             <TopShortcut />

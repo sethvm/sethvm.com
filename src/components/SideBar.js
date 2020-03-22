@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './animate.min.css';
 import './SideBar.css';
@@ -11,7 +11,7 @@ import contactLogo from './SideBar/contact-logo.svg';
 
 import resumeFile from './pdf/sethvm_resume.pdf';
 
-class SideBar extends Component {
+export default class SideBar extends React.Component {
     render() {
         return (
             <div className='sidebar'>
@@ -30,5 +30,3 @@ class SideBar extends Component {
         );
     }
 }
-
-export default SideBar;
