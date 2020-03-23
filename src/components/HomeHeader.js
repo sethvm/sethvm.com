@@ -14,12 +14,34 @@ import './fonts/Futura PT_Book.css';
 import './fonts/Futura_Demi.css';
 
 export default class HomeHeader extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.toggleNav = this.toggleNav.bind(this);
+        this.collapseOnSelect = this.collapseOnSelect.bind(this);
+        this.state = { expanded: false };
+    }
+
+    toggleNav(expand) {
+        if (this.state.expanded === true)
+            this.setState({ expanded: false });
+        else
+            this.setState({ expanded: true });
+    }
+
+    collapseOnSelect() {
+        this.setState({ expanded: false });
+    }
+
     render() {
         return (
             <div className='home_header animated fadeIn'>
-                <Navbar className='nav_banner' expand='1024px'>
+                <Navbar className='nav_banner' expand='1024px'
+                onToggle={this.toggleNav}
+                expanded={this.state.expanded}>
                     <Nav.Link className='home_name' as={Link} to='/'>SETH MORENOS</Nav.Link>
-                    <HeaderDropDown />
+                    <HeaderDropDown closeNav={this.collapseOnSelect} />
+                    <Nav.Link className='desktop_nav link' as={Link} to='/about'>ABOUT</Nav.Link>
                 </Navbar>
             </div>
         );
