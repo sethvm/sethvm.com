@@ -12,21 +12,20 @@ import Vector from './vector/vector-carousel.svg';
 export default class HomeCarousel extends React.Component {
     render() {
         return(
-            <div id='carousel' className='animated fadeInUp'>
-                <Carousel
-                indicators={false}
-                interval={3000}>
-                    <Carousel.Item>
-                        <Link to='/albert'><img src={Albert} className='carousel_img' alt={''} /></Link>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Link to='/fassb'><img src={FASSB} className='carousel_img' alt={''} /></Link>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Link to='/vector'><img src={Vector} className='carousel_img' alt={''} /></Link>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
+            <Carousel id='carousel' className='animated fadeInUp'
+            keyboard={true}
+            indicators={true}
+            interval={3000}>
+                <Carousel.Item>
+                    <Link to='/albert'><img src={Albert} className='carousel_img' alt={''} /></Link>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Link to='/fassb'><img src={FASSB} className='carousel_img' alt={''} /></Link>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <Link to='/vector'><img src={Vector} className='carousel_img' alt={''} /></Link>
+                </Carousel.Item>
+            </Carousel>
         );
     }
 }
