@@ -12,7 +12,7 @@ import Vector from './vector/vector-carousel.svg';
 export default class HomeCarousel extends React.Component {
     render() {
         return(
-            <div id='carousel' className='animated fadeInLeft'>
+            <div id='carousel' className='animated fadeInUp'>
                 <Carousel
                 indicators={false}
                 interval={3000}>

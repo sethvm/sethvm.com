@@ -29,7 +29,6 @@ export default function Home() {
                     </div>
                 </>
             </div>
-
             <div className='intro_lg animated fadeIn'>
                 <h1>
                     <strong>Hello! I'm Seth.</strong>
