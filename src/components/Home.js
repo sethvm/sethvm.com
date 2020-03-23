@@ -20,11 +20,11 @@ export default function Home() {
                     <div className='intro_md'>
                         <h1>DESIGNER</h1>
                         <p>
-                            SYSTEMS DESIGN ENGINEERING STUDENT
+                            ENGINEERING STUDENT
                             <br />UNIVERSITY OF WATERLOO
                             <br />
                             <br />Experienced in UI/UX Design
-                            <br />Interested in Product Design and Front-end Development
+                            <br />Interested in Front-end Development and Product Design
                         </p>    
                     </div>
                 </>
@@ -32,11 +32,11 @@ export default function Home() {
 
             <div className='intro_lg animated fadeIn'>
                 <h1>
-                    <strong>Hello! I'm Seth</strong>
+                    <strong>Hello! I'm Seth.</strong>
                     <br />
                 </h1>
                 <p> 
-                    <br />Welcome to my portfolio!
+                    <br />Thanks for stopping by!
                     <br />
                     <br />I'm a <strong>designer</strong> pursuing a BASc. in
                     <br /><strong>Systems Design Engineering</strong> with a
@@ -44,11 +44,11 @@ export default function Home() {
                     <br />a positive impact in the world around me.
                     <br />
                     <br />Experienced in <strong>UI/UX</strong> with an
-                    <br />interest in <strong>product design</strong> and
-                    <br /><strong>front-end development</strong>.
+                    <br />interest in <strong>front-end development</strong>
+                    <br />and <strong>product design</strong>.
                     <br />
                     <br />Previous position:
-                    <br /><strong>UX and Web Designer</strong> at Ontario Public Service.
+                    <br />UX and Web Designer at Ontario Public Service.
                 </p>
             </div>
         </div>
