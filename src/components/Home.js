@@ -10,7 +10,7 @@ import './fonts/Futura_Demi.css';
 export default function Home() {
     return (
         <div id='home'>
-            <div className='blue_block animated slideInDown'>
+            <div className='blue_block animated fadeInLeft'>
                 <>
                     <div className='intro_sm'>
                         <h1>DESIGNER</h1>
