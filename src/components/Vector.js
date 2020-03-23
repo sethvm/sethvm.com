@@ -9,9 +9,9 @@ export default function Vector() {
     return(
         <div className='project animated fadeIn'>
             <div className='proj_txt'>
-                <h1><strong>VECTOR COLLECTION</strong></h1>
+                <h4><strong>VECTOR COLLECTION</strong></h4>
                 <p>
-                    <br />Figma graphics not made for any particular project.
+                    Graphics not made for any particular project.
                     Created for de-stressing purposes.
                 </p>
             </div>
