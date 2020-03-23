@@ -13,13 +13,15 @@ import './fonts/Futura PT_Light.css';
 import './fonts/Futura PT_Book.css';
 import './fonts/Futura_Demi.css';
 
-export default function HomeHeader() {
-    return (
-        <div className='home_header animated fadeIn'>
-            <Navbar className='nav_banner' expand='1024px'>
-                <Nav.Link className='home_name' as={Link} to='/'>SETH MORENOS</Nav.Link>
-                <HeaderDropDown />
-            </Navbar>
-        </div>
-    );
+export default class HomeHeader extends React.Component {
+    render() {
+        return (
+            <div className='home_header animated fadeIn'>
+                <Navbar className='nav_banner' expand='1024px'>
+                    <Nav.Link className='home_name' as={Link} to='/'>SETH MORENOS</Nav.Link>
+                    <HeaderDropDown />
+                </Navbar>
+            </div>
+        );
+    }
 }
