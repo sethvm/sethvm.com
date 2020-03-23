@@ -64,8 +64,8 @@ export default function FASSB() {
                 </p>
                 <h4><strong>DESIGN METHODOLOGY</strong></h4>
                 <p>
-                    My primary role as a design intern at <abbr title='Finance, Analysis and Systems Support Branch'>FASSB</abbr> 
-                    was to deliver UI prototypes for the ministry's Employment Services Transformation (EST) project.
+                    My primary role as a design intern at <abbr title='Finance, Analysis and Systems Support Branch'>FASSB</abbr> was
+                    to deliver UI prototypes for the ministry's Employment Services Transformation (EST) project.
                     <abbr title='Digital Business Unit'>DBU</abbr> follows an <strong>Agile development model</strong>, operating
                     in two-week sprints.
                     <br />
@@ -183,6 +183,22 @@ export default function FASSB() {
                 </p>
                 <img className='proj_img' src={Flow0} alt={'flow diagram 1'} />
                 <img className='proj_img' src={Flow1} alt={'flow diagram 2'} />
+                <p>
+                    <br />
+                    <br />
+                </p>
+                <h4><strong>TAKEAWAYS</strong></h4>
+                <p>
+                    My work term at <abbr title="Finance, Analysis and Systems Support Branch">FASSB</abbr> was my first
+                    taste of what working as a designer is like. It provided me with exposure to the Agile development
+                    model, namely the variations in the scope of work that can occur between each two-week sprint. The opportunity
+                    to develop wireframes for the <abbr title="Employment Services Transformation">EST</abbr> project resulted
+                    in the growth of my interest for interface design and front-end development.
+                    <br />
+                    <br />
+                    Most importantly, this internship provided me with exposure to working within a multidisciplinary team
+                    through collaboration with coworkers from both technical and non-technical backgrounds alike.
+                </p>
             </div>
         </div>
     );
