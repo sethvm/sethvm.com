@@ -26,49 +26,43 @@ import TopShortcut from './components/TopShortcut';
 import HomeFooter from './components/HomeFooter';
 import PageFooter from './components/PageFooter';
 
-export default class Page extends React.Component {
-    render() {
-        return (
-            <HashRouter>
-                <Switch>
-                    <Route exact={true} path='/' component={HomePage} />
-                    <Route exact={false} path='/' component={RegPage} />
-                </Switch>
-            </HashRouter>
-        );
-    }
-}
-
-class HomePage extends React.Component {
-    render() {
-        return(
-            <>
-            <HomeHeader />
-            <Home />
-            <HomeCarousel />
-            <SideBar />
-            <HomeFooter />
-            </>
-        );
-    }
-}
-
-class RegPage extends React.Component {
-    render() {
-        return(
-            <>
-            <ScrollToTop />
-            <PageHeader />
+export default function Page() {
+    return (
+        <HashRouter>
             <Switch>
-                <Route exact={true} path='/about' component={About} />
-                <Route exact={true} path='/albert' component={Albert} />
-                <Route exact={true} path='/fassb' component={FASSB} />
-                <Route exact={true} path='/vector' component={Vector} />
+                <Route exact={true} path='/' component={HomePage} />
+                <Route exact={false} path='/' component={RegPage} />
             </Switch>
-            <SideBar />
-            <TopShortcut />
-            <PageFooter />
-            </>
-        );
-    }
+        </HashRouter>
+    );
+}
+
+function HomePage() {
+    return(
+        <>
+        <HomeHeader />
+        <Home />
+        <HomeCarousel />
+        <SideBar />
+        <HomeFooter />
+        </>
+    );
+}
+
+function RegPage() {
+    return(
+        <>
+        <ScrollToTop />
+        <PageHeader />
+        <Switch>
+            <Route exact={true} path='/about' component={About} />
+            <Route exact={true} path='/albert' component={Albert} />
+            <Route exact={true} path='/fassb' component={FASSB} />
+            <Route exact={true} path='/vector' component={Vector} />
+        </Switch>
+        <SideBar />
+        <TopShortcut />
+        <PageFooter />
+        </>
+    );
 }
