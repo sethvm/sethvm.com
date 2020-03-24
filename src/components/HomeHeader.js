@@ -22,11 +22,8 @@ export default class HomeHeader extends React.Component {
         this.state = { expanded: false };
     }
 
-    toggleNav(expand) {
-        if (this.state.expanded)
-            this.setState({ expanded: false });
-        else
-            this.setState({ expanded: true });
+    toggleNav() {
+        this.setState({ expanded: !this.state.expanded });
     }
 
     collapseOnSelect() {
