@@ -20,6 +20,7 @@
 .side_logo {
     width: 28px;
     height: 28px;
+    transition: margin 0.15s ease-out;
     -webkit-transition: margin 0.15s ease-out;
     -moz-transition: margin 0.15s ease-out;
     -o-transition: margin 0.15s ease-out;

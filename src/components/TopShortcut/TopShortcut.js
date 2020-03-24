@@ -3,7 +3,7 @@ import BackToTop from 'react-back-to-top-button';
 
 import './TopShortcut.css';
 
-import UpArrowLogo from './TopShortcut/up-arrow.svg';
+import UpArrowLogo from './up-arrow.svg';
 
 export default class TopShortcut extends React.Component {
     render() {

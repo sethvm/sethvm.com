@@ -2,12 +2,13 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import './animate.min.css';
 import './Carousel.css';
 
-import Albert from './albert/albert-carousel.svg';
-import FASSB from './fassb/fassb-carousel.svg';
-import Vector from './vector/vector-carousel.svg';
+import '../animate.min.css';
+
+import Albert from '../albert/albert-carousel.svg';
+import FASSB from '../fassb/fassb-carousel.svg';
+import Vector from '../vector/vector-carousel.svg';
 
 export default function HomeCarousel() {
     return(

@@ -1,15 +1,14 @@
 import React from 'react';
 
-import './animate.min.css';
+import '../animate.min.css';
+import ResumeFile from '../pdf/sethvm_resume.pdf';
+
 import './SideBar.css';
-
-import ResumeLogo from './SideBar/resume-logo.svg';
-import LinkedInLogo from './SideBar/linkedin-logo.svg';
-import BehanceLogo from './SideBar/behance-logo.svg';
-import GitHubLogo from './SideBar/github-logo.svg';
-import ContactLogo from './SideBar/contact-logo.svg';
-
-import ResumeFile from './pdf/sethvm_resume.pdf';
+import ResumeLogo from './resume-logo.svg';
+import LinkedInLogo from './linkedin-logo.svg';
+import BehanceLogo from './behance-logo.svg';
+import GitHubLogo from './github-logo.svg';
+import ContactLogo from './contact-logo.svg';
 
 export default function SideBar() {
     return (

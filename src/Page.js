@@ -18,13 +18,13 @@ import Albert from './components/Albert';
 import FASSB from './components/FASSB';
 import Vector from './components/Vector';
 
-import HomeCarousel from './components/Carousel';
-import SideBar from './components/SideBar';
+import HomeCarousel from './components/Carousel/Carousel';
 
-import TopShortcut from './components/TopShortcut';
+import SideBar from './components/SideBar/SideBar';
+import TopShortcut from './components/TopShortcut/TopShortcut';
 
-import HomeFooter from './components/HomeFooter';
-import PageFooter from './components/PageFooter';
+import HomeFooter from './components/Footer/HomeFooter';
+import PageFooter from './components/Footer/PageFooter';
 
 export default function Page() {
     return (

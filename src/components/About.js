@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Project.css';
-import TopShortcut from './TopShortcut';
 
 import Portrait from './about/about-banner.png';
 import ContactInfo from './ContactInfo';
@@ -42,7 +41,6 @@ export default function About() {
                     <ContactInfo />
                 </p>
             </div>
-            <TopShortcut />
         </div>
     );
 }
