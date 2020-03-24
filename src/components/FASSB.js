@@ -30,7 +30,7 @@ export default function FASSB() {
                 <p>
                     The Finance, Analysis, and Systems Support Branch (FASSB) is a Toronto-based
                     division under the Government of Ontario's Ministry of Labour, Training and Skills Development (MLTSD).
-                    <abbr title='Finance, Analysis and Systems Support Branch'>FASSB</abbr> collaborates with key internal 
+                    &nbsp;<abbr title='Finance, Analysis and Systems Support Branch'>FASSB</abbr> collaborates with key internal
                     and external stakeholders across the branch, division and ministry in creating, implementing and supporting
                     user-centered digital solutions.
                     <br />
@@ -38,9 +38,8 @@ export default function FASSB() {
                 </p>
                 <h4><strong>TEAM + POSITION</strong></h4>
                 <p>
-                    I had the privilege of interning as a UX and Web Designer within 
-                    <abbr title='Finance, Analysis and Systems Support Branch'>FASSB's</abbr> Digital Business 
-                    Unit (DBU). Our team consisted of one Team Lead, four Business Coordinators, four Project Officers 
+                    I had the privilege of interning as a UX and Web Designer within <abbr title='Finance, Analysis and Systems Support Branch'>FASSB's</abbr> 
+                    &nbsp;Digital Business Unit (DBU). Our team consisted of one Team Lead, four Business Coordinators, four Project Officers 
                     and myself. I took the responsibility of producing UI prototypes for several transformation projects 
                     being worked on by <abbr title='Digital Business Unit'>DBU</abbr>.
                     <br />
@@ -66,7 +65,7 @@ export default function FASSB() {
                 <p>
                     My primary role as a design intern at <abbr title='Finance, Analysis and Systems Support Branch'>FASSB</abbr> was
                     to deliver UI prototypes for the ministry's Employment Services Transformation (EST) project.
-                    <abbr title='Digital Business Unit'>DBU</abbr> follows an <strong>Agile development model</strong>, operating
+                    &nbsp;<abbr title='Digital Business Unit'>DBU</abbr> follows an <strong>Agile development model</strong>, operating
                     in two-week sprints.
                     <br />
                     <img className='proj_img' src={Methodology} alt='methodology' />
@@ -81,9 +80,9 @@ export default function FASSB() {
                     <br />
                     <br />
                     <strong>Prototyping</strong> was done in Figma. During this phase, I would work closely with our Business Coordinators
-                    and Project Officers to ensure that new UIs meet Level AA compliance with 
-                    <abbr title='Web Content Accessibility Guidelines'>WCAG 2.0</abbr> criteria and satisfy
-                    <abbr title='Accessibility for Ontarians with Disabilities Act'>AODA</abbr> requirements.
+                    and Project Officers to ensure that new UIs meet Level AA compliance with
+                    &nbsp;<abbr title='Web Content Accessibility Guidelines'>WCAG 2.0</abbr> criteria and satisfy
+                    &nbsp;<abbr title='Accessibility for Ontarians with Disabilities Act'>AODA</abbr> requirements.
                     Furthermore, measures are also taken to ensure that the design adheres to the ministry's internal design guidelines;
                     these included visual aspects such as colour palettes, font styles and font sizing.
                     <br />
@@ -175,7 +174,7 @@ export default function FASSB() {
                     Another goal of the <abbr title="Employment Services Transformation">EST</abbr> project is to make 
                     Ontario's employment services more efficient and streamlined. I worked closely with our team's Project 
                     Officers on creating system flow diagrams that visualize the process flow for an 
-                    <abbr title="Ministry of Labour, Training and Skills Development">MLTSD</abbr> service.
+                    &nbsp;<abbr title="Ministry of Labour, Training and Skills Development">MLTSD</abbr> service.
                     The diagrams below illustrate how this service model would change as the ministry's 
                     internal systems are developed and/or updated.
                     <br />
