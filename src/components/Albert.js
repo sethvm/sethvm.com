@@ -23,11 +23,9 @@ export default function Albert() {
                 </p>
                 <h4><strong>TEAM</strong></h4>
                 <p>
-                    <strong>Seth Morenos - Designer</strong>
-                    <br />Branding, wireframing, conducting user research
+                    <strong>Seth Morenos</strong> - Designer
                     <br />
-                    <strong>Jonathan Ho - Developer</strong>
-                    <br />Implementing application frontend and backend
+                    <strong>Jonathan Ho</strong> - Developer
                     <br />
                     <br />
                 </p>
@@ -39,47 +37,39 @@ export default function Albert() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>USERS & AUDIENCE</strong></h4>
+                <h4><strong>USER RESEARCH</strong></h4>
                 <p>
-                    Anyone with the intent of finding a living location in a new city for work falls within our
-                    target group. However, our primary audience for this project are University of Waterloo students
-                    going into a co-op term who are searching for places to live.
+                    To better understand the audience we are targeting with Project Albert, we conducted a survey 
+                    to obtain insight into what factors are considered prior to deciding upon renting or
+                    purchasing a place. Our respondents consisted of University of Waterloo co-op students (who
+                    are going into their co-op terms and are searching for places to live) and newcomers to the
+                    Greater Toronto Area (GTA).
+                    <br />
+                    <br/>
+                    Combining the results from this survey with information gathered through secondary research involving
+                    newcomers, we came across the following key findings:
+                    <br />
+                    <br />
+                    <strong>1.</strong> The vast majority of newcomers and students alike do not have access to personal transport,
+                    and thus value proximity to public transit - respondents both demographics have even expressed willingness to forgo proximity
+                    to work for the sake of being close to public transit.
+                    <br />
+                    <br />
+                    <strong>2.</strong> Proximity to shopping centers is also of importance, albeit to a lesser degree in comparison
+                    to public transit. Newcomers placed value on proximity to tourist attractions, while students gravitated towards
+                    services such as fitness centers and hospitals.
+                    <br />
+                    <br />
+                    <strong>3.</strong> Because newcomers and students are often running with tight budgets, renting/housing cost
+                    is the most heavily weighed non-geographical factor when deciding on a place to live.
                     <br />
                     <br />
                 </p>
-                <h4><strong>USER RESEARCH</strong></h4>
+                <h4><strong>COMPETITIVE ANALYSIS</strong></h4>
                 <p>
-                    To better define the objective of Project Albert as an application, we are conducting surveys 
-                    to obtain insight into what geographical factors are considered prior to deciding upon renting 
-                    or purchasing a place.
-                    <br />
-                    <br />
-                    Secondary research focusing on general newcomers yielded the following factors as the most heavily
-                    weighted:
-                    <br />
-                    <br />
-                    <strong>•</strong> Proximity to public transit
-                    <br />
-                    <strong>•</strong> Proximity to shopping centers
-                    <br />
-                    <strong>•</strong> Proximity to tourist attractions
-                    <br />
-                    <br />
-                    We are using a 5-point Likert scale to obtain a quantitative measurement of how much weighting is 
-                    applied to each respective factor (i.e. how heavily it influences the decision to move to a given
-                    location). Additionally, we intend to deduce if there are other potential factors that influence 
-                    the weightings associated with each factor. Thus, we follow-up with questions regarding:
-                    <br />
-                    <br />
-                    <strong>•</strong> Trade-off between proximity to transit and proximity to workplace
-                    <br />
-                    <strong>•</strong> Access to personal transportation
-                    <br />
-                    <strong>•</strong> Trade-off between rent/housing prices and crime rate
-                    <br />
-                    <br />
-                    An optional short-answer question is included at the end of the survey to provide an opportunity for
-                    respondents to mention other factors they consider that are not present in the previous questions.
+                    We are conducting competitive analysis to obtain insight regarding features that are already being provided by 
+                    current mapping services within the market. Our main "competitors" have been identified to be <strong>Google Maps</strong>
+                    , <strong>Apple Maps</strong> and the <strong>Transit App</strong>.
                     <br />
                     <br />
                 </p>
@@ -98,10 +88,9 @@ export default function Albert() {
                     <br />
                     <img className='proj_img' src={Ideation} alt={'logo ideation'} />
                     <br />
-                    The final iteration sketch (the rightmost logo pictured above) was then created in Figma, where I proceeded
-                    to experiment some more with the volume and geometry of each symbol. Fine-tuning the gap and notch on the
-                    letter A allowed me to create structures resembling a window and a door, respectively. After making more design 
-                    changes to balance out the volume filled by each shape, the finalized logo (below) is eventually finished.
+                    Fine-tuning the gap and notch on the letter A allowed me to create structures resembling a window 
+                    and a door, respectively. After making more design changes to balance out the volume filled by each 
+                    shape, the finalized logo (below) is eventually finished.
                     <br />
                     <img className='proj_img' src={PlainLogo} alt={'plain logo'} />
                     <br />
