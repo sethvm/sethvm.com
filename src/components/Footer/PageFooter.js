@@ -15,9 +15,9 @@ import '../fonts/Futura_Demi.css';
 export default function PageFooter() {
     return (
         <div id='footer' className='animated fadeIn'>
-            <FooterLink to='/albert' text='PROJECT ALBERT'/> |&nbsp;
-            <FooterLink to='/fassb' text='FASSB'/> |&nbsp;
-            <FooterLink to='/vector' text='VECTOR COLLECTION'/>
+            <FooterLink to='/albert' text='PROJECT ALBERT' /> |&nbsp;
+            <FooterLink to='/fassb' text='FASSB' /> |&nbsp;
+            <FooterLink to='/vector' text='VECTOR COLLECTION' />
             <br />
             <br />
             <FooterText />
