@@ -17,13 +17,13 @@ export default function HomeCarousel() {
         indicators={true}
         interval={3000}>
             <Carousel.Item>
-                <Link to='/albert'><img src={Albert} className='carousel_img' alt={''} /></Link>
+                <Link to='/albert'><img src={Albert} className='carousel_img' alt={'Project Albert'} /></Link>
             </Carousel.Item>
             <Carousel.Item>
-                <Link to='/fassb'><img src={FASSB} className='carousel_img' alt={''} /></Link>
+                <Link to='/fassb'><img src={FASSB} className='carousel_img' alt={'FASSB'} /></Link>
             </Carousel.Item>
             <Carousel.Item>
-                <Link to='/vector'><img src={Vector} className='carousel_img' alt={''} /></Link>
+                <Link to='/vector'><img src={Vector} className='carousel_img' alt={'Vector Collection'} /></Link>
             </Carousel.Item>
         </Carousel>
     );
