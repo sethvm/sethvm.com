@@ -12,10 +12,12 @@ import '../fonts/Futura PT_Light.css';
 import '../fonts/Futura PT_Book.css';
 import '../fonts/Futura_Demi.css';
 
-export default function NotHome() {
+export default function PageFooter() {
     return (
         <div id='footer' className='animated fadeIn'>
-            <AlbertLink /> | <FASSBLink /> | <VectorLink />
+            <FooterLink to='/albert' text='PROJECT ALBERT'/> |&nbsp;
+            <FooterLink to='/fassb' text='FASSB'/> |&nbsp;
+            <FooterLink to='/vector' text='VECTOR COLLECTION'/>
             <br />
             <br />
             <FooterText />
@@ -23,20 +25,8 @@ export default function NotHome() {
     );
 }
 
-function AlbertLink() {
+function FooterLink(props) {
     return (
-        <Link to='/albert' className='link footer_txt'><strong>PROJECT ALBERT</strong></Link>
-    );
-}
-
-function FASSBLink() {
-    return (
-        <Link to='/fassb' className='link footer_txt'><strong>FASSB</strong></Link>
-    );
-}
-
-function VectorLink() {
-    return(
-        <Link to='/vector' className='link footer_txt'><strong>VECTOR COLLECTION</strong></Link>
+        <Link to={props.to} className='link footer_txt'><strong>{props.text}</strong></Link>
     );
 }
