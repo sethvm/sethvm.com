@@ -3,7 +3,7 @@ import React from 'react';
 import './Project.css';
 
 import Portrait from './about/about-banner.png';
-import ContactInfo from './ContactInfo';
+import ContactInfo from './about/ContactInfo';
 
 export default function About() {
     return(
