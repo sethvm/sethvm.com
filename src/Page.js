@@ -7,23 +7,17 @@ import {
 
 import './components/animate.min.css';
 import './components/bootstrap.min.css';
-
-import ScrollToTop from './components/ScrollToTop';
-
 import HomeHeader from './components/Header/HomeHeader';
 import PageHeader from './components//Header/PageHeader';
-
 import Home from './components/Home';
 import About from './components/About';
 import Albert from './components/Albert';
 import FASSB from './components/FASSB';
 import Vector from './components/Vector';
-
 import HomeCarousel from './components/Carousel/Carousel';
-
 import SideBar from './components/SideBar/SideBar';
 import TopShortcut from './components/TopShortcut/TopShortcut';
-
+import ScrollToTop from './components/TopShortcut/ScrollToTop';
 import HomeFooter from './components/Footer/HomeFooter';
 import PageFooter from './components/Footer/PageFooter';
 
