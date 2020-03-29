@@ -68,12 +68,16 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {     /*md; iPad*/
     .nav_banner {
-        left: 7.5vw;
-        right: 7.5vw;
+        left: 4.5vw;
+        right: 4.5vw;
     }
 }
 
 @media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+    .nav_banner {
+        left: 2.7vw;
+        right: 2.7vw;
+    }
     .desktop_nav {
         display: block;
     }
@@ -82,25 +86,5 @@
     }
     .mobile_nav {
         display: none;
-    }
-    .nav_drop {
-        display: none;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1439px) {    /*lg; iPad Pro; small PC*/
-    #navbarNav {
-        display: none;
-    }
-    .nav_banner {
-        left: 4.5vw;
-        right: 4.5vw;
-    }
-}
-
-@media (min-width: 1440px) {    /*lg; PC*/
-    .nav_banner {
-        left: 3.5vw;
-        right: 3.5vw;
     }
 }
