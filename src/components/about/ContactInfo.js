@@ -8,19 +8,16 @@ import '../fonts/Futura_Demi.css';
 export default function ContactInfo() {
     return (
         <div id='contact'>
-            <Email /> | <LinkedIn />
+            <Contact label='EMAIL' href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' /> |&nbsp;
+            <Contact label='LINKEDIN' href='https://www.linkedin.com/in/sethvm' />
         </div>
     );
 }
 
-function Email() {
+function Contact(props) {
     return (
-        <a rel='noopener noreferrer' className='contact_txt' href={'mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'} target={'_blank'}><strong>EMAIL</strong></a>
-    );
-}
-
-function LinkedIn() {
-    return (
-        <a rel='noopener noreferrer' className='contact_txt' href={'https://www.linkedin.com/in/sethvm'} target={'_blank'}><strong>LINKEDIN</strong></a>
+        <a rel='noopener noreferrer' className='contact_txt' href={props.href} target='_blank'>
+            <strong>{props.label}</strong>
+        </a>
     );
 }
