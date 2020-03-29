@@ -14,14 +14,22 @@ export default function HomeCarousel() {
         indicators={true}
         interval={3000}>
             <Carousel.Item>
-                <Link to='/albert'><img src={Albert} className='carousel_img' alt='Project Albert' /></Link>
+                <Item link='/albert' img={Albert} alt='Project Albert' />
             </Carousel.Item>
             <Carousel.Item>
-                <Link to='/fassb'><img src={FASSB} className='carousel_img' alt='FASSB' /></Link>
+                <Item link='/fassb' img={FASSB} alt='FASSB' />
             </Carousel.Item>
             <Carousel.Item>
-                <Link to='/vector'><img src={Vector} className='carousel_img' alt='Vector Collection' /></Link>
+                <Item link='/vector' img={Vector} alt='Vector Collection' />
             </Carousel.Item>
         </Carousel>
+    );
+}
+
+function Item(props) {
+    return (
+        <Link to={props.link}>
+            <img src={props.img} className='carousel_img' alt={props.alt} />
+        </Link>
     );
 }
