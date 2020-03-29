@@ -1,6 +1,5 @@
 import React from 'react';
 
-import '../animate.min.css';
 import ResumeFile from '../pdf/sethvm_resume.pdf';
 
 import './SideBar.css';

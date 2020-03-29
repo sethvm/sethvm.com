@@ -3,9 +3,6 @@ import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import './Carousel.css';
-
-import '../animate.min.css';
-
 import Albert from '../albert/albert-carousel.svg';
 import FASSB from '../fassb/fassb-carousel.svg';
 import Vector from '../vector/vector-carousel.svg';
