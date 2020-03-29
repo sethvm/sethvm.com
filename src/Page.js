@@ -5,6 +5,7 @@ import {
     Route
 } from 'react-router-dom';
 
+import './Page.css';
 import './components/animate.min.css';
 
 import ScrollToTop from './components/ScrollToTop';
