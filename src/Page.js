@@ -6,11 +6,12 @@ import {
 } from 'react-router-dom';
 
 import './components/animate.min.css';
+import './components/bootstrap.min.css';
 
 import ScrollToTop from './components/ScrollToTop';
 
-import HomeHeader from './components/HomeHeader';
-import PageHeader from './components/PageHeader';
+import HomeHeader from './components/Header/HomeHeader';
+import PageHeader from './components//Header/PageHeader';
 
 import Home from './components/Home';
 import About from './components/About';

@@ -5,15 +5,12 @@ import {
     Link
 } from 'react-router-dom';
 
-import './bootstrap.min.css';
-import './animate.min.css';
 import './Header.css';
+import '../fonts/Futura PT_Light.css';
+import '../fonts/Futura PT_Book.css';
+import '../fonts/Futura_Demi.css';
 
-import './fonts/Futura PT_Light.css';
-import './fonts/Futura PT_Book.css';
-import './fonts/Futura_Demi.css';
-
-import ResumeFile from './pdf/sethvm_resume.pdf';
+import ResumeFile from '../pdf/sethvm_resume.pdf';
 
 export default class HeaderDropDown extends React.Component {
     render() {

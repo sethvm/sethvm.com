@@ -6,14 +6,12 @@ import {
 } from 'react-router-dom';
 import HeaderDropDown from './HeaderDropDown';
 
-import './bootstrap.min.css';
-import './animate.min.css';
 import './Header.css';
-import './fonts/Futura PT_Light.css';
-import './fonts/Futura PT_Book.css';
-import './fonts/Futura_Demi.css';
+import '../fonts/Futura PT_Light.css';
+import '../fonts/Futura PT_Book.css';
+import '../fonts/Futura_Demi.css';
 
-export default class PageHeader extends React.Component {
+export default class HomeHeader extends React.Component {
 
     constructor(props) {
         super(props);
@@ -32,12 +30,12 @@ export default class PageHeader extends React.Component {
 
     render() {
         return (
-            <div className='header animated fadeIn'>
-                <Navbar className='nav_banner' expand='1024px' 
+            <div className='home_header animated fadeIn'>
+                <Navbar className='nav_banner' expand='1024px'
                 onToggle={this.toggleNav}
                 expanded={this.state.expanded}>
-                    <Nav.Link className='name' as={Link} to='/'>SETH MORENOS</Nav.Link>
-                    <HeaderDropDown closeNav={this.collapseOnSelect}/>
+                    <Nav.Link className='home_name' as={Link} to='/'>SETH MORENOS</Nav.Link>
+                    <HeaderDropDown closeNav={this.collapseOnSelect} />
                     <Nav.Link className='desktop_nav link' as={Link} to='/about'>ABOUT</Nav.Link>
                 </Navbar>
             </div>
