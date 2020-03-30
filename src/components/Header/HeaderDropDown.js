@@ -46,9 +46,9 @@ export default class HeaderDropDown extends React.Component {
             <Navbar.Collapse id='navbarNav'>
                 <Nav className='nav_drop' onClick={(e) => this.handleClick}>
                     <Nav.Link className='nav_item' as={Link} to='/about'>About</Nav.Link>
+                    <NavLink href={ResumeFile} label='Resume' />
                     <NavLink href='https://www.github.com/sethvm' label='GitHub' />
                     <NavLink href='https://www.behance.net/sethvm/' label='Behance' />
-                    <NavLink href={ResumeFile} label='Resume' />
                     <NavLink href='https://www.linkedin.com/in/sethvm' label='Linkedin' />
                     <NavLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' label='Email' />
                 </Nav>
