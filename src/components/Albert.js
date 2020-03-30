@@ -79,22 +79,20 @@ export default function Albert() {
                     <br />
                     <br />
                     Because Project Albert is an application that provides assistance with finding residence options,
-                    I wanted to create a logo that symbolizes the location of a household combined with some form of
-                    mapping-related visual. Furthermore, I wanted this logo to be flat and easily recognizable.
-                    <br />
-                    <br />
-                    I have found during ideation that the letters P and A could be manipulated such that P resembles a
-                    map marker and A resembles a house, and iterated my design as such.
+                    I wanted to create a logo that symbolizes housing combined with some form of mapping-related visual.
+                    Furthermore, I wanted this logo to be flat and easily recognizable. Our logo design takes inspiration
+                    from a house highlighted with a map marker, resembling the letters A and P respectively.
                     <br />
                     <img className='proj_img' src={Ideation} alt={'logo ideation'} />
                     <br />
+                    <br />
                     Fine-tuning the gap and notch on the letter A allowed me to create structures resembling a window 
-                    and a door, respectively. After making more design changes to balance out the volume filled by each 
+                    and a door. After making more design changes to balance out the volume filled by each 
                     shape, the finalized logo (below) is eventually finished.
                     <br />
                     <img className='proj_img' src={PlainLogo} alt={'plain logo'} />
                     <br />
-                    The logo palettes have been chosen
+                    The colour palettes have been chosen
                     following Google's Material Design guidelines, coming in both dark and light variants. The shades
                     of blue represent the relief and calm that newcomers feel upon locating or securing a new home, while
                     the red and orange embody the warmth and security provided by shelter.
