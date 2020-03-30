@@ -50,6 +50,7 @@ export default class HeaderDropDown extends React.Component {
                     <NavLink href='https://www.behance.net/sethvm/' label='Behance' />
                     <NavLink href={ResumeFile} label='Resume' />
                     <NavLink href='https://www.linkedin.com/in/sethvm' label='Linkedin' />
+                    <NavLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' label='Email' />
                 </Nav>
             </Navbar.Collapse>
             </>
