@@ -34,7 +34,6 @@ export default class HomeHeader extends React.Component {
                 onToggle={this.toggleNav}>
                     <Nav.Link className='home_name' as={Link} to='/'>SETH MORENOS</Nav.Link>
                     <HeaderDropDown
-                    toggleNav={this.toggleNav}
                     closeDropDown={this.closeDropDown} />
                     <Nav.Link className='desktop_nav link' as={Link} to='/about'>ABOUT</Nav.Link>
                 </Navbar>
