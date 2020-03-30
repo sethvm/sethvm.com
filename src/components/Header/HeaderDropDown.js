@@ -28,7 +28,7 @@ export default class HeaderDropDown extends React.Component {
         }
         setTimeout(() => {
             this.props.closeDropDown();
-        }, 45);
+        }, 65);
     }
 
     render() {
