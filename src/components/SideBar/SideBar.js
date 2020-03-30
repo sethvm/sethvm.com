@@ -15,11 +15,11 @@ export default function SideBar() {
             <div className='side_items animated fadeIn'>
                 <SideBarItem href={ResumeFile} img={ResumeLogo} alt='Resume' />
                 <p><br /></p>
-                <SideBarItem href='https://www.linkedin.com/in/sethvm' img={LinkedInLogo} alt='linkedin.com/in/sethvm' />
+                <SideBarItem href='https://github.com/sethvm' img={GitHubLogo} alt='github.com/sethvm' />
                 <p><br /></p>
                 <SideBarItem href='https://www.behance.net/sethvm/' img={BehanceLogo} alt='behance.net/sethvm' />
                 <p><br /></p>
-                <SideBarItem href='https://github.com/sethvm' img={GitHubLogo} alt='github.com/sethvm' />
+                <SideBarItem href='https://www.linkedin.com/in/sethvm' img={LinkedInLogo} alt='linkedin.com/in/sethvm' />
                 <p><br /></p>
                 <SideBarItem href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' img={ContactLogo} alt='contact' />
             </div>
