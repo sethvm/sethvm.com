@@ -27,6 +27,7 @@ export default class HeaderDropDown extends React.Component {
             return;
         }
         this.props.closeDropDown();
+        return;
     }
 
     render() {
@@ -45,14 +46,21 @@ export default class HeaderDropDown extends React.Component {
             <Navbar.Collapse id='navbarNav'>
                 <Nav className='nav_drop' onClick={(e) => this.handleClick}>
                     <Nav.Link className='nav_item' as={Link} to='/about'>About</Nav.Link>
-                    <Nav.Link className='nav_item' rel='noopener noreferrer' href={ResumeFile} target={'_blank'}>Resume</Nav.Link>
-                    <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://www.linkedin.com/in/sethvm'} target={'_blank'}>LinkedIn</Nav.Link>
-                    <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://www.behance.net/sethvm/'} target={'_blank'}>Behance</Nav.Link>
-                    <Nav.Link className='nav_item' rel='noopener noreferrer' href={'https://github.com/sethvm'} target={'_blank'}>GitHub</Nav.Link>
-                    <Nav.Link className='nav_item' rel='noopener noreferrer' href={'mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'} target={'_blank'}>Contact Me</Nav.Link>
+                    <NavLink href='https://www.github.com/sethvm' label='GitHub' />
+                    <NavLink href='https://www.behance.net/sethvm/' label='Behance' />
+                    <NavLink href={ResumeFile} label='Resume' />
+                    <NavLink href='https://www.linkedin.com/in/sethvm' label='Linkedin' />
                 </Nav>
             </Navbar.Collapse>
             </>
         );
     }
+}
+
+function NavLink(props) {
+    return (
+        <Nav.Link className='nav_item' rel='noopener noreferrer' href={props.href} target='_blank'>
+            {props.label}
+        </Nav.Link>
+    );
 }
