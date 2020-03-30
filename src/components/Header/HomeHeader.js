@@ -1,9 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import {
-    Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import HeaderDropDown from './HeaderDropDown';
 
 import './Header.css';
@@ -16,7 +14,7 @@ export default class HomeHeader extends React.Component {
     constructor(props) {
         super(props);
         this.toggleNav = this.toggleNav.bind(this);
-        this.collapseOnSelect = this.collapseOnSelect.bind(this);
+        this.closeDropDown = this.closeDropDown.bind(this);
         this.state = { expanded: false };
     }
 
@@ -24,7 +22,7 @@ export default class HomeHeader extends React.Component {
         this.setState({ expanded: !this.state.expanded });
     }
 
-    collapseOnSelect() {
+    closeDropDown() {
         this.setState({ expanded: false });
     }
 
@@ -32,10 +30,12 @@ export default class HomeHeader extends React.Component {
         return (
             <div className='home_header animated fadeIn'>
                 <Navbar className='nav_banner' expand='1024px'
-                onToggle={this.toggleNav}
-                expanded={this.state.expanded}>
+                expanded={this.state.expanded}
+                onToggle={this.toggleNav}>
                     <Nav.Link className='home_name' as={Link} to='/'>SETH MORENOS</Nav.Link>
-                    <HeaderDropDown closeNav={this.collapseOnSelect} />
+                    <HeaderDropDown
+                    toggleNav={this.toggleNav}
+                    closeDropDown={this.closeDropDown} />
                     <Nav.Link className='desktop_nav link' as={Link} to='/about'>ABOUT</Nav.Link>
                 </Navbar>
             </div>
