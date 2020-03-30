@@ -26,8 +26,9 @@ export default class HeaderDropDown extends React.Component {
         if (this.node.contains(e.target)) {
             return;
         }
-        this.props.closeDropDown();
-        return;
+        setTimeout(() => {
+            this.props.closeDropDown();
+        }, 45);
     }
 
     render() {
