@@ -12,7 +12,7 @@
     height: auto;
 }
 
-.proj_txt {
+.proj_txt, .img_fluid {
     width: 85%;
     margin-top: 3rem;
     margin-bottom: 2.75rem;
@@ -22,11 +22,6 @@
 
 .proj_shortcut {
     text-align: center;
-}
-
-.img_fluid {
-    padding: 0;
-    margin-bottom: 7%;
 }
 
 @media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
