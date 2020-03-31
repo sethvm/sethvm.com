@@ -1,23 +1,8 @@
 .sidebar {
     display: none;
-    width: 20vw;
-    min-height: 100%;
-    position: absolute;
-    top: 0;
-    bottom:0;
-    left: 0;
-    z-index: 9;
 }
 
-.side_items {
-    position: fixed;
-    top: 50vh;
-    bottom: 12.5vh;
-    left: 3vw;
-    line-height: 10px;
-}
-
-.side_logo {
+.sidebar .item {
     width: 28px;
     height: 28px;
     transition: margin 0.15s ease-out;
@@ -26,13 +11,21 @@
     -o-transition: margin 0.15s ease-out;
 }
 
-.side_logo:hover {
+.sidebar .item:hover {
     cursor: pointer;
     margin-left: 4px;
 }
 
-@media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+@media (min-width: 1024px) {        /*lg breakpoint*/
     .sidebar {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: fixed;
+        height: 50%;
+        top: 50%;
+        padding-bottom: 5%;
+        left: 3%;
+        z-index: 9;
     }
 }
