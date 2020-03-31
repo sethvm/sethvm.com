@@ -15,7 +15,7 @@
 .proj_txt, .img_fluid {
     width: 85%;
     margin-top: 3rem;
-    margin-bottom: 2.75rem;
+    margin-bottom: 2rem;
     margin-left: 7.5%;
     margin-right: 7.5%;
 }
@@ -24,10 +24,10 @@
     text-align: center;
 }
 
-@media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
+@media (min-width: 768px) {     /*md breakpoint*/
     .img_fluid {
-        display: flex;
-        padding: 0;
+        display: inline-flex;
+        justify-content: space-between;
     }
     .proj_img_inline {
         width: 49.25%;
@@ -36,11 +36,10 @@
     .card_img {
         width: 48%;
         height: auto;
-        margin-right: 5%;
     }
 }
 
-@media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+@media (min-width: 1024px) {        /*lg breakpoint*/
     .proj_banner {
         width: 75%;
         margin-left: 12.5%;
