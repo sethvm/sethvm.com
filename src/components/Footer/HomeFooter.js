@@ -9,7 +9,7 @@ import '../fonts/Futura_Demi.css';
 
 export default function HomeFooter() {
     return (
-        <div id='homefooter' className='footer animated fadeIn'>
+        <div id='homefooter' className='animated fadeIn'>
             <FooterText />
         </div>
     );
