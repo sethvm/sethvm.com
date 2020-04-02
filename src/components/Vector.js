@@ -9,7 +9,7 @@ import DInamics from './vector/di-namics_vector.svg';
 export default function Vector() {
     return(
         <div className='project animated fadeIn'>
-            <div className='proj_txt'>
+            <div className='body'>
                 <h4><strong>VECTOR COLLECTION</strong></h4>
                 <p>
                     Graphics not made for any particular project.
@@ -21,7 +21,7 @@ export default function Vector() {
                 <p><br /></p>
                 <img className='card_img' src={E5Atrium} alt='e5 atrium' />
             </div>
-            <div className='proj_txt'>
+            <div className='body'>
                 <img className='proj_img' src={DInamics} alt='di-namics' />
             </div>
         </div>

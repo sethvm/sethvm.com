@@ -24,8 +24,8 @@ import DataVis from './fassb/data-visualization_fassb.svg';
 export default function FASSB() {
     return(
         <div className='project animated fadeIn'>
-            <img className='proj_banner' src={Banner} alt='fassb' />   
-            <div className='proj_txt'>
+            <img className='banner' src={Banner} alt='fassb' />   
+            <div className='body'>
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
                     The Finance, Analysis, and Systems Support Branch (FASSB) is a Toronto-based
@@ -181,16 +181,16 @@ export default function FASSB() {
                     <br />
                 </p>
             </div>
-            <img className='proj_banner' src={Flow0} alt='flow diagram 1' />
-            <div className='proj_txt'>
+            <img className='banner' src={Flow0} alt='flow diagram 1' />
+            <div className='body'>
                 <p>
                     A remodelled iteration of the service model (below) is designed with the intent of shortening the
                     consultation and service planning phases. Additionally, the monitoring and closure phases have been
                     made more elaborate through the implementation of periodic follow-ups that ensure employment retention.
                 </p>
             </div>
-            <img className='proj_banner' src={Flow1} alt='flow diagram 2' />
-            <div className='proj_txt'>
+            <img className='banner' src={Flow1} alt='flow diagram 2' />
+            <div className='body'>
                 <h4><strong>TAKEAWAYS</strong></h4>
                 <p>
                     My work term at <abbr title="Finance, Analysis and Systems Support Branch">FASSB</abbr> was my first

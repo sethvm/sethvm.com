@@ -1,27 +1,19 @@
-.content {
-    padding-bottom: 1rem;
-}
-
 .project {
     width: 100%;
     padding-bottom: 3rem;
 }
 
-.proj_banner, .proj_img, .card_img {
+.banner, .proj_img, .card_img {
     width: 100%;
     height: auto;
 }
 
-.proj_txt, .img_fluid {
+.body, .img_fluid {
     width: 85%;
     margin-top: 3rem;
     margin-bottom: 2rem;
     margin-left: 7.5%;
     margin-right: 7.5%;
-}
-
-.proj_shortcut {
-    text-align: center;
 }
 
 @media (min-width: 768px) {     /*md breakpoint*/
@@ -36,12 +28,12 @@
 }
 
 @media (min-width: 1024px) {        /*lg breakpoint*/
-    .proj_banner {
+    .banner {
         width: 75%;
         margin-left: 12.5%;
         margin-right: 12.5%;
     }
-    .proj_txt, .img_fluid {
+    .body, .img_fluid {
         width: 55%;
         margin-left: 22.5%;
         margin-right: 22.5%;

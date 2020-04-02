@@ -10,8 +10,8 @@ import ColourGuide from './albert/colour-guide_albert.svg';
 export default function Albert() {
     return(
         <div className='project animated fadeIn'>
-            <img className='proj_banner' src={Banner} alt='project albert' />   
-            <div className='proj_txt'>
+            <img className='banner' src={Banner} alt='project albert' />   
+            <div className='body'>
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
                     Project Albert is an ongoing development of a web-based application that provides assistance to any 
