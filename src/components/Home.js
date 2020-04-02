@@ -23,8 +23,8 @@ export default function Home() {
                     ENGINEERING STUDENT
                     <br />UNIVERSITY OF WATERLOO
                     <br />
-                    <br />Experienced in UI/UX Design
-                    <br />Interested in Front-end Development and Product Design
+                    <br />Experienced in UI/UX Design.
+                    <br />Learning Front-end Development.
                 </p>    
             </div>
             </>
@@ -42,12 +42,11 @@ export default function Home() {
                 <br />passion for creating products that leave
                 <br />a positive impact in the world around me.
                 <br />
-                <br />Experienced in <strong>UI/UX</strong> with an
-                <br />interest in <strong>front-end development</strong>
-                <br />and <strong>product design</strong>.
+                <br />Experienced in <strong>UI/UX design</strong> and
+                <br />learning <strong>front-end development</strong>.
                 <br />
-                <br />Previous position:
-                <br />UX and Web Designer at Ontario Public Service.
+                <br />Previously a <strong>UX and Web Designer</strong>
+                <br />at the <strong>Ontario Public Service</strong>.
             </p>
         </div>
         </>

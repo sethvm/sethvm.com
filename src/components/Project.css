@@ -3,11 +3,11 @@
 }
 
 .project {
-    width: 100vw;
+    width: 100%;
     padding-bottom: 3rem;
 }
 
-.proj_banner, .proj_img, .proj_img_inline, .card_img {
+.proj_banner, .proj_img, .card_img {
     width: 100%;
     height: auto;
 }
@@ -29,10 +29,6 @@
         display: inline-flex;
         justify-content: space-between;
     }
-    .proj_img_inline {
-        width: 49.25%;
-        height: auto;
-    }    
     .card_img {
         width: 48%;
         height: auto;

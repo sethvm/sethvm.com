@@ -108,10 +108,10 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img className='proj_img_inline' src={RecordList} alt={'record list screen'} />
-                <img className='proj_img_inline' src={CreateRecord} alt={'create record screen'} />
-                <img className='proj_img_inline' src={RecordOptions} alt={'record options screen'} />
-                <img className='proj_img_inline' src={ModifyRecord} alt={'modify record screen'} />
+                <img className='proj_img' src={RecordList} alt='record list screen' />
+                <img className='proj_img' src={CreateRecord} alt='create record screen' />
+                <img className='proj_img' src={RecordOptions} alt='record options screen' />
+                <img className='proj_img' src={ModifyRecord} alt='modify record screen' />
                 <p>
                     <br />
                     <br />
@@ -126,8 +126,8 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img className='proj_img_inline' src={Assessment0} alt={'assessment screen 1'} />
-                <img className='proj_img_inline' src={Assessment1} alt={'assessment screen 2'} />
+                <img className='proj_img' src={Assessment0} alt='assessment screen 1' />
+                <img className='proj_img' src={Assessment1} alt='assessment screen 2' />
                 <p>
                     <br />
                     <br />
@@ -141,8 +141,8 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img className='proj_img_inline' src={Survey0} alt={'survey screen 1'} />
-                <img className='proj_img_inline' src={Survey1} alt={'survey screen 2'} />
+                <img className='proj_img' src={Survey0} alt='survey screen 1' />
+                <img className='proj_img' src={Survey1} alt='survey screen 2' />
                 <p>
                     <br />
                     <br />
@@ -164,7 +164,7 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img className='proj_img' src={DataVis} alt={'data visualization graphic'} />
+                <img className='proj_img' src={DataVis} alt='data visualization graphic' />
                 <p>
                     <br />
                     <br />
@@ -180,12 +180,17 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <img className='proj_img' src={Flow0} alt={'flow diagram 1'} />
-                <img className='proj_img' src={Flow1} alt={'flow diagram 2'} />
+            </div>
+            <img className='proj_banner' src={Flow0} alt='flow diagram 1' />
+            <div className='proj_txt'>
                 <p>
-                    <br />
-                    <br />
+                    A remodelled iteration of the service model (below) is designed with the intent of shortening the
+                    consultation and service planning phases. Additionally, the monitoring and closure phases have been
+                    made more elaborate through the implementation of periodic follow-ups that ensure employment retention.
                 </p>
+            </div>
+            <img className='proj_banner' src={Flow1} alt='flow diagram 2' />
+            <div className='proj_txt'>
                 <h4><strong>TAKEAWAYS</strong></h4>
                 <p>
                     My work term at <abbr title="Finance, Analysis and Systems Support Branch">FASSB</abbr> was my first
