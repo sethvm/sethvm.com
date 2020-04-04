@@ -10,6 +10,7 @@ import '../fonts/Futura PT_Light.css';
 import '../fonts/Futura PT_Book.css';
 import '../fonts/Futura_Demi.css';
 
+import Logo from './logo.svg';
 import ResumeFile from '../pdf/sethvm_resume.pdf';
 
 export default class HeaderDropDown extends React.Component {
@@ -37,11 +38,7 @@ export default class HeaderDropDown extends React.Component {
             <Navbar.Toggle className='mobile_nav' aria-controls='navbarNav'
             ref={(node) => this.node = node}>
                 <span>
-                    <>
-                    <div className='menu_bar'></div>
-                    <div className='menu_bar'></div>
-                    <div className='menu_bar'></div>
-                    </>
+                    <img src={Logo} wisth='35px' height='35px' alt='logo' />
                 </span>
             </Navbar.Toggle>
             <Navbar.Collapse id='navbarNav'>
