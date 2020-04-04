@@ -10,24 +10,21 @@ import './fonts/Futura_Demi.css';
 export default function Home() {
     return (
         <>
-        <div className='blue_block animated fadeInLeft'>
-            <>
-            <div className='intro_sm'>
-                <h1>DESIGNER</h1>
-                <h6>SYSTEMS DESIGN ENGINEERING</h6>
-                <h6>UNIVERSITY OF WATERLOO</h6>
-            </div>
-            <div className='intro_md'>
-                <h1>DESIGNER</h1>
-                <p>
-                    ENGINEERING STUDENT
-                    <br />UNIVERSITY OF WATERLOO
-                    <br />
-                    <br />Experienced in UI/UX Design.
-                    <br />Learning Front-end Development.
-                </p>    
-            </div>
-            </>
+        <div className='intro_sm animated fadeIn'>
+            <h1><strong>DESIGNER</strong></h1>
+            <h6><strong>ENGINEERING STUDENT</strong></h6>
+            <h6><strong>UNIVERSITY OF WATERLOO</strong></h6>
+        </div>
+        <div className='intro_md animated fadeIn'>
+            <h1><strong>Hello! I'm Seth.</strong></h1>
+            <p>
+                <br />Thanks for stopping by!
+                <br />
+                <br />I'm a <strong>designer</strong> pursuing a BASc. in&nbsp;
+                <strong>Systems Design Engineering</strong>
+                <br />with a passion for creating products that leave a positive impact
+                <br />in the world around me.
+            </p>
         </div>
         <div className='intro_lg animated fadeIn'>
             <h1>
@@ -49,6 +46,13 @@ export default function Home() {
                 <br />at the <strong>Ontario Public Service</strong>.
             </p>
         </div>
+        <BlueBlock />
         </>
+    );
+}
+
+function BlueBlock() {
+    return (
+        <div className='blue_block animated fadeInLeft' />
     );
 }

@@ -35,7 +35,7 @@ export default class PageHeader extends React.Component {
                     <Nav.Link className='name' as={Link} to='/'>SETH MORENOS</Nav.Link>
                     <HeaderDropDown
                     closeDropDown={this.closeDropDown} />
-                    <Nav.Link className='desktop_nav link' as={Link} to='/about'>ABOUT</Nav.Link>
+                    <Nav.Link className='page_desktop_nav link' as={Link} to='/about'><strong>ABOUT</strong></Nav.Link>
                 </Navbar>
             </div>
         );
