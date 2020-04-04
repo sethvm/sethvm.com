@@ -10,9 +10,9 @@ p {
 
 .blue_block {
     width: 100%;
-    height: 70%;
+    height: 30%;
     position: fixed;
-    top: 0;
+    bottom: 0;
     background-color: #004080;
     color: white;
 }

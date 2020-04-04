@@ -10,25 +10,6 @@ import './fonts/Futura_Demi.css';
 export default function Home() {
     return (
         <>
-        <div className='blue_block animated fadeInLeft'>
-            <>
-            <div className='intro_sm'>
-                <h1>DESIGNER</h1>
-                <h6>SYSTEMS DESIGN ENGINEERING</h6>
-                <h6>UNIVERSITY OF WATERLOO</h6>
-            </div>
-            <div className='intro_md'>
-                <h1>DESIGNER</h1>
-                <p>
-                    ENGINEERING STUDENT
-                    <br />UNIVERSITY OF WATERLOO
-                    <br />
-                    <br />Experienced in UI/UX Design.
-                    <br />Learning Front-end Development.
-                </p>    
-            </div>
-            </>
-        </div>
         <div className='intro_lg animated fadeIn'>
             <h1>
                 <strong>Hello! I'm Seth.</strong>
@@ -49,6 +30,31 @@ export default function Home() {
                 <br />at the <strong>Ontario Public Service</strong>.
             </p>
         </div>
+        <BlueBlock />
         </>
     );
 }
+
+function BlueBlock() {
+    return (
+        <div className='blue_block animated fadeInLeft' />
+    );
+}
+
+/*  <>
+    <div className='intro_sm'>
+        <h1>DESIGNER</h1>
+        <h6>SYSTEMS DESIGN ENGINEERING</h6>
+        <h6>UNIVERSITY OF WATERLOO</h6>
+    </div>
+    <div className='intro_md'>
+        <h1>DESIGNER</h1>
+        <p>
+            ENGINEERING STUDENT
+            <br />UNIVERSITY OF WATERLOO
+            <br />
+            <br />Experienced in UI/UX Design.
+            <br />Learning Front-end Development.
+        </p>    
+    </div>
+    </>*/
