@@ -20,9 +20,9 @@
     background-color: white;
 }
 
-.home_name, .name {
+.name {
     font-size: 1.25rem !important;
-    color: #004080;
+    color: #004080 !important;
     font-family: "FuturaWebDemi", sans-serif !important;
 }
 
@@ -74,7 +74,7 @@
 }
 
 @media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
-    .home_header, .header {
+    .header {
         background: transparent;
     }
     .nav_banner {

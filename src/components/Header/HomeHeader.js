@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
+import HomeLink from './HomeLink';
 import HeaderDropDown from './HeaderDropDown';
 
 import './Header.css';
@@ -32,7 +33,7 @@ export default class HomeHeader extends React.Component {
                 <Navbar className='nav_banner' expand='1024px'
                 expanded={this.state.expanded}
                 onToggle={this.toggleNav}>
-                    <Nav.Link className='home_name' as={Link} to='/'>SETH MORENOS</Nav.Link>
+                    <HomeLink />
                     <HeaderDropDown
                     closeDropDown={this.closeDropDown} />
                     <Nav.Link className='desktop_nav link' as={Link} to='/about'>ABOUT</Nav.Link>
