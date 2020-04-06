@@ -1,0 +1,16 @@
+.blue_block {
+    width: 100%;
+    height: 36%;
+    position: fixed;
+    bottom: 0;
+    background-color: #004080;
+}
+
+@media (min-width: 1024px) {        /*lg breakpoint*/
+    .blue_block {
+        height: 100%;
+        position: fixed;
+        left: 58.33333333333333%;
+        right: 0;
+    }
+}

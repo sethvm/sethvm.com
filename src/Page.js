@@ -14,6 +14,7 @@ import About from './components/About';
 import Albert from './components/Albert';
 import FASSB from './components/FASSB';
 import Vector from './components/Vector';
+import BlueBlock from './components/BlueBlock/BlueBlock'
 import HomeCarousel from './components/Carousel/Carousel';
 import SideBar from './components/SideBar/SideBar';
 import TopShortcut from './components/TopShortcut/TopShortcut';
@@ -37,6 +38,7 @@ function HomePage() {
         <>
         <HomeHeader />
         <Home />
+        <BlueBlock />
         <HomeCarousel />
         <SideBar />
         <HomeFooter />
