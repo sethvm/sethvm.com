@@ -25,6 +25,7 @@ import PageFooter from './components/Footer/PageFooter';
 export default function Page() {
     return (
         <HashRouter>
+        <ScrollToTop />
             <Switch>
                 <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={RegPage} />
@@ -49,7 +50,6 @@ function HomePage() {
 function RegPage() {
     return(
         <>
-        <ScrollToTop />
         <PageHeader />
         <Switch>
             <Route exact={true} path='/about' component={About} />
