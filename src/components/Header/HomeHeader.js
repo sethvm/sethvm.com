@@ -29,14 +29,14 @@ export default class HomeHeader extends React.Component {
 
     render() {
         return (
-            <div className='home_header animated fadeIn'>
+            <div className='nav-home animated fadeIn'>
                 <Navbar className='nav_banner' expand='1024px'
                 expanded={this.state.expanded}
                 onToggle={this.toggleNav}>
                     <HomeLink />
                     <HeaderDropDown
                     closeDropDown={this.closeDropDown} />
-                    <Nav.Link className='desktop_nav link' as={Link} to='/about'>ABOUT</Nav.Link>
+                    <Nav.Link className='nav-desktop-home link' as={Link} to='/about'>ABOUT</Nav.Link>
                 </Navbar>
             </div>
         );

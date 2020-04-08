@@ -7,11 +7,11 @@
     color: #0180FF;
 }
 
-#homefooter {
+#footer-home {
     display: none;
 }
 
-#footer {
+#footer-page {
     width: 100%;
     height: 7rem;
     text-align: center;
@@ -24,7 +24,7 @@
 }
 
 @media (min-width: 1024px) {        /*lg breakpoint*/
-    #homefooter {
+    #footer-home {
         display: block;
         position: absolute;
         bottom: 2.4%;

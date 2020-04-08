@@ -3,7 +3,7 @@
     text-decoration: none;
 }
 
-.home_header {
+.nav-home {
     height: 6rem;
     position: sticky;
     top: 0;
@@ -11,7 +11,7 @@
     font-family: "FuturaPTWebLight", "Montserrat", sans-serif;
 }
 
-.header {
+.nav-page {
     height: 6rem;
     position: sticky;
     top: 0;
@@ -34,10 +34,8 @@
     padding: 0;
 }
 
-.desktop_nav, .page_desktop_nav {
+.nav-desktop-home, .nav-desktop-page {
     display: none;
-    font-size: 1.25rem !important;
-    color: white;
 }
 
 .mobile_nav {
@@ -74,19 +72,21 @@
 }
 
 @media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
-    .header {
+    .nav-page {
         background: transparent;
     }
     .nav_banner {
         left: 2.7vw;
         right: 2.7vw;
     }
-    .desktop_nav {
+    .nav-desktop-home {
         display: block;
+        font-size: 1.25rem !important;
         color: white !important;
     }
-    .page_desktop_nav {
+    .nav-desktop-page {
         display: block;
+        font-size: 1.25rem !important;
         color: #004080 !important;
     }
     .mobile_nav, .nav_drop {

@@ -29,14 +29,14 @@ export default class PageHeader extends React.Component {
 
     render() {
         return (
-            <div className='header animated fadeIn'>
+            <div className='nav-page animated fadeIn'>
                 <Navbar className='nav_banner' expand='1024px'
                 expanded={this.state.expanded}
                 onToggle={this.toggleNav}>
                     <HomeLink />
                     <HeaderDropDown
                     closeDropDown={this.closeDropDown} />
-                    <Nav.Link className='page_desktop_nav link' as={Link} to='/about'><strong>ABOUT</strong></Nav.Link>
+                    <Nav.Link className='nav-desktop-page link' as={Link} to='/about'><strong>ABOUT</strong></Nav.Link>
                 </Navbar>
             </div>
         );
