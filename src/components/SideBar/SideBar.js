@@ -24,7 +24,7 @@ export default function SideBar() {
 function SideBarItem(props) {
     return (
         <a rel='noopener noreferrer' href={props.href} target='_blank'>
-            <img src={props.img} alt={props.alt} className='item' />
+            <img src={props.img} alt={props.alt} className='sidebar_item' />
         </a>
     );
 }

@@ -3,12 +3,12 @@
     padding-bottom: 3rem;
 }
 
-.banner, .proj_img, .card_img {
+.project_banner, .project_img, .img-fluid_card {
     width: 100%;
     height: auto;
 }
 
-.body, .img_fluid {
+.project_body, .img-fluid {
     width: 85%;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -17,23 +17,23 @@
 }
 
 @media (min-width: 768px) {     /*md breakpoint*/
-    .img_fluid {
+    .img-fluid {
         display: inline-flex;
         justify-content: space-between;
     }
-    .card_img {
+    .img-fluid_card {
         width: 48%;
         height: auto;
     }
 }
 
 @media (min-width: 1024px) {        /*lg breakpoint*/
-    .banner {
+    .project_banner {
         width: 75%;
         margin-left: 12.5%;
         margin-right: 12.5%;
     }
-    .body, .img_fluid {
+    .project_body, .img-fluid {
         width: 55%;
         margin-left: 22.5%;
         margin-right: 22.5%;

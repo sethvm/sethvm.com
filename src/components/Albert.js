@@ -10,8 +10,8 @@ import ColourGuide from './albert/colour-guide_albert.svg';
 export default function Albert() {
     return(
         <div className='project animated fadeIn'>
-            <img className='banner' src={Banner} alt='project albert' />   
-            <div className='body'>
+            <img className='project_banner' src={Banner} alt='project albert' />   
+            <div className='project_body'>
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
                     Project Albert is an ongoing development of a web-based application that provides assistance to any 
@@ -83,14 +83,14 @@ export default function Albert() {
                     Furthermore, I wanted this logo to be flat and easily recognizable. Our logo design takes inspiration
                     from a house highlighted with a map marker, resembling the letters A and P respectively.
                     <br />
-                    <img className='proj_img' src={Ideation} alt='logo ideation' />
+                    <img className='project_img' src={Ideation} alt='logo ideation' />
                     <br />
                     <br />
                     Fine-tuning the gap and notch on the letter A allowed me to create structures resembling a window 
                     and a door. After making more design changes to balance out the volume filled by each 
                     shape, the finalized logo (below) is eventually finished.
                     <br />
-                    <img className='proj_img' src={PlainLogo} alt='plain logo' />
+                    <img className='project_img' src={PlainLogo} alt='plain logo' />
                     <br />
                     The colour palettes have been chosen
                     following Google's Material Design guidelines, coming in both dark and light variants. The shades
@@ -98,7 +98,7 @@ export default function Albert() {
                     the red and orange embody the warmth and security provided by shelter.
                     <br />
                     <br />
-                    <img className='proj_img' src={ColourGuide} alt='colour guide' />
+                    <img className='project_img' src={ColourGuide} alt='colour guide' />
                 </p>
             </div>
         </div>

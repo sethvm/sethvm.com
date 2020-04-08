@@ -14,7 +14,7 @@
         left: 3%;
         z-index: 9;
     }
-    .sidebar .item {
+    .sidebar_item {
         width: 28px;
         height: 28px;
         transition: margin 0.15s ease-out;
@@ -22,7 +22,7 @@
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
     }
-    .sidebar .item:hover {
+    .sidebar_item:hover {
         cursor: pointer;
         margin-left: 4px;
     }

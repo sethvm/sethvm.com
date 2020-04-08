@@ -8,8 +8,8 @@ import ContactInfo from './about/ContactInfo';
 export default function About() {
     return(
         <div className='project animated fadeIn'>
-            <div className='body'>
-                <img className='proj_img' src={Portrait} alt='portrait' />
+            <div className='project_body'>
+                <img className='project_img' src={Portrait} alt='portrait' />
                 <p>
                     <br />
                 </p>

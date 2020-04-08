@@ -29,7 +29,7 @@ export default class HeaderDropDown extends React.Component {
     render() {
         return (
             <>
-            <Navbar.Toggle className='mobile_nav' aria-controls='navbarNav'
+            <Navbar.Toggle className='mobile_nav' aria-controls='nav-dropdown'
             ref={(node) => this.node = node}>
                 <span>
                     <div className='menu_bar' />
@@ -37,7 +37,7 @@ export default class HeaderDropDown extends React.Component {
                     <div className='menu_bar' />
                 </span>
             </Navbar.Toggle>
-            <Navbar.Collapse id='navbarNav'>
+            <Navbar.Collapse id='nav-dropdown'>
                 <Nav className='nav_drop' onClick={(e) => this.handleClick}>
                     <Nav.Link className='nav_item' as={Link} to='/about'><strong>About</strong></Nav.Link>
                     <ExtLink href={ResumeFile} label='Resume' />
