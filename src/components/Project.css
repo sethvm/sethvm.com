@@ -9,11 +9,11 @@
 }
 
 .project_body, .img-fluid {
-    width: 92.5%;
+    width: 90%;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    margin-left: 3.75%;
-    margin-right: 3.75%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 @media (min-width: 768px) {     /*md breakpoint*/
