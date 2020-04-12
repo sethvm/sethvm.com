@@ -1,6 +1,6 @@
 # sethvm.portfolio
 Portfolio website containing projects and resume
 
-Built using [React.js](https://reactjs.org/) and [Bootstrap](https://react-bootstrap.github.io/)
+Built using [React.js](https://github.com/facebook/react)
 
-Dynamic routing handled using [React Router](https://reacttraining.com/react-router/web/guides/quick-start)
+Dynamic routing handled using [React Router](https://github.com/ReactTraining/react-router)
