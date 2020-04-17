@@ -40,31 +40,24 @@ export default function FASSB() {
                 <p>
                     I had the privilege of interning as a UX and Web Designer within <abbr title='Finance, Analysis and Systems Support Branch'>FASSB's</abbr> 
                     &nbsp;Digital Business Unit (DBU). Our team consisted of one Team Lead, four Business Coordinators, four Project Officers 
-                    and myself. I took the responsibility of producing UI prototypes for several transformation projects 
-                    being worked on by <abbr title='Digital Business Unit'>DBU</abbr>.
+                    and myself. My primary responsibility as the sole designer within <abbr title='Digital Business Unit'>DBU</abbr> was to deliver 
+                    UI prototypes as part of a large-scale ministry project.
                     <br />
                     <br />
                 </p>
-                <h4><strong>PROBLEM</strong></h4>
+                <h4><strong>EST PROJECT</strong></h4>
                 <p>
-                    Several of the ministry's internal application interfaces are outdated and thus are not compliant
-                    with current provincial accessibility standards, making them difficult to use for government employees
-                    with visual or auditory impairments.
-                    <br />
-                    <br />
-                </p>
-                <h4><strong>OBJECTIVE</strong></h4>
-                <p>
-                    Improve accessibility of ministry applications for government employees by producing interface 
-                    designs that are compliant with the Web Content Accessibility Guidelines (WCAG 2.0, Level AA) and the
-                    Accessibility for Ontarians with Disabilities Act (AODA).
+                    The Employment Services Transformation (EST) project is reworking the province's employment services to make 
+                    them more efficient and streamlined. Through a new service model, its objective is to merge social assistance 
+                    services as well as government employment services into Employment Ontario (EO) - this implementation aims to 
+                    be more responsive to the needs of Ontarians seeking jobs.&nbsp;
+                    <abbr title='Digital Business Unit'>DBU</abbr> plays a leading role within this project by creating new internal 
+                    platforms to be utilized EO service providers.
                     <br />
                     <br />
                 </p>
                 <h4><strong>DESIGN METHODOLOGY</strong></h4>
                 <p>
-                    My primary role as a design intern at <abbr title='Finance, Analysis and Systems Support Branch'>FASSB</abbr> was
-                    to deliver UI prototypes for the ministry's Employment Services Transformation (EST) project.&nbsp;
                     <abbr title='Digital Business Unit'>DBU</abbr> follows an <strong>Agile development model</strong>, operating
                     in two-week sprints.
                     <br />
@@ -94,8 +87,8 @@ export default function FASSB() {
                 </p>
                 <h4><strong>PROTOTYPES</strong></h4>
                 <p>
-                    I delivered UI prototypes for several applications. Some text fields from the samples below have been
-                    altered from the original designs to filter out confidential information.
+                    I designed UI prototypes for several <abbr title='Employment Services Transformation'>EST</abbr> applications. 
+                    Some text fields from the samples below have been altered from the original designs to filter out confidential information.
                     <br />
                     <br />
                 </p>
@@ -106,11 +99,41 @@ export default function FASSB() {
                     so the focus of the prototype's layout is to enable a user to view as much information as possible within 
                     the dimensions of a single screen.
                     <br />
-                    <br />
                 </p>
+                <div className='project_img_caption'>
+                    <p>
+                        <br/>
+                        Viewing record list
+                        <br/>
+                    </p>
+                </div>
                 <img className='project_img' src={RecordList} alt='record list screen' />
+                <div className='project_img_caption'>
+                    <p>
+                        <br/>
+                        <br/>
+                        Creating a new record
+                        <br/>
+                    </p>
+                </div>
                 <img className='project_img' src={CreateRecord} alt='create record screen' />
+                <div className='project_img_caption'>
+                    <p>
+                        <br/>
+                        <br/>
+                        Viewing record activities
+                        <br/>
+                    </p>
+                </div>
                 <img className='project_img' src={RecordOptions} alt='record options screen' />
+                <div className='project_img_caption'>
+                    <p>
+                        <br/>
+                        <br/>
+                        Record modification
+                        <br/>
+                    </p>
+                </div>
                 <img className='project_img' src={ModifyRecord} alt='modify record screen' />
                 <p>
                     <br />
@@ -127,6 +150,9 @@ export default function FASSB() {
                     <br />
                 </p>
                 <img className='project_img' src={Assessment0} alt='assessment screen 1' />
+                <p>
+                    <br/>
+                </p>
                 <img className='project_img' src={Assessment1} alt='assessment screen 2' />
                 <p>
                     <br />
@@ -142,6 +168,9 @@ export default function FASSB() {
                     <br />
                 </p>
                 <img className='project_img' src={Survey0} alt='survey screen 1' />
+                <p>
+                    <br/>
+                </p>
                 <img className='project_img' src={Survey1} alt='survey screen 2' />
                 <p>
                     <br />
@@ -171,12 +200,10 @@ export default function FASSB() {
                 </p>
                 <h6><strong>SERVICE FLOW MODELLING</strong></h6>
                 <p>
-                    Another goal of the <abbr title="Employment Services Transformation">EST</abbr> project is to make 
-                    Ontario's employment services more efficient and streamlined. I worked closely with our team's Project 
-                    Officers on creating system flow diagrams that visualize the process flow for an&nbsp;
-                    <abbr title="Ministry of Labour, Training and Skills Development">MLTSD</abbr> service.
-                    The diagrams below illustrate how this service model would change as the ministry's 
-                    internal systems are developed and/or updated.
+                    In addition to prototyping application UIs, I worked closely with our team's Project 
+                    Officers on creating system flow diagrams for an employment service that provides assistance 
+                    to job seekers. The diagrams below model the evolution of this service as ministry systems 
+                    are developed and updated.
                     <br />
                     <br />
                 </p>
@@ -184,7 +211,7 @@ export default function FASSB() {
             <img className='project_banner' src={Flow0} alt='flow diagram 1' />
             <div className='project_body'>
                 <p>
-                    A remodelled iteration of the service model (below) is designed with the intent of shortening the
+                    The overhauled service (below) is designed with the intent of shortening the
                     consultation and service planning phases. Additionally, the monitoring and closure phases have been
                     made more elaborate through the implementation of periodic follow-ups that ensure employment retention.
                 </p>
@@ -200,8 +227,8 @@ export default function FASSB() {
                     in the growth of my interest for interface design and front-end development.
                     <br />
                     <br />
-                    Most importantly, this internship provided me with exposure to working within a multidisciplinary team
-                    through collaboration with coworkers from both technical and non-technical backgrounds alike.
+                    Most importantly, through this internship, I had the opportunity to contribute to a province-wide project
+                    aimed at improving services that make life easier for Ontarians.
                 </p>
             </div>
         </div>

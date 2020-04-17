@@ -16,6 +16,11 @@
     margin-right: 5%;
 }
 
+.project_img_caption {
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 768px) {     /*md breakpoint*/
     .project_body {
         width: 85%;
