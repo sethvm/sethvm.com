@@ -6,9 +6,6 @@ import HomeLink from './HomeLink';
 import HeaderDropDown from './HeaderDropDown';
 
 import './Header.css';
-import '../fonts/Futura PT_Light.css';
-import '../fonts/Futura PT_Book.css';
-import '../fonts/Futura_Demi.css';
 
 export default class PageHeader extends React.Component {
 

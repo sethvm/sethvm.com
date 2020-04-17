@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ResumeFile from '../pdf/sethvm_resume.pdf';
+import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
 import './SideBar.css';
 import ResumeLogo from './resume-logo.svg';

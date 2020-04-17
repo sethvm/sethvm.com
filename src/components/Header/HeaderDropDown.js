@@ -5,7 +5,7 @@ import {
     Link
 } from 'react-router-dom';
 
-import ResumeFile from '../pdf/sethvm_resume.pdf';
+import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
 export default class HeaderDropDown extends React.Component {
 

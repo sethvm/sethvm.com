@@ -10,6 +10,11 @@ import './index.css';
 import './components/animate.min.css';
 import './components/bootstrap.min.css';
 
+import './fonts/Montserrat-Regular.ttf';
+import './fonts/Futura PT_Light.css';
+import './fonts/Futura PT_Book.css';
+import './fonts/Futura_Demi.css';
+
 import HomeHeader from './components/Header/HomeHeader';
 import PageHeader from './components//Header/PageHeader';
 import Home from './components/Home';

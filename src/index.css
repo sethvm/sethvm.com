@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('./fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
 body {
     margin: 0;
     overflow-x: hidden;

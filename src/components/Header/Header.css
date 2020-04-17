@@ -8,7 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    font-family: "FuturaPTWebLight", "Montserrat", sans-serif;
+    font-family: "FuturaPTWebLight", sans-serif;
 }
 
 .nav-page {
@@ -16,7 +16,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    font-family: "FuturaPTWebLight", "Montserrat", sans-serif;
+    font-family: "FuturaPTWebLight", sans-serif;
     background-color: white;
 }
 
@@ -61,7 +61,7 @@
     font-size: 0.915rem;
     line-height: 2.025rem;
     color: #004080 !important;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {     /*md; iPad*/

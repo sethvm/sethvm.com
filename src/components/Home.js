@@ -1,9 +1,6 @@
 import React from 'react';
 
 import './Home.css';
-import './fonts/Futura PT_Light.css';
-import './fonts/Futura PT_Book.css';
-import './fonts/Futura_Demi.css';
 
 export default function Home() {
     return (
