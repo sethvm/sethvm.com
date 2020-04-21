@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
@@ -7,35 +7,30 @@ import HeaderDropDown from './HeaderDropDown';
 
 import './Header.css';
 
-export default class HomeHeader extends React.Component {
+export default function HomeHeader() {
 
-    constructor(props) {
-        super(props);
-        this.toggleNav = this.toggleNav.bind(this);
-        this.closeDropDown = this.closeDropDown.bind(this);
-        this.state = { expanded: false };
+    const [ expanded, setExpanded ] = useState(false);
+
+    function toggleNav() {
+        const newExpanded = expanded;
+        setExpanded(!newExpanded);
     }
 
-    toggleNav() {
-        this.setState({ expanded: !this.state.expanded });
+    function closeNav() {
+        const newExpanded = false;
+        setExpanded(newExpanded);
     }
 
-    closeDropDown() {
-        this.setState({ expanded: false });
-    }
-
-    render() {
-        return (
-            <div className='nav-home animated fadeIn'>
-                <Navbar className='nav_banner' expand='1024px'
-                expanded={this.state.expanded}
-                onToggle={this.toggleNav}>
-                    <HomeLink />
-                    <HeaderDropDown
-                    closeDropDown={this.closeDropDown} />
-                    <Nav.Link className='nav-desktop-home link' as={Link} to='/about'>ABOUT</Nav.Link>
-                </Navbar>
-            </div>
-        );
-    }
+    return (
+        <div className='nav-home animated fadeIn'>
+            <Navbar className='nav_banner' expand='1024px'
+            expanded={expanded}
+            onToggle={toggleNav}>
+                <HomeLink />
+                <HeaderDropDown
+                closeNav={closeNav} />
+                <Nav.Link className='nav-desktop-home link' as={Link} to='/about'>ABOUT</Nav.Link>
+            </Navbar>
+        </div>
+    );
 }
