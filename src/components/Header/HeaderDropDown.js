@@ -12,8 +12,7 @@ export default function HeaderDropDown({ expanded, closeNav }) {
     const node = useRef();
 
     const handleClick = useCallback((e) => {
-        if (node.current.contains(e.target) ||
-        (expanded === false && !node.current.contains(e.target))) {
+        if (node.current.contains(e.target) || expanded === false) {
             return;
         }
         setTimeout(() => {
