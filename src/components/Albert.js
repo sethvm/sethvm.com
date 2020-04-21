@@ -65,14 +65,6 @@ export default function Albert() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>COMPETITIVE ANALYSIS</strong></h4>
-                <p>
-                    We are conducting competitive analysis to obtain insight regarding features that are already being provided by 
-                    current mapping services within the market. Our main "competitors" have been identified to be <strong>Google Maps</strong>
-                    , <strong>Apple Maps</strong> and the <strong>Transit App</strong>.
-                    <br />
-                    <br />
-                </p>
                 <h4><strong>BRANDING</strong></h4>
                 <p>
                     With every product comes a branding identity that enables it to stand out.
