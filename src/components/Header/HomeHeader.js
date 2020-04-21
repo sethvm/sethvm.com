@@ -28,6 +28,7 @@ export default function HomeHeader() {
             onToggle={toggleNav}>
                 <HomeLink />
                 <HeaderDropDown
+                expanded={expanded}
                 closeNav={closeNav} />
                 <Nav.Link className='nav-desktop-home link' as={Link} to='/about'>ABOUT</Nav.Link>
             </Navbar>

@@ -28,6 +28,7 @@ export default function PageHeader() {
             onToggle={toggleNav}>
                 <HomeLink />
                 <HeaderDropDown 
+                expanded={expanded}
                 closeNav={closeNav} />
                 <Nav.Link className='nav-desktop-page link' as={Link} to='/about'><strong>ABOUT</strong></Nav.Link>
             </Navbar>

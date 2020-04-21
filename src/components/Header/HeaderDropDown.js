@@ -7,18 +7,19 @@ import {
 
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function HeaderDropDown({ closeNav }) {
+export default function HeaderDropDown({ expanded, closeNav }) {
 
     const node = useRef();
 
     const handleClick = useCallback((e) => {
-        if (node.current.contains(e.target)) {
+        if (node.current.contains(e.target) ||
+        (expanded === false && !node.current.contains(e.target))) {
             return;
         }
         setTimeout(() => {
             closeNav();
         }, 70);
-    }, [closeNav]);
+    }, [expanded, closeNav]);
 
     useEffect(() => { 
         document.addEventListener('mousedown', handleClick);
@@ -38,7 +39,7 @@ export default function HeaderDropDown({ closeNav }) {
             </span>
         </Navbar.Toggle>
         <Navbar.Collapse id='nav-dropdown'>
-            <Nav className='nav_drop' onClick={handleClick}>
+            <Nav className='nav_drop' onClick={() => handleClick}>
                 <Nav.Link className='nav_item' as={Link} to='/about'><strong>About</strong></Nav.Link>
                 <ExtLink href={ResumeFile} label='Resume' />
                 <ExtLink href='https://www.github.com/sethvm' label='GitHub' />
