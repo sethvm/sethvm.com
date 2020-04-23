@@ -1,9 +1,7 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import {
-    Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
