@@ -4,12 +4,11 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
-
 import './components/animate.min.css';
 import './components/bootstrap.min.css';
 
 import HomeHeader from './components/Header/HomeHeader';
-import PageHeader from './components//Header/PageHeader';
+import PageHeader from './components/Header/PageHeader';
 import Home from './components/Home';
 import About from './components/About';
 import Albert from './components/Albert';

@@ -1,8 +1,7 @@
 import React from 'react';
+import './SideBar.css';
 
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
-
-import './SideBar.css';
 import ResumeLogo from './resume-logo.svg';
 import LinkedInLogo from './linkedin-logo.svg';
 import BehanceLogo from './behance-logo.svg';
