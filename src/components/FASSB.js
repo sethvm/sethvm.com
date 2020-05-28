@@ -211,7 +211,7 @@ export default function FASSB() {
             <img className='project_banner' src={Flow0} alt='flow diagram 1' />
             <div className='project_body'>
                 <p>
-                    The overhauled service (below) is designed with the intent of shortening the
+                    The to-be service model (below) is designed with the intent of shortening the
                     consultation and service planning phases. Additionally, the monitoring and closure phases have been
                     made more elaborate through the implementation of periodic follow-ups that ensure employment retention.
                 </p>

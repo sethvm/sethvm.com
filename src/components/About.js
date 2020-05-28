@@ -17,8 +17,8 @@ export default function About() {
                 <p>
                     <br />
                     As a visual learner, the usage of illustrations and graphics to communicate has been a lifelong passion of mine.
-                    I am drawn towards the field of design because it is a discipline that allows me to extend this passion towards the
-                    development of purposeful products that encompass a user's needs beyond its visual aspects.
+                    I am drawn toward the fields of design and frontend development because they allow me to extend this passion towards the
+                    creation of purposeful products that encompass a user's needs beyond its visual aspects.
                     <br />
                     <br />
                     Currently in the second year of my undergraduate studies at the University of Waterloo, I am majoring in
@@ -26,12 +26,12 @@ export default function About() {
                     unique department that employs the integration of knowledge across multiple Engineering disciplines.
                     <br />
                     <br />
-                    I seek to develop my ability to tackle complex problems through the interdisciplinary approach employed by
-                    design and <abbr title='Systems Design Engineering'>SYDE</abbr> in order to drive positive change within the 
+                    I seek to develop my ability to tackle complex problems through my passion 
+                    and <abbr title='Systems Design Engineering'>SYDE</abbr> in order to drive positive change within the 
                     society around me.
                     <br />
                     <br />
-                    Outside of class and design, you'll often find me in a bouldering gym, weight room or driving in my sim rig.
+                    Outside of class and work, you'll often find me in a bouldering gym, weight room or driving in my sim rig.
                     Sometimes I also draw and create vector artwork.
                     <br />
                     <br />
