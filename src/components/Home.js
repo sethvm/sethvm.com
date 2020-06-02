@@ -34,11 +34,11 @@ export default function Home() {
                 <br />passion for creating products that leave
                 <br />a positive impact in the world around me.
                 <br />
-                <br />Previously a <strong>UX and Web Designer</strong>
-                <br />at the <strong>Ontario Public Service</strong>.
-                <br />
                 <br />Currently a <strong>Software Designer</strong>
                 <br />at <strong>Soulfx Technologies</strong>.
+                <br />
+                <br />Previously a <strong>UX and Web Designer</strong>
+                <br />at the <strong>Ontario Public Service</strong>.
             </p>
         </div>
         </>
