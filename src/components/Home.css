@@ -68,9 +68,15 @@ p {
     }
 }
 
-@media (min-width: 1440px) {    /*lh; desktop*/
+@media (min-width: 1440px) {
     .intro_lg {
         top: 23vh;
         left: 12vw;
+    }
+}
+
+@media (min-width: 2300px) {    /*lg; ultrawide*/
+    .intro_lg {
+        left: 14vw;
     }
 }
