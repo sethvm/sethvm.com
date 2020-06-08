@@ -46,10 +46,24 @@
     }
 }
 
-@media (min-width: 1440px) {    /*LG; PC*/
+@media (min-width: 1440px) {
     #carousel {
         width: 590px;
         height: 82.5%;
         left: 52%;
+    }
+}
+
+@media (min-width: 2300px) {    /*LG; ULTRAWIDE*/
+    #carousel {
+        width: 825px;
+        left: 45%;
+    }
+}
+
+@media (min-width: 2900px) {
+    #carousel {
+        width: 875px;
+        left: 40%;
     }
 }

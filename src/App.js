@@ -7,6 +7,8 @@ import {
 import './components/animate.min.css';
 import './components/bootstrap.min.css';
 
+import './App.css';
+
 import HomeHeader from './components/Header/HomeHeader';
 import PageHeader from './components/Header/PageHeader';
 import Home from './components/Home';
@@ -51,15 +53,25 @@ function Page() {
     return(
         <>
         <PageHeader />
-        <Switch>
-            <Route exact={true} path='/about' component={About} />
-            <Route exact={true} path='/albert' component={Albert} />
-            <Route exact={true} path='/fassb' component={FASSB} />
-            <Route exact={true} path='/vector' component={Vector} />
-        </Switch>
+        <PageContent>
+            <Switch>
+                <Route exact={true} path='/about' component={About} />
+                <Route exact={true} path='/albert' component={Albert} />
+                <Route exact={true} path='/fassb' component={FASSB} />
+                <Route exact={true} path='/vector' component={Vector} />
+            </Switch>
+            <TopShortcut />
+        </PageContent>
         <SideBar />
-        <TopShortcut />
         <PageFooter />
         </>
+    );
+}
+
+function PageContent(props) {
+    return (
+        <div className='page_content'>
+            {props.children}
+        </div>
     );
 }
