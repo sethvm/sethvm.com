@@ -41,9 +41,9 @@ function Landing() {
         <>
         <HomeHeader />
         <Home />
-        <BlueBlock />
         <HomeCarousel />
         <SideBar />
+        <BlueBlock />
         <HomeFooter />
         </>
     );

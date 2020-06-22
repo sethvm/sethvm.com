@@ -57,13 +57,13 @@
 @media (min-width: 2300px) {    /*LG; ULTRAWIDE*/
     #carousel {
         width: 825px;
-        left: 45%;
+        left: 42.5%;
     }
 }
 
 @media (min-width: 2900px) {
     #carousel {
         width: 875px;
-        left: 40%;
+        left: 35%;
     }
 }

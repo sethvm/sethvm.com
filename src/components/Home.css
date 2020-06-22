@@ -56,8 +56,8 @@ p {
 
 @media (min-width: 1024px) and (max-width: 1280px) {    /*lg; iPad Pro*/
     .intro_lg {
-        top: 22.5vh;
-        left: 7.5vw;
+        top: 22%;
+        left: 7.5%;
     }
 }
 
@@ -70,13 +70,19 @@ p {
 
 @media (min-width: 1440px) {
     .intro_lg {
-        top: 23vh;
-        left: 12vw;
+        top: 23%;
+        left: 12%;
     }
 }
 
 @media (min-width: 2300px) {    /*lg; ultrawide*/
     .intro_lg {
-        left: 14vw;
+        left: 16%;
+    }
+}
+
+@media (min-width: 2900px) {
+    .intro_lg {
+        left: 18%;
     }
 }
