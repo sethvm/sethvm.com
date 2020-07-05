@@ -1,11 +1,48 @@
-import React, { useRef, useEffect, useCallback } from 'react';
+import React, { useState, 
+    useRef, 
+    useEffect, 
+    useCallback } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function HeaderDropDown({ expanded, closeNav }) {
+export default function HomeHeader(props) {
+
+    const [ expanded, setExpanded ] = useState(false);
+
+    function toggleNav() {
+        const newExpanded = expanded;
+        setExpanded(!newExpanded);
+    }
+
+    function closeNav() {
+        const newExpanded = false;
+        setExpanded(newExpanded);
+    }
+
+    return (
+        <div className={props.pageType}>
+            <Navbar className='nav_banner' expand='1024px'
+            expanded={expanded}
+            onToggle={toggleNav}>
+                <Nav.Link className='name link' as={Link} to='/'>
+                    SETH MORENOS
+                </Nav.Link>
+                <HeaderDropDown 
+                expanded={expanded} 
+                closeNav={closeNav} />
+                <Nav.Link className={props.aboutType} as={Link} to='/about'>
+                    ABOUT
+                </Nav.Link>
+            </Navbar>
+        </div>
+    );
+}
+
+function HeaderDropDown({ expanded, closeNav }) {
 
     const node = useRef();
 

@@ -1,13 +1,10 @@
-#contact {
+.link_txt {
     color: #004080;
-}
-
-.contact_txt {
-    color: inherit;
     font-family: "FuturaPTWebBook", sans-serif;
+    font-size: 1.1em;
 }
 
-.contact_txt:hover {
+.link_txt:hover {
     color: #0180FF;
     text-decoration: none;
 }
