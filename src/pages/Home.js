@@ -1,20 +1,10 @@
 import React from 'react';
-
 import '../components/Home.css';
-
-import Header from '../components/Header/Header';
-import Carousel from '../components/Carousel/Carousel';
-import SideBar from '../components/SideBar/SideBar';
-import BlueBlock from '../components/BlueBlock/BlueBlock';
-import HomeFooter from '../components/Footer/HomeFooter';
 
 export default function Home() {
     
     return (
         <>
-        <Header 
-        pageType="nav-home animated fadeIn" 
-        aboutType="nav-desktop-home link" />
         <div className='intro_sm animated fadeIn'>
             <h1><strong>DESIGNER</strong></h1>
             <h6><strong>ENGINEERING STUDENT</strong></h6>
@@ -51,10 +41,6 @@ export default function Home() {
                 <br />at the <strong>Ontario Public Service</strong>.
             </p>
         </div> {/* /intro-lg */}
-        <Carousel />
-        <SideBar />
-        <BlueBlock />
-        <HomeFooter />
         </>
     );
 }
