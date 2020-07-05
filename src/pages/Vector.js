@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/Project.css';
 
-import PageHeader from '../components/Header/PageHeader';
+import Header from '../components/Header/Header';
 import SideBar from '../components/SideBar/SideBar';
 import TopShortcut from '../components/TopShortcut/TopShortcut';
 import PageContent from './PageContainer';
@@ -16,7 +16,9 @@ export default function Vector() {
     
     return(
         <>
-        <PageHeader />
+        <Header 
+        pageType='nav-page animated fadeIn' 
+        aboutType='nav-desktop-page link' />
         <PageContent>
             <div className='project animated fadeIn'>
                 <div className='project_body'>

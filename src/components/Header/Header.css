@@ -87,6 +87,7 @@
     .nav-desktop-page {
         display: block;
         font-size: 1.25rem !important;
+        font-weight: 700;
         color: #004080 !important;
     }
     .mobile_nav, .nav_drop {
