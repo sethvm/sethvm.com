@@ -8,7 +8,8 @@ import PageContent from './PageContainer';
 import PageFooter from '../components/Footer/PageFooter';
 
 import Portrait from '../components/about/about-banner.png';
-import ContactInfo from '../components/about/ContactInfo';
+import ProfileLink from '../components/about/ProfileLink';
+import ResumeFile from '../pdf/sethvm_resume.pdf';
 
 export default function About() {
     
@@ -26,7 +27,7 @@ export default function About() {
                     <p>
                         <br />
                         As a visual learner, the usage of illustrations and graphics to communicate has been a lifelong passion of mine.
-                        I am drawn toward the fields of design and frontend development because they allow me to extend this passion towards the
+                        I am drawn toward the fields of design and development because they allow me to extend this passion towards the
                         creation of purposeful products that encompass a user's needs beyond its visual aspects.
                         <br />
                         <br />
@@ -37,14 +38,16 @@ export default function About() {
                         drive positive change within the society around me.
                         <br />
                         <br />
-                        Outside of class and work, you'll often find me in a bouldering gym, weight room or driving in my sim rig.
-                        Sometimes I also draw and create vector artwork.
+                        Outside of class and work, I spend most of my time in the bouldering gym or the weight room. Occasionally, I'll boot
+                        up a racing sim and put in a few hot laps.
                         <br />
                         <br />
                         Feel free to reach out! I'm always up for a chat about new ideas or opportunities!
                         <br />
                         <br />
-                        <ContactInfo />
+                        <ProfileLink label='EMAIL' href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' />&nbsp;&nbsp;&nbsp;
+                        <ProfileLink label='RESUME' href={ResumeFile} />&nbsp;&nbsp;&nbsp;
+                        <ProfileLink label='LINKEDIN' href='https://www.linkedin.com/in/sethvm' />
                     </p>
                 </div> {/* /project_body */}
             </div> {/* /project */}
