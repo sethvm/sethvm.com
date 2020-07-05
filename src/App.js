@@ -8,6 +8,17 @@ import ScrollToTop from './components/TopShortcut/ScrollToTop';
 import './components/animate.min.css';
 import './components/bootstrap.min.css';
 
+// component imports
+import Header from './components/Header/Header';
+import Carousel from './components/Carousel/Carousel';
+import SideBar from './components/SideBar/SideBar';
+import TopShortcut from './components/TopShortcut/TopShortcut';
+import PageContent from './pages/PageContainer';
+import BlueBlock from './components/BlueBlock/BlueBlock';
+import HomeFooter from './components/Footer/HomeFooter';
+import PageFooter from './components/Footer/PageFooter';
+
+// page body content
 import Home from './pages/Home';
 import About from './pages/About';
 import Albert from './pages/Albert';
@@ -28,17 +39,36 @@ export default function App() {
 
 function LandingPage() {
     return(
+        <>
+        <Header 
+        pageType='nav-home animated fadeIn' 
+        aboutType='nav-desktop-home link' />
         <Home />
+        <Carousel />
+        <SideBar />
+        <BlueBlock />
+        <HomeFooter />
+        </>
     );
 }
 
 function Page() {
     return(
+        <>
+        <Header 
+        pageType='nav-page' 
+        aboutType='nav-desktop-page link' />
+        <PageContent>
         <Switch>
             <Route exact={true} path='/about' component={About} />
             <Route exact={true} path='/albert' component={Albert} />
             <Route exact={true} path='/fassb' component={FASSB} />
             <Route exact={true} path='/vector' component={Vector} />
         </Switch>
+        </PageContent>
+        <TopShortcut />
+        <SideBar />
+        <PageFooter />
+        </>
     );
 }
