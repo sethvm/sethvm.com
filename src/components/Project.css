@@ -3,6 +3,11 @@
     padding-bottom: 3rem;
 }
 
+.project_content {
+    max-width: 1920px;
+    margin: auto;
+}
+
 .project_banner, .project_img, .img-fluid_card {
     width: 100%;
     height: auto;
