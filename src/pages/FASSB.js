@@ -17,9 +17,9 @@ import DataVis from '../components/fassb/data-visualization_fassb.svg';
 
 export default function FASSB() {
     
-    return(
+    return (
         <>
-        <div className='project animated fadeIn'>
+        <main className='project animated fadeIn'>
             <img className='project_banner' src={Banner} alt='fassb' />   
             <div className='project_body'>
                 <h4><strong>OVERVIEW</strong></h4>
@@ -227,7 +227,7 @@ export default function FASSB() {
                     aimed at improving services that make life easier for Ontarians.
                 </p>
             </div> {/* /project-body */}
-        </div> {/* /project */}
+        </main> {/* /project */}
         </>
     );
 }

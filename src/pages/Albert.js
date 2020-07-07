@@ -10,7 +10,7 @@ export default function Albert() {
     
     return(
         <>
-        <div className='project animated fadeIn'>
+        <main className='project animated fadeIn'>
             <img className='project_banner' src={Banner} alt='project albert' />   
             <div className='project_body'>
                 <h4><strong>OVERVIEW</strong></h4>
@@ -94,7 +94,7 @@ export default function Albert() {
                     <img className='project_img' src={ColourGuide} alt='colour guide' />
                 </p>
             </div> {/* /project-body */}
-        </div> {/* /project */}
+        </main> {/* /project */}
         </>
     );
 }

@@ -15,8 +15,7 @@ import SideBar from './components/SideBar/SideBar';
 import TopShortcut from './components/TopShortcut/TopShortcut';
 import PageContent from './pages/PageContainer';
 import BlueBlock from './components/BlueBlock/BlueBlock';
-import HomeFooter from './components/Footer/HomeFooter';
-import PageFooter from './components/Footer/PageFooter';
+import Footer from './components/Footer/Footer';
 
 // page body content
 import Home from './pages/Home';
@@ -30,15 +29,15 @@ export default function App() {
         <HashRouter>
         <ScrollToTop />
             <Switch>
-                <Route exact={true} path='/' component={LandingPage} />
+                <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={Page} />
             </Switch>
         </HashRouter>
     );
 }
 
-function LandingPage() {
-    return(
+function HomePage() {
+    return (
         <>
         <Header 
         pageType='nav-home animated fadeIn' 
@@ -47,13 +46,13 @@ function LandingPage() {
         <Carousel />
         <SideBar />
         <BlueBlock />
-        <HomeFooter />
+        <Footer isHome={true} />
         </>
     );
 }
 
 function Page() {
-    return(
+    return (
         <>
         <Header 
         pageType='nav-page' 
@@ -68,7 +67,7 @@ function Page() {
         </PageContent>
         <TopShortcut />
         <SideBar />
-        <PageFooter />
+        <Footer isHome={false} />
         </>
     );
 }

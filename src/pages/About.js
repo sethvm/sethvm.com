@@ -9,7 +9,7 @@ export default function About() {
     
     return(
         <>
-        <div className='project animated fadeIn'>
+        <main className='project animated fadeIn'>
             <div className='project_body'>
                 <img className='project_img' src={Portrait} alt='portrait' />
                 <p>
@@ -42,7 +42,7 @@ export default function About() {
                     <ProfileLink label='LINKEDIN' href='https://www.linkedin.com/in/sethvm' />
                 </p>
             </div> {/* /project_body */}
-        </div> {/* /project */}
+        </main> {/* /project */}
         </>
     );
 }

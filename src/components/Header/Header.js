@@ -9,7 +9,7 @@ import './Header.css';
 
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function HomeHeader(props) {
+export default function Header(props) {
 
     const [ expanded, setExpanded ] = useState(false);
 
@@ -24,7 +24,7 @@ export default function HomeHeader(props) {
     }
 
     return (
-        <div className={props.pageType}>
+        <header className={props.pageType}>
             <Navbar className='nav_banner' expand='1024px'
             expanded={expanded}
             onToggle={toggleNav}>
@@ -38,7 +38,7 @@ export default function HomeHeader(props) {
                     ABOUT
                 </Nav.Link>
             </Navbar>
-        </div>
+        </header>
     );
 }
 

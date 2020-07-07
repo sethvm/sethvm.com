@@ -10,7 +10,7 @@ export default function Vector() {
     
     return(
         <>
-        <div className='project animated fadeIn'>
+        <main className='project animated fadeIn'>
             <div className='project_body'>
                 <h4><strong>VECTOR COLLECTION</strong></h4>
                 <p>
@@ -28,7 +28,7 @@ export default function Vector() {
                 <p><br /></p>
                 <img className='project_img' src={Zonda} alt='pagani zonda' />
             </div> {/* /project-body */}
-        </div> {/* /project */}
+        </main> {/* /project */}
         </>
     );
 }

@@ -2,21 +2,40 @@ import React from 'react';
 import {
     Link
 } from 'react-router-dom';
+import './Footer.css';
 
 import FooterText from './FooterText';
 
-import './Footer.css';
+export default function Footer(props) {
+    if (props.isHome) {
+        return (
+            <HomeFooter />
+        );
+    } else {
+        return (
+            <PageFooter />
+        );
+    }
+}
 
-export default function PageFooter() {
+function HomeFooter() {
     return (
-        <div id='footer-page' className='animated fadeIn'>
+        <footer id='footer-home' className='animated fadeIn'>
+            <FooterText />
+        </footer>
+    );
+}
+
+function PageFooter() {
+    return (
+        <footer id='footer-page' className='animated fadeIn'>
             <FooterLink to='/albert' text='PROJECT ALBERT' /> |&nbsp;
             <FooterLink to='/fassb' text='FASSB' /> |&nbsp;
             <FooterLink to='/vector' text='VECTOR COLLECTION' />
             <br />
             <br />
             <FooterText />
-        </div>
+        </footer>
     );
 }
 
