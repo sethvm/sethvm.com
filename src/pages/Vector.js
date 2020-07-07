@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Project.css';
+import '../styles/Project.css';
 
 import Formula1 from '../components/vector/formula1_figma.svg';
 import E5Atrium from '../components/vector/e5atrium_figma.png';

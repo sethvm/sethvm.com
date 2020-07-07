@@ -4,8 +4,6 @@ import {
 } from 'react-router-dom';
 import './Footer.css';
 
-import FooterText from './FooterText';
-
 export default function Footer(props) {
     if (props.isHome) {
         return (
@@ -38,6 +36,13 @@ function PageFooter() {
         </footer>
     );
 }
+
+function FooterText() {
+    return(
+        <div className='footer_txt'>Designed by Seth Morenos, 2020<br /></div>
+    );
+}
+
 
 function FooterLink(props) {
     return (

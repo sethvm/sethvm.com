@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Project.css';
+import '../styles/Project.css';
 
 import Banner from '../components/albert/banner_albert.svg';
 import Ideation from '../components/albert/logo-ideation_albert.png';

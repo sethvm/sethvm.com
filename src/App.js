@@ -5,8 +5,8 @@ import {
     Route
 } from 'react-router-dom';
 import ScrollToTop from './components/TopShortcut/ScrollToTop';
-import './components/animate.min.css';
-import './components/bootstrap.min.css';
+import './styles/animate.min.css';
+import './styles/bootstrap.min.css';
 
 // component imports
 import Header from './components/Header/Header';

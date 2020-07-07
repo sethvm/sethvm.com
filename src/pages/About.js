@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Project.css';
+import '../styles/Project.css';
 
 import Portrait from '../components/about/about-banner.png';
 import ProfileLink from '../components/about/ProfileLink';

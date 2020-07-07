@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Project.css';
+import '../styles/Project.css';
 
 import Banner from '../components/fassb/banner_fassb.svg';
 import Methodology from '../components/fassb/methodology_fassb.svg';
