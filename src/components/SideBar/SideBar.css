@@ -2,11 +2,12 @@
     display: none;
 }
 
-@media (min-width: 1024px) {        /*lg breakpoint*/
+/*lg breakpoint*/
+@media (min-width: 1024px) {
     .sidebar {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         position: fixed;
         height: 50%;
         top: 50%;
@@ -25,5 +26,12 @@
     .sidebar_item:hover {
         cursor: pointer;
         margin-left: 4px;
+    }
+}
+
+/*ms edge spacing fix*/
+@supports not (-ms-ime-align: auto) {
+    .sidebar {
+        justify-content: space-evenly;
     }
 }
