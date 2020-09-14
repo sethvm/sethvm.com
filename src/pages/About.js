@@ -11,7 +11,7 @@ export default function About() {
         <>
         <main className='project animated fadeIn'>
             <div className='project_body'>
-                <img className='project_img' src={Portrait} alt='portrait' />
+                <img className='project_img' src={Portrait} alt='self portrait' />
                 <p>
                     <br />
                 </p>
@@ -31,7 +31,7 @@ export default function About() {
                     <br />
                     <br />
                     Outside of class and work, I spend most of my time in the bouldering gym or the weight room. Occasionally, I'll boot
-                    up a racing sim and put in a few hot laps.
+                    up a racing sim and put in a few flying laps.
                     <br />
                     <br />
                     Feel free to reach out! I'm always up for a chat about new ideas or opportunities!
