@@ -39,7 +39,7 @@ function PageFooter() {
 
 function FooterText() {
     return(
-        <div className='footer_txt'>Designed by Seth Morenos, 2020<br /></div>
+        <div className='footer_txt'>Designed + built by Seth Morenos, 2020<br /></div>
     );
 }
 
