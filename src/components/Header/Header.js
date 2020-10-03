@@ -64,7 +64,7 @@ export default function Header(props) {
                         <Nav.Link className='nav_item' as={Link} to='/about'><strong>About</strong></Nav.Link>
                         <ExtLink href={ResumeFile} label='Resume' />
                         <ExtLink href='https://www.github.com/sethvm' label='GitHub' />
-                        <ExtLink href='https://www.behance.net/sethvm/' label='Behance' />
+                        <ExtLink href='https://www.figma.com/@sethvm' label='Figma'/>
                         <ExtLink href='https://www.linkedin.com/in/sethvm' label='Linkedin' />
                         <ExtLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' label='Email' />
                     </Nav>
