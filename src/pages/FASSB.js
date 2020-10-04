@@ -20,7 +20,7 @@ export default function FASSB() {
     return (
         <>
         <main className='project animated fadeIn'>
-            <img className='project_banner' src={Banner} alt='fassb' />   
+            <img className='project_banner' src={Banner} alt='fassb' />
             <div className='project_body'>
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
@@ -52,7 +52,7 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>DESIGN METHODOLOGY</strong></h4>
+                <h4><strong>DESIGN PROCESS</strong></h4>
                 <p>
                     <abbr title='Digital Business Unit'>DBU</abbr> follows an <strong>Agile development model</strong>, operating
                     in two-week sprints.
