@@ -27,8 +27,8 @@ function HomeFooter() {
 function PageFooter() {
     return (
         <footer id='footer-page' className='animated fadeIn'>
-            <FooterLink to='/albert' text='PROJECT ALBERT' /> |&nbsp;
             <FooterLink to='/soulfx' text='SOULFX' /> |&nbsp;
+            <FooterLink to='/albert' text='PROJECT ALBERT' /> |&nbsp;
             <FooterLink to='/fassb' text='FASSB' /> |&nbsp;
             <FooterLink to='/vector' text='VECTOR COLLECTION' />
             <br />
@@ -43,7 +43,6 @@ function FooterText() {
         <div className='footer_txt'>Designed + built by Seth Morenos, 2020<br /></div>
     );
 }
-
 
 function FooterLink(props) {
     return (

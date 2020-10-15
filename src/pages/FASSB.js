@@ -32,18 +32,15 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>TEAM + POSITION</strong></h4>
+                <h4><strong>TEAM + PROJECT</strong></h4>
                 <p>
                     I had the privilege of interning as a UX and Web Designer within <abbr title='Finance, Analysis and Systems Support Branch'>FASSB's</abbr> 
                     &nbsp;Digital Business Unit (DBU). Our team consisted of one Team Lead, four Business Coordinators, four Project Officers 
                     and myself. My primary responsibility as the sole designer within <abbr title='Digital Business Unit'>DBU</abbr> was to deliver 
-                    UI prototypes as part of a large-scale ministry project.
+                    UI prototypes as part of a large-scale ministry project known as Employment Services Transformation (EST).
                     <br />
                     <br />
-                </p>
-                <h4><strong>EST PROJECT</strong></h4>
-                <p>
-                    The Employment Services Transformation (EST) project is reworking the province's employment services to make 
+                    The EST project was initiated with the intention of reworking the province's employment services to make 
                     them more efficient and streamlined. Through a new service model, its objective is to merge social assistance 
                     services as well as government employment services into Employment Ontario (EO) - this implementation aims to 
                     be more responsive to the needs of Ontarians seeking jobs.&nbsp;

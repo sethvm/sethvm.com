@@ -18,10 +18,10 @@ export default function HomeCarousel() {
                 <Item link='/soulfx' img={Soulfx} alt='Soulfx' />
             </Carousel.Item>
             <Carousel.Item>
-                <Item link='/fassb' img={FASSB} alt='FASSB' />
+                <Item link='/albert' img={Albert} alt='Project Albert' />
             </Carousel.Item>
             <Carousel.Item>
-                <Item link='/albert' img={Albert} alt='Project Albert' />
+                <Item link='/fassb' img={FASSB} alt='FASSB' />
             </Carousel.Item>
             <Carousel.Item>
                 <Item link='/vector' img={Vector} alt='Vector Collection' />
