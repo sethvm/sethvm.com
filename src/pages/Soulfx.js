@@ -35,7 +35,15 @@ export default function Soulfx() {
                 </p>
                 <h4><strong>PROBLEM</strong></h4>
                 <p>
-                    [state design problem here]
+                    The COVID-19 pandemic has and continues to drive heavy demand for services within the
+                    healthcare sector. As immunocompromised patients are among the most vulnerable to the
+                    ongoing virus outbreak, calls have been made to minimize in-person interactions between frontline
+                    workers and patients where possible. For our client, resulted in a call for the remote
+                    delivery of their support services.
+                    <br />
+                    <br />
+                    Thus, we were presented with an objective: design an online platform that will enable our
+                    client's patients to access the services they need without the worry of potential exposures.
                     <br />
                     <br />
                 </p>
