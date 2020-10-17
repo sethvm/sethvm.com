@@ -23,31 +23,60 @@ export default function Soulfx() {
                 <p>
                     Our project team consisted of a Project Manager (PM), another design co-op
                     and myself. We worked closely with our development team as well as our client
-                    stakeholders in reviewing designs and iterations. Guidance was provided by our
-                    CEO throughout the duration of the project.
+                    stakeholders in reviewing iterations for sitemaps and designs. Guidance was 
+                    provided by our CEO throughout the duration of the project.
                     <br />
                     <br />
-                    My responsibilities encompassed an aspect from every phase of the application's
-                    development process, including project scoping, design and preparing specifications
-                    for development handoff.
+                    We carried out the end-to-end design of the product from inception to developer handoff.
+                    My responsibilities included project scoping, information architecture mapping and prototyping.
                     <br />
                     <br />
                 </p>
                 <h4><strong>PROBLEM</strong></h4>
                 <p>
                     The COVID-19 pandemic has and continues to drive heavy demand for services within the
-                    healthcare sector. As immunocompromised patients are among the most vulnerable to the
+                    healthcare sector. As immunocompromised individuals are among the most vulnerable to the
                     ongoing virus outbreak, calls have been made to minimize in-person interactions between frontline
-                    workers and patients where possible. For our client, resulted in a call for the remote
+                    workers and patients where possible. For our client, resulted in the need for the remote
                     delivery of their support services.
                     <br />
                     <br />
-                    Thus, we were presented with an objective: design an online platform that will enable our
-                    client's patients to access the services they need without the worry of potential exposures.
+                    Thus, we were presented with an objective: design an online platform that will make the 
+                    entirety of our client's support service accessible to patients via remote means.
                     <br />
                     <br />
                 </p>
                 <h4><strong>DESIGN PROCESS</strong></h4>
+                <p>
+                    [design process section here]
+                    <br />
+                    <br />
+                </p>
+                <h6><strong>USER RESEARCH</strong></h6>
+                <p>
+                    [design process section here]
+                    <br />
+                    <br />
+                </p>
+                <h6><strong>INFORMATION ARCHITECTURE MAPPING</strong></h6>
+                <p>
+                    [design process section here]
+                    <br />
+                    <br />
+                </p>
+                <h6><strong>PROTOTYPING</strong></h6>
+                <p>
+                    [design process section here]
+                    <br />
+                    <br />
+                </p>
+                <h6><strong>TESTING & FEEDBACK</strong></h6>
+                <p>
+                    [design process section here]
+                    <br />
+                    <br />
+                </p>
+                <h6><strong>ITERATIONS</strong></h6>
                 <p>
                     [design process section here]
                     <br />
