@@ -16,7 +16,7 @@ export default function Vector() {
             <div className='project_body'>
                 <h4><strong>VISUAL COLLECTION</strong></h4>
                 <p>
-                    Designs and graphics not made for any particular project.
+                    A collection of random designs and graphics.
                 </p>
                 <p><br /></p>
                 <img className='project_img' src={PersonalLogo} alt='Personal Logo (Figma)' />

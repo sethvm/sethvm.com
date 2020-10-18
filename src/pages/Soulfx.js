@@ -2,6 +2,10 @@ import React from 'react';
 import '../styles/Project.css';
 
 import Banner from '../components/soulfx/soulfx-banner.svg';
+import EnterpriseIA from '../components/soulfx/soulfx-enterprise_architecture.svg';
+import EnterpriseWorkflow from '../components/soulfx/soulfx-enterprise_workflow.svg';
+import Methodology from '../components/soulfx/soulfx-methodology.svg';
+import PortalWorkflow from '../components/soulfx/soulfx-portal_workflow.svg';
 
 export default function Soulfx() {
 
@@ -13,9 +17,9 @@ export default function Soulfx() {
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
                     Soulfx's Patient Support Application is a web-based platform designed for an external
-                    client within the pharmaceutical industry. The application aims to enable the remote 
+                    client within the pharmaceutical industry. The application enables the remote 
                     delivery of a Patient Support Program (PSP), a service that provides financial
-                    assistance for patients in need.
+                    assistance for medical payments such as therapy and prescriptions.
                     <br />
                     <br />
                 </p>
@@ -28,7 +32,7 @@ export default function Soulfx() {
                     <br />
                     <br />
                     We carried out the end-to-end design of the product from inception to developer handoff.
-                    My responsibilities included project scoping, information architecture mapping and prototyping.
+                    My responsibilities included project scoping, information architecture (IA) mapping and prototyping.
                     <br />
                     <br />
                 </p>
@@ -48,19 +52,37 @@ export default function Soulfx() {
                 </p>
                 <h4><strong>DESIGN PROCESS</strong></h4>
                 <p>
-                    [design process section here]
+                    The project lasted a duration of approximately 10 weeks. I worked with our PM in outlining
+                    the scope of our design as well as the approach taken to develop it. Our patient support
+                    application consists two components - a record management dashboard and a public-facing portal.
                     <br />
+                    <img className='project_img' src={Methodology} alt='methodology' />
                     <br />
                 </p>
                 <h6><strong>USER RESEARCH</strong></h6>
                 <p>
-                    [design process section here]
+                    [outline user research, including user groups and methods]
+                    <br />
+                    <br />
+                    [bolded points explaining different user objectives]
                     <br />
                     <br />
                 </p>
                 <h6><strong>INFORMATION ARCHITECTURE MAPPING</strong></h6>
                 <p>
-                    [design process section here]
+                    [explain purpose of ia and differences between dashboard and portal]
+                    <br />
+                    <img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
+                    <br />
+                    [text explaining enterprise workflow and hierarchy of information]
+                    <br />
+                    <img className='project_img' src={EnterpriseIA} alt='record management architecture' />
+                    <br />
+                    [text explaining enterprise architecture flow and hierarchy]
+                    <br />                    
+                    <img className='project_img' src={PortalWorkflow} alt='program card retrieval workflow' />
+                    <br />
+                    [explain card retrieval workflow]
                     <br />
                     <br />
                 </p>
