@@ -42,11 +42,11 @@ export default function Soulfx() {
                     healthcare sector. As immunocompromised individuals are among the most vulnerable to the
                     ongoing virus outbreak, calls have been made to minimize in-person interactions between frontline
                     workers and patients where possible. For our client, resulted in the need for the remote
-                    delivery of their support services.
+                    delivery of their support services. Thus, we were presented witn an onjective:
                     <br />
                     <br />
-                    Thus, we were presented with an objective: design an online platform that will make the 
-                    entirety of our client's support service accessible to patients via remote means.
+                    <em><strong>Design an online platform that will make the entirety of our client's support service
+                    accessible to patients via remote means.</strong></em>
                     <br />
                     <br />
                 </p>
@@ -54,21 +54,39 @@ export default function Soulfx() {
                 <p>
                     The project lasted a duration of approximately 10 weeks. I worked with our PM in outlining
                     the scope of our design as well as the approach taken to develop it. Our patient support
-                    application consists two components - a record management dashboard and a public-facing portal.
+                    application consists two components - a record management module paired with a public-facing portal.
                     <br />
                     <img className='project_img' src={Methodology} alt='methodology' />
                     <br />
                 </p>
-                <h6><strong>USER RESEARCH</strong></h6>
+                <h5><strong>USER RESEARCH</strong></h5>
                 <p>
-                    [outline user research, including user groups and methods]
+                    Prior to beginning work with a design project, it is important to gain an understanding of the users
+                    for which you will be creating said design for - this project was no exception. Upon working with our
+                    client in conducting surveys, we identified two user groups, each with distinctly differing usage objectives
+                    with the to-be application:
                     <br />
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Caseworkers</strong> are employed by our client. They provide important
+                    information regarding the support program and work with each patient individually to determine an optimal support plan
+                    based on their specific needs. Additionally, caseworkers are responsible for managing the records of companies, programs,
+                    and pharmaceutical products registered under the program platform - through our application, they want a streamlined workflow
+                    through which they can add, edit and remove records from the program.
                     <br />
-                    [bolded points explaining different user objectives]
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Patients</strong> registered under our client's support program receive certificates
+                    which determine eligibility for certain program plans - these programs can be offered Canada-wide or exclusively to select provinces.
+                    They can use these certificates to redeem program cards and in turn obtain discounts or financial assistance for applicable prescriptions
+                    or therapy plans. A patient's usage goal with the application is much simpler compared to that of a caseworker - submit their certificate,
+                    select a program, and receive their cards.
+                    <br />
+                    <br />Other key findings to note from learing more about our target users is the frequency at which each group will be using the
+                    application as well as the hardware they will be using to access it. Caseworkers will be using the application module on a daily basis to
+                    manage records via laptop computers or desktop workstations. On the other hand, program patients will only be accessing the application for
+                    the purpose of obtaining their program cards; however, the range of devices that they will be accessing through can vary from desktops to
+                    mobile phones.
                     <br />
                     <br />
                 </p>
-                <h6><strong>INFORMATION ARCHITECTURE MAPPING</strong></h6>
+                <h5><strong>INFORMATION ARCHITECTURE MAPPING</strong></h5>
                 <p>
                     [explain purpose of ia and differences between dashboard and portal]
                     <br />
@@ -86,19 +104,19 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h6><strong>PROTOTYPING</strong></h6>
+                <h5><strong>PROTOTYPING</strong></h5>
                 <p>
                     [design process section here]
                     <br />
                     <br />
                 </p>
-                <h6><strong>TESTING & FEEDBACK</strong></h6>
+                <h5><strong>TESTING & FEEDBACK</strong></h5>
                 <p>
                     [design process section here]
                     <br />
                     <br />
                 </p>
-                <h6><strong>ITERATIONS</strong></h6>
+                <h5><strong>ITERATIONS</strong></h5>
                 <p>
                     [design process section here]
                     <br />

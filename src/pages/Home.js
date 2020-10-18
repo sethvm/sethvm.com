@@ -38,8 +38,8 @@ export default function Home() {
                     <br />
                     <br />My previous experience includes...
                     <br />
-                    <br /><strong>UX and Web Design</strong> @ Ontario Public Service
                     <br /><strong>Software Design</strong> @ Soulfx Technologies
+                    <br /><strong>UX and Web Design</strong> @ Ontario Public Service
                 </p>
             </div> {/* /intro-lg */}
         </main>
