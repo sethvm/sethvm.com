@@ -86,13 +86,17 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h5><strong>INFORMATION ARCHITECTURE MAPPING</strong></h5>
+                <h5><strong>INFORMATION ARCHITECTURE (IA) MAPPING</strong></h5>
                 <p>
-                    [explain purpose of ia and differences between dashboard and portal]
+                    After learning about our target users and their intentions with the usage of the support application, we sought to learn more about
+                    how information is organized within the patient support program.
                     <br />
-                    <img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
+                    <br /><img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
                     <br />
-                    [text explaining enterprise workflow and hierarchy of information]
+                    <br />
+                    Each registered company offers its own set of programs; each program in turn offers its own set of certificates as well as eligible
+                    pharmaceutical products. We created workflows and IA diagrams for the record management dashboard to model this - this made it much 
+                    easier to present to our project stakeholders and development team how navigation would flow throughout the application.
                     <br />
                     <img className='project_img' src={EnterpriseIA} alt='record management architecture' />
                     <br />
