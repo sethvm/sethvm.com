@@ -91,20 +91,28 @@ export default function Soulfx() {
                     After learning about our target users and their intentions with the usage of the support application, we sought to learn more about
                     how information is organized within the patient support program.
                     <br />
-                    <br /><img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
+                    <br />
+                    <img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
                     <br />
                     <br />
-                    Each registered company offers its own set of programs; each program in turn offers its own set of certificates as well as eligible
-                    pharmaceutical products. We created workflows and IA diagrams for the record management dashboard to model this - this made it much 
-                    easier to present to our project stakeholders and development team how navigation would flow throughout the application.
+                    Each registered company offers its own set of programs, and each program is applicable to select certificates and offers its own set of eligible
+                    pharmaceutical products. We created workflows and IA diagrams for the record management dashboard to model this hierarchy - in turn, presenting 
+                    to our project stakeholders and development team how navigation would flow throughout the application became a (relatively) streamlined process.
                     <br />
                     <img className='project_img' src={EnterpriseIA} alt='record management architecture' />
                     <br />
-                    [text explaining enterprise architecture flow and hierarchy]
-                    <br />                    
+                    As my fellow design co-op and I had a fairly short timeframe to develop an understanding for how our client's patient support program worked,
+                    mapping out an IA diagram for the record management dashboard served as a useful reference during the creation of our interface prototypes. It
+                    enabled us to keep track of which details are associated with each record when creating each screen.
+                    <br />
+                    <br />
                     <img className='project_img' src={PortalWorkflow} alt='program card retrieval workflow' />
                     <br />
-                    [explain card retrieval workflow]
+                    <br />
+                    Patients with a national-level certificates are provided access to programs regardless of progress, unlike those with province-restricted certificates.
+                    Moreover, the availability of certain cards offered by programs continuously fluctuate over time based on demand. The challenge we faced in creating a 
+                    design for the certificate retrieval workflow laid with the low usage frequency - finding a balance between guidance for patients new to the platform and
+                    minimizing disruptive "hand-holding" for returning patients as they go to redeem their program cards.
                     <br />
                     <br />
                 </p>
