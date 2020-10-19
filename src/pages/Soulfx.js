@@ -42,19 +42,27 @@ export default function Soulfx() {
                     healthcare sector. As immunocompromised individuals are among the most vulnerable to the
                     ongoing virus outbreak, calls have been made to minimize in-person interactions between frontline
                     workers and patients where possible. For our client, resulted in the need for the remote
-                    delivery of their support services. Thus, we were presented witn an onjective:
+                    delivery of their support services.
                     <br />
                     <br />
-                    <em><strong>Design an online platform that will make the entirety of our client's support service
-                    accessible to patients via remote means.</strong></em>
+                </p>
+                <h4><strong>OBJECTIVE</strong></h4>
+                <p>
+                    <em><strong>
+                        Design an online platform that will enable the remote delivery of our client's patient support
+                        program. 
+                    </strong></em>
                     <br />
                     <br />
                 </p>
                 <h4><strong>DESIGN PROCESS</strong></h4>
                 <p>
                     The project lasted a duration of approximately 10 weeks. I worked with our PM in outlining
-                    the scope of our design as well as the approach taken to develop it. Our patient support
-                    application consists two components - a record management module paired with a public-facing portal.
+                    the scope of our design as well as the approach taken to develop it.
+                    <br />
+                    <br />
+                    Our patient support application consists two components - a record management module paired 
+                    with a public-facing portal.
                     <br />
                     <img className='project_img' src={Methodology} alt='methodology' />
                     <br />
@@ -62,23 +70,27 @@ export default function Soulfx() {
                 <h5><strong>USER RESEARCH</strong></h5>
                 <p>
                     Prior to beginning work with a design project, it is important to gain an understanding of the users
-                    for which you will be creating said design for - this project was no exception. Upon working with our
-                    client in conducting surveys, we identified two user groups, each with distinctly differing usage objectives
-                    with the to-be application:
+                    for which you will be creating said design for. Upon working with our client in conducting surveys, we 
+                    identified two user groups, each with distinctly differing usage objectives with the to-be application:
                     <br />
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Caseworkers</strong> are employed by our client. They provide important
-                    information regarding the support program and work with each patient individually to determine an optimal support plan
-                    based on their specific needs. Additionally, caseworkers are responsible for managing the records of companies, programs,
-                    and pharmaceutical products registered under the program platform - through our application, they want a streamlined workflow
-                    through which they can add, edit and remove records from the program.
                     <br />
-                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Patients</strong> registered under our client's support program receive certificates
-                    which determine eligibility for certain program plans - these programs can be offered Canada-wide or exclusively to select provinces.
-                    They can use these certificates to redeem program cards and in turn obtain discounts or financial assistance for applicable prescriptions
-                    or therapy plans. A patient's usage goal with the application is much simpler compared to that of a caseworker - submit their certificate,
-                    select a program, and receive their cards.
+                    <div className='indented'> 
+                        <strong>Caseworkers</strong> are employed by our client, and will be the user group utilizing our record management module.
+                        They provide important information regarding the support program and work with each patient individually to determine an optimal support plan
+                        based on their specific needs. Additionally, caseworkers are responsible for managing the records of companies, programs, program certificates
+                        and pharmaceutical products registered under the program platform - through our application, they want a streamlined workflow
+                        through which they can add, edit and remove records from the program.
+                    </div>
                     <br />
-                    <br />Other key findings to note from learing more about our target users is the frequency at which each group will be using the
+                    <div className='indented'>
+                        <strong>Patients</strong> will be using the public-facing portal. Upon registration under our client's support platform, patients receive
+                        certificates which determine eligibility for certain program plans - these can be offered Canada-wide or exclusively to select provinces.
+                        They can use these certificates to redeem program cards and in turn obtain discounts or financial assistance for applicable prescriptions
+                        or therapy plans. A patient's usage goal with the application is much simpler compared to that of a caseworker - submit their certificate,
+                        select a program, and receive their cards.
+                    </div>
+                    <br />
+                    Other key findings to note from learing more about our target users is the frequency at which each group will be using the
                     application as well as the hardware they will be using to access it. Caseworkers will be using the application module on a daily basis to
                     manage records via laptop computers or desktop workstations. On the other hand, program patients will only be accessing the application for
                     the purpose of obtaining their program cards; however, the range of devices that they will be accessing through can vary from desktops to
@@ -110,9 +122,13 @@ export default function Soulfx() {
                     <br />
                     <br />
                     Patients with a national-level certificates are provided access to programs regardless of progress, unlike those with province-restricted certificates.
-                    Moreover, the availability of certain cards offered by programs continuously fluctuate over time based on demand. The challenge we faced in creating a 
-                    design for the certificate retrieval workflow laid with the low usage frequency - finding a balance between guidance for patients new to the platform and
-                    minimizing disruptive "hand-holding" for returning patients as they go to redeem their program cards.
+                    A patient can hold multiple provincial certificates, but only one national certificate - it is important to note that they cannot hold both types of 
+                    certificates at once. Moreover, the availability of certain cards offered by programs continuously fluctuate over time based on demand.
+                    <br />
+                    <br />
+                    The challenge we faced in creating a design for the certificate retrieval workflow laid with the low usage frequency -
+                    finding a balance between guidance for patients new to the platform andminimizing disruptive "hand-holding" for returning patients as
+                    they go to redeem their program cards.
                     <br />
                     <br />
                 </p>
@@ -122,15 +138,46 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h5><strong>TESTING & FEEDBACK</strong></h5>
+                <h5><strong>USER TESTING</strong></h5>
                 <p>
-                    [design process section here]
+                    Our record management dashboard and portal yielded two different success criteria:
                     <br />
+                    <br />
+                    <div className='indented'>
+                        The record management dashboard must enable caseworkers to manage records for
+                        companies, programs offered by each company and products registered under the platform. We defined "manage" as
+                        the ability to add a new record, delete a record and edit details associated with each record.
+                    </div>
+                    <br />
+                    <div className='indented'>
+                        Our public-facing portal must enable patients to retreive (download) their program cards,
+                        regardless of the type of certificate they have (i.e. provincial or national level).
+                    </div>
+                    <br />
+                    Due to the quantitative nature of these measures, we made use of feedback received from user testing to identify
+                    pain points present within our designs. We had caseworkers add, delete and edit details for one record of each type
+                    (company, program, and product), and patients who volunteered to parttake in testing were prompted to submit a dummy
+                    certificate and retreive a program card. Some pain points we have found included the following:
+                    <br />
+                    <br />
+                    <div className='indented'>
+                        While caseworkers found the downward move in hierarchy to be straightforward when managing records, moving upwards from the bottom 
+                        (e.g. attempting to edit a company's details after changing a product detail) was deemed tedious, often calling for the need to 
+                        "spam the 'Back' button".
+                    </div>
+                    <br />
+                    <div className='indented'>
+                        [having to individually deactivate provincial certs when a patient switches to national]
+                    </div>
+                    <br />
+                    <div className='indented'>
+                        Lorem ipsum
+                    </div>
                     <br />
                 </p>
-                <h5><strong>ITERATIONS</strong></h5>
+                <h5><strong>ITERATIONS & RECOMMENDATIONS</strong></h5>
                 <p>
-                    [design process section here]
+                    [iteration section here]
                     <br />
                     <br />
                 </p>
