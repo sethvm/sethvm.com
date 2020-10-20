@@ -13,6 +13,8 @@ import ListView from '../components/soulfx/soulfx-list_view.svg';
 import Methodology from '../components/soulfx/soulfx-methodology.svg';
 import PortalWorkflow from '../components/soulfx/soulfx-portal_workflow.svg';
 import ProgramDetails from '../components/soulfx/soulfx-program_details.svg';
+import ProgramSelection from '../components/soulfx/soulfx-program_selection.svg';
+import ProgramCards from '../components/soulfx/soulfx-program_cards.svg';
 
 export default function Soulfx() {
 
@@ -147,7 +149,7 @@ export default function Soulfx() {
                     <div className='project_img_caption'>
                         <p>
                             <br/>
-                            <em><strong>List View</strong></em>
+                            <em><strong>Record Management - List View</strong></em>
                             <br/>
                         </p>
                     </div>
@@ -159,13 +161,12 @@ export default function Soulfx() {
                 <p>
                     [explanation text here]
                     <br />
-                    <br />
                 </p>
             </div> {/* /section break */}
             <div className='project_img_caption'>
                 <p>
                     <br/>
-                    <em><strong>Record Addition</strong></em>
+                    <em><strong>Record Management - Record Addition</strong></em>
                     <br/>
                 </p>
             </div> {/* /caption */}
@@ -185,7 +186,7 @@ export default function Soulfx() {
             <div className='project_img_caption'>
                 <p>
                     <br/>
-                    <em><strong>Detail Pages</strong></em>
+                    <em><strong>Record Management - Detail Pages</strong></em>
                     <br/>
                 </p>
             </div> {/* /caption */}
@@ -195,6 +196,31 @@ export default function Soulfx() {
                 <br />
                 <img className='img-fluid_card' src={ProgramDetails} alt='program details'/>
             </div> {/* /img section */}
+            <div className='project_body'>
+                <p>
+                    [explanation text here]
+                    <br />
+                </p>
+            </div> {/* /section break */}
+            <div className='project_img_caption'>
+                <p>
+                    <br/>
+                    <em><strong>Public-facing Portal - Card Retrieval Screens</strong></em>
+                    <br/>
+                </p>
+            </div> {/* /caption */}
+            <div className='img-section'>
+                <img className='img-fluid_card' src={ProgramSelection} alt='program selection'/>
+                <br />
+                <br />
+                <img className='img-fluid_card' src={ProgramCards} alt='program cards'/>
+            </div> {/* /img section */}
+            <div className='project_body'>
+                <p>
+                    [explanation text here]
+                    <br />
+                </p>
+            </div> {/* /section break */}
             <div className='project_body'>
                 <h5><strong>USER TESTING</strong></h5>
                 <p>
