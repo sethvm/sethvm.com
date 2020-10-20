@@ -234,8 +234,8 @@ export default function Soulfx() {
                     </div>
                     <br />
                     <div className='indented'>
-                        Our public-facing portal must enable patients to retreive (download) their program cards,
-                        regardless of the type of certificate they have (i.e. provincial or national level).
+                        Patients must be able to retreive (download) their program cards,
+                        regardless of the type of certificate they have (i.e. provincial or national level) through our public-facing portal.
                     </div>
                     <br />
                     Due to the quantitative nature of these measures, we made use of feedback received from user testing to identify

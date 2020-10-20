@@ -13,7 +13,7 @@ export default function HomeCarousel() {
         <Carousel id='carousel' className='animated fadeInUp'
         keyboard={true}
         indicators={true}
-        interval={3000}>
+        interval={4200}>
             <Carousel.Item>
                 <Item link='/soulfx' img={Soulfx} alt='Soulfx' />
             </Carousel.Item>
