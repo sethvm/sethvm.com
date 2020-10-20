@@ -45,6 +45,12 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
+                <h4><strong>TIMELINE</strong></h4>
+                <p>
+                    May 2020 - August 2020
+                    <br />
+                    <br />
+                </p>
                 <h4><strong>PROBLEM</strong></h4>
                 <p>
                     The COVID-19 pandemic has and continues to drive heavy demand for services within the
@@ -255,15 +261,11 @@ export default function Soulfx() {
                         with caseworkers having to move to and from each individual certificate page.
                     </div>
                     <br />
-                    <div className='indented'>
-                        [include a public portal pain point??]
-                    </div>
-                    <br />
                 </p>
-                <h5><strong>ITERATIONS & RECOMMENDATIONS</strong></h5>
+                <h5><strong>ITERATIONS</strong></h5>
                 <p>
-                    Iterations made to our designs were driven by the feedback we obtained from user testing. The need to address the pain points we discovered
-                    within our record management dashboard led to the implementation of some vital features:
+                    Iterations made to our designs were driven by the feedback we obtained from user testing.
+                    Key features within our record management dashboard were implemented to address the pain points we discovered:
                     <br />
                 </p>
             </div>
@@ -274,6 +276,31 @@ export default function Soulfx() {
                     <img className='img-fluid_card' src={CertActivation} alt='certificate activation'/>
                 </div> {/* /img section */}
             <div className='project_body'>
+                <p>
+                    <div className='indented'>
+                        <strong>1) Breadcrumbs</strong> provide a navigation "trail" for the caseworker as they navigate through the record information
+                        hierarchy. They streamline access to higher-level categories by drastically reducing the number of actions required to reach any
+                        level from the lowest tier of information.
+                        <br />
+                        <br />
+                        <strong>2) Certificate Activation Switches</strong> facilitate the activation or deactivation of provincial-level certificates
+                        witout the need to navigate into each individual certificate's page. This reduces the time taken to carry out multiple activations
+                        or deactivations.
+                        <br />
+                        <br />
+                        <strong>3)</strong> The <strong>National Activation Switch</strong> is reserved for the usage case where a company opts to make the switch from offering
+                        provincial certificates to national level certificates. Upon activating the national-level certificate, it automatically prompts the dashboard
+                        to ensure the deactivation of all active provincial certificates. A confirmation pop-up is displayed when transitioning between national and provincial
+                        activations to prevent accidental switches.
+                    </div>
+                    <br />
+                </p>
+                <h4><strong>MOVING FORWARD</strong></h4>
+                <p>
+                    [recommedation here]
+                    <br />
+                    <br />
+                </p>
                 <h4><strong>TAKEAWAYS</strong></h4>
                 <p>
                     [takeaway section here]
