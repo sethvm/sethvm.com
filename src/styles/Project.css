@@ -17,7 +17,7 @@
     height: auto;
 }
 
-.project_body, .img-fluid {
+.project_body, .img-section, .img-fluid {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -39,7 +39,7 @@
         margin-left: 7.5%;
         margin-right: 7.5%;
     }
-    .img-fluid {
+    .img-fluid, .img-section {
         display: inline-flex;
         justify-content: space-between;
     }
@@ -50,7 +50,7 @@
 }
 
 @media (min-width: 1024px) {        /*lg breakpoint*/
-    .project_banner {
+    .project_banner, .img-section {
         width: 70%;
         margin-left: 15%;
         margin-right: 15%;

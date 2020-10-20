@@ -99,7 +99,7 @@ export default function FASSB() {
                 <div className='project_img_caption'>
                     <p>
                         <br/>
-                        Viewing record list
+                        <em>Viewing record listM</em>
                         <br/>
                     </p>
                 </div>
@@ -108,7 +108,7 @@ export default function FASSB() {
                     <p>
                         <br/>
                         <br/>
-                        Creating a new record
+                        <em>Creating a new record</em>
                         <br/>
                     </p>
                 </div>
@@ -117,7 +117,7 @@ export default function FASSB() {
                     <p>
                         <br/>
                         <br/>
-                        Viewing record activities
+                        <em>Viewing record activities</em>
                         <br/>
                     </p>
                 </div>
@@ -126,7 +126,7 @@ export default function FASSB() {
                     <p>
                         <br/>
                         <br/>
-                        Record modification
+                        <em>Record modification</em>
                         <br/>
                     </p>
                 </div>

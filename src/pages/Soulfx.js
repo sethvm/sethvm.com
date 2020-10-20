@@ -1,11 +1,18 @@
 import React from 'react';
 import '../styles/Project.css';
 
+import AddRecord from '../components/soulfx/soulfx-add_company.svg';
+import AddRecord2 from '../components/soulfx/soulfx-add_company_2.svg';
 import Banner from '../components/soulfx/soulfx-banner.svg';
+import CertListAnnotated from '../components/soulfx/soulfx-cert_list_annotated.svg';
+import CertActivation from '../components/soulfx/soulfx-cert_list_popup.svg';
+import CompanyDetails from '../components/soulfx/soulfx-company_details.svg';
 import EnterpriseIA from '../components/soulfx/soulfx-enterprise_architecture.svg';
 import EnterpriseWorkflow from '../components/soulfx/soulfx-enterprise_workflow.svg';
+import ListView from '../components/soulfx/soulfx-list_view.svg';
 import Methodology from '../components/soulfx/soulfx-methodology.svg';
 import PortalWorkflow from '../components/soulfx/soulfx-portal_workflow.svg';
+import ProgramDetails from '../components/soulfx/soulfx-program_details.svg';
 
 export default function Soulfx() {
 
@@ -126,7 +133,7 @@ export default function Soulfx() {
                     for how we decided to map out the workflow for our public-facing portal.
                     <br />
                     <br />
-                    The challenge we faced in creating a design for the certificate retrieval stemmed the low usage frequency - we were prompted to
+                    The challenge we faced in creating a design for the certificate retrieval stemmed from the low usage frequency - we were prompted to
                     find a balance between providing guidance for patients new to the platform and minimizing disruptive "hand-holding" for returning patients as
                     they go to redeem their program cards.
                     <br />
@@ -137,7 +144,58 @@ export default function Soulfx() {
                     [design process section here]
                     <br />
                     <br />
+                    <div className='project_img_caption'>
+                        <p>
+                            <br/>
+                            <em><strong>List View</strong></em>
+                            <br/>
+                        </p>
+                    </div>
+                    <img className='project_img' src={ListView} alt='company list view' />
+                    <br />
                 </p>
+            </div> {/* /project-body */}
+            <div className='project_body'>
+                <p>
+                    [explanation text here]
+                    <br />
+                    <br />
+                </p>
+            </div> {/* /section break */}
+            <div className='project_img_caption'>
+                <p>
+                    <br/>
+                    <em><strong>Record Addition</strong></em>
+                    <br/>
+                </p>
+            </div> {/* /caption */}
+            <div className='img-section'>
+                <img className='img-fluid_card' src={AddRecord} alt='record addition form'/>
+                <br />
+                <br />
+                <img className='img-fluid_card' src={AddRecord2} alt='record addition confirmation'/>
+            </div> {/* /img section */}
+            <div className='project_body'>
+                <p>
+                    [explanation text here]
+                    <br />
+                    <br />
+                </p>
+            </div> {/* /section break */}
+            <div className='project_img_caption'>
+                <p>
+                    <br/>
+                    <em><strong>Detail Pages</strong></em>
+                    <br/>
+                </p>
+            </div> {/* /caption */}
+            <div className='img-section'>
+                <img className='img-fluid_card' src={CompanyDetails} alt='company details'/>
+                <br />
+                <br />
+                <img className='img-fluid_card' src={ProgramDetails} alt='program details'/>
+            </div> {/* /img section */}
+            <div className='project_body'>
                 <h5><strong>USER TESTING</strong></h5>
                 <p>
                     Our record management dashboard and portal yielded two different success criteria:
@@ -178,10 +236,18 @@ export default function Soulfx() {
                 </p>
                 <h5><strong>ITERATIONS & RECOMMENDATIONS</strong></h5>
                 <p>
-                    [iteration section here]
-                    <br />
+                    Iterations made to our designs were driven by the feedback we obtained from user testing. The need to address the pain points we discovered
+                    within our record management dashboard led to the implementation of some vital features:
                     <br />
                 </p>
+            </div>
+                <div className='img-section'>
+                    <img className='img-fluid_card' src={CertListAnnotated} alt='annotated certificate list' />
+                    <br />
+                    <br />
+                    <img className='img-fluid_card' src={CertActivation} alt='certificate activation'/>
+                </div> {/* /img section */}
+            <div className='project_body'>
                 <h4><strong>TAKEAWAYS</strong></h4>
                 <p>
                     [takeaway section here]
