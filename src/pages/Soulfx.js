@@ -121,13 +121,13 @@ export default function Soulfx() {
                     <img className='project_img' src={PortalWorkflow} alt='program card retrieval workflow' />
                     <br />
                     <br />
-                    Patients with a national-level certificates are provided access to programs regardless of progress, unlike those with province-restricted certificates.
-                    A patient can hold multiple provincial certificates, but only one national certificate - it is important to note that they cannot hold both types of 
-                    certificates at once. Moreover, the availability of certain cards offered by programs continuously fluctuate over time based on demand.
+                    Programs that offer national-level certificates are accessible to patients regardless of province, unlike certificates offered at the provincial level.
+                    Moreover, the availability of certain cards offered by programs continuously fluctuate over time based on demand. These considerations were crucial factors
+                    for how we decided to map out the workflow for our public-facing portal.
                     <br />
                     <br />
-                    The challenge we faced in creating a design for the certificate retrieval workflow laid with the low usage frequency -
-                    finding a balance between guidance for patients new to the platform andminimizing disruptive "hand-holding" for returning patients as
+                    The challenge we faced in creating a design for the certificate retrieval stemmed the low usage frequency - we were prompted to
+                    find a balance between providing guidance for patients new to the platform and minimizing disruptive "hand-holding" for returning patients as
                     they go to redeem their program cards.
                     <br />
                     <br />
@@ -157,21 +157,22 @@ export default function Soulfx() {
                     Due to the quantitative nature of these measures, we made use of feedback received from user testing to identify
                     pain points present within our designs. We had caseworkers add, delete and edit details for one record of each type
                     (company, program, and product), and patients who volunteered to parttake in testing were prompted to submit a dummy
-                    certificate and retreive a program card. Some pain points we have found included the following:
+                    certificate and retreive a program card. Pivotal pain points we found via user testing included the following:
                     <br />
                     <br />
                     <div className='indented'>
-                        While caseworkers found the downward move in hierarchy to be straightforward when managing records, moving upwards from the bottom 
+                        While caseworkers found the downward move in hierarchy to be straightforward when navigating through records, moving upwards from the bottom 
                         (e.g. attempting to edit a company's details after changing a product detail) was deemed tedious, often calling for the need to 
-                        "spam the 'Back' button".
+                        "spam the 'Back' button."
                     </div>
                     <br />
                     <div className='indented'>
-                        [having to individually deactivate provincial certs when a patient switches to national]
+                        Having to deactivate multiple provincial certificates for programs that make the switch to the national level was a repetitive process,
+                        with caseworkers having to move to and from each individual certificate page.
                     </div>
                     <br />
                     <div className='indented'>
-                        Lorem ipsum
+                        [include a public portal pain point??]
                     </div>
                     <br />
                 </p>

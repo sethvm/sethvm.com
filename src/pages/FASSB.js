@@ -32,7 +32,7 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>TEAM + PROJECT</strong></h4>
+                <h4><strong>TEAM</strong></h4>
                 <p>
                     I had the privilege of interning as a UX and Web Designer within <abbr title='Finance, Analysis and Systems Support Branch'>FASSB's</abbr> 
                     &nbsp;Digital Business Unit (DBU). Our team consisted of one Team Lead, four Business Coordinators, four Project Officers 
@@ -40,6 +40,9 @@ export default function FASSB() {
                     UI prototypes as part of a large-scale ministry project known as Employment Services Transformation (EST).
                     <br />
                     <br />
+                </p>
+                <h4><strong>PROJECT</strong></h4>
+                <p>
                     The EST project was initiated with the intention of reworking the province's employment services to make 
                     them more efficient and streamlined. Through a new service model, its objective is to merge social assistance 
                     services as well as government employment services into Employment Ontario (EO) - this implementation aims to 
@@ -56,26 +59,26 @@ export default function FASSB() {
                     <br />
                     <img className='project_img' src={Methodology} alt='methodology' />
                     <br />
-                    <strong>User stories</strong> were created for development of new interface components (be it a button or a navigation bar)
+                    <div className='indented'><strong>User stories</strong> were created for development of new interface components (be it a button or a navigation bar)
                     and were used as a "starting point" for how they were to be incorporated into each interface.
+                    </div>
                     <br />
-                    <br />
-                    <strong>Ideation</strong> involved sketching multiple design options that fulfilled the requirements outlined
+                    <div className='indented'><strong>Ideation</strong> involved sketching multiple design options that fulfilled the requirements outlined
                     in user stories. For iterations of work-in-progress UIs, sketches illustrated changes that needed to be made;
                     these were determined based on feedback received after the prototype is presented at the end of each sprint.
+                    </div>
                     <br />
-                    <br />
-                    <strong>Prototyping</strong> was done in Figma. During this phase, I would work closely with our Business Coordinators
+                    <div className='indented'><strong>Prototyping</strong> was done in Figma. During this phase, I would work closely with our Business Coordinators
                     and Project Officers to ensure that new UIs meet Level AA compliance with&nbsp;
                     <abbr title='Web Content Accessibility Guidelines'>WCAG 2.0</abbr> criteria and satisfy&nbsp;
                     <abbr title='Accessibility for Ontarians with Disabilities Act'>AODA</abbr> requirements.
                     Furthermore, measures are also taken to ensure that each design remains consistent with the ministry's internal design guidelines;
                     these included visual aspects such as colour palettes, font styles and font sizing.
+                    </div>
                     <br />
-                    <br />
-                    <strong>Presenting</strong> each UI to development and management teams is critical. It is at this phase where
+                    <div className='indented'><strong>Presenting</strong> each UI to development and management teams is critical. It is at this phase where
                     valuable feedback is received and a new set of objectives for the next iteration of interfaces is established.
-                    <br />
+                    </div>
                     <br /> 
                 </p>
                 <h4><strong>PROTOTYPES</strong></h4>
