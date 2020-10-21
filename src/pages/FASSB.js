@@ -41,6 +41,12 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
+                <h4><strong>TIMELINE</strong></h4>
+                <p>
+                    September 2019 - December 2019
+                    <br />
+                    <br />
+                </p>
                 <h4><strong>PROJECT</strong></h4>
                 <p>
                     The EST project was initiated with the intention of reworking the province's employment services to make 
@@ -88,18 +94,20 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <h6><strong>RECORD MANAGEMENT SYSTEM</strong></h6>
-                <p>
-                    Interface designs for a platform that is used to manage records within an entry 
-                    system. Employees preferred to access this system via desktop machines (often set up with multiple monitors), 
-                    so the focus of the prototype's layout is to enable a user to view as much information as possible within 
-                    the dimensions of a single screen.
-                    <br />
-                </p>
+                <div className='indented'>
+                    <h6><strong>RECORD MANAGEMENT SYSTEM</strong></h6>
+                    <p>
+                        Interface designs for a platform that is used to manage records within an entry 
+                        system. Employees preferred to access this system via desktop machines (often set up with multiple monitors), 
+                        so the focus of the prototype's layout is to enable a user to view as much information as possible within 
+                        the dimensions of a single screen.
+                        <br />
+                    </p>
+                </div>
                 <div className='project_img_caption'>
                     <p>
                         <br/>
-                        <em>Viewing record listM</em>
+                        <em><strong>Viewing record list</strong></em>
                         <br/>
                     </p>
                 </div>
@@ -108,7 +116,7 @@ export default function FASSB() {
                     <p>
                         <br/>
                         <br/>
-                        <em>Creating a new record</em>
+                        <em><strong>Creating a new record</strong></em>
                         <br/>
                     </p>
                 </div>
@@ -117,7 +125,7 @@ export default function FASSB() {
                     <p>
                         <br/>
                         <br/>
-                        <em>Viewing record activities</em>
+                        <em><strong>Viewing record activities</strong></em>
                         <br/>
                     </p>
                 </div>
@@ -126,7 +134,7 @@ export default function FASSB() {
                     <p>
                         <br/>
                         <br/>
-                        <em>Record modification</em>
+                        <em><strong>Record modification</strong></em>
                         <br/>
                     </p>
                 </div>
@@ -135,16 +143,18 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <h6><strong>CLIENT SEGMENTATION PLATFORM</strong></h6>
-                <p>
-                    A high-fidelity mockup for a new platform that aims to enable service providers to conduct assessments
-                    with clients and develop more focused service plans based on the client's needs. 
-                    Since assessments will be done out-of-office, this UI has been designed with smaller screens
-                    in mind (e.g. laptops and tablets). Components have been aligned within a single column to allow a 
-                    caseworker to input and review information quickly and efficiently.
-                    <br />
-                    <br />
-                </p>
+                <div className='indented'>
+                    <h6><strong>CLIENT SEGMENTATION PLATFORM</strong></h6>
+                    <p>
+                        A high-fidelity mockup for a new platform that aims to enable service providers to conduct assessments
+                        with clients and develop more focused service plans based on the client's needs. 
+                        Since assessments will be done out-of-office, this UI has been designed with smaller screens
+                        in mind (e.g. laptops and tablets). Components have been aligned within a single column to allow a 
+                        caseworker to input and review information quickly and efficiently.
+                        <br />
+                        <br />
+                    </p>
+                </div>
                 <img className='project_img' src={Assessment0} alt='assessment screen 1' />
                 <p>
                     <br/>
@@ -154,15 +164,17 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <h6><strong>SURVEY CREATION PLATFORM</strong></h6>
-                <p>
-                    Proof of concept of a new interface for an internal tool ised by service providers to create assessments
-                    for their respective employment services. Desired features included pagination, the ability to seamlessly
-                    rearrange questions (moving within each page or moving from one page to another) as well as multiple 
-                    modification options for each question.
-                    <br />
-                    <br />
-                </p>
+                <div className='indented'>
+                    <h6><strong>SURVEY CREATION PLATFORM</strong></h6>
+                    <p>
+                        Proof of concept of a new interface for an internal tool ised by service providers to create assessments
+                        for their respective employment services. Desired features included pagination, the ability to seamlessly
+                        rearrange questions (moving within each page or moving from one page to another) as well as multiple 
+                        modification options for each question.
+                        <br />
+                        <br />
+                    </p>
+                </div>
                 <img className='project_img' src={Survey0} alt='survey screen 1' />
                 <p>
                     <br/>
@@ -179,38 +191,44 @@ export default function FASSB() {
                     <br />
                     <br />
                 </p>
-                <h6><strong>DATA VISUALIZATION</strong></h6>
-                <p>
-                    <abbr title="Finance, Analysis and Systems Support Branch">FASSB's</abbr> Analytics Unit (AU) regularly 
-                    conducts surveys with user bases to collect information regarding experience with using the ministry's 
-                    applications, presenting results to management teams. While designing this infographic, I collaborated 
-                    with one of <abbr title="Analytics Unit">AU's</abbr> Business Coordinators in prioritizing which data to 
-                    present as well as organizing this data within a relatively small frame (Legal-sized dimensions).
-                    <br />
-                    <br />
-                </p>
+                <div className='indented'>
+                    <h6><strong>DATA VISUALIZATION</strong></h6>
+                    <p>
+                        <abbr title="Finance, Analysis and Systems Support Branch">FASSB's</abbr> Analytics Unit (AU) regularly 
+                        conducts surveys with user bases to collect information regarding experience with using the ministry's 
+                        applications, presenting results to management teams. While designing this infographic, I collaborated 
+                        with one of <abbr title="Analytics Unit">AU's</abbr> Business Coordinators in prioritizing which data to 
+                        present as well as organizing this data within a relatively small frame (Legal-sized dimensions).
+                        <br />
+                        <br />
+                    </p>
+                </div>
                 <img className='project_img' src={DataVis} alt='data visualization graphic' />
                 <p>
                     <br />
                     <br />
                 </p>
-                <h6><strong>SERVICE FLOW MODELLING</strong></h6>
-                <p>
-                    In addition to prototyping application UIs, I worked closely with our team's Project 
-                    Officers on creating system flow diagrams for an employment service that provides assistance 
-                    to job seekers. The diagrams below model the evolution of this service as ministry systems 
-                    are developed and updated.
-                    <br />
-                    <br />
-                </p>
+                <div className='indented'>
+                    <h6><strong>SERVICE FLOW MODELLING</strong></h6>
+                    <p>
+                        In addition to prototyping application UIs, I worked closely with our team's Project 
+                        Officers on creating system flow diagrams for an employment service that provides assistance 
+                        to job seekers. The diagrams below model the evolution of this service as ministry systems 
+                        are developed and updated.
+                        <br />
+                        <br />
+                    </p>
+                </div>
             </div> {/* /project-body */}
             <img className='project_banner' src={Flow0} alt='flow diagram 1' />
             <div className='project_body'>
-                <p>
-                    The to-be service model (below) is designed with the intent of shortening the
-                    consultation and service planning phases. Additionally, the monitoring and closure phases have been
-                    made more elaborate through the implementation of periodic follow-ups that ensure employment retention.
-                </p>
+                <div className='indented'>
+                    <p>
+                        The to-be service model (below) is designed with the intent of shortening the
+                        consultation and service planning phases. Additionally, the monitoring and closure phases have been
+                        made more elaborate through the implementation of periodic follow-ups that ensure employment retention.
+                    </p>
+                </div>
             </div> {/* /project-body */}
             <img className='project_banner' src={Flow1} alt='flow diagram 2' />
             <div className='project_body'>

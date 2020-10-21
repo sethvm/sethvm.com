@@ -51,19 +51,20 @@ export default function Albert() {
                     newcomers, we came across the following key findings:
                     <br />
                     <br />
-                    <strong>1.</strong> The vast majority of newcomers and students alike do not have access to personal transport,
-                    and thus value proximity to public transit - respondents both demographics have even expressed willingness to forgo proximity
-                    to work for the sake of being close to public transit.
-                    <br />
-                    <br />
-                    <strong>2.</strong> Proximity to shopping centers is also of importance, albeit to a lesser degree in comparison
-                    to public transit. Newcomers placed value on proximity to tourist attractions, while students gravitated towards
-                    services such as fitness centers and hospitals.
-                    <br />
-                    <br />
-                    <strong>3.</strong> Because newcomers and students are often running with tight budgets, renting/housing cost
-                    is the most heavily weighed non-geographical factor when deciding on a place to live.
-                    <br />
+                    <div className='indented'>
+                        <strong>1.</strong> The vast majority of newcomers and students alike do not have access to personal transport,
+                        and thus value proximity to public transit - respondents both demographics have even expressed willingness to forgo proximity
+                        to work for the sake of being close to public transit.
+                        <br />
+                        <br />
+                        <strong>2.</strong> Proximity to shopping centers is also of importance, albeit to a lesser degree in comparison
+                        to public transit. Newcomers placed value on proximity to tourist attractions, while students gravitated towards
+                        services such as fitness centers and hospitals.
+                        <br />
+                        <br />
+                        <strong>3.</strong> Because newcomers and students are often running with tight budgets, renting/housing cost
+                        is the most heavily weighed non-geographical factor when deciding on a place to live.
+                    </div>
                     <br />
                 </p>
                 <h4><strong>BRANDING</strong></h4>

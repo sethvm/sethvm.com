@@ -35,7 +35,7 @@ export default function Soulfx() {
                 <h4><strong>TEAM</strong></h4>
                 <p>
                     Our project team consisted of a Project Manager (PM), another design co-op
-                    and myself. We worked closely with our development team as well as our client
+                    and myself (designer). We worked closely with our development team as well as our client
                     stakeholders in reviewing iterations for sitemaps and designs. Guidance was 
                     provided by our CEO throughout the duration of the project.
                     <br />
@@ -116,14 +116,17 @@ export default function Soulfx() {
                 <h5><strong>INFORMATION ARCHITECTURE (IA) MAPPING</strong></h5>
                 <p>
                     After learning about our target users and their intentions with the usage of the support application, we sought to learn more about
-                    how information is organized within the patient support program.
+                    how the support program itself works and how information is organized within it.
                     <br />
                     <br />
                     <img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
                     <br />
                     <br />
-                    Each registered company offers its own set of programs, and each program is applicable to select certificates and offers its own set of eligible
-                    pharmaceutical products. We created workflows and IA diagrams for the record management dashboard to model this hierarchy - in turn, presenting 
+                    Each company registered under the program offers its own set of program plans, and each program is applicable to select certificates and offers its own set of eligible
+                    pharmaceutical products.
+                    <br />
+                    <br />
+                    We created workflows and IA diagrams for the record management dashboard to model this hierarchy - in turn, presenting 
                     to our project stakeholders and development team how navigation would flow throughout the application became a (relatively) streamlined process.
                     <br />
                     <img className='project_img' src={EnterpriseIA} alt='record management architecture' />
@@ -223,7 +226,7 @@ export default function Soulfx() {
             </div> {/* /img section */}
             <div className='project_body'>
                 <p>
-                    [explanation text here]
+                    Because patients will have access to the application 
                     <br />
                 </p>
             </div> {/* /section break */}
@@ -262,7 +265,7 @@ export default function Soulfx() {
                     </div>
                     <br />
                 </p>
-                <h5><strong>ITERATIONS</strong></h5>
+                <h5><strong>ITERATIONS & IDEAS</strong></h5>
                 <p>
                     Iterations made to our designs were driven by the feedback we obtained from user testing.
                     Key features within our record management dashboard were implemented to address the pain points we discovered:
@@ -294,16 +297,33 @@ export default function Soulfx() {
                         activations to prevent accidental switches.
                     </div>
                     <br />
-                </p>
-                <h4><strong>MOVING FORWARD</strong></h4>
-                <p>
-                    [recommedation here]
+                    Had we had more time to iterate upon our design, I would have made a push to include a <strong>search and filtering function</strong> into our list screens.
+                    As the number of registered records within the platform grows, querying items within lists may gradually become more laborious and make the overall experience of
+                    using the record management dashboard feel increasingly cumbersome. The inclusion of a search function would address such issues by providing caseworkers direct
+                    access to the records that they need to work with.
                     <br />
                     <br />
                 </p>
                 <h4><strong>TAKEAWAYS</strong></h4>
                 <p>
-                    [takeaway section here]
+                    <br />
+                    <div className='indented'>
+                        <p>
+                            <em><strong>DESIGNS ARE PRODUCTS OF CURIOSITY AND COLLABORATION</strong></em>
+                            <br />
+                            A solid understanding of how our client's patient support program works in conjunction with what our target users expect out of 
+                            the to-be product were critical to the execution of each design phase. This project reminded me that effective designs are
+                            created through asking questions and working side-by-side with people who posses varying domains of knowledge, some of which
+                            may not have overlap.
+                            <br />
+                            <br />
+                            <em><strong>SERVING HEALTHCARE CONSUMERS THROUGH DESIGN</strong></em>
+                            <br />
+                            Designing a platform for a patient support program has driven me to be more reflective of the impact left by my work on others.
+                            While I do not have the resources nor the know-how needed to help patients with their therapy or prescription expenses, I had
+                            the privilege of creating and providing a tool for people who do.
+                        </p>
+                    </div>
                 </p>
             </div> {/* /project-body */}
         </main> {/* /project */}
