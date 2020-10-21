@@ -105,7 +105,7 @@ export default function Soulfx() {
                         select a program, and receive their cards.
                     </div>
                     <br />
-                    Other key findings to note from learing more about our target users is the frequency at which each group will be using the
+                    Other key findings to note from surveying our target users is the frequency at which each group will be using the
                     application as well as the hardware they will be using to access it. Caseworkers will be using the application module on a daily basis to
                     manage records via laptop computers or desktop workstations. On the other hand, program patients will only be accessing the application for
                     the purpose of obtaining their program cards; however, the range of devices that they will be accessing through can vary from desktops to
@@ -153,7 +153,7 @@ export default function Soulfx() {
                 <h5><strong>PROTOTYPING</strong></h5>
                 <p>
                     We elected to employ a single-column approach for both platform components. Our intention for the record management dashboard is to allow caseworkers
-                    to skim through lists and details as quickly as possible when working with records, and facilitate responsiveness for the public-facing portal.
+                    to skim through lists and details as quickly as possible when working with records and facilitate responsiveness for the public-facing portal.
                     The visual layouts for lists, record addition flow and detail pages are kept consistent across all tiers of information.
                     <div className='project_img_caption'>
                         <p>
@@ -200,7 +200,7 @@ export default function Soulfx() {
                 <p>
                     We aimed to make the card retrieval process as seamless of an experience as possible for both new and returning users.
                     The portal interface automatically accounts for the selected province by filtering out all unavailable programs from the
-                    selection list. Through the layout style we have opted to use, we intended to create a straighforward flow that is easy 
+                    selection list. Through the layout style we have opted to use, we intended to create a straightforward flow that is easy 
                     for new patients to follow as well as an interface that is easy to scroll through using touch inputs.
                 </p>
             </div> {/* /section break */}
@@ -229,14 +229,14 @@ export default function Soulfx() {
                     </div>
                     <br />
                     <div className='indented'>
-                        Patients must be able to retreive (download) their program cards,
+                        Patients must be able to retrieve (download) their program cards,
                         regardless of the type of certificate they have (i.e. provincial or national level) through our public-facing portal.
                     </div>
                     <br />
                     Due to the quantitative nature of these measures, we made use of feedback received from user testing to identify
                     pain points present within our designs. We had caseworkers add, delete and edit details for one record of each type
-                    (company, program, and product), and patients who volunteered to parttake in testing were prompted to submit a dummy
-                    certificate and retreive a program card. Pivotal pain points we found via user testing included the following:
+                    (company, program, and product), and patients who volunteered to partake in testing were prompted to submit a dummy
+                    certificate and retrieve a program card. Pivotal pain points we found via user testing included the following:
                     <br />
                     <br />
                     <div className='indented'>
@@ -273,7 +273,7 @@ export default function Soulfx() {
                         <br />
                         <br />
                         <strong>2) Certificate Activation Switches</strong> facilitate the activation or deactivation of provincial-level certificates
-                        witout the need to navigate into each individual certificate's page. This reduces the time taken to carry out multiple activations
+                        without the need to navigate into each individual certificate's page. This reduces the time taken to carry out multiple activations
                         or deactivations.
                         <br />
                         <br />
