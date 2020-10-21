@@ -5,6 +5,7 @@ import './Carousel.css';
 
 import Albert from '../albert/albert-carousel.svg';
 import FASSB from '../fassb/fassb-carousel.svg';
+import Soulfx from '../soulfx/soulfx-carousel.svg';
 import Vector from '../vector/vector-carousel.svg';
 
 export default function HomeCarousel() {
@@ -12,7 +13,10 @@ export default function HomeCarousel() {
         <Carousel id='carousel' className='animated fadeInUp'
         keyboard={true}
         indicators={true}
-        interval={3000}>
+        interval={4200}>
+            <Carousel.Item>
+                <Item link='/soulfx' img={Soulfx} alt='Soulfx' />
+            </Carousel.Item>
             <Carousel.Item>
                 <Item link='/albert' img={Albert} alt='Project Albert' />
             </Carousel.Item>

@@ -20,6 +20,7 @@ import Footer from './components/Footer/Footer';
 // page body content
 import Home from './pages/Home';
 import About from './pages/About';
+import Soulfx from './pages/Soulfx';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 import Vector from './pages/Vector';
@@ -62,6 +63,7 @@ function Page() {
             <Route exact={true} path='/about' component={About} />
             <Route exact={true} path='/albert' component={Albert} />
             <Route exact={true} path='/fassb' component={FASSB} />
+            <Route exact={true} path='/soulfx' component={Soulfx} />
             <Route exact={true} path='/vector' component={Vector} />
         </Switch>
         </PageContent>

@@ -3,6 +3,10 @@
     src: local('Montserrat'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
+p {
+    font-size: 0.975rem;
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
