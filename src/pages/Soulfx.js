@@ -139,7 +139,7 @@ export default function Soulfx() {
                     <img className='project_img' src={PortalWorkflow} alt='program card retrieval workflow' />
                     <br />
                     <br />
-                    Programs that offer national-level certificates are accessible to patients regardless of province, unlike certificates offered at the provincial level.
+                    Program plans offered through national-level certificates are accessible to patients regardless of province, unlike those offered at the provincial level.
                     Moreover, the availability of certain cards offered by programs continuously fluctuate over time based on demand. These considerations were crucial factors
                     for how we decided to map out the workflow for our public-facing portal.
                     <br />
