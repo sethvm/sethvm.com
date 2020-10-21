@@ -152,11 +152,13 @@ export default function Soulfx() {
                 </p>
                 <h5><strong>PROTOTYPING</strong></h5>
                 <p>
-                    [prorotyping intro here]
-                    <br />
-                    <br />
+                    We elected to employ a single-column approach for both platform components. Our intention for the record management dashboard is to allow caseworkers
+                    to skim through lists and details as quickly as possible when working with records, and facilitate responsiveness for the public-facing portal.
+                    The visual layouts for lists, record addition flow and detail pages are kept consistent across all tiers of information.
                     <div className='project_img_caption'>
                         <p>
+                            <br/>
+                            <br/>
                             <em><strong>Record Management - List View</strong></em>
                             <br/>
                         </p>
@@ -165,13 +167,9 @@ export default function Soulfx() {
                     <br />
                 </p>
             </div> {/* /project-body */}
-            <div className='project_body'>
-                <p>
-                    [record management here]
-                </p>
-            </div> {/* /section break */}
             <div className='project_img_caption'>
                 <p>
+                    <br/>
                     <em><strong>Record Management - Record Addition</strong></em>
                     <br/>
                 </p>
@@ -182,13 +180,11 @@ export default function Soulfx() {
                 <br />
                 <img className='img-fluid_card' src={AddRecord2} alt='record addition confirmation'/>
             </div> {/* /img section */}
-            <div className='project_body'>
-                <p>
-                    [detail page explanation here]
-                </p>
-            </div> {/* /section break */}
             <div className='project_img_caption'>
                 <p>
+                    <br/>                    
+                    <br/>                    
+                    <br/>                    
                     <em><strong>Record Management - Detail Pages</strong></em>
                     <br/>
                 </p>
@@ -198,16 +194,19 @@ export default function Soulfx() {
                 <br />
                 <br />
                 <img className='img-fluid_card' src={ProgramDetails} alt='program details'/>
+                <br />
             </div> {/* /img section */}
             <div className='project_body'>
                 <p>
-                    We elected to employ a single-column layout for our public-facing portal. As the application will be accessible to patients
-                    through mobile devices, 
+                    We aimed to make the card retrieval process as seamless of an experience as possible for both new and returning users.
+                    The portal interface automatically accounts for the selected province by filtering out all unavailable programs from the
+                    selection list. Through the layout style we have opted to use, we intended to create a straighforward flow that is easy 
+                    for new patients to follow as well as an interface that is easy to scroll through using touch inputs.
                 </p>
             </div> {/* /section break */}
             <div className='project_img_caption'>
                 <p>
-                    <em><strong>Public-facing Portal - Card Retrieval Screens</strong></em>
+                    <em><strong>Public-facing Portal - Program Card Retrieval</strong></em>
                     <br/>
                 </p>
             </div> {/* /caption */}
