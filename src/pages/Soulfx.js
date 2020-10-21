@@ -152,12 +152,11 @@ export default function Soulfx() {
                 </p>
                 <h5><strong>PROTOTYPING</strong></h5>
                 <p>
-                    [design process section here]
+                    [prorotyping intro here]
                     <br />
                     <br />
                     <div className='project_img_caption'>
                         <p>
-                            <br/>
                             <em><strong>Record Management - List View</strong></em>
                             <br/>
                         </p>
@@ -168,13 +167,11 @@ export default function Soulfx() {
             </div> {/* /project-body */}
             <div className='project_body'>
                 <p>
-                    [explanation text here]
-                    <br />
+                    [record management here]
                 </p>
             </div> {/* /section break */}
             <div className='project_img_caption'>
                 <p>
-                    <br/>
                     <em><strong>Record Management - Record Addition</strong></em>
                     <br/>
                 </p>
@@ -187,14 +184,11 @@ export default function Soulfx() {
             </div> {/* /img section */}
             <div className='project_body'>
                 <p>
-                    [explanation text here]
-                    <br />
-                    <br />
+                    [detail page explanation here]
                 </p>
             </div> {/* /section break */}
             <div className='project_img_caption'>
                 <p>
-                    <br/>
                     <em><strong>Record Management - Detail Pages</strong></em>
                     <br/>
                 </p>
@@ -207,13 +201,12 @@ export default function Soulfx() {
             </div> {/* /img section */}
             <div className='project_body'>
                 <p>
-                    [explanation text here]
-                    <br />
+                    We elected to employ a single-column layout for our public-facing portal. As the application will be accessible to patients
+                    through mobile devices, 
                 </p>
             </div> {/* /section break */}
             <div className='project_img_caption'>
                 <p>
-                    <br/>
                     <em><strong>Public-facing Portal - Card Retrieval Screens</strong></em>
                     <br/>
                 </p>
@@ -224,12 +217,6 @@ export default function Soulfx() {
                 <br />
                 <img className='img-fluid_card' src={ProgramCards} alt='program cards'/>
             </div> {/* /img section */}
-            <div className='project_body'>
-                <p>
-                    Because patients will have access to the application 
-                    <br />
-                </p>
-            </div> {/* /section break */}
             <div className='project_body'>
                 <h5><strong>USER TESTING</strong></h5>
                 <p>
