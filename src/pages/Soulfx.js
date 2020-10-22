@@ -300,7 +300,7 @@ export default function Soulfx() {
                             A solid understanding of how our client's patient support program works in conjunction with what our target users expect out of 
                             the to-be product were critical to the execution of each design phase. This project reminded me that effective designs are
                             created through asking questions and working side-by-side with people who posses varying domains of knowledge, some of which
-                            may not have overlap.
+                            may not overlap.
                             <br />
                             <br />
                             <em><strong>SERVING HEALTHCARE CONSUMERS THROUGH DESIGN</strong></em>
