@@ -76,8 +76,8 @@ export default function Soulfx() {
                     the scope of our design as well as the approach taken to develop it.
                     <br />
                     <br />
-                    Our patient support application consists two components - a record management module paired 
-                    with a public-facing portal.
+                    Our patient support application consists two components - a <strong>record management module</strong> paired 
+                    with a <strong>public-facing portal</strong>.
                     <br />
                     <img className='project_img' src={Methodology} alt='methodology' />
                     <br />

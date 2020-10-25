@@ -30,6 +30,12 @@ export default function Albert() {
                     <br />
                     <br />
                 </p>
+                <h4><strong>TIMELINE</strong></h4>
+                <p>
+                    Ongoing
+                    <br />
+                    <br />
+                </p>
                 <h4><strong>PROBLEM</strong></h4>
                 <p>
                     Planning a relocation to an unfamiliar city for work can be a daunting task. 
