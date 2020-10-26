@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/Project.css';
 
-import Formula1 from '../components/vector/formula1_figma.svg';
-import BellX1 from '../components/vector/bell-x1_solidworks.png';
-import E5Atrium from '../components/vector/e5atrium_figma.png';
-import Fish from '../components/vector/skeletal-fish_figma.svg';
-import PersonalLogo from '../components/vector/personal-logo_figma.svg';
-import Zonda from '../components/vector/zonda_illustrator.png';
+import Formula1 from '../components/visuals/formula1_figma.svg';
+import BellX1 from '../components/visuals/bell-x1_solidworks.png';
+import E5Atrium from '../components/visuals/e5atrium_figma.png';
+import Fish from '../components/visuals/skeletal-fish_figma.svg';
+import PersonalLogo from '../components/visuals/personal-logo_figma.svg';
+import Zonda from '../components/visuals/zonda_illustrator.png';
 
-export default function Vector() {
+export default function Visuals() {
     
     return(
         <>

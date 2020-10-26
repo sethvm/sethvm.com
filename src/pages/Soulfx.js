@@ -294,21 +294,19 @@ export default function Soulfx() {
                 <p>
                     <br />
                     <div className='indented'>
-                        <p>
-                            <em><strong>DESIGNS ARE PRODUCTS OF CURIOSITY AND COLLABORATION</strong></em>
-                            <br />
-                            A solid understanding of how our client's patient support program works in conjunction with what our target users expect out of 
-                            the to-be product were critical to the execution of each design phase. This project reminded me that effective designs are
-                            created through asking questions and working side-by-side with people who posses varying domains of knowledge, some of which
-                            may not overlap.
-                            <br />
-                            <br />
-                            <em><strong>SERVING HEALTHCARE CONSUMERS THROUGH DESIGN</strong></em>
-                            <br />
-                            Designing a platform for a patient support program has driven me to be more reflective of the impact left by my work on others.
-                            While I do not have the resources nor the know-how needed to help patients with their therapy or prescription expenses, I had
-                            the privilege of creating and providing a tool for people who do.
-                        </p>
+                        <em><strong>DESIGNS ARE PRODUCTS OF CURIOSITY AND COLLABORATION</strong></em>
+                        <br />
+                        A solid understanding of how our client's patient support program works in conjunction with what our target users expect out of 
+                        the to-be product were critical to the execution of each design phase. This project reminded me that effective designs are
+                        created through asking questions and working side-by-side with people who posses varying domains of knowledge, some of which
+                        may not overlap.
+                        <br />
+                        <br />
+                        <em><strong>SERVING HEALTHCARE CONSUMERS THROUGH DESIGN</strong></em>
+                        <br />
+                        Designing a platform for a patient support program has driven me to be more reflective of the impact left by my work on others.
+                        While I do not have the resources nor the know-how needed to help patients with their therapy or prescription expenses, I had
+                        the privilege of creating and providing a tool for people who do.
                     </div>
                 </p>
             </div> {/* /project-body */}

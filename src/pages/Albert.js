@@ -17,7 +17,7 @@ export default function Albert() {
                 <p>
                     Project Albert is an ongoing development of a web-based application that provides assistance to any 
                     individual looking to move to a new city for employment.
-                    It aims to alleviate relocation stress by providing map-based visuals of renting options,
+                    It aims to alleviate relocation stress by providing visuals of renting options,
                     commute routes to their new workplace, and available services - all within a single map.
                     <br />
                     <br />
@@ -98,7 +98,15 @@ export default function Albert() {
                     the red and orange embody the warmth and security provided by shelter.
                     <br />
                     <br />
+                    <div className='project_img_caption'>
+                        <p>                  
+                            <em><strong>Branding Colour Guide</strong></em>
+                            <br/>
+                        </p>
+                    </div> {/* /caption */}
                     <img className='project_img' src={ColourGuide} alt='colour guide' />
+                    <br />
+                    <br />
                 </p>
             </div> {/* /project-body */}
         </main> {/* /project */}

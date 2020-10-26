@@ -30,7 +30,7 @@ function PageFooter() {
             <FooterLink to='/soulfx' text='SOULFX' /> |&nbsp;
             <FooterLink to='/albert' text='PROJECT ALBERT' /> |&nbsp;
             <FooterLink to='/fassb' text='FASSB' /> |&nbsp;
-            <FooterLink to='/vector' text='VECTOR COLLECTION' />
+            <FooterLink to='/visuals' text='VISUAL DESIGNS' />
             <br />
             <br />
             <FooterText />

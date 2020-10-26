@@ -6,7 +6,7 @@ import './Carousel.css';
 import Albert from '../albert/albert-carousel.svg';
 import FASSB from '../fassb/fassb-carousel.svg';
 import Soulfx from '../soulfx/soulfx-carousel.svg';
-import Vector from '../vector/vector-carousel.svg';
+import Visuals from '../visuals/vector-carousel.svg';
 
 export default function HomeCarousel() {
     return(
@@ -24,7 +24,7 @@ export default function HomeCarousel() {
                 <Item link='/fassb' img={FASSB} alt='FASSB' />
             </Carousel.Item>
             <Carousel.Item>
-                <Item link='/vector' img={Vector} alt='Vector Collection' />
+                <Item link='/visuals' img={Visuals} alt='Visual Design Collection' />
             </Carousel.Item>
         </Carousel>
     );
