@@ -56,7 +56,7 @@ export default function Soulfx() {
                     The COVID-19 pandemic has and continues to drive heavy demand for services within the
                     healthcare sector. As immunocompromised individuals are among the most vulnerable to the
                     ongoing virus outbreak, calls have been made to minimize in-person interactions between frontline
-                    workers and patients where possible. For our client, resulted in the need for the remote
+                    workers and patients where possible. For our client, this resulted in the need for the remote
                     delivery of their support services.
                     <br />
                     <br />
