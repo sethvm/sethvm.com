@@ -200,9 +200,14 @@ export default function FASSB() {
                         with one of <abbr title="Analytics Unit">AU's</abbr> Business Coordinators in prioritizing which data to 
                         present as well as organizing this data within a relatively small frame (Legal-sized dimensions).
                         <br />
-                        <br />
                     </p>
                 </div>
+                <div className='project_img_caption'>
+                    <p>
+                        <em><strong>Usage infographic for an internal application</strong></em>
+                        <br/>
+                    </p>
+                </div> {/* /caption */}
                 <img className='project_img' src={DataVis} alt='data visualization graphic' />
                 <p>
                     <br />
@@ -216,10 +221,16 @@ export default function FASSB() {
                         to job seekers. The diagrams below model the evolution of this service as ministry systems 
                         are developed and updated.
                         <br />
-                        <br />
                     </p>
                 </div>
             </div> {/* /project-body */}
+            <div className='project_img_caption'>
+                <p>
+                    <em><strong>Current service model</strong></em>
+                    <br/>
+                    <br/>
+                </p>
+            </div> {/* /caption */}
             <img className='project_banner' src={Flow0} alt='flow diagram 1' />
             <div className='project_body'>
                 <div className='indented'>
@@ -230,19 +241,30 @@ export default function FASSB() {
                     </p>
                 </div>
             </div> {/* /project-body */}
+            <div className='project_img_caption'>
+                <p>
+                    <em><strong>To-be service model</strong></em>
+                    <br />
+                </p>
+            </div> {/* /caption */}
             <img className='project_banner' src={Flow1} alt='flow diagram 2' />
             <div className='project_body'>
                 <h4><strong>TAKEAWAYS</strong></h4>
                 <p>
-                    My work term at <abbr title="Finance, Analysis and Systems Support Branch">FASSB</abbr> was my first
-                    taste of what working as a designer is like. It provided me with exposure to the Agile development
-                    model, namely the variations in the scope of work that can occur between each two-week sprint. The opportunity
-                    to develop wireframes for the <abbr title="Employment Services Transformation">EST</abbr> project resulted
-                    in the growth of my interest for interface design and front-end development.
                     <br />
-                    <br />
-                    Most importantly, through this internship, I had the opportunity to contribute to a province-wide project
-                    aimed at improving services that make life easier for Ontarians.
+                    <div className='indented'>
+                        <em><strong>MY ENTRY INTO THE FIELD OF DESIGN</strong></em>
+                        <br />
+                        My work term at <abbr title="Finance, Analysis and Systems Support Branch">FASSB</abbr> was my first
+                        taste of what working as a designer is like. It provided me with exposure to the Agile development
+                        model, namely the variations in the scope of work that can occur between each two-week sprint. The opportunity
+                        to develop wireframes for the <abbr title="Employment Services Transformation">EST</abbr> project resulted
+                        in the growth of my interest for interface design and front-end development.
+                        <br />
+                        <br />
+                        More importantly, I got to contribute to a province-wide project aimed at improving services
+                        that make life easier for Ontarians.
+                    </div>
                 </p>
             </div> {/* /project-body */}
         </main> {/* /project */}
