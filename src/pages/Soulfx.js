@@ -235,7 +235,7 @@ export default function Soulfx() {
                     <br />
                     Due to the quantitative nature of these measures, we made use of feedback received from user testing to identify
                     pain points present within our designs. We had caseworkers add, delete and edit details for one record of each type
-                    (company, program, and product), and patients who volunteered to partake in testing were prompted to submit a dummy
+                    (company, program, product and certificate), and patients who volunteered to partake in testing were prompted to submit a dummy
                     certificate and retrieve a program card. Pivotal pain points we found via user testing included the following:
                     <br />
                     <br />
@@ -254,6 +254,8 @@ export default function Soulfx() {
                 <h5><strong>ITERATIONS & IDEAS</strong></h5>
                 <p>
                     Iterations made to our designs were driven by the feedback we obtained from user testing.
+                    <br />
+                    <br />
                     Key features within our record management dashboard were implemented to address the pain points we discovered:
                     <br />
                 </p>
@@ -278,14 +280,14 @@ export default function Soulfx() {
                         <br />
                         <br />
                         <strong>3)</strong> The <strong>National Activation Switch</strong> is reserved for the usage case where a company opts to make the switch from offering
-                        provincial certificates to national level certificates. Upon activating the national-level certificate, it automatically prompts the dashboard
+                        provincial certificates to national-level certificates. Upon activating the national-level certificate, it automatically prompts the dashboard
                         to ensure the deactivation of all active provincial certificates. A confirmation pop-up is displayed when transitioning between national and provincial
                         activations to prevent accidental switches.
                     </div>
                     <br />
-                    Had we had more time to iterate upon our design, I would have made a push to include a <strong>search and filtering function</strong> into our list screens.
+                    Had we had more time to iterate upon our design, I would have made a push to <strong>implement a search and filtering function</strong> into each of our list screens.
                     As the number of registered records within the platform grows, querying items within lists may gradually become more laborious and make the overall experience of
-                    using the record management dashboard feel increasingly cumbersome. The inclusion of a search function would address such issues by providing caseworkers direct
+                    navigating through the record management dashboard feel increasingly cumbersome. The inclusion of a search function would address such issues by providing caseworkers direct
                     access to the records that they need to work with.
                     <br />
                     <br />

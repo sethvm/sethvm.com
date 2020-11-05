@@ -34,8 +34,6 @@ export default function Home() {
                     <br />passion for creating products that leave
                     <br />a positive impact in the world around me.
                     <br />
-                    <br />Currently <strong>seeking Winter '21 internships</strong>!
-                    <br />
                     <br />My previous experience includes...
                     <br />
                     <br /><strong>Software Design</strong> @ Soulfx Technologies
