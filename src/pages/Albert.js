@@ -64,10 +64,10 @@ export default function Albert() {
                     <br />
                     <br />
                     <br />
-                    Our branding colour palette was created following Google's Material design guidelines. Blue represents the
-                    relief and calm felt by prospective residents upon securing a new home, while orange embodies the warmth and
-                    security provided by shelter. A background colour symbolizes the uncertainty encountered upon searching for
-                    a new place to live.
+                    Our branding colour palette was created following Google's Material design guidelines. Blue represents the <strong>relief and calm</strong>
+                    &nbsp;felt by prospective residents upon securing a new home, while orange embodies the <strong>warmth and security</strong>
+                    &nbsp;provided by shelter. A background colour symbolizes the <strong>uncertainty</strong>
+                    &nbsp;faced upon searching for a new place to live.
                     <br />
                     <br />
                     <div className='project_img_caption'>
@@ -95,7 +95,7 @@ export default function Albert() {
                     <br />
                     <div className='indented'>
                         <strong>1)</strong> The vast majority of newcomers and students alike do not have access to personal transport,
-                        and thus value proximity to public transit - respondents both demographics have even expressed willingness to forgo proximity
+                        and thus value proximity to public transit - respondents both demographics have expressed willingness to forgo proximity
                         to work for the sake of being close to public transit.
                         <br />
                         <br />
@@ -106,9 +106,14 @@ export default function Albert() {
                         <br />
                         <strong>3)</strong> Because newcomers and students are often running with tight budgets, renting/housing cost
                         is the most heavily weighed non-geographical factor when deciding on a place to live.
+                        <br />
+                        <br />
                     </div>
-                    <br />
-                    <br />
+                </p>
+                <h4><strong>MOVING FORWARD</strong></h4>
+                <p>
+                    Our next steps involve modelling how a user might walk through the process of finding their optimal living location using
+                    the application - we will also begin ideating how the application's layout and navigation might look like visually.
                 </p>
             </div> {/* /project-body */}
         </main> {/* /project */}
