@@ -37,9 +37,9 @@ export default function About() {
                     Feel free to reach out! I'm always up for a chat about new ideas or opportunities!
                     <br />
                     <br />
+                    <ProfileLink label='LINKEDIN' href='https://www.linkedin.com/in/sethvm' />&nbsp;&nbsp;&nbsp;
                     <ProfileLink label='EMAIL' href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' />&nbsp;&nbsp;&nbsp;
-                    <ProfileLink label='RESUME' href={ResumeFile} />&nbsp;&nbsp;&nbsp;
-                    <ProfileLink label='LINKEDIN' href='https://www.linkedin.com/in/sethvm' />
+                    <ProfileLink label='RESUME' href={ResumeFile} />
                 </p>
             </div> {/* /project_body */}
         </main> {/* /project */}

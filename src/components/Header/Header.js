@@ -31,7 +31,7 @@ export default function Header(props) {
         }
         setTimeout(() => {
             closeNav();
-        }, 70);
+        }, 80);
     }, [expanded, closeNav]);
 
     useEffect(() => { 
@@ -61,12 +61,13 @@ export default function Header(props) {
                 <Navbar.Collapse id='nav-dropdown'>
                     <Nav className='nav_drop' 
                     onClick={() => handleClick}>
+                        <Nav.Link className='nav_item' as={Link} to='/'><strong>Home</strong></Nav.Link>
                         <Nav.Link className='nav_item' as={Link} to='/about'><strong>About</strong></Nav.Link>
                         <ExtLink href={ResumeFile} label='Resume' />
                         <ExtLink href='https://www.figma.com/@sethvm' label='Figma'/>
                         <ExtLink href='https://www.github.com/sethvm' label='GitHub' />
-                        <ExtLink href='https://www.linkedin.com/in/sethvm' label='Linkedin' />
-                        <ExtLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' label='Email' />
+                        <ExtLink href='https://www.linkedin.com/in/sethvm' label='LinkedIn' />
+                        <ExtLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' label='Get in Touch' />
                     </Nav>
                 </Navbar.Collapse>
                 <Nav.Link className={props.aboutType} as={Link} to='/about'>

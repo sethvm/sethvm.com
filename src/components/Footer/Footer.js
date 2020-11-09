@@ -28,7 +28,7 @@ function PageFooter() {
     return (
         <footer id='footer-page' className='animated fadeIn'>
             <FooterLink to='/soulfx' text='SOULFX' /> |&nbsp;
-            <FooterLink to='/albert' text='PROJECT ALBERT' /> |&nbsp;
+            <FooterLink to='/albert' text='ALBERT' /> |&nbsp;
             <FooterLink to='/fassb' text='FASSB' /> |&nbsp;
             <FooterLink to='/visuals' text='VISUAL DESIGNS' />
             <br />
