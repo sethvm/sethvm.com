@@ -19,8 +19,8 @@ export default function About() {
                 <p>
                     <br />
                     As a visual learner, the usage of illustrations and graphics to communicate has been a lifelong passion of mine.
-                    I am drawn toward the fields of design and development because they allow me to extend this passion towards learning
-                    about the people for which products and experiences are created.
+                    I am drawn toward the fields of design and development by the opportunity to extend this passion towards creating
+                    products and experiences that make life easier for others.
                     <br />
                     <br />
                     Currently an undergraduate student at the University of Waterloo, I am majoring in
@@ -34,7 +34,7 @@ export default function About() {
                     I enjoy jumping out of flying aircraft - with a parachute, of course.
                     <br />
                     <br />
-                    If you've made it this far into my introduction, don't hesitate to get in touch!
+                    Made it this far into my introduction? Don't hesitate to get in touch!
                     <br />
                     <br />
                     <ProfileLink label='LINKEDIN' href='https://www.linkedin.com/in/sethvm' />&nbsp;&nbsp;&nbsp;

@@ -34,6 +34,10 @@ export default function Soulfx() {
                 </p>
                 <h4><strong>TEAM</strong></h4>
                 <p>
+                    Soulfx Technologies is a Mississauga-based software consulting firm specializing in
+                    healthcare applications.
+                    <br />
+                    <br />
                     Our project team consisted of a Project Manager (PM), another design co-op
                     and myself (designer). We worked closely with our development team as well as our client
                     stakeholders in reviewing iterations for sitemaps and designs. Guidance was 
@@ -41,7 +45,7 @@ export default function Soulfx() {
                     <br />
                     <br />
                     We carried out the end-to-end design of the product from inception to developer handoff.
-                    My responsibilities included project scoping, information architecture (IA) mapping and prototyping.
+                    My responsibilities included conducting generative research, information architecture (IA) mapping and prototyping.
                     <br />
                     <br />
                 </p>
