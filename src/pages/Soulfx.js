@@ -221,7 +221,7 @@ export default function Soulfx() {
                 <img className='img-fluid_card' src={ProgramCards} alt='program cards'/>
             </div> {/* /img section */}
             <div className='project_body'>
-                <h5><strong>USER TESTING</strong></h5>
+                <h5><strong>USABILITY TESTING</strong></h5>
                 <p>
                     Our record management dashboard and portal yielded two different success criteria:
                     <br />
@@ -237,10 +237,10 @@ export default function Soulfx() {
                         regardless of the type of certificate they have (i.e. provincial or national level) through our public-facing portal.
                     </div>
                     <br />
-                    Due to the quantitative nature of these measures, we made use of feedback received from user testing to identify
+                    Due to the quantitative nature of these measures, we made use of feedback received from usability testing to identify
                     pain points present within our designs. We had caseworkers add, delete and edit details for one record of each type
                     (company, program, product and certificate), and patients who volunteered to partake in testing were prompted to submit a dummy
-                    certificate and retrieve a program card. Pivotal pain points we found via user testing included the following:
+                    certificate and retrieve a program card. Pivotal pain points we found via usability testing included the following:
                     <br />
                     <br />
                     <div className='indented'>
@@ -257,7 +257,7 @@ export default function Soulfx() {
                 </p>
                 <h5><strong>ITERATIONS & IDEAS</strong></h5>
                 <p>
-                    Iterations made to our designs were driven by the feedback we obtained from user testing.
+                    Iterations made to our designs were driven by the feedback we obtained from usability testing.
                     <br />
                     <br />
                     Key features within our record management dashboard were implemented to address the pain points we discovered:
