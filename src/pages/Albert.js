@@ -1,4 +1,5 @@
 import React from 'react';
+import Jumbotron from 'react-bootstrap/Jumbotron'
 import '../styles/Project.css';
 
 import Banner from '../components/albert/albert-banner.svg';
@@ -41,6 +42,11 @@ export default function Albert() {
                     different applications to obtain information regarding transit options and available services.
                     <br />
                     <br />
+                    <Jumbotron className='highlight'>
+                        <strong>How can we design an application that streamlines the process of evaluating residence options for
+                        students and newcomers?</strong>
+                    </Jumbotron>
+                    <br />
                 </p>
                 <h4><strong>BRANDING</strong></h4>
                 <p>
@@ -70,6 +76,7 @@ export default function Albert() {
                     &nbsp;faced upon searching for a new place to live.
                     <br />
                     <br />
+                    <br />
                     <div className='project_img_caption'>
                         <p>                  
                             <em><strong>Branding Colour Guide</strong></em>
@@ -77,6 +84,7 @@ export default function Albert() {
                         </p>
                     </div> {/* /caption */}
                     <img className='project_img' src={ColourGuide} alt='colour guide' />
+                    <br />
                     <br />
                     <br />
                 </p>
@@ -93,7 +101,7 @@ export default function Albert() {
                     newcomers, we came across the following key findings:
                     <br />
                     <br />
-                    <div className='indented'>
+                    <Jumbotron className='highlight'>
                         <strong>1)</strong> The vast majority of newcomers and students alike do not have access to personal transport,
                         and thus value proximity to public transit - respondents both demographics have expressed willingness to forgo proximity
                         to work for the sake of being close to public transit.
@@ -106,9 +114,8 @@ export default function Albert() {
                         <br />
                         <strong>3)</strong> Because newcomers and students are often running with tight budgets, renting/housing cost
                         is the most heavily weighed non-geographical factor when deciding on a place to live.
-                        <br />
-                        <br />
-                    </div>
+                    </Jumbotron>
+                    <br />
                 </p>
                 <h4><strong>MOVING FORWARD</strong></h4>
                 <p>

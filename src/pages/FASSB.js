@@ -252,19 +252,15 @@ export default function FASSB() {
                 <h4><strong>TAKEAWAYS</strong></h4>
                 <p>
                     <br />
-                    <div className='indented'>
-                        <em><strong>MY ENTRY INTO THE FIELD OF DESIGN</strong></em>
-                        <br />
-                        My work term at <abbr title="Finance, Analysis and Systems Support Branch">FASSB</abbr> was my first
-                        taste of what working as a designer is like. It provided me with exposure to the Agile development
-                        model, namely the variations in the scope of work that can occur between each two-week sprint. The opportunity
-                        to develop wireframes for the <abbr title="Employment Services Transformation">EST</abbr> project resulted
-                        in the growth of my interest for interface design and front-end development.
-                        <br />
-                        <br />
-                        More importantly, I got to contribute to a province-wide project aimed at improving services
-                        that make life easier for Ontarians.
-                    </div>
+                    My work term at <abbr title="Finance, Analysis and Systems Support Branch">FASSB</abbr> was my <strong>entry into
+                    the field of design</strong>. It provided me with exposure to the Agile development
+                    model, namely the variations in the scope of work that can occur between each two-week sprint. The opportunity
+                    to develop wireframes for the <abbr title="Employment Services Transformation">EST</abbr> project resulted
+                    in the growth of my interest for interface design and front-end development.
+                    <br />
+                    <br />
+                    More importantly, I got to contribute to a province-wide project aimed at <strong>improving services
+                    that make life easier for Ontarians</strong>.
                 </p>
             </div> {/* /project-body */}
         </main> {/* /project */}
