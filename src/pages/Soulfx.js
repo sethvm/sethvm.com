@@ -74,12 +74,15 @@ export default function Soulfx() {
                 <h4><strong>DESIGN PROCESS</strong></h4>
                 <p>
                     The project lasted a duration of approximately 10 weeks. I worked with our PM in outlining
-                    the scope of our design as well as the approach taken to develop it.
+                    the scope of our design as well as the approach taken to develop it. Earlier phases of the project focused
+                    on learning about the patient support program and the user groups we were to be designing for, while later phases
+                    shift towards creating and iterating upon prototypes of our product.
                     <br />
                     <br />
-                    Our patient support application consists two components - a <strong>record management module</strong> paired 
-                    with a <strong>public-facing portal</strong>.
-                    <br />
+                    <Jumbotron className='highlight'>
+                        Our final design is an application consisting of two components - a <strong>record management module</strong> paired 
+                        with a <strong>public-facing portal</strong>.
+                    </Jumbotron>
                     <img className='project_img' src={Methodology} alt='methodology' />
                     <br />
                 </p>
