@@ -15,10 +15,9 @@ export default function Home() {
                 <p>
                     <br />Thanks for stopping by!
                     <br />
-                    <br />I'm a <strong>designer</strong> pursuing a BASc. in&nbsp;
-                    <strong>Systems Design Engineering</strong>
-                    <br />with a passion for creating products that leave a positive impact
-                    <br />in the world around me.
+                    <br />I'm a <strong>designer</strong> pursuing a BASc. in
+                    <br /><strong>Systems Design Engineering</strong> with a passion for
+                    <br />creating products that help move the world forward.
                 </p>
             </div> {/* /intro-md */}
             <div className='intro_lg animated fadeIn'>
@@ -31,8 +30,8 @@ export default function Home() {
                     <br />
                     <br />I'm a <strong>designer</strong> pursuing a BASc. in
                     <br /><strong>Systems Design Engineering</strong> with a
-                    <br />passion for creating products that leave
-                    <br />a positive impact in the world around me.
+                    <br />passion for creating products that
+                    <br />help move the world forward.
                     <br />
                     <br />My previous experience includes...
                     <br />

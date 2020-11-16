@@ -85,7 +85,8 @@ export default function FASSB() {
                     <div className='indented'><strong>Presenting</strong> each UI to development and management teams is critical. It is at this phase where
                     valuable feedback is received and a new set of objectives for the next iteration of interfaces is established.
                     </div>
-                    <br /> 
+                    <br />
+                    <br />
                 </p>
                 <h4><strong>PROTOTYPES</strong></h4>
                 <p>
