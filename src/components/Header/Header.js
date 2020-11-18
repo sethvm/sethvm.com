@@ -48,7 +48,7 @@ export default function Header(props) {
             expanded={expanded}
             onToggle={toggleNav}>
                 <Nav.Link className='name link' as={Link} to='/'>
-                    SETH MORENOS
+                    <span className='blue'>SETH</span> <span className='black'>MORENOS</span>
                 </Nav.Link>
                 <Navbar.Toggle className='mobile_nav' aria-controls='nav-dropdown'
                 ref={node}>

@@ -26,7 +26,7 @@ export default function Soulfx() {
             <div className='project_body'>
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
-                    Soulfx's Patient Support Application is a web-based platform designed for an external
+                    Soulfx's Patient Support Application is a web-based platform developed for an external
                     client within the pharmaceutical industry. The application enables the remote 
                     delivery of a Patient Support Program (PSP), a service that provides financial
                     assistance for medical payments such as therapy and prescriptions.
