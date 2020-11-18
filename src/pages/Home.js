@@ -36,7 +36,7 @@ export default function Home() {
                     <br />My previous experience includes...
                     <br />
                     <br /><strong>Software Design</strong> @ Soulfx Technologies
-                    <br /><strong>UX and Web Design</strong> @ Ontario Public Service
+                    <br /><strong>UX and Web Design</strong> @ OPS
                 </p>
             </div> {/* /intro-lg */}
         </main>

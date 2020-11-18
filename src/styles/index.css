@@ -4,7 +4,9 @@
 }
 
 p {
-    font-size: 0.975rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    color: #1a1a1a;
 }
 
 body {

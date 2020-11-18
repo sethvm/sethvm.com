@@ -113,6 +113,7 @@ export default function Soulfx() {
                     mobile phones.
                     <br />
                     <br />
+                    <br />
                 </p>
                 <h5><strong>INFORMATION ARCHITECTURE (IA) MAPPING</strong></h5>
                 <p>
@@ -152,8 +153,9 @@ export default function Soulfx() {
                     they go to redeem their program cards.
                     <br />
                     <br />
+                    <br />
                 </p>
-                <h5><strong>PROTOTYPING</strong></h5>
+                <h5><strong>DESIGNED SOLUTION</strong></h5>
                 <p>
                     We elected to employ a single-column approach for both platform components. Our intention for the record management dashboard is to allow caseworkers
                     to skim through lists and details as quickly as possible when working with records and facilitate responsiveness for the public-facing portal.
@@ -206,7 +208,7 @@ export default function Soulfx() {
                     selection list. Through the layout style we have opted to use, we intended to create a straightforward flow that is easy 
                     for new patients to follow as well as an interface that is easy to scroll through using touch inputs.
                 </p>
-            </div> {/* /section break */}
+            </div>
             <div className='project_img_caption'>
                 <p>
                     <em><strong>Public-facing Portal - Program Card Retrieval</strong></em>
@@ -220,6 +222,9 @@ export default function Soulfx() {
                 <img className='img-fluid_card' src={ProgramCards} alt='program cards'/>
             </div> {/* /img section */}
             <div className='project_body'>
+                <p>
+                    <br />
+                </p>
                 <h5><strong>USABILITY TESTING</strong></h5>
                 <p>
                     Our record management dashboard and portal yielded <strong>two different success criteria</strong>:
