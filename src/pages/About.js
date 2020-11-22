@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/Project.css';
 
-import Gondola from '../components/about/gondola.png';
+import Gondola from '../components/about/gondola.jpg';
 import ProfileLink from '../components/about/ProfileLink';
 import ResumeFile from '../pdf/sethvm_resume.pdf';
-import SkyDive from '../components/about/skydive.png';
+import SkyDive from '../components/about/skydive.jpg';
 
 export default function About() {
     
@@ -43,7 +43,7 @@ export default function About() {
                 </p>
             </div> {/* /project_body */}
             <div className='img-fluid'>
-                <img className='img-fluid_card' src={Gondola} alt='Formula 1 (Figma)' />
+                <img className='img-fluid_card' src={Gondola} alt='Sulphur Mountain Trail' />
                 <p><br /></p>
                 <img className='img-fluid_card' src={SkyDive} alt='I sometimes skydive' />
                 <p><br /></p>
