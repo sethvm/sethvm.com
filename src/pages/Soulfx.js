@@ -83,13 +83,19 @@ export default function Soulfx() {
                         Our final design is an application consisting of two components - a <strong>record management module</strong> paired 
                         with a <strong>public-facing portal</strong>.
                     </Jumbotron>
+                    <div className='project_img_caption'>
+                        <p>
+                            <em><strong>Our design approach</strong></em>
+                        </p>
+                    </div>
                     <img className='project_img' src={Methodology} alt='methodology' />
                     <br />
+                    <br />
                 </p>
-                <h5><strong>USER RESEARCH</strong></h5>
+                <h5><strong>MEETING OUR AUDIENCE</strong></h5>
                 <p>
                     Prior to beginning work with a design project, it is important to gain an understanding of the users
-                    for which you will be creating said design for. Upon working with our client in conducting surveys, we 
+                    for whom we will be creating said design for. Upon working with our client in conducting surveys, we 
                     identified two user groups, each with distinctly differing usage objectives with the to-be application:
                     <br />
                     <br />
@@ -115,23 +121,35 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h5><strong>INFORMATION ARCHITECTURE (IA) MAPPING</strong></h5>
+                <h5><strong>UNDERSTANDING OUR CLIENT'S PLATFORM</strong></h5>
                 <p>
-                    After learning about our target users and their intentions with the usage of the support application, we sought to learn more about
-                    how the support program itself works and how information is organized within it.
+                    After learning about our target users and how they interact with the service, we sought to get an in-depth look 
+                    into how the support program itself works and how information is organized within it.
                     <br />
                     <br />
+                    <br />
+                    <div className='project_img_caption'>
+                        <p>
+                            <em><strong>Record Management Workflow</strong></em>
+                        </p>
+                    </div>
                     <img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
                     <br />
                     <br />
                     <Jumbotron className='highlight'>
-                        Each company registered under the program offers its own set of program plans - each program in turn is applicable to select certificates and offers its own set of eligible
-                        pharmaceutical products.
+                        Each company registered under the program offers its own set of program plans - each program in turn is applicable to select certificates
+                        and offers its own collection of eligible pharmaceutical products.
                     </Jumbotron>
                     We created workflows and IA diagrams for the record management dashboard to model this hierarchy - in turn, presenting 
                     to our project stakeholders and development team how navigation would flow throughout the application became a (relatively) streamlined process.
                     <br />
                     <br />
+                    <br />
+                    <div className='project_img_caption'>
+                        <p>
+                            <em><strong>Record Management Dashboard IA</strong></em>
+                        </p>
+                    </div>
                     <img className='project_img' src={EnterpriseIA} alt='record management architecture' />
                     <br />
                     <br />
@@ -140,6 +158,12 @@ export default function Soulfx() {
                     enabled us to keep track of which details are associated with each record when creating each screen.
                     <br />
                     <br />
+                    <br />
+                    <div className='project_img_caption'>
+                        <p>
+                            <em><strong>Program Card Retrieval Workflow</strong></em>
+                        </p>
+                    </div>
                     <img className='project_img' src={PortalWorkflow} alt='program card retrieval workflow' />
                     <br />
                     <br />
@@ -155,17 +179,16 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h5><strong>DESIGNED SOLUTION</strong></h5>
+                <h5><strong>THE DESIGNED SOLUTION</strong></h5>
                 <p>
                     We elected to employ a single-column approach for both platform components. Our intention for the record management dashboard is to allow caseworkers
                     to skim through lists and details as quickly as possible when working with records and facilitate responsiveness for the public-facing portal.
                     The visual layouts for lists, record addition flow and detail pages are kept consistent across all tiers of information.
+                    <br/>
+                    <br/>
                     <div className='project_img_caption'>
                         <p>
-                            <br/>
-                            <br/>
-                            <em><strong>Record Management - List View</strong></em>
-                            <br/>
+                            <em><strong>Record List View</strong></em>
                         </p>
                     </div>
                     <img className='project_img' src={ListView} alt='company list view' />
@@ -175,7 +198,7 @@ export default function Soulfx() {
             <div className='project_img_caption'>
                 <p>
                     <br/>
-                    <em><strong>Record Management - Record Addition</strong></em>
+                    <em><strong>Record Addition</strong></em>
                     <br/>
                 </p>
             </div> {/* /caption */}
@@ -189,9 +212,8 @@ export default function Soulfx() {
                 <p>
                     <br/>                    
                     <br/>                    
-                    <br/>                    
-                    <em><strong>Record Management - Detail Pages</strong></em>
-                    <br/>
+                    <br/> 
+                    <em><strong>Record Detail Pages</strong></em>
                 </p>
             </div> {/* /caption */}
             <div className='img-section'>
@@ -211,7 +233,7 @@ export default function Soulfx() {
             </div>
             <div className='project_img_caption'>
                 <p>
-                    <em><strong>Public-facing Portal - Program Card Retrieval</strong></em>
+                    <em><strong>Program Card Retrieval</strong></em>
                     <br/>
                 </p>
             </div> {/* /caption */}
@@ -225,7 +247,7 @@ export default function Soulfx() {
                 <p>
                     <br />
                 </p>
-                <h5><strong>USABILITY TESTING</strong></h5>
+                <h5><strong>VALIDATING OUR DESIGN</strong></h5>
                 <p>
                     Our record management dashboard and portal yielded <strong>two different success criteria</strong>:
                     <br />
@@ -240,7 +262,7 @@ export default function Soulfx() {
                         other words, a patient must be able to <strong>submit a certificate (national or provincial), select a desired program and retrieve the
                         respective program card</strong>.
                     </Jumbotron>
-                    Due to the quantitative nature of these measures, we made use of feedback received from usability testing to <strong>identify
+                    Due to the qualitative nature of these measures, we made use of feedback received from usability testing to <strong>identify
                     pain points present within our designs</strong>. We had caseworkers add, delete and edit details for one record of each type
                     (company, program, product and certificate), and patients who volunteered to partake in testing were prompted to submit a dummy
                     certificate and retrieve a program card. Pivotal pain points we found via usability testing included the following:
@@ -258,7 +280,7 @@ export default function Soulfx() {
                     </Jumbotron>
                     <br />
                 </p>
-                <h5><strong>ITERATIONS & IDEAS</strong></h5>
+                <h5><strong>REFINING OUR SOLUTION</strong></h5>
                 <p>
                     Iterations made to our designs were <strong>driven by the feedback we obtained</strong> from usability testing.
                     <br />
