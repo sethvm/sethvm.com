@@ -42,7 +42,7 @@
     padding: 0;
 }
 
-.nav-desktop-home, .nav-desktop-page {
+.nav-desktop-home, .nav-desktop-page, .nav_right {
     display: none;
 }
 
@@ -97,6 +97,9 @@
         font-size: 1.25rem !important;
         font-weight: 700;
         color: #004080 !important;
+    }
+    .nav_right {
+        display: flex;
     }
     .mobile_nav, .nav_drop {
         display: none;
