@@ -11,10 +11,27 @@
     z-index: 9;
 }
 
-.carousel_img {
+.carousel-img {
     width: 100%;
     height: auto;
     overflow: hidden;
+}
+
+.carousel-img:hover {
+    cursor: url('cursor_view.svg'), pointer;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: #4b4b4b;
+    transition: background-color 0.2s linear;
+}
+
+.carousel-control-next:hover {
+    cursor: url('cursor_next.svg'), pointer;
+}
+
+.carousel-control-prev:hover {
+    cursor: url('cursor_prev.svg'), pointer;
 }
 
 @media (min-width: 577px) and (max-width: 767px) {      /*SM; MOBILE*/

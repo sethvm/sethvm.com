@@ -13,7 +13,7 @@ export default function HomeCarousel() {
         <Carousel id='carousel' className='animated fadeInUp'
         keyboard={true}
         indicators={true}
-        interval={4200}>
+        interval={4000}>
             <Carousel.Item>
                 <Item link='/soulfx' img={Soulfx} alt='Soulfx' />
             </Carousel.Item>
@@ -33,7 +33,7 @@ export default function HomeCarousel() {
 function Item(props) {
     return (
         <Link to={props.link}>
-            <img src={props.img} className='carousel_img' alt={props.alt} />
+            <img src={props.img} className='carousel-img' alt={props.alt} />
         </Link>
     );
 }
