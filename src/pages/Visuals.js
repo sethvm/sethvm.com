@@ -2,11 +2,10 @@ import React from 'react';
 import '../styles/Project.css';
 
 import Formula1 from '../components/visuals/formula1_figma.svg';
-import BellX1 from '../components/visuals/bell-x1_solidworks.png';
-import E5Atrium from '../components/visuals/e5atrium_figma.png';
+import BellX1 from '../components/visuals/bell-x1_solidworks.jpg';
+import E5Atrium from '../components/visuals/e5atrium_figma.jpg';
 import Fish from '../components/visuals/skeletal-fish_figma.svg';
-import PersonalLogo from '../components/visuals/personal-logo_figma.svg';
-import Zonda from '../components/visuals/zonda_illustrator.png';
+import Zonda from '../components/visuals/zonda_illustrator.jpg';
 
 export default function Visuals() {
     
@@ -19,7 +18,7 @@ export default function Visuals() {
                     A collection of random designs and graphics.
                 </p>
                 <p><br /></p>
-                <img className='project_img' src={PersonalLogo} alt='Personal Logo (Figma)' />
+                <img className='project_img' src={Fish} alt='Fish (Figma)' />
             </div> {/* /project-body */}
             <div className='img-fluid'>
                 <img className='img-fluid_card' src={Formula1} alt='Formula 1 (Figma)' />
@@ -28,8 +27,6 @@ export default function Visuals() {
             </div> {/* /img-fluid */}
             <div className='project_body'>
                 <img className='project_img' src={BellX1} alt='Bell X-1 (SolidWorks)' />
-                <p><br /></p>
-                <img className='project_img' src={Fish} alt='Fish (Figma)' />
                 <p><br /></p>
                 <img className='project_img' src={Zonda} alt='Pagani Zonda (Adobe Illustrator)' />
             </div> {/* /project-body */}
