@@ -14,6 +14,21 @@
     padding-bottom: 3rem;
 }
 
+.project_card {
+    padding: 24px;
+    margin: 0;
+}
+
+.project_card:hover {
+    cursor: pointer;
+    background-color: #dedede;
+    transition: background-color 0.2s linear;
+}
+
+.card_link:hover {
+    text-decoration: none;
+}
+
 .project_content {
     max-width: 1920px;
     margin: auto;
@@ -22,6 +37,7 @@
 .project_banner, .project_img, .img-fluid_card {
     width: 100%;
     height: auto;
+    word-wrap: break-word;
 }
 
 .project_body, .img-section, .img-fluid {
