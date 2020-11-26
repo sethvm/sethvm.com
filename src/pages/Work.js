@@ -3,8 +3,6 @@ import Badge from 'react-bootstrap/Badge'
 import { Link } from 'react-router-dom';
 import '../styles/Project.css';
 
-import Brand from '../components/work/work_banner.svg';
-
 import AlbertCard from '../components/albert/albert-card.svg';
 import FASSBCard from '../components/fassb/fassb-card.svg';
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
@@ -14,10 +12,14 @@ export default function Work() {
 
     return(
         <main className='project animated fadeIn'>
-            <img className='project_banner' src={Brand} alt='banner' />
-            <p>
-                <br />
-            </p>
+            <div className='project_body'>
+                <h4><strong>WORK + PASSION PROJECTS</strong></h4>
+                <p>
+                    <br />
+                    <br />
+                </p>
+                <hr />
+            </div>
             <Card
             link='/soulfx'
             img={SoulfxCard}
@@ -45,9 +47,9 @@ export default function Work() {
             <Card
             link='/visuals'
             img={VisualsCard}
-            title='VISUAL DESIGNS'
-            desc='Illustrations not made for any particular project'>
-                <Badge pill variant='light'>Visual Design</Badge>&nbsp;
+            title='VISUALS'
+            desc='A collection of miscellaneous designs'>
+                <Badge pill variant='light'>Graphic Design</Badge>&nbsp;
             </Card>
         </main>
     );

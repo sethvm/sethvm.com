@@ -13,9 +13,9 @@ export default function Visuals() {
         <>
         <main className='project animated fadeIn'>
             <div className='project_body'>
-                <h4><strong>VISUAL COLLECTION</strong></h4>
+                <h4><strong>VISUALS</strong></h4>
                 <p>
-                    A collection of random designs and graphics.
+                    A collection of miscellaneous designs and graphics.
                 </p>
                 <p><br /></p>
                 <img className='project_img' src={Fish} alt='Fish (Figma)' />

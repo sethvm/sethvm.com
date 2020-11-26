@@ -20,9 +20,13 @@
 }
 
 .project_card:hover {
-    cursor: pointer;
-    background-color: #dedede;
+    cursor: url('../components/Carousel/cursor_view.svg'), pointer;
+    background-color: #e5e5e5;
     transition: background-color 0.2s linear;
+}
+
+.project_card, .project_card > .img-fluid_card {
+    border-radius: 4px;
 }
 
 .card_link:hover {

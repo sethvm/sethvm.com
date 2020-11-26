@@ -1,7 +1,5 @@
 import React from 'react';
-import {
-    Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 export default function Footer(props) {
@@ -27,10 +25,13 @@ function HomeFooter() {
 function PageFooter() {
     return (
         <footer id='footer-page' className='animated fadeIn'>
-            <FooterLink to='/soulfx' text='SOULFX' /> |&nbsp;
-            <FooterLink to='/albert' text='ALBERT' /> |&nbsp;
-            <FooterLink to='/fassb' text='FASSB' /> |&nbsp;
-            <FooterLink to='/visuals' text='VISUAL DESIGNS' />
+            <FooterLink to='/work' text='WORK' /> |&nbsp;
+            <FooterLink to='/about' text='ABOUT' /> |&nbsp;
+            <a rel='noopener noreferrer' href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' target='_blank'>
+                <span className='footer_txt link'>
+                    <strong>GET IN TOUCH</strong>
+                </span>
+            </a>
             <br />
             <br />
             <FooterText />
@@ -40,7 +41,7 @@ function PageFooter() {
 
 function FooterText() {
     return(
-        <div className='footer_txt'>Designed + built by Seth Morenos, 2020<br /></div>
+        <div className='footer_txt'>Designed + built by Seth Morenos<br /></div>
     );
 }
 
