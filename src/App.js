@@ -24,6 +24,7 @@ import Soulfx from './pages/Soulfx';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 import Visuals from './pages/Visuals';
+import Work from './pages/Work';
 
 export default function App() {
     return (
@@ -65,6 +66,7 @@ function Page() {
             <Route exact={true} path='/fassb' component={FASSB} />
             <Route exact={true} path='/soulfx' component={Soulfx} />
             <Route exact={true} path='/visuals' component={Visuals} />
+            <Route exact={true} path='/work' component={Work} />
         </Switch>
         </PageContent>
         <TopShortcut />

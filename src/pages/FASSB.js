@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Project.css';
 
-import Banner from '../components/fassb/banner_fassb.svg';
+import Banner from '../components/fassb/fassb-banner.svg';
 import Methodology from '../components/fassb/methodology_fassb.svg';
 import RecordList from '../components/fassb/interface0_fassb.svg';
 import CreateRecord from '../components/fassb/interface1_fassb.svg';
