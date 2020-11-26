@@ -15,18 +15,18 @@
 }
 
 .project_card {
-    padding: 24px;
+    border-radius: 10px;
     margin: 0;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
+    -webkit-box-animation: 0 0 8px rgba(42, 42, 42, 0.16);
+    -webkit-box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
 }
 
 .project_card:hover {
     cursor: url('../components/Carousel/cursor_view.svg'), pointer;
-    background-color: #e5e5e5;
+    background-color: #e7e7e7;
     transition: background-color 0.2s linear;
-}
-
-.project_card, .project_card > .img-fluid_card {
-    border-radius: 4px;
 }
 
 .card_link:hover {
@@ -36,6 +36,10 @@
 .project_content {
     max-width: 1920px;
     margin: auto;
+}
+
+.card_text {
+    padding: 24px;
 }
 
 .project_banner, .project_img, .img-fluid_card {

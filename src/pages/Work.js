@@ -13,12 +13,10 @@ export default function Work() {
     return(
         <main className='project animated fadeIn'>
             <div className='project_body'>
-                <h4><strong>WORK + PASSION PROJECTS</strong></h4>
+                <h4><strong>PROJECTS</strong></h4>
                 <p>
-                    <br />
-                    <br />
+                    Work experience, passion projects and some occasional scribbles
                 </p>
-                <hr />
             </div>
             <Card
             link='/soulfx'
@@ -64,7 +62,7 @@ function Card(props) {
         <Link to={props.link} className='card_link'>
             <div className='img-fluid project_card'>
                 <img className='img-fluid_card' src={props.img} alt='Soulfx patient support application' />
-                <div className='img-fluid_card'>
+                <div className='img-fluid_card card_text'>
                     <p>
                         <br />
                         <h5><strong>{props.title}</strong></h5>
