@@ -5,6 +5,10 @@
     padding-bottom: 2em;
 }
 
+.hightlight_indent {
+    margin-left: 10px;
+}
+
 .indented {
     margin-left: 1.75em;
 }
@@ -40,6 +44,7 @@
 
 .card_text {
     padding: 24px;
+    padding-top: 5px;
 }
 
 .project_banner, .project_img, .img-fluid_card {
@@ -65,6 +70,9 @@
 }
 
 @media (min-width: 768px) {     /*md breakpoint*/
+    .card_text {
+        padding-top: 24px;
+    }
     .project_body {
         width: 85%;
         margin-left: 7.5%;

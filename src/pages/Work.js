@@ -21,6 +21,7 @@ export default function Work() {
             <Card
             link='/soulfx'
             img={SoulfxCard}
+            alt='Soulfx patient support application'
             title='PATIENT SUPPORT APP'
             desc='Bringing remote services to patients in need'>
                 <Badge pill variant='light'>Software / UX Design</Badge>&nbsp;
@@ -29,6 +30,7 @@ export default function Work() {
             <Card
             link='/albert'
             img={AlbertCard}
+            alt='Project ALbert'
             title='PROJECT ALBERT'
             desc='Mitigating the stress of relocating'>
                 <Badge pill variant='light'>Branding</Badge>&nbsp;
@@ -37,6 +39,7 @@ export default function Work() {
             <Card
             link='/fassb'
             img={FASSBCard}
+            alt='FASSB UI/UX'
             title='FASSB UI/UX'
             desc='My first design internship in a nutshell'>
                 <Badge pill variant='light'>UI / UX Design</Badge>&nbsp;
@@ -45,6 +48,7 @@ export default function Work() {
             <Card
             link='/visuals'
             img={VisualsCard}
+            alt='Visuals'
             title='VISUALS'
             desc='A collection of miscellaneous designs'>
                 <Badge pill variant='light'>Graphic Design</Badge>&nbsp;
@@ -61,7 +65,7 @@ function Card(props) {
         </p>
         <Link to={props.link} className='card_link'>
             <div className='img-fluid project_card'>
-                <img className='img-fluid_card' src={props.img} alt='Soulfx patient support application' />
+                <img className='img-fluid_card' src={props.img} alt={props.alt} />
                 <div className='img-fluid_card card_text'>
                     <p>
                         <br />

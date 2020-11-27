@@ -70,13 +70,12 @@ export default function Albert() {
                     <br />
                     <br />
                     <br />
-                    Our branding colour palette was created following Google's Material design guidelines. Blue represents the <strong>relief and calm</strong>
-                    &nbsp;felt by prospective residents upon securing a new home, while orange embodies the <strong>warmth and security</strong>
-                    &nbsp;provided by shelter. A background colour symbolizes the <strong>uncertainty</strong>
-                    &nbsp;faced upon searching for a new place to live.
-                    <br />
-                    <br />
-                    <br />
+                    <Jumbotron className='highlight'>
+                        Blue represents the <strong>relief and calm</strong>
+                        &nbsp;felt by prospective residents upon securing a new home, while orange embodies the <strong>warmth and security</strong>
+                        &nbsp;provided by shelter. A background colour symbolizes the <strong>uncertainty</strong>
+                        &nbsp;faced upon searching for a new place to live.
+                    </Jumbotron>
                     <div className='project_img_caption'>
                         <p>                  
                             <em><strong>Branding Colour Guide</strong></em>
@@ -88,13 +87,13 @@ export default function Albert() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>USER RESEARCH</strong></h4>
+                <h4><strong>GENERATIVE RESEARCH</strong></h4>
                 <p>
                     To better understand the audience we are targeting with Project Albert, we conducted a survey 
                     to obtain insight into what factors are considered prior to deciding upon renting or
                     purchasing a place. Our respondents consisted of University of Waterloo co-op <strong>students</strong> (who
-                    are going into their co-op terms and are searching for places to live) and <strong>newcomers</strong> to the
-                    Greater Toronto Area (GTA).
+                    are going into their co-op terms and are searching for places to live) and <strong>newcomers from outside of
+                    Canada</strong> who are new to the Greater Toronto Area (GTA).
                     <br />
                     <br/>
                     Combining the results from this survey with information gathered through secondary research involving
@@ -102,25 +101,34 @@ export default function Albert() {
                     <br />
                     <br />
                     <Jumbotron className='highlight'>
-                        <strong>1)</strong> The vast majority of newcomers and students alike do not have access to personal transport,
-                        and thus value proximity to public transit - respondents both demographics have expressed willingness to forgo proximity
-                        to work for the sake of being close to public transit.
-                        <br />
-                        <br />
-                        <strong>2)</strong> Proximity to shopping centers is also of importance, albeit to a lesser degree in comparison
-                        to public transit. Newcomers placed value on proximity to tourist attractions, while students gravitated towards
-                        services such as fitness centers and hospitals.
-                        <br />
-                        <br />
-                        <strong>3)</strong> Because newcomers and students are often running with tight budgets, renting/housing cost
-                        is the most heavily weighed non-geographical factor when deciding on a place to live.
+                        <strong>Both of our user groups...</strong>
+                            <div className='hightlight_indent'>
+                                • Consider proximity to public transit as the most important factor
+                                <br />
+                                • Would ideally like to live close to shopping centers
+                                <br />
+                                • Enjoy discovering cnew cities by exploring landmarks and tourist attractions
+                                <br />
+                                <br />
+                            </div>
+                        <strong>Our students...</strong>
+                            <div className='hightlight_indent'>
+                                • Value proximity to fitness facilities and hospitals
+                                <br />
+                                <br />
+                            </div>
+                        <strong>Our newcomers...</strong>
+                            <div className='hightlight_indent'>
+                                • Cite language barriers as one of their greatest challenges when learning to find their way around
+                            </div>
                     </Jumbotron>
                     <br />
                 </p>
                 <h4><strong>MOVING FORWARD</strong></h4>
                 <p>
                     Our next steps involve modelling how a user might walk through the process of finding their optimal living location using
-                    the application - we will also begin ideating how the application's layout and navigation might look like visually.
+                    the application - we will also begin ideating how the application's layout and navigation might look like visually. Focus will
+                    be placed on addressing the findings discussed during generative research.
                 </p>
             </div> {/* /project-body */}
         </main> {/* /project */}
