@@ -65,7 +65,9 @@ function Card(props) {
                 <div className='img-fluid_card card_text'>
                     <p>
                         <br />
+                    </p>
                         <h5><strong>{props.title}</strong></h5>
+                    <p>
                         {props.desc}
                         <br />
                         <br />
