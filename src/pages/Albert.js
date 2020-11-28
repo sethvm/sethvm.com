@@ -17,9 +17,8 @@ export default function Albert() {
                 <h4><strong>OVERVIEW</strong></h4>
                 <p>
                     Project Albert is an ongoing development of a web-based application that provides assistance to any 
-                    individual looking to move to a new city for employment.
-                    It aims to alleviate relocation stress by providing visuals of renting options,
-                    commute routes to their new workplace, and available services - all within a single map.
+                    individual looking to move to a new city. It aims to alleviate relocation stress by providing visuals of renting options,
+                    commute routes to a new workplace, and available services - all within a single map.
                     <br />
                     <br />
                 </p>
@@ -37,7 +36,7 @@ export default function Albert() {
                 </p>
                 <h4><strong>PROBLEM</strong></h4>
                 <p>
-                    Planning a relocation to an unfamiliar city for work can be a daunting task. 
+                    Planning a relocation to an unfamiliar city can be a daunting task. 
                     Looking through different listing sites for residence is often made more tedious by having to use 
                     different applications to obtain information regarding transit options and available services.
                     <br />
@@ -91,8 +90,8 @@ export default function Albert() {
                 <p>
                     To better understand the audience we are targeting with Project Albert, we conducted a survey 
                     to obtain insight into what factors are considered prior to deciding upon renting or
-                    purchasing a place. Our respondents consisted of University of Waterloo co-op <strong>students</strong> (who
-                    are going into their co-op terms and are searching for places to live) and <strong>newcomers from outside of
+                    purchasing a place. Our respondents consisted of University of Waterloo <strong>students</strong> (namely
+                    those studying in co-operative education streams) and <strong>newcomers from outside of
                     Canada</strong> who are new to the Greater Toronto Area (GTA).
                     <br />
                     <br/>
@@ -126,9 +125,9 @@ export default function Albert() {
                 </p>
                 <h4><strong>MOVING FORWARD</strong></h4>
                 <p>
-                    Our next steps involve modelling how a user might walk through the process of finding their optimal living location using
-                    the application - we will also begin ideating how the application's layout and navigation might look like visually. Focus will
-                    be placed on addressing the findings discussed during generative research.
+                    Our next steps involve conducting an analysis of some popular mapping applications in the market. We will also begin ideating
+                    how the application's layout and navigation might look visually - focus will be placed on how these could be leveraged to address
+                    the findings discussed during generative research.
                 </p>
             </div> {/* /project-body */}
         </main> {/* /project */}
