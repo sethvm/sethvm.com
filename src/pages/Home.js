@@ -13,8 +13,6 @@ export default function Home() {
             <div className='intro_md animated fadeIn'>
                 <h1><strong>Hello! I'm Seth.</strong></h1>
                 <p>
-                    <br />Thanks for stopping by!
-                    <br />
                     <br />I'm a <strong>designer</strong> pursuing a BASc. in
                     <br /><strong>Systems Design Engineering</strong> with a passion for
                     <br />creating products that help <strong>move the world forward</strong>.
@@ -26,8 +24,6 @@ export default function Home() {
                     <br />
                 </h1>
                 <p> 
-                    <br />Thanks for stopping by!
-                    <br />
                     <br />I'm a <strong>designer</strong> pursuing a BASc. in
                     <br /><strong>Systems Design Engineering</strong> with a
                     <br />passion for creating products that

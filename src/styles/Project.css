@@ -29,7 +29,7 @@
 
 .project_card:hover {
     cursor: url('../components/Carousel/cursor_view.svg'), pointer;
-    background-color: #e7e7e7;
+    background-color: #eaeaea;
     transition: background-color 0.2s linear;
 }
 

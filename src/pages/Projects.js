@@ -8,7 +8,7 @@ import FASSBCard from '../components/fassb/fassb-card.svg';
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 import VisualsCard from '../components/visuals/visuals-card.svg';
 
-export default function Work() {
+export default function Projects() {
 
     return(
         <main className='project animated fadeIn'>
