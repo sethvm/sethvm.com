@@ -15,7 +15,7 @@
 
 .project {
     width: 100%;
-    padding-bottom: 3rem;
+    padding-bottom: 3em;
 }
 
 .card_link:hover {
@@ -63,8 +63,8 @@
 }
 
 .project_body {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .project_img_caption {

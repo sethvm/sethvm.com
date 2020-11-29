@@ -11,9 +11,16 @@
 
 @media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
     .shortcut_logo {
-        width: 28px;
-        height: 28px;
-        bottom: 7rem;
+        width: 32px;
+        height: 32px;
+        bottom: 116px;
         right: 12.5%;
+    }
+}
+
+@media (min-width: 1024px) {    /*LG QUERY*/
+    .shortcut_logo {
+        width: 36px;
+        height: 36px;
     }
 }
