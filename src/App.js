@@ -13,7 +13,6 @@ import Header from './components/Header/Header';
 import Carousel from './components/Carousel/Carousel';
 import SideBar from './components/SideBar/SideBar';
 import TopShortcut from './components/TopShortcut/TopShortcut';
-import PageContent from './pages/PageContainer';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import Footer from './components/Footer/Footer';
 
@@ -59,7 +58,7 @@ function Page() {
         <Header 
         pageType='nav-page' 
         aboutType='nav-desktop-page link' />
-        <PageContent>
+        <Content>
         <Switch>
             <Route exact={true} path='/about' component={About} />
             <Route exact={true} path='/albert' component={Albert} />
@@ -68,10 +67,19 @@ function Page() {
             <Route exact={true} path='/visuals' component={Visuals} />
             <Route exact={true} path='/projects' component={Projects} />
         </Switch>
-        </PageContent>
+        </Content>
         <TopShortcut />
         <SideBar />
         <Footer isHome={false} />
         </>
     );
+}
+
+function Content(props) {
+    return(
+        <div className='content'>
+            {props.children}
+        </div>
+    )
+    ;
 }
