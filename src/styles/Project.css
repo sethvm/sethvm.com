@@ -18,10 +18,16 @@
     padding-bottom: 3rem;
 }
 
+.card_link:hover {
+    text-decoration: none;
+}
+
 .project_card {
-    border-radius: 10px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     overflow: hidden;
+    border-radius: 10px;
     box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
     -webkit-box-animation: 0 0 8px rgba(42, 42, 42, 0.16);
     -webkit-box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
@@ -33,18 +39,20 @@
     transition: background-color 0.2s linear;
 }
 
-.card_link:hover {
-    text-decoration: none;
+.card_img, .card_text {
+    width: 100%;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6%;
 }
 
 .project_content {
     max-width: 1920px;
     margin: auto;
-}
-
-.card_text {
-    padding: 24px;
-    padding-top: 5px;
 }
 
 .project_banner, .project_img, .img-fluid_card {
@@ -70,8 +78,17 @@
 }
 
 @media (min-width: 768px) {     /*md breakpoint*/
+    .project_card {
+        flex-direction: row;
+    }
+    .card_img, .card_text {
+        width: 50%;
+    }
+    .card_img {
+        left: 0;
+    }
     .card_text {
-        padding-top: 24px;
+        right: 0;
     }
     .project_body {
         width: 85%;
@@ -86,24 +103,6 @@
     .img-fluid_card {
         width: 48%;
         height: auto;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 836px) { /*card text breakpoint*/
-    .img-fluid_card > h5 {
-        font-size: 0.925em;
-    }
-    .img-fluid_card > p {
-        font-size: 0.7em;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1360px) { /*card text breakpoint*/
-    .img-fluid_card > h5 {
-        font-size: 0.925em;
-    }
-    .img-fluid_card > p {
-        font-size: 0.7em;
     }
 }
 
