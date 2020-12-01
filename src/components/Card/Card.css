@@ -1,0 +1,52 @@
+.card_link:hover {
+    text-decoration: none;
+}
+
+.project_card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
+    -webkit-box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
+    -moz-box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
+}
+
+.project_card:hover {
+    cursor: url('../Carousel/cursor_view.svg'), pointer;
+    background-color: #eaeaea;
+    transition: background-color 0.2s linear;
+    box-shadow: 0 0 16px 16px rgba(42, 42, 42, 0.16);
+    -webkit-box-shadow: 0 0 16px 16px rgba(42, 42, 42, 0.16);
+    -moz-box-shadow: 0 0 16px 16px rgba(42, 42, 42, 0.16);
+    transition: box-shadow 0.2s linear;
+}
+
+.card_img, .card_text {
+    width: 100%;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6%;
+}
+
+@media (min-width: 768px) {     /*md breakpoint*/
+    .project_card {
+        flex-direction: row;
+        max-width: 840px;
+    }
+    .card_img, .card_text {
+        width: 50%;
+    }
+    .card_img {
+        left: 0;
+    }
+    .card_text {
+        right: 0;
+    }
+}

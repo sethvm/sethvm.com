@@ -18,53 +18,23 @@
     padding-bottom: 3em;
 }
 
-.card_link:hover {
-    text-decoration: none;
-}
-
-.project_card {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
-    -webkit-box-animation: 0 0 8px rgba(42, 42, 42, 0.16);
-    -webkit-box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
-}
-
-.project_card:hover {
-    cursor: url('../components/Carousel/cursor_view.svg'), pointer;
-    background-color: #eaeaea;
-    transition: background-color 0.2s linear;
-}
-
-.card_img, .card_text {
-    width: 100%;
-}
-
-.card_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 6%;
-}
-
 .project_banner, .project_img, .img-fluid_card {
     width: 100%;
     height: auto;
     word-wrap: break-word;
 }
 
-.project_body, .img-section, .img-fluid {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+.projects_list, .project_body, .img-section, .img-fluid {
+    width: 85%;
 }
 
-.project_body {
-    margin-top: 3em;
-    margin-bottom: 3em;
+.projects_list, .project_body {
+    margin: 3em auto;
+}
+
+.img-section, .img-fluid {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .project_img_caption {
@@ -73,22 +43,8 @@
 }
 
 @media (min-width: 768px) {     /*md breakpoint*/
-    .project_card {
-        flex-direction: row;
-    }
-    .card_img, .card_text {
-        width: 50%;
-    }
-    .card_img {
-        left: 0;
-    }
-    .card_text {
-        right: 0;
-    }
-    .project_body {
-        width: 85%;
-        margin-left: 7.5%;
-        margin-right: 7.5%;
+    .projects_list {
+        max-width: 840px;
     }
     .img-fluid, .img-section {
         display: inline-flex;

@@ -1,6 +1,6 @@
 import React from 'react';
-import Badge from 'react-bootstrap/Badge'
-import { Link } from 'react-router-dom';
+import Badge from 'react-bootstrap/Badge';
+import Card from '../components/Card/Card';
 import '../styles/Project.css';
 
 import AlbertCard from '../components/albert/albert-card.svg';
@@ -12,10 +12,13 @@ export default function Projects() {
 
     return(
         <main className='project animated fadeIn'>
-            <div className='project_body'>
+            <div className='projects_list'>
                 <h4><strong>PROJECTS</strong></h4>
                 <p>
                     Work experience, passion projects and some occasional scribbles
+                    <br />
+                    <br />
+                    <hr />
                 </p>
                 <Card
                 link='/soulfx'
@@ -54,32 +57,5 @@ export default function Projects() {
                 </Card>
             </div>
         </main>
-    );
-}
-
-function Card(props) {
-    return(
-        <>
-        <p>
-            <br />
-        </p>
-        <Link to={props.link} className='card_link'>
-            <div className='project_card'>
-                <img className='card_img' src={props.img} alt={props.alt} />
-                <div className='card_text'>
-                    <h5><strong>{props.title}</strong></h5>
-                    <p>
-                        {props.desc}
-                        <br />
-                        <br />
-                        {props.children}
-                    </p>
-                </div>
-            </div>
-        </Link>
-        <p>
-            <br />
-        </p>
-        </>
     );
 }
