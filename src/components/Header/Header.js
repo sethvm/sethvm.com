@@ -6,6 +6,7 @@ import React, {
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
+import { Sling as Hamburger } from 'hamburger-react';
 import './Header.css';
 
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
@@ -52,11 +53,12 @@ export default function Header(props) {
                 </Nav.Link>
                 <Navbar.Toggle className='mobile_nav' aria-controls='nav-dropdown'
                 ref={node}>
-                    <span>
-                        <div className='menu_bar' />
-                        <div className='menu_bar' />
-                        <div className='menu_bar' />
-                    </span>
+                    <Hamburger 
+                    color='#004080' 
+                    size={25} 
+                    toggled={expanded} 
+                    toggle={setExpanded}
+                    label='Show Menu'/>
                 </Navbar.Toggle>
                 <Navbar.Collapse id='nav-dropdown'>
                     <Nav className='nav_drop' 
