@@ -63,7 +63,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 768px) {     /*md; iPad*/
+/*md breakpoint*/
+@media (min-width: 768px) {
     .nav_banner {
         top: 24px;
         left: 5%;
@@ -71,7 +72,8 @@
     }
 }
 
-@media (min-width: 1024px) {        /*HIDE MD QUERIES; DISPLAY LG QUERIES*/
+/*lg breakpoint*/
+@media (min-width: 1024px) {
     .nav-page {
         background: transparent;
     }

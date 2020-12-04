@@ -40,7 +40,7 @@ export default function Header(props) {
         return () => {
             document.removeEventListener('mousedown', handleClick);
         };
-    }, [handleClick] );
+    }, [handleClick]);
 
     return (
         <header className={props.pageType}>

@@ -1,5 +1,5 @@
 #carousel {
-    width: 80vw;
+    width: 80%;
     height: 56%;
     position: absolute;
     bottom: 0;
@@ -34,20 +34,23 @@
     cursor: url('cursor_prev.svg'), pointer;
 }
 
-@media (min-width: 577px) and (max-width: 767px) {      /*SM; MOBILE*/
+/*sm breakpoint*/
+@media (min-width: 577px) {
     #carousel {
         width: 420px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {     /*MD; iPAD*/
+/*md breakpoint*/
+@media (min-width: 768px) {
     #carousel {
         width: 548px;
         height: 50%;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {    /*LG; iPAD PRO*/
+/*lg breakpoint*/
+@media (min-width: 1024px) {
     #carousel {
         width: 505px;
         height: 80%;
@@ -55,7 +58,7 @@
     }
 }
 
-@media (min-width: 1281px) and (max-width: 1439px) {    /*LG; PC*/
+@media (min-width: 1281px) {
     #carousel {
         width: 550px;
         height: 85%;
@@ -71,7 +74,8 @@
     }
 }
 
-@media (min-width: 2300px) {    /*LG; ULTRAWIDE*/
+/*ultrawide breakpoint*/
+@media (min-width: 2300px) {
     #carousel {
         width: 825px;
         left: 42.5%;

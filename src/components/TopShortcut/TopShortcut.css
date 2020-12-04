@@ -9,7 +9,8 @@
     position: fixed;
 }
 
-@media (min-width: 768px) {     /*HIDE SM QUERIES; DISPLAY MD QUERIES*/
+/*md breakpoint*/
+@media (min-width: 768px) {
     .shortcut_logo {
         width: 32px;
         height: 32px;
@@ -18,7 +19,8 @@
     }
 }
 
-@media (min-width: 1024px) {    /*LG QUERY*/
+/*lg breakpoint*/
+@media (min-width: 1024px) {
     .shortcut_logo {
         width: 36px;
         height: 36px;

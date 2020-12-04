@@ -6,7 +6,8 @@
     background-color: #004080;
 }
 
-@media (min-width: 1024px) {        /*lg breakpoint*/
+/*lg breakpoint*/
+@media (min-width: 1024px) {
     .block-blue {
         height: 100%;
         position: fixed;
