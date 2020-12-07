@@ -3,6 +3,6 @@ import './BlueBlock.css';
 
 export default function BlueBlock() {
     return (
-        <span className='block-blue animated fadeInLeft' />
+        <span className='block-blue animate__animated animate__fadeInLeft' />
     );
 }

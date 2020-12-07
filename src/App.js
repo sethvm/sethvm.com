@@ -5,7 +5,7 @@ import {
     Route
 } from 'react-router-dom';
 import ScrollToTop from './components/TopShortcut/ScrollToTop';
-import './styles/animate.min.css';
+import 'animate.css/animate.min.css';
 import './styles/bootstrap.min.css';
 
 // component imports
@@ -41,7 +41,7 @@ function HomePage() {
     return (
         <>
         <Header 
-        pageType='nav-home animated fadeIn' 
+        pageType='nav-home animate__animated animate__fadeIn' 
         aboutType='nav-desktop-home link' />
         <Home />
         <Carousel />

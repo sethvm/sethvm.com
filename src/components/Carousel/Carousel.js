@@ -9,7 +9,7 @@ import Soulfx from '../soulfx/soulfx-carousel.svg';
 
 export default function HomeCarousel() {
     return(
-        <Carousel id='carousel' className='animated fadeInUp'
+        <Carousel id='carousel' className='animate__animated animate__fadeInUp'
         keyboard={true}
         indicators={true}
         interval={4000}>

@@ -10,7 +10,7 @@ import ResumeLogo from './resume-logo.svg';
 
 export default function SideBar() {
     return (
-        <div className='sidebar animated fadeIn'>
+        <div className='sidebar animate__animated animate__fadeIn'>
             <SideBarItem href={ResumeFile} img={ResumeLogo} alt='resume' />
             <SideBarItem href='https://www.behance.net/sethvm/' img={BehanceLogo} alt='behance.net/sethvm' />
             <SideBarItem href='https://github.com/sethvm' img={GitHubLogo} alt='github.com/sethvm' />

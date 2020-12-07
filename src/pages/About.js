@@ -10,7 +10,7 @@ export default function About() {
     
     return(
         <>
-        <main className='project animated fadeIn'>
+        <main className='project animate__animated animate__fadeIn'>
             <div className='project_body'>
                 <h4><strong>DESIGNER - ENGINEERING STUDENT - ADRENALINE JUNKIE</strong></h4>
                 <p>

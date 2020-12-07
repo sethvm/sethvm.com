@@ -11,7 +11,7 @@ export default function Visuals() {
     
     return(
         <>
-        <main className='project animated fadeIn'>
+        <main className='project animate__animated animate__fadeIn'>
             <div className='project_body'>
                 <h4><strong>VISUALS</strong></h4>
                 <p>

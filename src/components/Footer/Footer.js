@@ -16,7 +16,7 @@ export default function Footer(props) {
 
 function HomeFooter() {
     return (
-        <footer id='footer-home' className='animated fadeIn'>
+        <footer id='footer-home' className='animate__animated animate__fadeIn'>
             <FooterText />
         </footer>
     );
@@ -24,7 +24,7 @@ function HomeFooter() {
 
 function PageFooter() {
     return (
-        <footer id='footer-page' className='animated fadeIn'>
+        <footer id='footer-page' className='animate__animated animate__fadeIn'>
             <FooterLink to='/work' text='WORK' /> |&nbsp;
             <FooterLink to='/about' text='ABOUT' /> |&nbsp;
             <a rel='noopener noreferrer' href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' target='_blank'>

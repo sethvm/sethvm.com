@@ -11,7 +11,7 @@ import VisualsCard from '../components/visuals/visuals-card.svg';
 export default function Work() {
 
     return(
-        <main className='project animated fadeIn'>
+        <main className='project animate__animated animate__fadeIn'>
             <div className='projects_list'>
                 <h4><strong>WORK</strong></h4>
                 <p>

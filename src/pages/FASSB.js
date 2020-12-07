@@ -19,7 +19,7 @@ export default function FASSB() {
     
     return (
         <>
-        <main className='project animated fadeIn'>
+        <main className='project  animate__animated animate__fadeIn'>
             <img className='project_banner' src={Banner} alt='fassb' />
             <div className='project_body'>
                 <h4><strong>OVERVIEW</strong></h4>

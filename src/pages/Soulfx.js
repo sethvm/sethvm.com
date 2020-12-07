@@ -21,7 +21,7 @@ export default function Soulfx() {
 
     return(
         <>
-        <main className='project animated fadeIn'>
+        <main className='project animate__animated animate__fadeIn'>
             <img className='project_banner' src={Banner} alt='soulfx patient support app' />
             <div className='project_body'>
                 <h4><strong>OVERVIEW</strong></h4>
