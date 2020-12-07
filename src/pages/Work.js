@@ -8,14 +8,14 @@ import FASSBCard from '../components/fassb/fassb-card.svg';
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 import VisualsCard from '../components/visuals/visuals-card.svg';
 
-export default function Projects() {
+export default function Work() {
 
     return(
         <main className='project animated fadeIn'>
             <div className='projects_list'>
-                <h4><strong>PROJECTS</strong></h4>
+                <h4><strong>WORK</strong></h4>
                 <p>
-                    Work experience, passion projects and some occasional scribbles
+                    Experience, passion projects and some occasional scribbles
                     <br />
                     <br />
                     <hr />

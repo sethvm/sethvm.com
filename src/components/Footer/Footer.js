@@ -25,7 +25,7 @@ function HomeFooter() {
 function PageFooter() {
     return (
         <footer id='footer-page' className='animated fadeIn'>
-            <FooterLink to='/projects' text='PROJECTS' /> |&nbsp;
+            <FooterLink to='/work' text='WORK' /> |&nbsp;
             <FooterLink to='/about' text='ABOUT' /> |&nbsp;
             <a rel='noopener noreferrer' href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' target='_blank'>
                 <span className='footer_txt link'>
