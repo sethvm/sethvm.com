@@ -27,7 +27,7 @@ a:hover {
 }
 
 /*lg breakpoint*/
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     #footer-home {
         display: block;
         position: absolute;

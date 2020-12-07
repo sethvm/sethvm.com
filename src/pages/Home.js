@@ -29,10 +29,12 @@ export default function Home() {
                     <br />passion for creating products that
                     <br />help <strong>move the world forward</strong>.
                     <br />
-                    <br />My previous experience includes...
                     <br />
-                    <br /><strong>Software Design</strong> @ Soulfx Technologies
-                    <br /><strong>UX and Web Design</strong> @ OPS
+                    <div className='intro_experience'>My previous experience includes...
+                        <br />
+                        <br /><strong>Software Design</strong> @ Soulfx Technologies
+                        <br /><strong>UX and Web Design</strong> @ OPS
+                    </div>
                 </p>
             </div> {/* /intro-lg */}
         </main>

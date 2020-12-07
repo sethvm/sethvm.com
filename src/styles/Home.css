@@ -19,13 +19,18 @@ h1 {
     display: none;
 }
 
-@media (min-width: 768px) {     /*md breakpoint*/
+.intro_experience {
+    display: none;
+}
+
+/*md breakpoint*/
+@media (min-width: 768px) {
     .intro_sm {
         display: none;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {     /*md; iPad*/
+@media (min-width: 768px) and (max-width: 1023px) {
     .intro_md {
         display: block;
         position: absolute;
@@ -37,7 +42,8 @@ h1 {
     }
 }
 
-@media (min-width: 1024px) {        /*lg breakpoint*/
+ /*lg breakpoint*/
+@media (min-width: 1024px) {
     .intro_lg {
         display: block;
         position: absolute;
@@ -48,14 +54,20 @@ h1 {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {    /*lg; iPad Pro*/
+@media (min-width: 1024px) {
     .intro_lg {
-        top: 22%;
+        top: 17%;
         left: 7.5%;
     }
 }
 
-@media (min-width: 1281px) and (max-width: 1439px) {    /*lg; desktop*/
+@media (min-width: 1200px) {
+    .intro_experience {
+        display: block;
+    }
+}
+
+@media (min-width: 1281px) {
     .intro_lg {
         top: 22.5%;
         left: 11%;
@@ -69,7 +81,8 @@ h1 {
     }
 }
 
-@media (min-width: 2300px) {    /*lg; ultrawide*/
+/*ultrawide breakpoint*/
+@media (min-width: 2300px) {
     .intro_lg {
         left: 16%;
     }

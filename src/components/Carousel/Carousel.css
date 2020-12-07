@@ -1,6 +1,6 @@
 #carousel {
     width: 80%;
-    height: 56%;
+    height: 50%;
     position: absolute;
     bottom: 0;
     left: 10%;
@@ -45,24 +45,16 @@
 @media (min-width: 768px) {
     #carousel {
         width: 548px;
-        height: 50%;
+        height: 52.5%;
     }
 }
 
 /*lg breakpoint*/
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     #carousel {
         width: 505px;
-        height: 80%;
+        height: 65%;
         left: 50.7%;
-    }
-}
-
-@media (min-width: 1281px) {
-    #carousel {
-        width: 550px;
-        height: 85%;
-        left: 51.5%;
     }
 }
 
