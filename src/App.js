@@ -68,9 +68,9 @@ function Page() {
             <Route exact={true} path='/work' component={Work} />
         </Switch>
         </Content>
-        <TopShortcut />
         <SideBar />
         <Footer isHome={false} />
+        <TopShortcut />
         </>
     );
 }

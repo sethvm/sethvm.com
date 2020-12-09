@@ -9,9 +9,7 @@ export default function TopShortcut() {
         <BackToTop
         showAt={800}
         speed={1800}>
-            <div className='top_shortcut'>
-                <img src={UpArrowLogo} className='shortcut_logo' alt='back to top' />
-            </div>
+            <img src={UpArrowLogo} className='shortcut_logo' alt='back to top' />
         </BackToTop>
     );
 }

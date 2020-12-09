@@ -1,28 +1,18 @@
-.top_shortcut {
-    float: right;
-    font-family: "FuturaPTWebBook", "Montserrat", sans-serif;
-}
-
 .shortcut_logo {
-    bottom: 17%;
-    right: 5%;
+    width: 45px;
+    height: 45px;
+    bottom: 40px;
+    left: 44vw;
     position: fixed;
 }
 
 /*md breakpoint*/
 @media (min-width: 768px) {
     .shortcut_logo {
-        width: 32px;
-        height: 32px;
-        bottom: 116px;
-        right: 12.5%;
-    }
-}
-
-/*lg breakpoint*/
-@media (min-width: 1024px) {
-    .shortcut_logo {
         width: 36px;
         height: 36px;
+        bottom: 116px;
+        left: auto;
+        right: 10%;
     }
 }
