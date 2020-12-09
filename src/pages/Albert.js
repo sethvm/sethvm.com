@@ -88,9 +88,9 @@ export default function Albert() {
                 </p>
                 <h4><strong>GENERATIVE RESEARCH</strong></h4>
                 <p>
-                    To better understand the audience we are targeting with Project Albert, we conducted a survey 
-                    to obtain insight into what factors are considered prior to deciding upon renting or
-                    purchasing a place. Our respondents consisted of University of Waterloo <strong>students</strong> (namely
+                    To better understand the people we are building Project Albert for, we conducted a survey 
+                    to obtain insight into the factors they consider and challenges they face when evaluating a potential living
+                    location. Our respondents consisted of University of Waterloo <strong>students</strong> (namely
                     those studying in co-operative education streams) and <strong>newcomers from outside of
                     Canada</strong> who are new to the Greater Toronto Area (GTA).
                     <br />
