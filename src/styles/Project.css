@@ -18,6 +18,14 @@
     padding-bottom: 3em;
 }
 
+.error {
+    text-align: center;
+}
+
+.error_text {
+    color: #AB1F20;
+}
+
 .project_banner, .project_img, .img-fluid_card {
     width: 100%;
     height: auto;
@@ -42,7 +50,8 @@
     justify-content: center;
 }
 
-@media (min-width: 768px) {     /*md breakpoint*/
+/*md breakpoint*/
+@media (min-width: 768px) {
     .projects_list {
         max-width: 840px;
     }
@@ -57,7 +66,8 @@
     }
 }
 
-@media (min-width: 1024px) {        /*lg breakpoint*/
+/*lg breakpoint*/
+@media (min-width: 1024px) {
     .project_banner, .img-section {
         width: 70%;
         margin-left: 15%;

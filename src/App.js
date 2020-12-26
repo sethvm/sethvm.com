@@ -18,6 +18,7 @@ import Footer from './components/Footer/Footer';
 
 // page body content
 import Home from './pages/Home';
+import Error from './pages/Error';
 import About from './pages/About';
 import Soulfx from './pages/Soulfx';
 import Albert from './pages/Albert';
@@ -66,6 +67,7 @@ function Page() {
             <Route exact={true} path='/soulfx' component={Soulfx} />
             <Route exact={true} path='/visuals' component={Visuals} />
             <Route exact={true} path='/work' component={Work} />
+            <Route component={Error} />
         </Switch>
         </Content>
         <SideBar />
