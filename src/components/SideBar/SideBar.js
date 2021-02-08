@@ -9,9 +9,9 @@ import ResumeLogo from './resume-logo.svg';
 export default function SideBar() {
     return (
         <div className='sidebar animate__animated animate__fadeIn'>
-            <SideBarItem href={ResumeFile} img={ResumeLogo} alt='resume' />
             <SideBarItem href='https://www.linkedin.com/in/sethvm' img={LinkedInLogo} alt='linkedin.com/in/sethvm' />
             <SideBarItem href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' img={ContactLogo} alt='contact' />
+            <SideBarItem href={ResumeFile} img={ResumeLogo} alt='resume' />
         </div>
     );
 }

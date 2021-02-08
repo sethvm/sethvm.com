@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
 import AlbertCard from '../components/albert/albert-card.svg';
-/*import FASSBCard from '../components/fassb/fassb-card.svg';*/
+import FASSBCard from '../components/fassb/fassb-card.svg';
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 /*import VisualsCard from '../components/visuals/visuals-card.svg';*/
 
@@ -49,7 +49,7 @@ export default function Home() {
                         <h2><strong>Patient Support App</strong></h2>
                         <p>
                             <br />
-                            Designing a web-based application that facilitates the remote delivery
+                            A web-based platform that facilitates the remote delivery
                             of a client's financial aid service for patients in need
                             <br />
                             <br />
@@ -81,6 +81,27 @@ export default function Home() {
                             <br />
                             <Link to='/albert'>
                                 <strong>VIEW PROJECT</strong>
+                            </Link>
+                        </p>
+                    </div>
+                </Card>
+                <Card
+                link='/fassb'
+                img={FASSBCard}
+                alt='fassb'>
+                    <div className='card_text'>
+                        <h2><strong>FASSB Design</strong></h2>
+                        <p>
+                            <br />
+                            Interface reworks for Employment Ontario platforms used to assist
+                            jobseekers with securing employment
+                            <br />
+                            <br />
+                            <Badge pill variant='dark'>Web Design</Badge>
+                            <br />
+                            <br />
+                            <Link to='/fassb'>
+                                <strong>VIEW RECAP</strong>
                             </Link>
                         </p>
                     </div>
