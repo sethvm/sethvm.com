@@ -12,7 +12,7 @@ import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 export default function Home() {
     return (
         <main>
-            <div className='intro animate__animated animate__fadeIn'>
+            <div id='intro' className='intro animate__animated animate__fadeIn'>
                 <div className='intro_text'>
                     <h1>
                         <strong>G'day! I'm Seth.</strong>
@@ -28,15 +28,16 @@ export default function Home() {
                 </div>
                 <div className='intro_experience'>
                     <p>
-                        My previous experience includes...
+                        <strong>Associate Product Designer</strong> @ Loblaw Digital
                         <br />
+                        <br />Previously in...
                         <br /><strong>Software Design</strong> @ Soulfx Technologies
-                        <br /><strong>UX and Web Design</strong> @ OPS
+                        <br /><strong>UX & Web Design</strong> @ ONgov's FASSB
                         <br />
                         <br />
                     </p>
                     <h6>
-                        <strong>Check out my work below!</strong>
+                        <strong>Scroll down to check out my work!</strong>
                     </h6>
                 </div>
             </div>
@@ -97,7 +98,8 @@ export default function Home() {
                             jobseekers with securing employment
                             <br />
                             <br />
-                            <Badge pill variant='dark'>Web Design</Badge>
+                            <Badge pill variant='dark'>Web Design</Badge>&nbsp;
+                            <Badge pill variant='dark'>UX Design</Badge>
                             <br />
                             <br />
                             <Link to='/fassb'>

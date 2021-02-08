@@ -7,19 +7,24 @@ h1, h2, h6 {
     color: #004080 !important;
 }
 
-.intro {
+#intro {
     width: 100vw;
     min-height: 100vh;
     padding-top: 5vh;
-    margin-bottom: 70px;
 }
 
 .intro_text, .intro_experience {
     margin: 40px 12% 0 12%;
 }
 
+.intro_experience {
+    font-size: 0.85em;
+    line-height: 24px;
+}
+
 #projects {
     width: 100%;
+    margin-top: 85px;
 }
 
 /*md breakpoint*/
@@ -34,15 +39,15 @@ h1, h2, h6 {
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
-    .intro {
-        padding-top: 160px;
+    #intro {
+        padding-top: 24vh;
     }
     .intro_text, .intro_experience {
         height: auto;
     }
     .intro_text {
         width: 310px;
-        margin: 6.75vh 0 0 17vw;
+        margin: 0 0 0 17vw;
     }
     .intro_experience {
         margin: 30px 0 0 17vw;

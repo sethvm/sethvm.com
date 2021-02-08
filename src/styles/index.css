@@ -16,7 +16,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.content {      /*container for ulatrawide screens*/
+/*ultrawide container*/
+.content {
     max-width: 1920px;
     margin: auto;
 }
@@ -34,5 +35,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #00366D;
+    background: #002245;
 }
