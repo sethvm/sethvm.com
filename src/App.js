@@ -10,10 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // component imports
 import Header from './components/Header/Header';
-
-/*rework sidebar*/
 import SideBar from './components/SideBar/SideBar';
-
 import TopShortcut from './components/TopShortcut/TopShortcut';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import Footer from './components/Footer/Footer';

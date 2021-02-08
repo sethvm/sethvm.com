@@ -12,19 +12,12 @@
 }
 
 .nav-home, .nav-page {
+    font-family: "Montserrat", sans-serif;
     height: 96px;
     top: 0;
-    z-index: 10;
-    font-family: "Montserrat", sans-serif;
     background: white;
-}
-
-/*.nav-home {
-    position: absolute;
-}*/
-
-.nav-home, .nav-page {
     position: sticky;
+    z-index: 10;
 }
 
 .name {
@@ -75,6 +68,9 @@
 @media (min-width: 1024px) {
     .nav-home, .nav-page {
         background: transparent;
+    }
+    .nav-home {
+        position: absolute;
     }
     .nav_banner {
         left: 2.7%;

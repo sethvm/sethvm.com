@@ -3,14 +3,15 @@ h1, h2, h3, h4, h5, h6 {
     color: #1a1a1a;
 }
 
-h1, h2 {
+h1, h2, h6 {
     color: #004080 !important;
 }
 
 .intro {
     width: 100vw;
     min-height: 100vh;
-    padding-top: 96px;
+    padding-top: 5vh;
+    margin-bottom: 70px;
 }
 
 .intro_text, .intro_experience {
@@ -33,6 +34,9 @@ h1, h2 {
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
+    .intro {
+        padding-top: 160px;
+    }
     .intro_text, .intro_experience {
         height: auto;
     }

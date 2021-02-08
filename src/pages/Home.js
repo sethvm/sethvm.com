@@ -15,7 +15,7 @@ export default function Home() {
             <div className='intro animate__animated animate__fadeIn'>
                 <div className='intro_text'>
                     <h1>
-                        <strong>Hello! I'm Seth.</strong>
+                        <strong>G'day! I'm Seth.</strong>
                         <br />
                     </h1>
                     <p> 
@@ -32,7 +32,12 @@ export default function Home() {
                         <br />
                         <br /><strong>Software Design</strong> @ Soulfx Technologies
                         <br /><strong>UX and Web Design</strong> @ OPS
+                        <br />
+                        <br />
                     </p>
+                    <h6>
+                        <strong>Check out my work below!</strong>
+                    </h6>
                 </div>
             </div>
             <div id='projects'>
