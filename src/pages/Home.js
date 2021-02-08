@@ -1,42 +1,86 @@
 import React from 'react';
+import Badge from 'react-bootstrap/Badge';
+import Card from '../components/Card/Card';
+import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
+import AlbertCard from '../components/albert/albert-card.svg';
+/*import FASSBCard from '../components/fassb/fassb-card.svg';*/
+import SoulfxCard from '../components/soulfx/soulfx-card.svg';
+/*import VisualsCard from '../components/visuals/visuals-card.svg';*/
+
 export default function Home() {
-    
     return (
         <main>
-            <div className='intro_sm animate__animated animate__fadeIn'>
-                <h1><strong>DESIGNER</strong></h1>
-                <h6><strong>ENGINEERING STUDENT</strong></h6>
-                <h6><strong>UNIVERSITY OF WATERLOO</strong></h6>
-            </div> {/* /intro-sm */}
-            <div className='intro_md animate__animated animate__fadeIn'>
-                <h1><strong>Hello! I'm Seth.</strong></h1>
-                <p>
-                    <br />I'm a <strong>designer</strong> pursuing a BASc. in
-                    <br /><strong>Systems Design Engineering</strong> with a passion for
-                    <br />creating products that help <strong>move the world forward</strong>.
-                </p>
-            </div> {/* /intro-md */}
-            <div className='intro_lg animate__animated animate__fadeIn'>
-                <h1>
-                    <strong>Hello! I'm Seth.</strong>
-                    <br />
-                </h1>
-                <p> 
-                    <br />I'm a <strong>designer</strong> pursuing a BASc. in
-                    <br /><strong>Systems Design Engineering</strong> with a
-                    <br />passion for creating products that
-                    <br />help <strong>move the world forward</strong>.
-                    <br />
-                    <br />
-                    <div className='intro_experience'>My previous experience includes...
+            <div className='intro animate__animated animate__fadeIn'>
+                <div className='intro_text'>
+                    <h1>
+                        <strong>Hello! I'm Seth.</strong>
+                        <br />
+                    </h1>
+                    <p> 
+                        <br />
+                        I'm a <strong>designer</strong> pursuing a BASc.
+                        in <strong>Systems Design Engineering</strong> with a
+                        passion for creating products that
+                        help <strong>move the world forward</strong>.
+                    </p>
+                </div>
+                <div className='intro_experience'>
+                    <p>
+                        My previous experience includes...
                         <br />
                         <br /><strong>Software Design</strong> @ Soulfx Technologies
                         <br /><strong>UX and Web Design</strong> @ OPS
+                    </p>
+                </div>
+            </div>
+            <div id='projects'>
+                <Card
+                link='/soulfx'
+                img={SoulfxCard}
+                alt='soulfx patient support app'>
+                    <div className='card_text'>
+                        <h2><strong>Patient Support App</strong></h2>
+                        <p>
+                            <br />
+                            Designing a web-based application that facilitates the remote delivery
+                            of a client's financial aid service for patients in need
+                            <br />
+                            <br />
+                            <Badge pill variant='dark'>UX Design</Badge>&nbsp;
+                            <Badge pill variant='dark'>Information Architecture</Badge>
+                            <br />
+                            <br />
+                            <Link to='/soulfx'>
+                                <strong>VIEW PROJECT</strong>
+                            </Link>
+                        </p>
                     </div>
-                </p>
-            </div> {/* /intro-lg */}
+                </Card>
+                <Card
+                link='/albert'
+                img={AlbertCard}
+                alt='project albert'>
+                    <div className='card_text'>
+                        <h2><strong>Project Albert</strong></h2>
+                        <p>
+                            <br />
+                            Designing a mobile application that assists students and new immigrants
+                            with evaluating residence and commute options
+                            <br />
+                            <br />
+                            <Badge pill variant='dark'>Branding</Badge>&nbsp;
+                            <Badge pill variant='dark'>UX Design</Badge>
+                            <br />
+                            <br />
+                            <Link to='/albert'>
+                                <strong>VIEW PROJECT</strong>
+                            </Link>
+                        </p>
+                    </div>
+                </Card>
+            </div>
         </main>
     );
 }

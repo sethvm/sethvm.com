@@ -3,93 +3,44 @@ h1, h2, h3, h4, h5, h6 {
     color: #1a1a1a;
 }
 
-h1 {
+h1, h2 {
     color: #004080 !important;
 }
 
-.intro_sm {
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 15vh;
+.intro {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 96px;
 }
 
-.intro_md, .intro_lg {
-    display: none;
+.intro_text, .intro_experience {
+    margin: 40px 16% 0 16%;
 }
 
-.intro_experience {
-    display: none;
+#projects {
+    width: 100%;
 }
 
 /*md breakpoint*/
 @media (min-width: 768px) {
-    .intro_sm {
-        display: none;
+    .intro_text {
+        margin: 40px 24% 0 24%;
     }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .intro_md {
-        display: block;
-        position: absolute;
-        top: 15%;
-        left: 0;
-        right: 0;
-        text-align: center;
-        color: #004080;
-    }
-}
-
- /*lg breakpoint*/
-@media (min-width: 1024px) {
-    .intro_lg {
-        display: block;
-        position: absolute;
-        text-align: left;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        color: #004080;
-    }
-}
-
-@media (min-width: 1024px) {
-    .intro_lg {
-        top: 17%;
-        left: 7.5%;
-    }
-}
-
-@media (min-width: 1200px) {
     .intro_experience {
-        display: block;
+        margin: 25px 24% 0 24%;
     }
 }
 
-@media (min-width: 1281px) {
-    .intro_lg {
-        top: 22.5%;
-        left: 11%;
+/*lg breakpoint*/
+@media (min-width: 1024px) {
+    .intro_text, .intro_experience {
+        height: auto;
     }
-}
-
-@media (min-width: 1440px) {
-    .intro_lg {
-        top: 23%;
-        left: 12%;
+    .intro_text {
+        width: 310px;
+        margin: 6.75vh 0 0 17vw;
     }
-}
-
-/*ultrawide breakpoint*/
-@media (min-width: 2300px) {
-    .intro_lg {
-        left: 16%;
-    }
-}
-
-@media (min-width: 2900px) {
-    .intro_lg {
-        left: 18%;
+    .intro_experience {
+        margin: 30px 0 0 17vw;
     }
 }

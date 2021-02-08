@@ -10,8 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // component imports
 import Header from './components/Header/Header';
-import Carousel from './components/Carousel/Carousel';
+
+/*rework sidebar*/
 import SideBar from './components/SideBar/SideBar';
+
 import TopShortcut from './components/TopShortcut/TopShortcut';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import Footer from './components/Footer/Footer';
@@ -24,7 +26,6 @@ import Soulfx from './pages/Soulfx';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 import Visuals from './pages/Visuals';
-import Work from './pages/Work';
 
 export default function App() {
     return (
@@ -44,10 +45,9 @@ function HomePage() {
         <Header 
         pageType='nav-home animate__animated animate__fadeIn' 
         aboutType='nav-desktop-home link' />
-        <Home />
-        <Carousel />
-        <SideBar />
         <BlueBlock />
+        <Home />
+        <SideBar />
         <Footer isHome={true} />
         </>
     );
@@ -59,29 +59,19 @@ function Page() {
         <Header 
         pageType='nav-page' 
         aboutType='nav-desktop-page link' />
-        <Content>
-        <Switch>
-            <Route exact={true} path='/about' component={About} />
-            <Route exact={true} path='/albert' component={Albert} />
-            <Route exact={true} path='/fassb' component={FASSB} />
-            <Route exact={true} path='/soulfx' component={Soulfx} />
-            <Route exact={true} path='/visuals' component={Visuals} />
-            <Route exact={true} path='/work' component={Work} />
-            <Route component={Error} />
-        </Switch>
-        </Content>
+        <div className='content'>
+            <Switch>
+                <Route exact={true} path='/about' component={About} />
+                <Route exact={true} path='/albert' component={Albert} />
+                <Route exact={true} path='/fassb' component={FASSB} />
+                <Route exact={true} path='/soulfx' component={Soulfx} />
+                <Route exact={true} path='/visuals' component={Visuals} />
+                <Route component={Error} />
+            </Switch>
+        </div>
         <SideBar />
         <Footer isHome={false} />
         <TopShortcut />
         </>
     );
-}
-
-function Content(props) {
-    return(
-        <div className='content'>
-            {props.children}
-        </div>
-    )
-    ;
 }
