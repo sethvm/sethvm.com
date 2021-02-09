@@ -94,8 +94,8 @@ export default function Home() {
                         <h2><strong>FASSB Design</strong></h2>
                         <p>
                             <br />
-                            Interface reworks for Employment Ontario platforms used to assist
-                            jobseekers with securing employment
+                            Interface reworks for Employment Ontario platforms used to help
+                            jobseekers secure employment
                             <br />
                             <br />
                             <Badge pill variant='dark'>Web Design</Badge>&nbsp;
