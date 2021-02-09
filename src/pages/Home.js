@@ -50,7 +50,7 @@ export default function Home() {
                         <h2><strong>Patient Support App</strong></h2>
                         <p>
                             <br />
-                            A web-based platform that facilitates the remote delivery
+                            An online platform that facilitates the remote delivery
                             of a client's financial aid service for patients in need
                             <br />
                             <br />
