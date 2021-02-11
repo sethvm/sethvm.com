@@ -4,14 +4,14 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
-import ScrollToTop from './components/TopShortcut/ScrollToTop';
+import ScrollToTop from './components/Navigation/ScrollToTop';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // component imports
 import Header from './components/Header/Header';
 import SideBar from './components/SideBar/SideBar';
-import TopShortcut from './components/TopShortcut/TopShortcut';
+import TopShortcut from './components/Navigation/TopShortcut';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import Footer from './components/Footer/Footer';
 
@@ -22,7 +22,7 @@ import About from './pages/About';
 import Soulfx from './pages/Soulfx';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
-import Visuals from './pages/Visuals';
+/*import Visuals from './pages/Visuals';*/
 
 export default function App() {
     return (
@@ -62,7 +62,6 @@ function Page() {
                 <Route exact={true} path='/albert' component={Albert} />
                 <Route exact={true} path='/fassb' component={FASSB} />
                 <Route exact={true} path='/soulfx' component={Soulfx} />
-                <Route exact={true} path='/visuals' component={Visuals} />
                 <Route component={Error} />
             </Switch>
         </div>

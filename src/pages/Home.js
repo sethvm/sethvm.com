@@ -1,8 +1,11 @@
 import React from 'react';
 import Badge from 'react-bootstrap/Badge';
 import Card from '../components/Card/Card';
+import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
+
+import DownArrow from '../components/Navigation/down-arrow.svg';
 
 import AlbertCard from '../components/albert/albert-card.svg';
 import FASSBCard from '../components/fassb/fassb-card.svg';
@@ -12,8 +15,8 @@ import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 export default function Home() {
     return (
         <main>
-            <div id='intro' className='intro animate__animated animate__fadeIn'>
-                <div className='intro_text'>
+            <div id='intro' className='intro'>
+                <div className='intro_text animate__animated animate__fadeIn'>
                     <h1>
                         <strong>G'day! I'm Seth.</strong>
                         <br />
@@ -26,7 +29,7 @@ export default function Home() {
                         help <strong>move the world forward</strong>.
                     </p>
                 </div>
-                <div className='intro_experience'>
+                <div className='intro_experience animate__animated animate__fadeIn'>
                     <p>
                         <strong>Associate Product Designer</strong> @ Loblaw Digital
                         <br />
@@ -36,9 +39,15 @@ export default function Home() {
                         <br />
                         <br />
                     </p>
-                    <h6>
-                        <strong>Scroll down to check out my work!</strong>
-                    </h6>
+                    <div className='jump_container animate__animated animate__fadeInDown animate__delay-1s'>
+                        <HashLink smooth to='#projects'>
+                            <div className='jump'>
+                                <img  
+                                src={DownArrow} 
+                                alt='Scroll down to check out my work!' />
+                            </div>
+                        </HashLink>
+                    </div>
                 </div>
             </div>
             <div id='projects'>

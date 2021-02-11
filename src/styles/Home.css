@@ -17,9 +17,27 @@ h1, h2, h6 {
     line-height: 24px;
 }
 
+.jump_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.jump {
+    margin: 0 auto;
+    transition: margin 0.15s ease-out;
+    -webkit-transition: margin 0.15s ease-out;
+    -moz-transition: margin 0.15s ease-out;
+    -o-transition: margin 0.15s ease-out;
+}
+
+.jump:hover {
+    margin-top: 7px;
+}
+
 #projects {
     width: 100%;
-    margin-top: 85px;
+    padding-top: 140px;
 }
 
 /*md breakpoint*/
@@ -40,8 +58,10 @@ h1, h2, h6 {
     .intro_text, .intro_experience {
         height: auto;
     }
-    .intro_text {
+    .intro_text, .jump_container {
         width: 310px;
+    }
+    .intro_text {
         margin: 0 0 0 17vw;
     }
     .intro_experience {
