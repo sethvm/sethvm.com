@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
                 <div className='intro_experience animate__animated animate__fadeIn'>
                     <p>
-                        <strong>Associate Product Designer</strong> @ Loblaw Digital
+                        <strong>Product Design</strong> @ Loblaw Digital
                         <br />
                         <br />Previously in...
                         <br /><strong>Software Design</strong> @ Soulfx Technologies
