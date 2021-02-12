@@ -43,7 +43,9 @@ function HomePage() {
         pageType='nav-home animate__animated animate__fadeIn' 
         aboutType='nav-desktop-home link' />
         <BlueBlock />
-        <Home />
+        <Container>
+            <Home />
+        </Container>
         <SideBar />
         <Footer isHome={true} />
         </>
@@ -56,7 +58,7 @@ function Page() {
         <Header 
         pageType='nav-page' 
         aboutType='nav-desktop-page link' />
-        <div className='content'>
+        <Container>
             <Switch>
                 <Route exact={true} path='/about' component={About} />
                 <Route exact={true} path='/albert' component={Albert} />
@@ -64,10 +66,18 @@ function Page() {
                 <Route exact={true} path='/soulfx' component={Soulfx} />
                 <Route component={Error} />
             </Switch>
-        </div>
+        </Container>
         <SideBar />
         <Footer isHome={false} />
         <TopShortcut />
         </>
+    );
+}
+
+function Container(props) {
+    return (
+        <div className='container'>
+            {props.children}
+        </div>
     );
 }

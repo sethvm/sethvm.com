@@ -14,7 +14,7 @@ body {
 }
 
 /*ultrawide container*/
-.content {
+.container {
     max-width: 1920px;
     margin: auto;
 }
