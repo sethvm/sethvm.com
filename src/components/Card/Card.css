@@ -54,6 +54,13 @@ h2 {
         max-width: 424px;
         height: auto;
         left: 0;
+        transition: margin 0.15s ease-out;
+        -webkit-transition: margin 0.15s ease-out;
+        -moz-transition: margin 0.15s ease-out;
+        -o-transition: margin 0.15s ease-out;
+    }
+    .card_img:hover {
+        margin-left: 10px;
     }
     .card_text {
         width: 40%;
