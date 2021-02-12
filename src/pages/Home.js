@@ -2,7 +2,6 @@ import React from 'react';
 import Badge from 'react-bootstrap/Badge';
 import Card from '../components/Card/Card';
 import { HashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
 import DownArrow from '../components/Navigation/down-arrow.svg';
@@ -52,70 +51,37 @@ export default function Home() {
             </div>
             <div id='projects'>
                 <Card
-                link='/soulfx'
+                title='Patient Support App'
+                desc="An online platform that facilitates the remote delivery
+                of a client's financial aid service for patients in need"
                 img={SoulfxCard}
-                alt='soulfx patient support app'>
-                    <div className='card_text'>
-                        <h2><strong>Patient Support App</strong></h2>
-                        <p>
-                            <br />
-                            An online platform that facilitates the remote delivery
-                            of a client's financial aid service for patients in need
-                            <br />
-                            <br />
-                            <Badge pill variant='dark'>UX Design</Badge>&nbsp;
-                            <Badge pill variant='dark'>Information Architecture</Badge>
-                            <br />
-                            <br />
-                            <Link to='/soulfx'>
-                                <strong>VIEW PROJECT</strong>
-                            </Link>
-                        </p>
-                    </div>
+                alt='Patient Support App'
+                link='/soulfx'
+                linkPrompt='VIEW PROJECT'>
+                    <Badge pill variant='dark'>UX Design</Badge>&nbsp;
+                    <Badge pill variant='dark'>Information Architecture</Badge>
                 </Card>
                 <Card
-                link='/albert'
+                title='Project Albert'
+                desc="Designing a mobile application that assists students and
+                new immigrants with evaluating residence and commute options"
                 img={AlbertCard}
-                alt='project albert'>
-                    <div className='card_text'>
-                        <h2><strong>Project Albert</strong></h2>
-                        <p>
-                            <br />
-                            Designing a mobile application that assists students and new immigrants
-                            with evaluating residence and commute options
-                            <br />
-                            <br />
-                            <Badge pill variant='dark'>Branding</Badge>&nbsp;
-                            <Badge pill variant='dark'>UX Design</Badge>
-                            <br />
-                            <br />
-                            <Link to='/albert'>
-                                <strong>VIEW PROJECT</strong>
-                            </Link>
-                        </p>
-                    </div>
+                alt='Project Albert'
+                link='/albert'
+                linkPrompt='VIEW PROJECT'>
+                        <Badge pill variant='dark'>Branding</Badge>&nbsp;
+                        <Badge pill variant='dark'>UX Design</Badge>
                 </Card>
                 <Card
-                link='/fassb'
+                title='FASSB Design'
+                desc="Interface reworks for Employment Ontario platforms 
+                used to help jobseekers secure employment"
                 img={FASSBCard}
-                alt='fassb'>
-                    <div className='card_text'>
-                        <h2><strong>FASSB Design</strong></h2>
-                        <p>
-                            <br />
-                            Interface reworks for Employment Ontario platforms used to help
-                            jobseekers secure employment
-                            <br />
-                            <br />
-                            <Badge pill variant='dark'>Web Design</Badge>&nbsp;
-                            <Badge pill variant='dark'>UX Design</Badge>
-                            <br />
-                            <br />
-                            <Link to='/fassb'>
-                                <strong>VIEW RECAP</strong>
-                            </Link>
-                        </p>
-                    </div>
+                alt='fassb design'
+                link='/fassb'
+                linkPrompt='VIEW RECAP'>
+                    <Badge pill variant='dark'>Web Design</Badge>&nbsp;
+                    <Badge pill variant='dark'>UX Design</Badge>
                 </Card>
             </div>
         </main>
