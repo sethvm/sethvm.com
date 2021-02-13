@@ -60,7 +60,7 @@ h2 {
         -o-transition: margin 0.15s ease-out;
     }
     .card_img:hover {
-        margin-left: 10px;
+        margin-left: 16px;
     }
     .card_text {
         width: 40%;

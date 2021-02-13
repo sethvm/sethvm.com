@@ -1,14 +1,14 @@
 .sidebar {
     display: flex;
     justify-content: space-evenly;
-    width: 200px;
+    width: 216px;
     height: auto;
     margin: 0 auto 32px auto;
 }
 
 .sidebar_item {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
 }
 
 /*lg breakpoint*/
