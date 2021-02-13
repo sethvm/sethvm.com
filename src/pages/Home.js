@@ -30,11 +30,8 @@ export default function Home() {
                 </div>
                 <div className='intro_experience animate__animated animate__fadeIn'>
                     <p>
+                        Currently doing... <br />
                         <strong>Product Design</strong> @ Loblaw Digital
-                        <br />
-                        <br />Previously in...
-                        <br /><strong>Software Design</strong> @ Soulfx Technologies
-                        <br /><strong>UX & Web Design</strong> @ ONgov's FASSB
                         <br />
                         <br />
                     </p>
@@ -74,7 +71,7 @@ export default function Home() {
                 </Card>
                 <Card
                 title='FASSB Design'
-                desc="Interface reworks for Employment Ontario platforms 
+                desc="Interface reworks for Employment Ontario platforms
                 used to help jobseekers secure employment"
                 img={FASSBCard}
                 alt='fassb design'

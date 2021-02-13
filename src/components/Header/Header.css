@@ -12,7 +12,6 @@
 }
 
 .nav-home, .nav-page {
-    font-family: "Montserrat", sans-serif;
     height: 96px;
     top: 0;
     background: white;
@@ -44,15 +43,14 @@
 }
 
 .nav_drop {
-    padding-left: 15px;
+    padding: 0 15px;
     background-color: white;
 }
 
 .nav_item {
-    font-size: 0.915em;
-    line-height: 2.2em;
+    text-align: right;
+    line-height: 2.5em;
     color: #004080 !important;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /*md breakpoint*/

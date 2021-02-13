@@ -27,7 +27,7 @@ import FASSB from './pages/FASSB';
 export default function App() {
     return (
         <HashRouter>
-        <ScrollToTop />
+            <ScrollToTop />
             <Switch>
                 <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={Page} />
