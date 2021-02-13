@@ -4,15 +4,14 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
-import ScrollToTop from './components/TopShortcut/ScrollToTop';
+import ScrollToTop from './components/Navigation/ScrollToTop';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // component imports
 import Header from './components/Header/Header';
-import Carousel from './components/Carousel/Carousel';
 import SideBar from './components/SideBar/SideBar';
-import TopShortcut from './components/TopShortcut/TopShortcut';
+import TopShortcut from './components/Navigation/TopShortcut';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import Footer from './components/Footer/Footer';
 
@@ -23,8 +22,7 @@ import About from './pages/About';
 import Soulfx from './pages/Soulfx';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
-import Visuals from './pages/Visuals';
-import Work from './pages/Work';
+/*import Visuals from './pages/Visuals';*/
 
 export default function App() {
     return (
@@ -44,10 +42,11 @@ function HomePage() {
         <Header 
         pageType='nav-home animate__animated animate__fadeIn' 
         aboutType='nav-desktop-home link' />
-        <Home />
-        <Carousel />
-        <SideBar />
         <BlueBlock />
+        <Container>
+            <Home />
+        </Container>
+        <SideBar />
         <Footer isHome={true} />
         </>
     );
@@ -59,17 +58,15 @@ function Page() {
         <Header 
         pageType='nav-page' 
         aboutType='nav-desktop-page link' />
-        <Content>
-        <Switch>
-            <Route exact={true} path='/about' component={About} />
-            <Route exact={true} path='/albert' component={Albert} />
-            <Route exact={true} path='/fassb' component={FASSB} />
-            <Route exact={true} path='/soulfx' component={Soulfx} />
-            <Route exact={true} path='/visuals' component={Visuals} />
-            <Route exact={true} path='/work' component={Work} />
-            <Route component={Error} />
-        </Switch>
-        </Content>
+        <Container>
+            <Switch>
+                <Route exact={true} path='/about' component={About} />
+                <Route exact={true} path='/albert' component={Albert} />
+                <Route exact={true} path='/fassb' component={FASSB} />
+                <Route exact={true} path='/soulfx' component={Soulfx} />
+                <Route component={Error} />
+            </Switch>
+        </Container>
         <SideBar />
         <Footer isHome={false} />
         <TopShortcut />
@@ -77,11 +74,10 @@ function Page() {
     );
 }
 
-function Content(props) {
-    return(
-        <div className='content'>
+function Container(props) {
+    return (
+        <div className='container'>
             {props.children}
         </div>
-    )
-    ;
+    );
 }

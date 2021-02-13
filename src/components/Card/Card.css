@@ -1,53 +1,70 @@
-.card_link:hover {
-    text-decoration: none;
+h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #1a1a1a;
+}
+
+h2 {
+    color: #004080 !important;
 }
 
 .project_card {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
+    flex-direction: column-reverse;
+    width: 100vw;
+    margin: 0 0 110px 0;
     overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
-    -webkit-box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
-    -moz-box-shadow: 0 0 8px rgba(42, 42, 42, 0.16);
 }
 
-.project_card:hover {
-    cursor: url('../Carousel/cursor_view.svg'), pointer;
-    background-color: #eaeaea;
-    transition: background-color 0.2s linear;
-    box-shadow: 0 0 16px 16px rgba(42, 42, 42, 0.16);
-    -webkit-box-shadow: 0 0 16px 16px rgba(42, 42, 42, 0.16);
-    -moz-box-shadow: 0 0 16px 16px rgba(42, 42, 42, 0.16);
-    transition: box-shadow 0.2s linear;
-}
-
-.card_img, .card_text {
+.card_img {
     width: 100%;
+}
+
+.card_img:hover {
+    cursor: url('./cursor_view.svg'), pointer;
 }
 
 .card_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 6%;
+    padding: 40px 12% 0 12%;
 }
 
 /*md breakpoint*/
 @media (min-width: 768px) {
     .project_card {
-        flex-direction: row;
-        max-width: 840px;
-    }
-    .card_img, .card_text {
-        width: 50%;
+        margin: 0 0 120px 0;
     }
     .card_img {
-        left: 0;
+        height: auto;
     }
     .card_text {
+        padding: 40px 20% 0 20%;
+    }
+}
+
+/*lg breakpoint*/
+@media (min-width: 1024px) {
+    .project_card {
+        flex-direction: row;
+        max-width: 90%;
+        margin: 0 17vw 250px 17vw;
+    }
+    .card_img, .card_text {
+        margin: 0;
+    }
+    .card_img {
+        max-width: 424px;
+        height: auto;
+        left: 0;
+        transition: margin 0.15s ease-out;
+        -webkit-transition: margin 0.15s ease-out;
+        -moz-transition: margin 0.15s ease-out;
+        -o-transition: margin 0.15s ease-out;
+    }
+    .card_img:hover {
+        margin-left: 16px;
+    }
+    .card_text {
+        width: 40%;
+        padding: 20px 7% 0 0;
         right: 0;
     }
 }

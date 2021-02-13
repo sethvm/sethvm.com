@@ -1,23 +1,29 @@
 .sidebar {
-    display: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 216px;
+    height: auto;
+    margin: 0 auto 32px auto;
+}
+
+.sidebar_item {
+    width: 30px;
+    height: 30px;
 }
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
     .sidebar {
-        display: flex;
         flex-direction: column;
-        justify-content: space-between;
         position: fixed;
-        height: 50%;
-        top: 50%;
-        padding-bottom: 5%;
+        width: auto;
+        height: 40vh;
+        bottom: 0;
+        padding-bottom: 50px;
         left: 3%;
         z-index: 9;
     }
     .sidebar_item {
-        width: 28px;
-        height: 28px;
         transition: margin 0.15s ease-out;
         -webkit-transition: margin 0.15s ease-out;
         -moz-transition: margin 0.15s ease-out;
@@ -26,12 +32,5 @@
     .sidebar_item:hover {
         cursor: pointer;
         margin-left: 4px;
-    }
-}
-
-/*ms edge spacing fix*/
-@supports not (-ms-ime-align: auto) {
-    .sidebar {
-        justify-content: space-evenly;
     }
 }

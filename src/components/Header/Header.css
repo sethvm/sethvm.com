@@ -11,21 +11,13 @@
     text-decoration: none;
 }
 
-.nav-home {
-    height: 96px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+.nav-home, .nav-page {
     font-family: "Montserrat", sans-serif;
-}
-
-.nav-page {
     height: 96px;
-    position: sticky;
     top: 0;
+    background: white;
+    position: sticky;
     z-index: 10;
-    font-family: "Montserrat", sans-serif;
-    background-color: white;
 }
 
 .name {
@@ -74,8 +66,11 @@
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
-    .nav-page {
+    .nav-home, .nav-page {
         background: transparent;
+    }
+    .nav-home {
+        position: absolute;
     }
     .nav_banner {
         left: 2.7%;

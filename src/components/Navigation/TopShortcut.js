@@ -5,11 +5,14 @@ import './TopShortcut.css';
 import UpArrowLogo from './up-arrow.svg';
 
 export default function TopShortcut() {
-    return(
+    return (
         <BackToTop
         showAt={800}
         speed={1800}>
-            <img src={UpArrowLogo} className='shortcut_logo' alt='back to top' />
+            <img 
+            src={UpArrowLogo} 
+            className='shortcut_logo' 
+            alt='Back to Top' />
         </BackToTop>
     );
 }

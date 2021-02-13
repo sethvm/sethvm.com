@@ -64,15 +64,11 @@ export default function Header(props) {
                     <Nav className='nav_drop' 
                     onClick={() => handleClick}>
                         <Nav.Link className='nav_item' as={Link} to='/'><strong>Home</strong></Nav.Link>
-                        <Nav.Link className='nav_item' as={Link} to='/work'><strong>Work</strong></Nav.Link>
                         <Nav.Link className='nav_item' as={Link} to='/about'><strong>About</strong></Nav.Link>
                         <ExtLink href={ResumeFile} label='Resume' />
                     </Nav>
                 </Navbar.Collapse>
                 <div className='nav_right'>
-                    <Nav.Link className={props.aboutType} as={Link} to='/work'>
-                        WORK
-                    </Nav.Link>
                     <Nav.Link className={props.aboutType} as={Link} to='/about'>
                         ABOUT
                     </Nav.Link>
