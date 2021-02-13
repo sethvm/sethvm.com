@@ -16,7 +16,9 @@ export default function Card(props) {
                     <br />
                     <br />
                     <Link to={props.link}>
-                        <strong>{props.linkPrompt}</strong>
+                        <span className='view_link'>
+                            <strong>{props.linkPrompt}</strong>
+                        </span>
                     </Link>
                 </p>
             </div>

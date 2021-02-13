@@ -1,10 +1,5 @@
-h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-    color: #1a1a1a;
-}
-
-h2 {
-    color: #004080 !important;
+h2, .view_link {
+    color: #004080;
 }
 
 .project_card {
@@ -25,6 +20,10 @@ h2 {
 
 .card_text {
     padding: 40px 12% 0 12%;
+}
+
+.view_link:hover {
+    color: #0180FF;
 }
 
 /*md breakpoint*/
