@@ -33,12 +33,12 @@ a:hover {
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
+    #footer-home, #footer-page {
+        height: 85px;
+    }
     #footer-home {
         position: relative;
         text-align: left;
         padding: 0 0 50px 3.25%;
-    }
-    #footer-page {
-        height: 85px;
     }
 }
