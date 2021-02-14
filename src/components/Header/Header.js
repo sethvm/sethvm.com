@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
 import './Header.css';
 
+import SVMLogo from './brand.svg';
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
 export default function Header(props) {
@@ -49,7 +50,10 @@ export default function Header(props) {
             expanded={expanded}
             onToggle={toggleNav}>
                 <Nav.Link className='name link' as={Link} to='/'>
-                    <span className='blue'>SETH</span> <span className='black'>MORENOS</span>
+                    <span className='blue'>SETH</span> <span>MORENOS</span>
+                </Nav.Link>
+                <Nav.Link className='branding link' as={Link} to='/'>
+                    <img className='svm_logo' src={SVMLogo} alt='SETH MORENOS' />
                 </Nav.Link>
                 <Navbar.Toggle className='mobile_nav' aria-controls='nav-dropdown'
                 ref={node}>
