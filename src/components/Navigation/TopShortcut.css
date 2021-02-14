@@ -14,10 +14,25 @@
 /*md breakpoint*/
 @media (min-width: 768px) {
     .shortcut_logo {
-        width: 36px;
-        height: 36px;
+        /*width: 42px;
+        height: 42px;*/
         bottom: 116px;
         left: auto;
         right: 10%;
+    }
+}
+
+/*lg breakpoint*/
+@media (min-width: 1024px) {
+    .shortcut_logo {
+        width: 38px;
+        height: 38px;
+        transition: margin 0.15s ease-out;
+        -webkit-transition: margin 0.15s ease-out;
+        -moz-transition: margin 0.15s ease-out;
+        -o-transition: margin 0.15s ease-out;
+    }
+    .shortcut_logo:hover {
+        margin: 0 auto 10px;
     }
 }

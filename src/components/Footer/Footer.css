@@ -16,11 +16,7 @@ a:hover {
     padding-top: 0;
 }
 
-#footer-home {
-    padding-bottom: 50px;
-}
-
-#footer-page {
+#footer-home, #footer-page {
     height: 200px;
 }
 
@@ -30,7 +26,7 @@ a:hover {
 
 /*md breakpoint*/
 @media (min-width: 768px) {
-    #footer-page {
+    #footer-home, #footer-page {
         height: 112px;
     }
 }

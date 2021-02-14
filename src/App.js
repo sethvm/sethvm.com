@@ -32,6 +32,7 @@ export default function App() {
                 <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={Page} />
             </Switch>
+            <TopShortcut />
         </HashRouter>
     );
 }
@@ -48,7 +49,6 @@ function HomePage() {
         </Container>
         <SideBar />
         <Footer isHome />
-        <TopShortcut isHome />
         </>
     );
 }
@@ -70,7 +70,6 @@ function Page() {
         </Container>
         <SideBar />
         <Footer />
-        <TopShortcut />
         </>
     );
 }
