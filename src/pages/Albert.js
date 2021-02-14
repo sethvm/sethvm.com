@@ -14,7 +14,7 @@ export default function Albert() {
         <main className='project animate__animated animate__fadeIn'>
             <img className='project_banner' src={Banner} alt='project albert' />   
             <div className='project_body'>
-                <h4><strong>OVERVIEW</strong></h4>
+                <h4><span class='bold'>OVERVIEW</span></h4>
                 <p>
                     Project Albert is an ongoing development of a web-based application that provides assistance to any 
                     individual looking to move to a new city. It aims to alleviate relocation stress by providing visuals of renting options,
@@ -22,19 +22,19 @@ export default function Albert() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>TEAM</strong></h4>
+                <h4><span class='bold'>TEAM</span></h4>
                 <p>
                     This is an independent project consisting of a developer and I (designer).
                     <br />
                     <br />
                 </p>
-                <h4><strong>TIMELINE</strong></h4>
+                <h4><span class='bold'>TIMELINE</span></h4>
                 <p>
                     Ongoing
                     <br />
                     <br />
                 </p>
-                <h4><strong>PROBLEM</strong></h4>
+                <h4><span class='bold'>PROBLEM</span></h4>
                 <p>
                     Planning a relocation to an unfamiliar city can be a daunting task. 
                     Looking through different listing sites for residence is often made more tedious by having to use 
@@ -47,7 +47,7 @@ export default function Albert() {
                     </Jumbotron>
                     <br />
                 </p>
-                <h4><strong>BRANDING</strong></h4>
+                <h4><span class='bold'>BRANDING</span></h4>
                 <p>
                     With every product comes a branding identity that enables it to stand out.
                     <br />
@@ -60,7 +60,7 @@ export default function Albert() {
                     <br />
                     <div className='project_img_caption'>
                         <p>                  
-                            <em><strong>Project Logo</strong></em>
+                            <span class='bold italic'>Project Logo</span>
                             <br/>
                         </p>
                     </div> {/* /caption */}
@@ -77,7 +77,7 @@ export default function Albert() {
                     </Jumbotron>
                     <div className='project_img_caption'>
                         <p>                  
-                            <em><strong>Branding Colour Guide</strong></em>
+                            <span class='bold italic'>Branding Colour Guide</span>
                             <br/>
                         </p>
                     </div> {/* /caption */}
@@ -86,7 +86,7 @@ export default function Albert() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>GENERATIVE RESEARCH</strong></h4>
+                <h4><span class='bold'>GENERATIVE RESEARCH</span></h4>
                 <p>
                     To better understand the people we are building Project Albert for, we conducted a survey 
                     to obtain insight into the factors they consider and challenges they face when evaluating a potential living
@@ -100,7 +100,7 @@ export default function Albert() {
                     <br />
                     <br />
                     <Jumbotron className='highlight'>
-                        <strong>Both of our user groups...</strong>
+                        <span class='bold'>Both of our user groups...</span>
                             <div className='hightlight_indent'>
                                 • Consider proximity to public transit as the most important factor
                                 <br />
@@ -110,20 +110,20 @@ export default function Albert() {
                                 <br />
                                 <br />
                             </div>
-                        <strong>Our students...</strong>
+                        <span class='bold'>Our students...</span>
                             <div className='hightlight_indent'>
                                 • Value proximity to fitness facilities and hospitals
                                 <br />
                                 <br />
                             </div>
-                        <strong>Our newcomers...</strong>
+                        <span class='bold'>Our newcomers...</span>
                             <div className='hightlight_indent'>
                                 • Cite language barriers as one of their greatest challenges when learning to find their way around
                             </div>
                     </Jumbotron>
                     <br />
                 </p>
-                <h4><strong>MOVING FORWARD</strong></h4>
+                <h4><span class='bold'>MOVING FORWARD</span></h4>
                 <p>
                     Our next steps involve conducting an analysis of some popular mapping applications in the market. We will also begin ideating
                     how the application's layout and navigation might look visually - focus will be placed on how these could be leveraged to address

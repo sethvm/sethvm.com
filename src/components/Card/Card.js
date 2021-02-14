@@ -6,7 +6,7 @@ export default function Card(props) {
     return (
         <div className='project_card'>
             <div className='card_text'>
-                <h2><strong>{props.title}</strong></h2>
+                <h2><span class='bold'>{props.title}</span></h2>
                 <p>
                     <br />
                     {props.desc}
@@ -17,7 +17,7 @@ export default function Card(props) {
                     <br />
                     <Link to={props.link}>
                         <span className='view_link'>
-                            <strong>{props.linkPrompt}</strong>
+                            <span class='bold'>{props.linkPrompt}</span>
                         </span>
                     </Link>
                 </p>

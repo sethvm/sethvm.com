@@ -8,7 +8,7 @@ export default function Error() {
         <main className='project'>
             <div className='project_body'>
                 <div className='error'>
-                    <h4 className='error_text'><strong>ERROR 404</strong>  |  <strong>PAGE NOT FOUND</strong></h4>
+                    <h4 className='error_text'><span class='bold'>ERROR 404</span>  |  <strong>PAGE NOT FOUND</strong></h4>
                 <p>
                     <br />
                     Whoops! It looks like you've ended up on what appears to be a nonexistent page.

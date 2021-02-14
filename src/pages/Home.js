@@ -17,7 +17,7 @@ export default function Home() {
             <div id='intro' className='intro'>
                 <div className='intro_text animate__animated animate__fadeIn'>
                     <h1>
-                        <strong>G'day! I'm Seth.</strong>
+                        <span class='bold'>G'day! I'm Seth.</span>
                         <br />
                     </h1>
                     <p> 

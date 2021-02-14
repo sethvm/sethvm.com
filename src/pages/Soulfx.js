@@ -24,7 +24,7 @@ export default function Soulfx() {
         <main className='project animate__animated animate__fadeIn'>
             <img className='project_banner' src={Banner} alt='soulfx patient support app' />
             <div className='project_body'>
-                <h4><strong>OVERVIEW</strong></h4>
+                <h4><span class='bold'>OVERVIEW</span></h4>
                 <p>
                     Soulfx's Patient Support Application is a web-based platform developed for an external
                     client within the pharmaceutical industry. The application enables the remote 
@@ -33,7 +33,7 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>TEAM</strong></h4>
+                <h4><span class='bold'>TEAM</span></h4>
                 <p>
                     Soulfx Technologies is a Mississauga-based software consulting firm specializing in
                     healthcare applications.
@@ -50,13 +50,13 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>TIMELINE</strong></h4>
+                <h4><span class='bold'>TIMELINE</span></h4>
                 <p>
                     May 2020 - August 2020
                     <br />
                     <br />
                 </p>
-                <h4><strong>PROBLEM</strong></h4>
+                <h4><span class='bold'>PROBLEM</span></h4>
                 <p>
                     The COVID-19 pandemic has and continues to drive heavy demand for services within the
                     healthcare sector. As immunocompromised individuals are among the most vulnerable to the
@@ -71,7 +71,7 @@ export default function Soulfx() {
                     </Jumbotron>
                     <br />
                 </p>
-                <h4><strong>DESIGN PROCESS</strong></h4>
+                <h4><span class='bold'>DESIGN PROCESS</span></h4>
                 <p>
                     The project lasted a duration of approximately 10 weeks. I worked with our PM in outlining
                     the scope of our design as well as the approach taken to develop it. Earlier phases of the project focused
@@ -85,16 +85,16 @@ export default function Soulfx() {
                     </Jumbotron>
                     <div className='project_img_caption'>
                         <p>
-                            <em><strong>Our design approach</strong></em>
+                            <span class='bold italic'>Our design approach</span>
                         </p>
                     </div>
                     <img className='project_img' src={Methodology} alt='methodology' />
                     <br />
                     <br />
                 </p>
-                <h5><strong>MEETING OUR AUDIENCE</strong></h5>
+                <h5><span class='bold'>OUR USERS</span></h5>
                 <p>
-                    Prior to beginning work with a design project, it is important to gain an understanding of the users
+                    Prior to beginning work with a design project, it is important to gain an understanding of the audience
                     for whom we will be creating said design for. Upon working with our client in conducting surveys, we 
                     identified two user groups, each with distinctly differing usage objectives with the to-be application:
                     <br />
@@ -121,7 +121,7 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h5><strong>UNDERSTANDING OUR CLIENT'S PLATFORM</strong></h5>
+                <h5><span class='bold'>UNDERSTANDING OUR CLIENT'S PLATFORM</span></h5>
                 <p>
                     After learning about our target users and how they interact with the service, we sought to get an in-depth look 
                     into how the support program itself works and how information is organized within it.
@@ -130,7 +130,7 @@ export default function Soulfx() {
                     <br />
                     <div className='project_img_caption'>
                         <p>
-                            <em><strong>Record Management Workflow</strong></em>
+                            <span class='bold italic'>Record Management Workflow</span>
                         </p>
                     </div>
                     <img className='project_img' src={EnterpriseWorkflow} alt='record management workflow' />
@@ -147,7 +147,7 @@ export default function Soulfx() {
                     <br />
                     <div className='project_img_caption'>
                         <p>
-                            <em><strong>Record Management Dashboard IA</strong></em>
+                            <span class='bold italic'>Record Management Dashboard IA</span>
                         </p>
                     </div>
                     <img className='project_img' src={EnterpriseIA} alt='record management architecture' />
@@ -161,7 +161,7 @@ export default function Soulfx() {
                     <br />
                     <div className='project_img_caption'>
                         <p>
-                            <em><strong>Program Card Retrieval Workflow</strong></em>
+                            <span class='bold italic'>Program Card Retrieval Workflow</span>
                         </p>
                     </div>
                     <img className='project_img' src={PortalWorkflow} alt='program card retrieval workflow' />
@@ -179,7 +179,7 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h5><strong>THE DESIGNED SOLUTION</strong></h5>
+                <h5><span class='bold'>THE DESIGNED SOLUTION</span></h5>
                 <p>
                     We elected to employ a single-column approach for both platform components. Our intention for the record management dashboard is to allow caseworkers
                     to skim through lists and details as quickly as possible when working with records and facilitate responsiveness for the public-facing portal.
@@ -188,7 +188,7 @@ export default function Soulfx() {
                     <br/>
                     <div className='project_img_caption'>
                         <p>
-                            <em><strong>Record List View</strong></em>
+                            <span class='bold italic'>Record List View</span>
                         </p>
                     </div>
                     <img className='project_img' src={ListView} alt='company list view' />
@@ -198,7 +198,7 @@ export default function Soulfx() {
             <div className='project_img_caption'>
                 <p>
                     <br/>
-                    <em><strong>Record Addition</strong></em>
+                    <span class='bold italic'>Record Addition</span>
                     <br/>
                 </p>
             </div> {/* /caption */}
@@ -213,7 +213,7 @@ export default function Soulfx() {
                     <br/>                    
                     <br/>                    
                     <br/> 
-                    <em><strong>Record Detail Pages</strong></em>
+                    <span class='bold italic'>Record Detail Pages</span>
                 </p>
             </div> {/* /caption */}
             <div className='img-section'>
@@ -233,7 +233,7 @@ export default function Soulfx() {
             </div>
             <div className='project_img_caption'>
                 <p>
-                    <em><strong>Program Card Retrieval</strong></em>
+                    <span class='bold italic'>Program Card Retrieval</span>
                     <br/>
                 </p>
             </div> {/* /caption */}
@@ -247,7 +247,7 @@ export default function Soulfx() {
                 <p>
                     <br />
                 </p>
-                <h5><strong>VALIDATING OUR DESIGN</strong></h5>
+                <h5><span class='bold'>VALIDATING OUR DESIGN</span></h5>
                 <p>
                     Our record management dashboard and portal yielded <strong>two different success criteria</strong>:
                     <br />
@@ -280,7 +280,7 @@ export default function Soulfx() {
                     </Jumbotron>
                     <br />
                 </p>
-                <h5><strong>REFINING OUR SOLUTION</strong></h5>
+                <h5><span class='bold'>REFINING OUR SOLUTION</span></h5>
                 <p>
                     Iterations made to our designs were <strong>driven by the feedback we obtained</strong> from usability testing.
                     <br />
@@ -321,7 +321,7 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </p>
-                <h4><strong>TAKEAWAYS</strong></h4>
+                <h4><span class='bold'>TAKEAWAYS</span></h4>
                 <p>
                     <br />
                     <strong>Designs are products of curiosity and collaboration</strong> - a solid understanding of how our client's patient support

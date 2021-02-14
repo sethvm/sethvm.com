@@ -13,7 +13,7 @@ export default function Visuals() {
         <>
         <main className='project animate__animated animate__fadeIn'>
             <div className='project_body'>
-                <h4><strong>VISUALS</strong></h4>
+                <h4><span class='bold'>VISUALS</span></h4>
                 <p>
                     A collection of miscellaneous designs and graphics.
                 </p>
