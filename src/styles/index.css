@@ -45,13 +45,13 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
     background: #004080;
 }
 
+::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+}
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #002245;
+    background: #C4C4C4;
 }
