@@ -47,7 +47,8 @@ function HomePage() {
             <Home />
         </Container>
         <SideBar />
-        <Footer isHome={true} />
+        <Footer isHome />
+        <TopShortcut isHome />
         </>
     );
 }
@@ -68,7 +69,7 @@ function Page() {
             </Switch>
         </Container>
         <SideBar />
-        <Footer isHome={false} />
+        <Footer />
         <TopShortcut />
         </>
     );
