@@ -16,7 +16,9 @@ export default function FooterCondition(props) {
 function Footer(props) {
     return (
         <footer id={props.type} className='animate__animated animate__fadeIn'>
-            <div className='footer_txt'>Designed + built by Seth Morenos<br /></div>
+            <div className='footer_txt'>
+                Designed + built by Seth Morenos
+            </div>
         </footer>
     );
 }
