@@ -63,7 +63,7 @@ export default function Header(props) {
                 <Navbar.Collapse id='nav-dropdown'>
                     <Nav className='nav_drop' 
                     onClick={() => handleClick}>
-                        <Nav.Link className='nav_item' as={Link} to='/'><strong>Home</strong></Nav.Link>
+                        <Nav.Link className='nav_item' as={Link} to='/'><strong>Work</strong></Nav.Link>
                         <Nav.Link className='nav_item' as={Link} to='/about'><strong>About</strong></Nav.Link>
                         <ExtLink href={ResumeFile} label='Résumé' />
                     </Nav>
