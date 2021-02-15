@@ -124,18 +124,31 @@ export default function NewProject() {
                         Lorem Ipsum dolor sit amet
                     </Paragraph>
                 </Section>
-                <Section>
-                    <HTag4>Takeaways</HTag4>
-                    <Paragraph>
-                        <br />
-                        <span className='bold'>Designs are products of curiosity and collaboration</span> -
-                        a solid understanding of our client's service in conjunction with our users'
-                        expectations with the product were critical to the execution of each design phase.
-                        Working on this project taught me that effective designs are created by working
-                        side-by-side with people who posses varying domains of knowledge, some of which
-                        may not overlap.
-                    </Paragraph>
-                </Section>
+                <ImgContainer>
+                    <SectionInner>
+                        <HTag4>
+                            Designs are products of curiosity and collaboration
+                        </HTag4>
+                        <Paragraph>
+                            A solid understanding of our client's service in conjunction with our users'
+                            expectations with the product were critical to the execution of each design phase.
+                            Working on this project taught me that effective designs are created by working
+                            side-by-side with people who posses varying domains of knowledge, some of which
+                            may not overlap.
+                            <br />
+                        </Paragraph>
+                        <HTag4>
+                            Supporting access to healthcare through design
+                        </HTag4>
+                        <Paragraph>
+                            A solid understanding of our client's service in conjunction with our users'
+                            expectations with the product were critical to the execution of each design phase.
+                            Working on this project taught me that effective designs are created by working
+                            side-by-side with people who posses varying domains of knowledge, some of which
+                            may not overlap.
+                        </Paragraph>
+                    </SectionInner>
+                </ImgContainer>
             </Project>
         </main>
     );

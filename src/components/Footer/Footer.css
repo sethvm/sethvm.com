@@ -1,26 +1,24 @@
-#footer-home, #footer-page {
+#footer {
     width: 100%;
     text-align: center;
     padding-top: 0;
 }
 
-#footer-home, #footer-page {
+#footer {
     height: 200px;
 }
 
 /*md breakpoint*/
 @media (min-width: 768px) {
-    #footer-home, #footer-page {
+    #footer {
         height: 112px;
     }
 }
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
-    #footer-home, #footer-page {
+    #footer {
         height: 85px;
-    }
-    #footer-home {
         position: relative;
         text-align: left;
         padding: 0 0 50px 3.25%;

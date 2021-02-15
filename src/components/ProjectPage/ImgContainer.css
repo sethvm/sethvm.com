@@ -1,7 +1,8 @@
 .image {
-    background: #f0f0f0;
+    background-color: rgb(200, 200, 200, 0.4);
+    backdrop-filter: blur(2px);
     margin: 100px auto;
-    padding: 40px 0;
+    padding: 24px 0;
 }
 
 .image_caption {

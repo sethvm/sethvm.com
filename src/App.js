@@ -19,14 +19,14 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import About from './pages/About';
-import Soulfx from './pages/Soulfx';
+import SoulfxOld from './pages/Soulfx';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 /*import Visuals from './pages/Visuals';*/
 
 /*template project page*/
 import NewProject from './pages/NewProject';
-import Soulfx2 from './pages/Soulfxv2';
+import Soulfx from './pages/Soulfxv2';
 
 export default function App() {
     return (
@@ -36,6 +36,8 @@ export default function App() {
                 <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={Page} />
             </Switch>
+            <SideBar />
+            <Footer />
             <TopShortcut />
         </HashRouter>
     );
@@ -51,8 +53,6 @@ function HomePage() {
         <Container>
             <Home />
         </Container>
-        <SideBar />
-        <Footer type='footer-home' />
         </>
     );
 }
@@ -66,17 +66,15 @@ function Page() {
         animation='block-blue thin animate__animated animate__fadeInLeft' />
         <Container>
             <Switch>
-                <Route exact={true} path='/soulfx2' component={Soulfx2} />
+                <Route exact={true} path='/soulfx' component={Soulfx} />
                 <Route exact={true} path='/wip' component={NewProject} />
                 <Route exact={true} path='/about' component={About} />
                 <Route exact={true} path='/albert' component={Albert} />
                 <Route exact={true} path='/fassb' component={FASSB} />
-                <Route exact={true} path='/soulfx' component={Soulfx} />
+                <Route exact={true} path='/soulfxold' component={SoulfxOld} />
                 <Route component={Error} />
             </Switch>
         </Container>
-        <SideBar />
-        <Footer type='footer-page' />
         </>
     );
 }
