@@ -22,6 +22,12 @@ body {
 
 p {
     font-family: "Poppins Light", sans-serif;
+    font-size: 0.975em;
+    letter-spacing: 0.015em;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .bold {
