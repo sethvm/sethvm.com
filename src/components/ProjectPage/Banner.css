@@ -1,0 +1,14 @@
+.banner {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    /*remove or comment out after making template!*/
+    background: #ffdcb1;
+}
+
+@media (min-width: 1024px) {
+    .banner {
+        width: 70%;
+    }
+}
