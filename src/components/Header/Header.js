@@ -73,7 +73,7 @@ export default function Header(props) {
                     </Nav>
                 </Navbar.Collapse>
                 <div className='nav_right'>
-                    <Nav.Link className={props.aboutType} as={Link} to='/about'>
+                    <Nav.Link className='nav-desktop link' as={Link} to='/about'>
                         ABOUT
                     </Nav.Link>
                 </div>

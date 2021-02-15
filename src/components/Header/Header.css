@@ -33,7 +33,7 @@
     padding: 0;
 }
 
-.nav-desktop-home, .nav-desktop-page, .nav_right {
+.nav-desktop, .nav_right {
     display: none;
 }
 
@@ -84,18 +84,12 @@
         left: 2.7%;
         right: 2.7%;
     }
-    .nav-desktop-home, .nav-desktop-page {
+    .nav-desktop {
         font-size: 1.1em;
-    }
-    .nav-desktop-home {
         display: block;
         color: white !important;
     }
-    .nav-desktop-page {
-        display: block;
-        font-weight: 700;
-        color: #004080 !important;
-    }
+
     .nav_right {
         display: flex;
     }

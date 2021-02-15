@@ -44,8 +44,7 @@ function HomePage() {
     return (
         <>
         <Header
-        pageType='nav-home animate__animated animate__fadeIn'
-        aboutType='nav-desktop-home link' />
+        pageType='nav-home animate__animated animate__fadeIn' />
         <BlueBlock
         animation='block-blue animate__animated animate__fadeInLeft' />
         <Container>
@@ -61,8 +60,7 @@ function Page() {
     return (
         <>
         <Header
-        pageType='nav-page'
-        aboutType='nav-desktop-page link' />
+        pageType='nav-page' />
         <BlueBlock
         animation='block-blue thin animate__animated animate__fadeInLeft' />
         <Container>
