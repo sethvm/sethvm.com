@@ -19,7 +19,7 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import About from './pages/About';
-import SoulfxOld from './pages/Soulfx';
+import SoulfxOld from './pages/Soulfx_old';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 /*import Visuals from './pages/Visuals';*/
@@ -63,11 +63,11 @@ function Page() {
         animation='block-blue thin animate__animated animate__fadeInRight' />
         <Container>
             <Switch>
-                <Route exact={true} path='/soulfx' component={Soulfx} />
                 <Route exact={true} path='/wip' component={NewProject} />
                 <Route exact={true} path='/about' component={About} />
                 <Route exact={true} path='/albert' component={Albert} />
                 <Route exact={true} path='/fassb' component={FASSB} />
+                <Route exact={true} path='/soulfx' component={Soulfx} />
                 <Route exact={true} path='/soulfxold' component={SoulfxOld} />
                 <Route component={Error} />
             </Switch>

@@ -138,14 +138,16 @@ export default function NewProject() {
                             <br />
                         </Paragraph>
                         <HTag4>
-                            Supporting access to healthcare through design
+                            Improving accessiblity to healthcare
                         </HTag4>
                         <Paragraph>
-                            A solid understanding of our client's service in conjunction with our users'
-                            expectations with the product were critical to the execution of each design phase.
-                            Working on this project taught me that effective designs are created by working
-                            side-by-side with people who posses varying domains of knowledge, some of which
-                            may not overlap.
+                            Working on a platform for a patient support program has instilled in me a
+                            new appreciation for how design can be used to make the world a better place.
+                            While I do not have the resources nor the know-how to help patients with their
+                            medical expenses, a critical objective of my role as a designer was to learn about
+                            the people who do. The project provided an opportunity to leverage this understanding
+                            to mitigate the increase in pressure brought to our client's caseworkers by the pandemic
+                            and play a part in making healthcare services more accessible through design.
                         </Paragraph>
                     </SectionInner>
                 </ImgContainer>
