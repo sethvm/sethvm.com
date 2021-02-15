@@ -24,6 +24,9 @@ import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 /*import Visuals from './pages/Visuals';*/
 
+/*template project page*/
+import NewProject from './pages/NewProject';
+
 export default function App() {
     return (
         <HashRouter>
@@ -40,15 +43,16 @@ export default function App() {
 function HomePage() {
     return (
         <>
-        <Header 
-        pageType='nav-home animate__animated animate__fadeIn' 
+        <Header
+        pageType='nav-home animate__animated animate__fadeIn'
         aboutType='nav-desktop-home link' />
-        <BlueBlock />
+        <BlueBlock
+        animation='block-blue animate__animated animate__fadeInLeft' />
         <Container>
             <Home />
         </Container>
         <SideBar />
-        <Footer isHome />
+        <Footer type='footer-home' />
         </>
     );
 }
@@ -56,11 +60,14 @@ function HomePage() {
 function Page() {
     return (
         <>
-        <Header 
-        pageType='nav-page' 
+        <Header
+        pageType='nav-page'
         aboutType='nav-desktop-page link' />
+        <BlueBlock
+        animation='block-blue thin animate__animated animate__fadeInLeft' />
         <Container>
             <Switch>
+                <Route exact={true} path='/wip' component={NewProject} />
                 <Route exact={true} path='/about' component={About} />
                 <Route exact={true} path='/albert' component={Albert} />
                 <Route exact={true} path='/fassb' component={FASSB} />
@@ -69,7 +76,7 @@ function Page() {
             </Switch>
         </Container>
         <SideBar />
-        <Footer />
+        <Footer type='footer-page' />
         </>
     );
 }

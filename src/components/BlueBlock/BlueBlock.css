@@ -14,4 +14,7 @@
         background-color: #004080;
         z-index: -900;
     }
+    .thin {
+        left: 80% !important;
+    }
 }
