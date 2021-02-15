@@ -26,6 +26,7 @@ import FASSB from './pages/FASSB';
 
 /*template project page*/
 import NewProject from './pages/NewProject';
+import Soulfx2 from './pages/Soulfxv2';
 
 export default function App() {
     return (
@@ -65,6 +66,7 @@ function Page() {
         animation='block-blue thin animate__animated animate__fadeInLeft' />
         <Container>
             <Switch>
+                <Route exact={true} path='/soulfx2' component={Soulfx2} />
                 <Route exact={true} path='/wip' component={NewProject} />
                 <Route exact={true} path='/about' component={About} />
                 <Route exact={true} path='/albert' component={Albert} />

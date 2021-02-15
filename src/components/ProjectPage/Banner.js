@@ -5,7 +5,7 @@ import './Banner.css';
 export default function Banner(props) {
     return (
         <div className='banner'>
-            <img src={props.img} alt={props.alt} />
+            <img className='banner_img' src={props.img} alt={props.alt} />
         </div>
     );
 }

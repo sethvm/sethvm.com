@@ -47,9 +47,7 @@ export default function NewProject() {
                     banner div 
                 </Banner>
                 <Section>
-                    <HTag4>
-                        <span className='bold'>Paragraph header</span>
-                    </HTag4>
+                    <HTag4>The Health Crisis</HTag4>
                     <Paragraph>
                         This is a pagagraph explaining a given phase of the project.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -79,9 +77,7 @@ export default function NewProject() {
                 <ImgContainer
                 caption='another caption here'>
                     <SectionInner>
-                        <HTag4>
-                            <span className='bold'>The approach</span>
-                        </HTag4>
+                        <HTag4>The approach</HTag4>
                         <Paragraph>
                             Sometimes, we might even opt to combine the text section and an image
                             into a single container...
