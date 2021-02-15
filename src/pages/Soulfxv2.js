@@ -39,7 +39,7 @@ export default function NewProject() {
                     <Paragraph>
                         Soulfx's Patient Support Application is a web-based
                         platform developed for an external client within the
-                        pharmaceutical industry. The application enables the
+                        pharmaceutical industry. It facilitates the
                         remote delivery of a Patient Support Program (PSP), a
                         service that provides financial assistance for medical
                         payments such as therapy and prescriptions.
@@ -60,24 +60,24 @@ export default function NewProject() {
                 <Banner
                 img={SoulfxCard}
                 alt='Soulfx Patient Support App' />
+                <Section>
+                    <HTag4>An ongoing health crisis</HTag4>
+                    <Paragraph>
+                        COVID-19 has brought with it a large-scale challenge that
+                        has overloaded services within the healthcare industry. Our
+                        client has been prompted to move their financial aid service
+                        (referred to as a patient support service or PSP) online due
+                        to the risk imposed to immunocompromised individuals by
+                        in-office consultation.
+                    </Paragraph>
+                </Section>
                 <ImgContainer
-                caption='Our design approach'>
+                caption='Our approach'>
                     <SectionInner>
-                        <HTag4>An ongoing health crisis</HTag4>
-                        <Paragraph>
-                            COVID-19 has brought with it a large-scale challenge that
-                            has overloaded services within the healthcare industry. Our
-                            client has been prompted to move their financial aid service
-                            (referred to as a patient support service or PSP) online due
-                            to the risk imposed to immunocompromised individuals by
-                            in-office consultation.
-                        </Paragraph>
-                        <Paragraph>
-                            <strong>
-                                How can we design a platform that will enable our client
-                                to provide their support service remotely to patients?
-                            </strong>
-                        </Paragraph>
+                        <HTag4>
+                            How can we design a platform that will enable our client
+                            to provide their support service to patients remotely?
+                        </HTag4>
                     </SectionInner>
                     <ImgFluid>
                         <div>[ insert design process diagram ]</div>

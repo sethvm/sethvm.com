@@ -20,6 +20,10 @@ body {
     color: #1a1a1a;
 }
 
+h1, h2, h3, h4 {
+    line-height: 125%;
+}
+
 p {
     font-family: "Poppins Light", sans-serif;
 }
