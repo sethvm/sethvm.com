@@ -94,7 +94,7 @@ export default function NewProject() {
                 <Section>
                     <HTag4>Jobs-to-be-done</HTag4>
                     <Paragraph>
-                    We identified two user groups after obtaining an in-depth look at how
+                        We identified two user groups after obtaining an in-depth look at how
                         our client's service functions
                     </Paragraph>
                 </Section>
