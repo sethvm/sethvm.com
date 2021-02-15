@@ -32,6 +32,7 @@ export default function App() {
     return (
         <HashRouter>
             <ScrollToTop />
+            <Header />
             <Switch>
                 <Route exact={true} path='/' component={HomePage} />
                 <Route exact={false} path='/' component={Page} />
@@ -46,8 +47,6 @@ export default function App() {
 function HomePage() {
     return (
         <>
-        <Header
-        pageType='nav-home animate__animated animate__fadeIn' />
         <BlueBlock
         animation='block-blue animate__animated animate__fadeInLeft' />
         <Container>
@@ -60,10 +59,8 @@ function HomePage() {
 function Page() {
     return (
         <>
-        <Header
-        pageType='nav-page' />
         <BlueBlock
-        animation='block-blue thin animate__animated animate__fadeInLeft' />
+        animation='block-blue thin animate__animated animate__fadeInRight' />
         <Container>
             <Switch>
                 <Route exact={true} path='/soulfx' component={Soulfx} />

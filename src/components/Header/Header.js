@@ -12,7 +12,7 @@ import './Header.css';
 import SVMLogo from './brand.svg';
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function Header(props) {
+export default function Header() {
 
     const [ expanded, setExpanded ] = useState(false);
     const node = useRef();
@@ -44,7 +44,7 @@ export default function Header(props) {
     }, [handleClick]);
 
     return (
-        <header className={props.pageType}>
+        <header className='header animate__animated animate__fadeIn'>
             <Navbar className='nav_banner' 
             expand='1024px'
             expanded={expanded}

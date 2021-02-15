@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-.nav-home, .nav-page {
+.header {
     height: 96px;
     top: 0;
     background: white;
@@ -74,10 +74,8 @@
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
-    .nav-home, .nav-page {
+    .header {
         background: transparent;
-    }
-    .nav-home {
         position: absolute;
     }
     .nav_banner {
