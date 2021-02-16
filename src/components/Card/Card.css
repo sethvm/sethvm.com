@@ -14,10 +14,6 @@ h2, .view_link {
     width: 100%;
 }
 
-.card_img:hover {
-    cursor: url('./cursor_view.svg'), pointer;
-}
-
 .card_text {
     padding: 40px 12% 0 12%;
 }

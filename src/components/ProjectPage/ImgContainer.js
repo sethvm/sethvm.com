@@ -1,3 +1,4 @@
+/*jumbotron-like component - use as container to highlight the most important sections*/
 import React from 'react';
 import './ImgContainer.css';
 
