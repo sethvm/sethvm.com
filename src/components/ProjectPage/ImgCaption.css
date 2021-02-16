@@ -1,0 +1,5 @@
+.image_caption {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}

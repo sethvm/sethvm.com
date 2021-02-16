@@ -1,18 +1,22 @@
 import React from 'react';
 import '../styles/NewProject.css';
 
+/*layout imports*/
 import Project from '../components/ProjectPage/Project';
 import Section from '../components/ProjectPage/Section';
 import SectionInner from '../components/ProjectPage/SectionInner';
-import Paragraph from '../components/ProjectPage/Paragraph';
 
+/*image imports*/
 import Banner from '../components/ProjectPage/Banner';
 import ImgContainer from '../components/ProjectPage/ImgContainer';
 import ImgFluid from '../components/ProjectPage/ImgFluid';
+import ImgCaption from '../components/ProjectPage/ImgCaption';
 
+/*typography imports*/
 import HTag2 from '../components/ProjectPage/HTag2';
 import HTag4 from '../components/ProjectPage/HTag4';
 import HTag5 from '../components/ProjectPage/HTag5';
+import Paragraph from '../components/ProjectPage/Paragraph';
 
 import AddRecord from '../components/soulfx/soulfx-add_company.svg';
 import AddRecord2 from '../components/soulfx/soulfx-add_company_2.svg';
@@ -45,21 +49,27 @@ export default function NewProject() {
                         payments such as therapy and prescriptions.
                     </Paragraph>
                     <Paragraph>
-                        <span className='bold'>Team:</span>&nbsp;
-                        2 Designers (including myself), Project Manager (PM)
+                        <span className='bold'>Company:</span>
+                        &nbsp;Soulfx Technologies
                     </Paragraph>
                     <Paragraph>
-                        <span className='bold'>Timeline:</span>&nbsp;
-                        May 2020 - Aug 2020 (10 weeks)
+                        <span className='bold'>Team:</span>
+                        &nbsp;2 Designers (including myself), Project Manager (PM)
                     </Paragraph>
                     <Paragraph>
-                        <span className='bold'>Tools:</span>&nbsp;
-                        Adobe XD
+                        <span className='bold'>Timeline:</span>
+                        &nbsp;May 2020 - Aug 2020 (10 weeks)
+                    </Paragraph>
+                    <Paragraph>
+                        <span className='bold'>Tools:</span>
+                        &nbsp;Adobe XD
                     </Paragraph>
                 </Section>
+
                 <Banner
                 img={SoulfxCard}
                 alt='Soulfx Patient Support App' />
+
                 <Section>
                     <HTag4>An ongoing health crisis</HTag4>
                     <Paragraph>
@@ -70,8 +80,8 @@ export default function NewProject() {
                         by in-office consultation.
                     </Paragraph>
                 </Section>
-                <ImgContainer
-                caption='Our approach'>
+
+                <ImgContainer>
                     <SectionInner>
                         <HTag4>
                             How can we design a platform that will enable our client
@@ -81,7 +91,11 @@ export default function NewProject() {
                     <ImgFluid>
                         <div>[ insert design process diagram ]</div>
                     </ImgFluid>
+                    <ImgCaption>
+                        Our approach
+                    </ImgCaption>
                 </ImgContainer>
+
                 <Section>
                     <HTag4>The support service in a nutshell</HTag4>
                     <Paragraph>
@@ -93,12 +107,14 @@ export default function NewProject() {
                         can be restricted to specified provinces or offered Canada-wide.
                     </Paragraph>
                 </Section>
+
                 <Section>
                     <HTag4>Uncovering a hierarchy</HTag4>
                     <Paragraph>
                         Talk about discovery and information architecture mapping
                     </Paragraph>
                 </Section>
+
                 <Section>
                     <HTag4>Jobs-to-be-done</HTag4>
                     <Paragraph>
@@ -107,12 +123,14 @@ export default function NewProject() {
                         with .
                     </Paragraph>
                 </Section>
+
                 <Section>
                     <HTag4>Laying out the groundwork</HTag4>
                     <Paragraph>
                         Talk about user flows for both user groups
                     </Paragraph>
                 </Section>
+
                 <Section>
                     <HTag4>Putting it all together</HTag4>
                     <Paragraph>
@@ -121,19 +139,53 @@ export default function NewProject() {
                         architecture (IA) mapping, user flows and navigation; my fellow
                         co-op focused primarily on visual design and animations.
                     </Paragraph>
-                    <Paragraph>
-                        Our final design consists of two components - a <strong>record
-                        management module</strong> paired with a <strong>public-facing portal</strong>
-                    </Paragraph>
                 </Section>
+
+                <ImgContainer>
+                    <SectionInner>
+                        <HTag5>
+                            Record Management Dashboard
+                        </HTag5>
+                        <Paragraph>
+                            While designing the record management dashboard, we focused
+                            on enabling our caseworkers to skim through record lists and details
+                            as quickly as possible. Thus, we elected to employ a single-column approach.
+                        </Paragraph>
+                    </SectionInner>
+                    <ImgFluid>
+                        <div>[ dashboard screens ]</div>
+                    </ImgFluid>
+                    <ImgCaption>
+                        image caption goes here
+                    </ImgCaption>
+                    <SectionInner>
+                        <HTag5>
+                            Card Retrieval Portal
+                        </HTag5>
+                        <Paragraph>
+                            We aimed to make the card retrieval process as seamless as possible for
+                            both new and returning users. Additionally, we wanted the interface to be
+                            easy to navigate through using touch inputs, as our patients will have access
+                            to the platform through mobile devices.
+                        </Paragraph>
+                    </SectionInner>
+                    <ImgFluid>
+                        <div>[ portal screens ]</div>
+                    </ImgFluid>
+                    <ImgCaption>
+                        image caption goes here
+                    </ImgCaption>
+                </ImgContainer>
+
                 <Section>
                     <HTag4>Key interactions</HTag4>
                     <Paragraph>
                         Talks about breadcrumbs + switches, and what pain points they address
                     </Paragraph>
                 </Section>
+
                 <Section>
-                    <HTag4>The need for usability at scale</HTag4>
+                    <HTag4>Opportunity to streamline navigation at scale</HTag4>
                     <Paragraph>
                         Upon a hypothetical return to this design, I would make a push to <strong>implement
                         a search and filter function</strong> into our dashboard lists.
@@ -143,9 +195,10 @@ export default function NewProject() {
                         by providing our caseworkers direct access to the records they need to work with.
                     </Paragraph>
                 </Section>
+
                 <Section>
                     <HTag4>
-                        Our Takeaways
+                        Our takeaways
                         <br />
                     </HTag4>
                     <HTag5>
@@ -172,6 +225,7 @@ export default function NewProject() {
                         and play a part in making healthcare services more accessible through design.
                     </Paragraph>
                 </Section>
+
             </Project>
         </main>
     );

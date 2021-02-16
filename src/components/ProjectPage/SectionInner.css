@@ -13,7 +13,7 @@
 /*lg breakpoint*/
 @media (min-width: 1024px) {
     .section_inner {
-        width: 57%;
+        width: 64%;
         margin-left: 10%;
     }
 }
