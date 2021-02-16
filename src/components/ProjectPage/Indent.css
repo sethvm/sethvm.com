@@ -1,19 +1,24 @@
-.section {
+.indent {
     width: 85%;
     margin: 90px auto 90px auto;
+    padding-left: 26px;
+    border-left: #004080 solid;
+    border-width: 6px;
+    border-radius: 4px;
 }
 
 /*md breakpoint*/
 @media (min-width: 768px) {
-    .section {
+    .indent {
         width: 75%;
     }
 }
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
-    .section {
+    .indent {
         width: 40%;
         margin-left: 22%;
+        padding-left: 24px;
     }
 }

@@ -5,6 +5,8 @@ import '../styles/NewProject.css';
 import Project from '../components/ProjectPage/Project';
 import Section from '../components/ProjectPage/Section';
 import SectionInner from '../components/ProjectPage/SectionInner';
+import Indent from '../components/ProjectPage/Indent';
+import IndentInner from '../components/ProjectPage/IndentInner';
 
 /*image imports*/
 import Banner from '../components/ProjectPage/Banner';
@@ -81,13 +83,14 @@ export default function NewProject() {
                     </Paragraph>
                 </Section>
 
+                <Indent>
+                    <HTag5>
+                        How can we design a platform that will enable our client
+                        to provide their support service to patients remotely?
+                    </HTag5>
+                </Indent>
+
                 <ImgContainer>
-                    <SectionInner>
-                        <HTag4>
-                            How can we design a platform that will enable our client
-                            to provide their support service to patients remotely?
-                        </HTag4>
-                    </SectionInner>
                     <ImgFluid>
                         <div>[ insert design process diagram ]</div>
                     </ImgFluid>
@@ -201,10 +204,13 @@ export default function NewProject() {
                         Our takeaways
                         <br />
                     </HTag4>
-                    <HTag5>
-                        Designs are products of curiosity and collaboration
-                    </HTag5>
+                    <IndentInner>
+                        <HTag5>
+                            Designs are products of curiosity and collaboration
+                        </HTag5>
+                    </IndentInner>
                     <Paragraph>
+                        <br />
                         A solid understanding of our client's service in conjunction with our users'
                         expectations with the product were critical to the execution of each design phase.
                         Working on this project taught me that effective designs are created by working
@@ -212,10 +218,13 @@ export default function NewProject() {
                         may not overlap.
                         <br />
                     </Paragraph>
-                    <HTag5>
-                        We as designers can help our frontliners, especially amid a pandemic
-                    </HTag5>
+                    <IndentInner>
+                        <HTag5>
+                            We as designers can help our frontliners, especially amid a pandemic
+                        </HTag5>
+                    </IndentInner>
                     <Paragraph>
+                        <br />
                         Working on a platform for a patient support program has instilled in me a
                         new appreciation for how design can be used to make the world a better place.
                         While I do not have the resources nor the know-how to help patients with their

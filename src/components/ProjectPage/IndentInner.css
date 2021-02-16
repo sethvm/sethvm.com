@@ -1,0 +1,13 @@
+.indent_inner {
+    padding-left: 20px;
+    border-left: #004080 solid;
+    border-width: 5px;
+    border-radius: 4px;
+}
+
+/*lg breakpoint*/
+@media (min-width: 1024px) {
+    .indent_inner {
+        padding-left: 18px;
+    }
+}
