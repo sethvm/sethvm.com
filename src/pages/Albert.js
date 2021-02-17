@@ -1,6 +1,5 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import '../styles/Project.css';
 
 import Banner from '../components/albert/albert-banner.svg';
 import ColourGuide from '../components/albert/albert-colour_guide.svg';

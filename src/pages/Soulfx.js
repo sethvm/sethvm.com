@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/NewProject.css';
 
 /*layout imports*/
 import Project from '../components/ProjectPage/Project';
@@ -8,7 +7,7 @@ import SectionInner from '../components/ProjectPage/SectionInner';
 import Indent from '../components/ProjectPage/Indent';
 import IndentInner from '../components/ProjectPage/IndentInner';
 
-/*image imports*/
+/*image container imports*/
 import Banner from '../components/ProjectPage/Banner';
 import ImgContainer from '../components/ProjectPage/ImgContainer';
 import ImgFluid from '../components/ProjectPage/ImgFluid';
@@ -20,10 +19,13 @@ import HTag4 from '../components/ProjectPage/HTag4';
 import HTag5 from '../components/ProjectPage/HTag5';
 import Paragraph from '../components/ProjectPage/Paragraph';
 
-import AddRecord from '../components/soulfx/soulfx-add_company.svg';
+/*banner import*/
+import SoulfxCard from '../components/soulfx/soulfx-card.svg';
+
+/*old graphics - to be reworked*/
+/*import AddRecord from '../components/soulfx/soulfx-add_company.svg';
 import AddRecord2 from '../components/soulfx/soulfx-add_company_2.svg';
 import SoulfxBanner from '../components/soulfx/soulfx-banner.svg';
-import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 import CertListAnnotated from '../components/soulfx/soulfx-cert_list_annotated.svg';
 import CertActivation from '../components/soulfx/soulfx-cert_list_popup.svg';
 import CompanyDetails from '../components/soulfx/soulfx-company_details.svg';
@@ -34,9 +36,9 @@ import Methodology from '../components/soulfx/soulfx-methodology.svg';
 import PortalWorkflow from '../components/soulfx/soulfx-portal_workflow.svg';
 import ProgramDetails from '../components/soulfx/soulfx-program_details.svg';
 import ProgramSelection from '../components/soulfx/soulfx-program_selection.svg';
-import ProgramCards from '../components/soulfx/soulfx-program_cards.svg';
+import ProgramCards from '../components/soulfx/soulfx-program_cards.svg';*/
 
-export default function NewProject() {
+export default function Soulfx() {
     
     return(
         <main>

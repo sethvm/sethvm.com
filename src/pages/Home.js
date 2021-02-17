@@ -5,11 +5,12 @@ import { HashLink } from 'react-router-hash-link';
 import '../styles/Home.css';
 
 import DownArrow from '../components/Navigation/down-arrow.svg';
-
 import AlbertCard from '../components/albert/albert-card.svg';
-import FASSBCard from '../components/fassb/fassb-card.svg';
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
+
+/*old cards*/
 /*import VisualsCard from '../components/visuals/visuals-card.svg';*/
+/*import FASSBCard from '../components/fassb/fassb-card.svg';*/
 
 export default function Home() {
     return (
@@ -64,21 +65,10 @@ export default function Home() {
                 new immigrants with evaluating residence and commute options"
                 img={AlbertCard}
                 alt='Project Albert'
-                link='/albert'
-                linkPrompt='VIEW PROJECT'>
+                link={null}
+                linkPrompt='IN PROGRESS'>
                         <Badge pill variant='dark'>Branding</Badge>&nbsp;
                         <Badge pill variant='dark'>UX Design</Badge>
-                </Card>
-                <Card
-                title='FASSB Design'
-                desc="Interface reworks for Employment Ontario platforms
-                used to help jobseekers secure employment"
-                img={FASSBCard}
-                alt='fassb design'
-                link='/fassb'
-                linkPrompt='VIEW RECAP'>
-                    <Badge pill variant='dark'>Web Design</Badge>&nbsp;
-                    <Badge pill variant='dark'>UX Design</Badge>
                 </Card>
             </div>
         </main>
