@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "Poppins Regular";
     src:local('Poppins Regular'),
         url('../fonts/Poppins-Regular.ttf') format('truetype');
@@ -8,10 +8,23 @@
     font-family: "Poppins Light";
     src:local('Poppins Light'),
         url('../fonts/Poppins-Light.ttf') format('truetype');
+}*/
+
+@font-face {
+    font-family: "Object Sans Regular";
+    src:local('Object Sans Regular'),
+        url('../fonts/ObjectSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Object Sans Light";
+    src:local('Object Sans Light'),
+        url('../fonts/ObjectSans-Light.otf') format('opentype');
 }
 
 body {
-    font-family: "Poppins Regular", sans-serif;
+    font-family: "Object Sans Regular", sans-serif;
+    /*font-family: "Poppins Regular", sans-serif;*/
     margin: 0;
     max-width: 100%;
     overflow-x: hidden;
@@ -20,12 +33,22 @@ body {
     color: #1a1a1a;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     line-height: 125%;
 }
 
+h5 {
+    font-size: 1.15em;
+}
+
 p {
-    font-family: "Poppins Light", sans-serif;
+    font-family: "Object Sans Light", sans-serif;
+    /*font-family: "Poppins Light", sans-serif;*/
+}
+
+a {
+    font-family: "Object Sans Regular", sans-serif;
+    /*font-family: "Poppins Regular", sans-serif;*/
 }
 
 a:hover {

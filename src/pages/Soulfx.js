@@ -52,7 +52,7 @@ export default function NewProject() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Company:</span>
-                        &nbsp;Soulfx Technologies
+                        &nbsp;Soulfx Technologies (client kept confidential as per NDA)
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Team:</span>
@@ -112,7 +112,7 @@ export default function NewProject() {
                 </Section>
 
                 <Section>
-                    <HTag4>Uncovering a hierarchy</HTag4>
+                    <HTag4>Decoding a hierarchy</HTag4>
                     <Paragraph>
                         Talk about discovery and information architecture mapping
                     </Paragraph>
@@ -188,20 +188,8 @@ export default function NewProject() {
                 </Section>
 
                 <Section>
-                    <HTag4>Opportunity to streamline navigation at scale</HTag4>
-                    <Paragraph>
-                        Upon a hypothetical return to this design, I would make a push to <strong>implement
-                        a search and filter function</strong> into our dashboard lists.
-                        As the number of registered records within the platform grows,
-                        scrolling to find items within lists may become more laborious and yield a more cumbersome
-                        navigation experience. The ability to search for and filter items would address such issues
-                        by providing our caseworkers direct access to the records they need to work with.
-                    </Paragraph>
-                </Section>
-
-                <Section>
                     <HTag4>
-                        Our takeaways
+                        Our takeaways and opportunities for refinement
                         <br />
                     </HTag4>
                     <IndentInner>
@@ -220,7 +208,7 @@ export default function NewProject() {
                     </Paragraph>
                     <IndentInner>
                         <HTag5>
-                            We as designers can help our frontliners, especially amid a pandemic
+                            We as designers can contribute to essential industries, even amid a pandemic
                         </HTag5>
                     </IndentInner>
                     <Paragraph>
@@ -232,6 +220,22 @@ export default function NewProject() {
                         the people who do. The project provided an opportunity to leverage this understanding
                         to mitigate the increase in pressure brought to our client's caseworkers by the pandemic
                         and play a part in making healthcare services more accessible through design.
+                        <br />
+                    </Paragraph>
+                    <IndentInner>
+                        <HTag5>
+                            Upon a hypothetical return to this design, I would push to further streamline
+                            the navigation experience for our record management dashboard through exploration
+                            with search and filter functions
+                        </HTag5>
+                    </IndentInner>
+                    <Paragraph>
+                        <br />
+                        As the number of registered records within the platform grows,
+                        scrolling to find items within lists may become more laborious.
+                        The ability to search for and filter items would address such issues
+                        by providing our caseworkers direct access to the records they need
+                        to work with.
                     </Paragraph>
                 </Section>
 

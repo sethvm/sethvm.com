@@ -18,10 +18,6 @@ h2, .view_link {
     padding: 40px 12% 0 12%;
 }
 
-.view_link {
-    font-family: "Poppins Regular", sans-serif;
-}
-
 .view_link:hover {
     color: #0180FF;
 }

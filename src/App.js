@@ -19,14 +19,14 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import About from './pages/About';
-import SoulfxOld from './pages/Soulfx_old';
+import Soulfx from './pages/Soulfx';
 import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 /*import Visuals from './pages/Visuals';*/
 
 /*template project page*/
 import NewProject from './pages/NewProject';
-import Soulfx from './pages/Soulfxv2';
+import SoulfxOld from './pages/Soulfx_old';
 
 export default function App() {
     return (
