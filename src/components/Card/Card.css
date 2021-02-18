@@ -1,4 +1,4 @@
-h2, .view_link {
+.active_link, .in_progress {
     color: #004080;
 }
 
@@ -19,6 +19,10 @@ h2, .view_link {
 }
 
 .view_link:hover {
+    color: #0180FF;
+}
+
+.active_link:hover {
     color: #0180FF;
 }
 

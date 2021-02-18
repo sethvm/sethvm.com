@@ -36,9 +36,6 @@ export default function Home() {
                         <strong>Product Design</strong> @ Loblaw Digital
                         <br />
                         <br />
-                        ... and a rework of this portfolio!
-                        <br />
-                        <br />
                     </p>
                     <div className='jump_container animate__animated animate__fadeInDown animate__delay-1s'>
                         <HashLink smooth to='#projects'>
@@ -58,6 +55,7 @@ export default function Home() {
                 of a client's financial aid service for patients in need"
                 img={SoulfxCard}
                 alt='Patient Support App'
+                status='active_link'
                 link='/soulfx'
                 linkPrompt='VIEW PROJECT'>
                     <Badge pill variant='dark'>UX Design</Badge>&nbsp;
@@ -69,6 +67,7 @@ export default function Home() {
                 new immigrants with evaluating residence and commute options"
                 img={AlbertCard}
                 alt='Project Albert'
+                status='in_progress'
                 link={null}
                 linkPrompt='IN PROGRESS'>
                         <Badge pill variant='dark'>Branding</Badge>&nbsp;

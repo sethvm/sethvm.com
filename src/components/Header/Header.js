@@ -17,7 +17,7 @@ export default function Header() {
     const [ expanded, setExpanded ] = useState(false);
     const node = useRef();
 
-    function toggleNav() {
+    const toggleNav = () => {
         const newExpanded = expanded;
         setExpanded(!newExpanded);
     }
