@@ -5,10 +5,9 @@ import Project from '../components/ProjectPage/Project';
 import Section from '../components/ProjectPage/Section';
 import SectionInner from '../components/ProjectPage/SectionInner';
 import Indent from '../components/ProjectPage/Indent';
-import IndentInner from '../components/ProjectPage/IndentInner';
+import IndentNoBar from '../components/ProjectPage/IndentNoBar';
 
 /*image container imports*/
-import Banner from '../components/ProjectPage/Banner';
 import ImgContainer from '../components/ProjectPage/ImgContainer';
 import ImgFluid from '../components/ProjectPage/ImgFluid';
 import ImgCaption from '../components/ProjectPage/ImgCaption';
@@ -27,26 +26,27 @@ export default function About() {
                 <Section>
                     <HTag2>
                         Thanks for dropping by! I am...
-                        <br />
                     </HTag2>
-                    <SectionInner>
-                        <HTag4>
-                            A student in Human-centered Design
-                        </HTag4>
-                        <Paragraph>
-                            Lorem Ipsum Systems Design at Waterloo and stuff
-                        </Paragraph>
-                    </SectionInner>
-                    <SectionInner>
-                        <HTag4>
-                            <br />
-                            An adrenaline junkie
-                        </HTag4>
-                        <Paragraph>
-                            Haha boulder and skydive go brrr
-                        </Paragraph>
-                    </SectionInner>
                 </Section>
+
+                <IndentNoBar>
+                    <HTag4>
+                        A student in Human-centered Design
+                    </HTag4>
+                    <Paragraph>
+                        Lorem Ipsum Systems Design at Waterloo and stuff
+                    </Paragraph>
+                </IndentNoBar>
+
+                <IndentNoBar>
+                    <HTag4>
+                        An adrenaline junkie
+                    </HTag4>
+                    <Paragraph>
+                        Haha boulder and skydive go brrr
+                    </Paragraph>
+                </IndentNoBar>
+
                 <Section>
                     <HTag3>
                         Made it this far? Don't hesitate to get in touch!
@@ -55,7 +55,7 @@ export default function About() {
                 </Section>
                 <ImgContainer>
                     <ImgFluid>
-
+                        [portraits go here]
                     </ImgFluid>
                     <ImgCaption>
                         haha hiking and skydive go brr

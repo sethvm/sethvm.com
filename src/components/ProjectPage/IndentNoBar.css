@@ -1,0 +1,19 @@
+.indent_nobar {
+    width: 85%;
+    margin: 90px auto 90px auto;
+}
+
+/*md breakpoint*/
+@media (min-width: 768px) {
+    .indent_nobar {
+        width: 75%;
+    }
+}
+
+/*lg breakpoint*/
+@media (min-width: 1024px) {
+    .indent_nobar {
+        width: 40%;
+        margin-left: 25%;
+    }
+}
