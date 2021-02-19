@@ -1,11 +1,52 @@
-#footer {
-    width: 100%;
-    text-align: center;
+#footer, .quick_links {
     padding-top: 0;
 }
 
 #footer {
     height: 200px;
+}
+
+.footer_home, .footer_page {
+    width: 100%;
+    text-align: center;
+}
+
+.quick_links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.footer_page {
+    margin-bottom: 3.6em;
+}
+
+.quick_links {
+    margin-bottom: 2em;
+}
+
+.curr_link, .inactive_link {
+    font-size: 0.9em;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+.curr_link {
+    background: #004080;
+    color: #FFFFFF;
+}
+
+.inactive_link {
+    color: #004080 !important;
+}
+
+.inactive_link:hover {
+    background: #CFE7FF;
+    transition: background 0.4s ease-out;
+    -webkit-transition: background 0.4s ease-out;
+    -moz-transition: background 0.4s ease-out;
+    -o-transition: background 0.4s ease-out;
 }
 
 /*md breakpoint*/
@@ -20,7 +61,12 @@
     #footer {
         height: 85px;
         position: relative;
-        text-align: left;
-        padding: 0 0 50px 3.25%;
+    }
+    .footer_home {
+        width: 58.5%;
+        text-align: center;
+    }
+    .footer_page {
+        width: 80%;
     }
 }

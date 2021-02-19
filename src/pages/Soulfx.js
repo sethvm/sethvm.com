@@ -191,7 +191,7 @@ export default function Soulfx() {
 
                 <Section>
                     <HTag4>
-                        Our takeaways and opportunities for refinement
+                        Takeaways and opportunities for refinement
                         <br />
                     </HTag4>
                     <IndentInner>
@@ -226,21 +226,20 @@ export default function Soulfx() {
                     </Paragraph>
                     <IndentInner>
                         <HTag5>
-                            Upon a hypothetical return to this design, I would push to further streamline
-                            the navigation experience for our record management dashboard through exploration
-                            with search and filter functions
+                            Upon a hypothetical return to this project, I would aim to further streamline
+                            the navigation experience for our record management dashboard
                         </HTag5>
                     </IndentInner>
                     <Paragraph>
                         <br />
-                        As the number of registered records within the platform grows,
+                        Features I would look to explore include <strong>search and filter functions.
+                        </strong> As the number of registered records within the platform grows,
                         scrolling to find items within lists may become more laborious.
                         The ability to search for and filter items would address such issues
                         by providing our caseworkers direct access to the records they need
                         to work with.
                     </Paragraph>
                 </Section>
-
             </Project>
         </main>
     );

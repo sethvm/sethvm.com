@@ -45,6 +45,10 @@ h5 {
     font-size: 1.15em;
 }
 
+h6 {
+    font-size: 0.95em;
+}
+
 p {
     font-family: "Object Sans Light", sans-serif;
     /*font-family: "Poppins Light", sans-serif;*/
