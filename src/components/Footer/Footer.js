@@ -5,16 +5,15 @@ import './Footer.css';
 
 export default function FooterRender() {
 
-    let location = useLocation();
+    const location = useLocation();
+    const isHome = (location.pathname === '/');
 
-    if (location.pathname === '/') {
-        return (
-            <Footer type='footer_home animate__animated animate__fadeIn' />
-        );
-    } else {
-        return (
-            <Footer
-            type='footer_page animate__animated animate__fadeIn'>
+    return (
+        <>
+        {isHome
+            ? <Footer type='footer_home animate__animated animate__fadeIn' />
+            : <Footer
+                type='footer_page animate__animated animate__fadeIn'>
                 <div className='quick_links'>
                     <QuickLink
                     label='TRX'
@@ -30,8 +29,9 @@ export default function FooterRender() {
                     currPath={location.pathname} />
                 </div>
             </Footer>
-        );
-    }
+        }
+        </>
+    );
 }
 
 function Footer(props) {
@@ -46,17 +46,19 @@ function Footer(props) {
 }
 
 function QuickLink(props) {
-    if (props.currPath === props.to) {
-        return (
-            <Link to={props.to}>
+
+    const isCurrPage = (props.currPath === props.to);
+
+    return (
+        <>
+        {isCurrPage
+            ? <Link to={props.to}>
                 <span className='curr_link'>{props.label}</span>
-            </Link>
-        );
-    } else {
-        return (
-            <Link to={props.to}>
+                </Link>
+            : <Link to={props.to}>
                 <span className='bold inactive_link'>{props.label}</span>
-            </Link>
-        );
-    }
+                </Link>
+        }
+        </>
+    );
 }
