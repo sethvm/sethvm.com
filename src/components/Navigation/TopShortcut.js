@@ -5,7 +5,6 @@ import './TopShortcut.css';
 import UpArrowLogo from './up-arrow.svg';
 
 export default function TopShortcut() {
-
     return (
         <BackToTop
         showAt={800}

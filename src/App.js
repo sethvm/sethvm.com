@@ -17,7 +17,7 @@ import Footer from './components/Footer/Footer';
 
 // page body content
 import Home from './pages/Home';
-/*import Error from './pages/Error';*/
+import Error from './pages/Error';
 import About from './pages/About';
 import Soulfx from './pages/Soulfx';
 /*import Albert from './pages/Albert';
@@ -34,37 +34,24 @@ export default function App() {
             <ScrollToTop />
             <Header />
             <BlueBlock />
-            <Switch>
-                <Route exact={true} path='/' component={HomePage} />
-                <Route exact={false} path='/' component={Page} />
-            </Switch>
+            <Container>
+                <Switch>
+                    <Route exact={true} path='/'>
+                        <Home />
+                    </Route>
+                    <Route exact={false} path='/'>
+                        <Switch>
+                            <Route exact={true} path='/about' component={About} />
+                            <Route exact={true} path='/soulfx' component={Soulfx} />
+                            <Route path='notfound' component={Error} />
+                        </Switch>
+                    </Route>
+                </Switch>
+            </Container>
             <SideBar />
             <Footer />
             <TopShortcut />
         </HashRouter>
-    );
-}
-
-function HomePage() {
-    return (
-        <>
-        <Container>
-            <Home />
-        </Container>
-        </>
-    );
-}
-
-function Page() {
-    return (
-        <>
-        <Container>
-            <Switch>
-                <Route exact={true} path='/about' component={About} />
-                <Route exact={true} path='/soulfx' component={Soulfx} />
-            </Switch>
-        </Container>
-        </>
     );
 }
 
