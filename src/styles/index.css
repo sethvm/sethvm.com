@@ -43,11 +43,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Object Sans Medium", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #004080 !important;
 }
 
-h5 {
+h3 {
+    font-size: 1.55em;
+}
+
+h4 {
     font-size: 1.15em;
 }
 

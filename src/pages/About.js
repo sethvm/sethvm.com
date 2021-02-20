@@ -13,7 +13,6 @@ import ImgCaption from '../components/ProjectPage/ImgCaption';
 /*typography imports*/
 import HTag2 from '../components/ProjectPage/HTag2';
 import HTag3 from '../components/ProjectPage/HTag3';
-import HTag4 from '../components/ProjectPage/HTag4';
 import Paragraph from '../components/ProjectPage/Paragraph';
 
 export default function About() {
@@ -27,28 +26,29 @@ export default function About() {
                 </Section>
 
                 <IndentNoBar>
-                    <HTag4>
+                    <HTag3>
                         A student in Human-centered Design
-                    </HTag4>
+                    </HTag3>
                     <Paragraph>
                         Lorem Ipsum Systems Design at Waterloo and stuff
                     </Paragraph>
                 </IndentNoBar>
 
                 <IndentNoBar>
-                    <HTag4>
+                    <HTag3>
                         An adrenaline junkie
-                    </HTag4>
+                    </HTag3>
                     <Paragraph>
                         Haha boulder and skydive go brrr
                     </Paragraph>
                 </IndentNoBar>
 
                 <Section>
-                    <HTag3>
-                        Made it this far? Don't hesitate to get in touch!
+                    <HTag2>
+                        Down to work together?
+                        Let's get in touch!
                         <br />
-                    </HTag3>
+                    </HTag2>
                 </Section>
                 <ImgContainer>
                     <ImgFluid>

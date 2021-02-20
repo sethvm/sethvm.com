@@ -15,8 +15,8 @@ import ImgCaption from '../components/ProjectPage/ImgCaption';
 
 /*typography imports*/
 import HTag2 from '../components/ProjectPage/HTag2';
+import HTag3 from '../components/ProjectPage/HTag3';
 import HTag4 from '../components/ProjectPage/HTag4';
-import HTag5 from '../components/ProjectPage/HTag5';
 import Paragraph from '../components/ProjectPage/Paragraph';
 
 /*banner import*/
@@ -75,7 +75,7 @@ export default function Soulfx() {
                 alt='Soulfx Patient Support App' />
 
                 <Section>
-                    <HTag4>An ongoing health crisis</HTag4>
+                    <HTag3>An ongoing health crisis</HTag3>
                     <Paragraph>
                         COVID-19 has brought with it a large-scale challenge that
                         has overloaded services within the healthcare industry. Our
@@ -86,10 +86,10 @@ export default function Soulfx() {
                 </Section>
 
                 <Indent>
-                    <HTag5>
+                    <HTag4>
                         How can we design a platform that will enable our client
                         to provide their support service to patients remotely?
-                    </HTag5>
+                    </HTag4>
                 </Indent>
 
                 <ImgContainer>
@@ -102,7 +102,7 @@ export default function Soulfx() {
                 </ImgContainer>
 
                 <Section>
-                    <HTag4>The support service in a nutshell</HTag4>
+                    <HTag3>The support service in a nutshell</HTag3>
                     <Paragraph>
                         Our client's support service aims to make prescription repayment
                         easier for patients by providing reimbursements or discounts to
@@ -114,14 +114,14 @@ export default function Soulfx() {
                 </Section>
 
                 <Section>
-                    <HTag4>Decoding a hierarchy</HTag4>
+                    <HTag3>Decoding a hierarchy</HTag3>
                     <Paragraph>
                         Talk about discovery and information architecture mapping
                     </Paragraph>
                 </Section>
 
                 <Section>
-                    <HTag4>Jobs-to-be-done</HTag4>
+                    <HTag3>Jobs-to-be-done</HTag3>
                     <Paragraph>
                         We identified two user groups after obtaining an in-depth look at how
                         our client's service functions and outlined how each group's objective
@@ -130,14 +130,14 @@ export default function Soulfx() {
                 </Section>
 
                 <Section>
-                    <HTag4>Laying out the groundwork</HTag4>
+                    <HTag3>Laying out the groundwork</HTag3>
                     <Paragraph>
                         Talk about user flows for both user groups
                     </Paragraph>
                 </Section>
 
                 <Section>
-                    <HTag4>Putting it all together</HTag4>
+                    <HTag3>Putting it all together</HTag3>
                     <Paragraph>
                         We carried out the product's end-to-end design from inception
                         to developer handoff. My responsibilities included information
@@ -148,9 +148,9 @@ export default function Soulfx() {
 
                 <ImgContainer>
                     <SectionInner>
-                        <HTag5>
+                        <HTag4>
                             Record Management Dashboard
-                        </HTag5>
+                        </HTag4>
                         <Paragraph>
                             While designing the record management dashboard, we focused
                             on enabling our caseworkers to skim through record lists and details
@@ -164,9 +164,9 @@ export default function Soulfx() {
                         image caption goes here
                     </ImgCaption>
                     <SectionInner>
-                        <HTag5>
+                        <HTag4>
                             Card Retrieval Portal
-                        </HTag5>
+                        </HTag4>
                         <Paragraph>
                             We aimed to make the card retrieval process as seamless as possible for
                             both new and returning users. Additionally, we wanted the interface to be
@@ -183,21 +183,21 @@ export default function Soulfx() {
                 </ImgContainer>
 
                 <Section>
-                    <HTag4>Key interactions</HTag4>
+                    <HTag3>Key interactions</HTag3>
                     <Paragraph>
                         Talks about breadcrumbs + switches, and what pain points they address
                     </Paragraph>
                 </Section>
 
                 <Section>
-                    <HTag4>
+                    <HTag3>
                         Takeaways and opportunities for refinement
                         <br />
-                    </HTag4>
+                    </HTag3>
                     <IndentInner>
-                        <HTag5>
+                        <HTag4>
                             Designs are products of curiosity and collaboration
-                        </HTag5>
+                        </HTag4>
                     </IndentInner>
                     <Paragraph>
                         <br />
@@ -209,26 +209,24 @@ export default function Soulfx() {
                         <br />
                     </Paragraph>
                     <IndentInner>
-                        <HTag5>
+                        <HTag4>
                             We as designers can contribute to essential industries, even amid a pandemic
-                        </HTag5>
+                        </HTag4>
                     </IndentInner>
                     <Paragraph>
                         <br />
-                        Working on a platform for a patient support program has instilled in me a
-                        new appreciation for how design can be used to make the world a better place.
-                        While I do not have the resources nor the know-how to help patients with their
-                        medical expenses, a critical objective of my role as a designer was to learn about
+                        I do not have the resources nor the know-how to help patients with their
+                        medical expenses, but a critical objective of my role as a designer was to learn about
                         the people who do. The project provided an opportunity to leverage this understanding
                         to mitigate the increase in pressure brought to our client's caseworkers by the pandemic
                         and play a part in making healthcare services more accessible through design.
                         <br />
                     </Paragraph>
                     <IndentInner>
-                        <HTag5>
+                        <HTag4>
                             Upon a hypothetical return to this project, I would aim to further streamline
                             the navigation experience for our record management dashboard
-                        </HTag5>
+                        </HTag4>
                     </IndentInner>
                     <Paragraph>
                         <br />
