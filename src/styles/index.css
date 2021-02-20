@@ -11,6 +11,12 @@
 }*/
 
 @font-face {
+    font-family: "Object Sans Medium";
+    src:local('Object Sans Medium'),
+        url('../fonts/ObjectSans-Medium.otf') format('opentype');
+}
+
+@font-face {
     font-family: "Object Sans Regular";
     src:local('Object Sans Regular'),
         url('../fonts/ObjectSans-Regular.otf') format('opentype');
@@ -34,19 +40,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 125%;
+    font-family: "Object Sans Medium", sans-serif;
 }
 
-h1, h2, h3, h6 {
+h1, h2, h3 {
     color: #004080 !important;
 }
 
 h5 {
     font-size: 1.15em;
-}
-
-h6 {
-    font-size: 0.95em;
 }
 
 p {

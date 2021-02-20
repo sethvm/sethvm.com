@@ -4,7 +4,7 @@ import React from 'react';
 export default function HTag4(props) {
     return(
         <h4>
-            <span className='bold'>{props.children}</span>
+            {props.children}
             <br />
         </h4>
     );

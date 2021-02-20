@@ -20,6 +20,7 @@ import Home from './pages/Home';
 import Error from './pages/Error';
 import About from './pages/About';
 import Soulfx from './pages/Soulfx';
+import TRX from './pages/TRX';
 /*import Albert from './pages/Albert';
 import FASSB from './pages/FASSB';
 import Visuals from './pages/Visuals';*/
@@ -36,13 +37,14 @@ export default function App() {
             <BlueBlock />
             <Container>
                 <Switch>
-                    <Route exact={true} path='/'>
+                    <Route exact path='/'>
                         <Home />
                     </Route>
                     <Route exact={false} path='/'>
                         <Switch>
-                            <Route exact={true} path='/about' component={About} />
-                            <Route exact={true} path='/soulfx' component={Soulfx} />
+                            <Route exact path='/trx' component={TRX} />
+                            <Route exact path='/soulfx' component={Soulfx} />
+                            <Route exact path='/about' component={About} />
                             <Route path='notfound' component={Error} />
                         </Switch>
                     </Route>

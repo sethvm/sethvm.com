@@ -5,12 +5,14 @@ import { HashLink } from 'react-router-hash-link';
 import '../styles/Home.css';
 
 import DownArrow from '../components/Navigation/down-arrow.svg';
-import AlbertCard from '../components/albert/albert-card.svg';
+import OngoingCard from '../components/ProjectPage/wip-card.svg';
+
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 
 /*old cards*/
-/*import VisualsCard from '../components/visuals/visuals-card.svg';*/
-/*import FASSBCard from '../components/fassb/fassb-card.svg';*/
+/*import VisualsCard from '../components/visuals/visuals-card.svg';
+import FASSBCard from '../components/fassb/fassb-card.svg';
+import AlbertCard from '../components/albert/albert-card.svg';*/
 
 export default function Home() {
     return (
@@ -18,7 +20,7 @@ export default function Home() {
             <div id='intro' className='intro'>
                 <div className='intro_text animate__animated animate__fadeIn'>
                     <h1>
-                        <span class='bold'>G'day! I'm Seth.</span>
+                        G'day! I'm Seth.
                         <br />
                     </h1>
                     <p> 
@@ -49,6 +51,17 @@ export default function Home() {
                 </div>
             </div>
             <div id='projects'>
+            <Card
+                title='OPS TRX'
+                desc="Redesigning an order validation experience for a
+                module used by Loblaw's area managers and stores"
+                img={OngoingCard}
+                alt='OPS Transaction Logs (TRX)'
+                status='active_link'
+                link='/trx'
+                linkPrompt='VIEW PROJECT'>
+                    <Badge pill variant='dark'>Product Design</Badge>
+                </Card>
                 <Card
                 title='Patient Support App'
                 desc="An online platform that facilitates the remote delivery
@@ -60,18 +73,6 @@ export default function Home() {
                 linkPrompt='VIEW PROJECT'>
                     <Badge pill variant='dark'>UX Design</Badge>&nbsp;
                     <Badge pill variant='dark'>Information Architecture</Badge>
-                </Card>
-                <Card
-                title='Project Albert'
-                desc="Designing a mobile application that assists students and
-                new immigrants with evaluating residence and commute options"
-                img={AlbertCard}
-                alt='Project Albert'
-                status='in_progress'
-                link={null}
-                linkPrompt='IN PROGRESS'>
-                        <Badge pill variant='dark'>Branding</Badge>&nbsp;
-                        <Badge pill variant='dark'>UX Design</Badge>
                 </Card>
             </div>
         </main>
