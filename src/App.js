@@ -45,7 +45,7 @@ export default function App() {
                             <Route exact path='/trx' component={TRX} />
                             <Route exact path='/soulfx' component={Soulfx} />
                             <Route exact path='/about' component={About} />
-                            <Route path='notfound' component={Error} />
+                            <Route component={Error} />
                         </Switch>
                     </Route>
                 </Switch>

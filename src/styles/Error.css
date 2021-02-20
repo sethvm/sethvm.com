@@ -1,0 +1,11 @@
+.warning {
+    color: #800000;
+}
+
+.big_link {
+    color: #004080;
+}
+
+.big_link:hover {
+    color: #0180FF !important;
+}
