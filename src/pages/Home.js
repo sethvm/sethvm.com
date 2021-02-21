@@ -33,9 +33,8 @@ export default function Home() {
                 </div>
                 <div className='intro_experience animate__animated animate__fadeIn'>
                     <p>
-                        Currently doing...
-                        <br />
-                        <strong>Product Design</strong> @ Loblaw Digital
+                        Currently focusing on 
+                        <strong>&nbsp;online fulfillment</strong> enablement at Loblaw Digital
                         <br />
                         <br />
                     </p>

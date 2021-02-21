@@ -1,36 +1,25 @@
-/*@font-face {
-    font-family: "Poppins Regular";
-    src:local('Poppins Regular'),
-        url('../fonts/Poppins-Regular.ttf') format('truetype');
+
+@font-face {
+    font-family: "Gilroy Bold";
+    src:local('Gilroy Bold'),
+        url('../fonts/gilroy-bold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "Poppins Light";
-    src:local('Poppins Light'),
-        url('../fonts/Poppins-Light.ttf') format('truetype');
-}*/
-
-@font-face {
-    font-family: "Object Sans Medium";
-    src:local('Object Sans Medium'),
-        url('../fonts/ObjectSans-Medium.otf') format('opentype');
+    font-family: "Gilroy Semi Bold";
+    src:local('Gilroy Semi Bold'),
+        url('../fonts/gilroy-semibold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "Object Sans Regular";
-    src:local('Object Sans Regular'),
-        url('../fonts/ObjectSans-Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: "Object Sans Light";
-    src:local('Object Sans Light'),
-        url('../fonts/ObjectSans-Light.otf') format('opentype');
+    font-family: "Gilroy Regular";
+    src:local('Gilroy Regular'),
+        url('../fonts/gilroy-regular.otf') format('opentype');
 }
 
 body {
-    font-family: "Object Sans Regular", sans-serif;
-    /*font-family: "Poppins Regular", sans-serif;*/
+    font-family: "Gilroy Regular", sans-serif;
+    font-size: 16px;
     margin: 0;
     max-width: 100%;
     overflow-x: hidden;
@@ -39,8 +28,8 @@ body {
     color: #1a1a1a;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Object Sans Medium", sans-serif;
+h1, h2, h3, h4, h5, h6, a {
+    font-family: "Gilroy Semi Bold", sans-serif;
 }
 
 h1, h2 {
@@ -56,13 +45,7 @@ h4 {
 }
 
 p {
-    font-family: "Object Sans Light", sans-serif;
-    /*font-family: "Poppins Light", sans-serif;*/
-}
-
-a {
-    font-family: "Object Sans Regular", sans-serif;
-    /*font-family: "Poppins Regular", sans-serif;*/
+    font-size: 1.05em;
 }
 
 a:hover {
@@ -75,6 +58,15 @@ a:hover {
 
 .italic {
     font-style: italic;
+}
+
+/*font controllers for desktop navbar links*/
+.name {
+    font-family: "Gilroy Bold", sans-serif !important;
+}
+
+.nav-desktop {
+    font-family: "Gilroy Regular", sans-serif !important;
 }
 
 /*ultrawide container*/

@@ -46,11 +46,12 @@
     #intro {
         padding-top: 24vh;
     }
-    .intro_text, .intro_experience {
+    .intro_text, .jump_container {
+        width: 300px;
         height: auto;
     }
-    .intro_text, .jump_container {
-        width: 310px;
+    .intro_experience {
+        width: 350px;
     }
     .intro_text {
         margin: 0 0 0 17vw;
