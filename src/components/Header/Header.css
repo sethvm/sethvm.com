@@ -8,6 +8,7 @@
 }
 
 .header {
+    width: 100%;
     height: 96px;
     top: 0;
     background: white;
@@ -79,15 +80,14 @@
         position: absolute;
     }
     .nav_banner {
-        left: 2.7%;
-        right: 2.7%;
+        left: 2%;
+        right: 2%;
     }
     .nav-desktop {
         font-size: 1.1em;
         display: block;
         color: white !important;
     }
-
     .nav_right {
         display: flex;
     }

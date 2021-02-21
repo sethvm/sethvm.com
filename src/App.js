@@ -33,9 +33,9 @@ export default function App() {
     return (
         <HashRouter>
             <ScrollToTop />
-            <Header />
-            <BlueBlock />
             <Container>
+                <Header />
+                <BlueBlock />
                 <Switch>
                     <Route exact path='/'>
                         <Home />
@@ -49,10 +49,10 @@ export default function App() {
                         </Switch>
                     </Route>
                 </Switch>
+                <SideBar />
+                <Footer />
+                <TopShortcut />
             </Container>
-            <SideBar />
-            <Footer />
-            <TopShortcut />
         </HashRouter>
     );
 }

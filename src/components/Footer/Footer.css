@@ -63,9 +63,12 @@
         height: 85px;
         position: relative;
     }
+    .footer_home, .footer_page {
+        text-align: left;
+        padding-left: 3%;
+    }
     .footer_home {
         width: 58.5%;
-        text-align: center;
     }
     .footer_page {
         width: 80%;
