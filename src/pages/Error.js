@@ -22,7 +22,7 @@ export default function Error() {
                         <br />
                     </HTag2>
                     <HTag3>
-                        Head over to the landing page
+                        Hop over to the landing page
                         <Link to='/'>
                             &nbsp;<span className='big_link bold'>here!</span>
                         </Link>

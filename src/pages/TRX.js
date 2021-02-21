@@ -24,9 +24,9 @@ export default function TRX() {
                 <Section>
                     <HTag2>OPS Transaction Logs (TRX)</HTag2>
                     <Paragraph>
-                        TRX is a transaction log module situated within Loblaw's
+                        Transaction logs (collectively referred to as TRX) are modules situated within Loblaw's
                         OPS Portal, a centralized platform that enables area managers and
-                        store employees to manage their days. It is used to troubleshoot
+                        store employees to manage their days. They are used to troubleshoot
                         orders as well as validate order completion times.
                     </Paragraph>
                     <Paragraph>

@@ -34,7 +34,7 @@ export default function Home() {
                 <div className='intro_experience animate__animated animate__fadeIn'>
                     <p>
                         Currently focusing on 
-                        <strong>&nbsp;online fulfillment</strong> enablement at Loblaw Digital
+                        <strong>&nbsp;online fulfillment</strong> initiatives at Loblaw Digital
                         <br />
                         <br />
                     </p>
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div id='projects'>
             <Card
-                title='OPS TRX'
+                title='OPS Transaction Logs'
                 desc="Redesigning an order validation experience for a
                 module used by Loblaw's area managers and stores"
                 img={OngoingCard}
