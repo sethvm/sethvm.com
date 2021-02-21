@@ -37,17 +37,11 @@ export default function App() {
                 <Header />
                 <BlueBlock />
                 <Switch>
-                    <Route exact path='/'>
-                        <Home />
-                    </Route>
-                    <Route exact={false} path='/'>
-                        <Switch>
-                            <Route exact path='/trx' component={TRX} />
-                            <Route exact path='/soulfx' component={Soulfx} />
-                            <Route exact path='/about' component={About} />
-                            <Route component={Error} />
-                        </Switch>
-                    </Route>
+                    <Route exact path='/' component={Home} />
+                    <Route exact path='/about' component={About} />
+                    <Route exact path='/trx' component={TRX} />
+                    <Route exact path='/soulfx' component={Soulfx} />
+                    <Route component={Error} />
                 </Switch>
                 <SideBar />
                 <Footer />

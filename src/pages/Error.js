@@ -9,7 +9,6 @@ import Section from '../components/ProjectPage/Section';
 /*typography imports*/
 import HTag2 from '../components/ProjectPage/HTag2';
 import HTag3 from '../components/ProjectPage/HTag3';
-import HTag4 from '../components/ProjectPage/HTag4';
 
 export default function Error() {
     return (
@@ -18,7 +17,7 @@ export default function Error() {
                 <Section>
                     <HTag2>
                         <span className='warning'>
-                            404, mate. Probably an old link!
+                            404, mate - probably an old link!
                         </span>
                         <br />
                     </HTag2>
