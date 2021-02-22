@@ -53,7 +53,7 @@ export default function Home() {
             <Card
                 title='OPS Transaction Logs'
                 desc="Redesigning an order validation experience for a
-                module used by Loblaw's area managers and stores"
+                portal module used by Loblaw's area managers and stores"
                 img={OngoingCard}
                 alt='OPS Transaction Logs (TRX)'
                 status='active_link'
@@ -63,8 +63,8 @@ export default function Home() {
                 </Card>
                 <Card
                 title='Patient Support App'
-                desc="An online platform that facilitates the remote delivery
-                of a client's financial aid service for patients in need"
+                desc="Facilitating the remote delivery of a client's
+                financial aid service for patients in need"
                 img={SoulfxCard}
                 alt='Patient Support App'
                 status='active_link'
