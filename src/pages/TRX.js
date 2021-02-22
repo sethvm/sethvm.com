@@ -1,21 +1,21 @@
 import React from 'react';
 
 /*layout imports*/
-import Project from '../components/ProjectPage/Project';
-import Section from '../components/ProjectPage/Section';
-/*import SectionInner from '../components/ProjectPage/SectionInner';
-import Indent from '../components/ProjectPage/Indent';
-import IndentInner from '../components/ProjectPage/IndentInner';*/
+import Project from '../components/Page/Project';
+import Section from '../components/Page/Section';
+/*import SectionInner from '../components/Page/SectionInner';
+import Indent from '../components/Page/Indent';
+import IndentInner from '../components/Page/IndentInner';*/
 
 /*typography imports*/
-import HTag2 from '../components/ProjectPage/HTag2';
-/*import HTag4 from '../components/ProjectPage/HTag4';
-import HTag5 from '../components/ProjectPage/HTag5';*/
-import Paragraph from '../components/ProjectPage/Paragraph';
-import Banner from '../components/ProjectPage/Banner';
+import HTag2 from '../components/Page/HTag2';
+/*import HTag4 from '../components/Page/HTag4';
+import HTag5 from '../components/Page/HTag5';*/
+import Paragraph from '../components/Page/Paragraph';
+import Banner from '../components/Page/Banner';
 
 /*banner import*/
-import OngoingCard from '../components/ProjectPage/wip-card.svg';
+import OngoingCard from '../components/Page/wip-card.svg';
 
 export default function TRX() {
     return (

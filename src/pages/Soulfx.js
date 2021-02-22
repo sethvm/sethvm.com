@@ -1,23 +1,23 @@
 import React from 'react';
 
 /*layout imports*/
-import Project from '../components/ProjectPage/Project';
-import Section from '../components/ProjectPage/Section';
-import SectionInner from '../components/ProjectPage/SectionInner';
-import Indent from '../components/ProjectPage/Indent';
-import IndentInner from '../components/ProjectPage/IndentInner';
+import Project from '../components/Page/Project';
+import Section from '../components/Page/Section';
+import SectionInner from '../components/Page/SectionInner';
+import Indent from '../components/Page/Indent';
+import IndentInner from '../components/Page/IndentInner';
 
 /*image container imports*/
-import Banner from '../components/ProjectPage/Banner';
-import ImgContainer from '../components/ProjectPage/ImgContainer';
-import ImgFluid from '../components/ProjectPage/ImgFluid';
-import ImgCaption from '../components/ProjectPage/ImgCaption';
+import Banner from '../components/Page/Banner';
+import ImgContainer from '../components/Page/ImgContainer';
+import ImgFluid from '../components/Page/ImgFluid';
+import ImgCaption from '../components/Page/ImgCaption';
 
 /*typography imports*/
-import HTag2 from '../components/ProjectPage/HTag2';
-import HTag3 from '../components/ProjectPage/HTag3';
-import HTag4 from '../components/ProjectPage/HTag4';
-import Paragraph from '../components/ProjectPage/Paragraph';
+import HTag2 from '../components/Page/HTag2';
+import HTag3 from '../components/Page/HTag3';
+import HTag4 from '../components/Page/HTag4';
+import Paragraph from '../components/Page/Paragraph';
 
 /*banner import*/
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';

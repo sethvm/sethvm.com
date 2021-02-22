@@ -1,19 +1,19 @@
 import React from 'react';
 
 /*layout imports*/
-import Project from '../components/ProjectPage/Project';
-import Section from '../components/ProjectPage/Section';
-import IndentNoBar from '../components/ProjectPage/IndentNoBar';
+import Project from '../components/Page/Project';
+import Section from '../components/Page/Section';
+import IndentNoBar from '../components/Page/IndentNoBar';
 
 /*image container imports*/
-import ImgContainer from '../components/ProjectPage/ImgContainer';
-import ImgFluid from '../components/ProjectPage/ImgFluid';
-import ImgCaption from '../components/ProjectPage/ImgCaption';
+import ImgContainer from '../components/Page/ImgContainer';
+import ImgFluid from '../components/Page/ImgFluid';
+import ImgCaption from '../components/Page/ImgCaption';
 
 /*typography imports*/
-import HTag2 from '../components/ProjectPage/HTag2';
-import HTag3 from '../components/ProjectPage/HTag3';
-import Paragraph from '../components/ProjectPage/Paragraph';
+import HTag2 from '../components/Page/HTag2';
+import HTag3 from '../components/Page/HTag3';
+import Paragraph from '../components/Page/Paragraph';
 
 export default function About() {
     return (

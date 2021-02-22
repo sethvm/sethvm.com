@@ -3,12 +3,12 @@ import { Link }  from 'react-router-dom';
 import '../styles/Error.css';
 
 /*layout imports*/
-import Project from '../components/ProjectPage/Project';
-import Section from '../components/ProjectPage/Section';
+import Project from '../components/Page/Project';
+import Section from '../components/Page/Section';
 
 /*typography imports*/
-import HTag2 from '../components/ProjectPage/HTag2';
-import HTag3 from '../components/ProjectPage/HTag3';
+import HTag2 from '../components/Page/HTag2';
+import HTag3 from '../components/Page/HTag3';
 
 export default function Error() {
     return (

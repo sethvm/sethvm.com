@@ -9,10 +9,12 @@ import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // component imports
+import Container from './components/Page/Container';
 import Header from './components/Header/Header';
-import SideBar from './components/SideBar/SideBar';
-import TopShortcut from './components/Navigation/TopShortcut';
 import BlueBlock from './components/BlueBlock/BlueBlock';
+import TopShortcut from './components/Navigation/TopShortcut';
+import QuickLinks from './components/QuickLinks/QuickLinks';
+import SideBar from './components/SideBar/SideBar';
 import Footer from './components/Footer/Footer';
 
 // page body content
@@ -43,18 +45,11 @@ export default function App() {
                     <Route exact path='/soulfx' component={Soulfx} />
                     <Route component={Error} />
                 </Switch>
+                <QuickLinks />
                 <SideBar />
                 <Footer />
                 <TopShortcut />
             </Container>
         </HashRouter>
-    );
-}
-
-function Container(props) {
-    return (
-        <div className='container'>
-            {props.children}
-        </div>
     );
 }

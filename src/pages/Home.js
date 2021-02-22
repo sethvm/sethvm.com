@@ -4,9 +4,11 @@ import Card from '../components/Card/Card';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/Home.css';
 
+/*component imports*/
 import DownArrow from '../components/Navigation/down-arrow.svg';
-import OngoingCard from '../components/ProjectPage/wip-card.svg';
+import OngoingCard from '../components/Page/wip-card.svg';
 
+/*card img imports*/
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 
 /*old cards*/

@@ -1,17 +1,17 @@
 import React from 'react';
 import '../styles/NewProject.css';
 
-import Project from '../components/ProjectPage/Project';
-import Section from '../components/ProjectPage/Section';
-import SectionInner from '../components/ProjectPage/SectionInner';
-import Paragraph from '../components/ProjectPage/Paragraph';
+import Project from '../components/Page/Project';
+import Section from '../components/Page/Section';
+import SectionInner from '../components/Page/SectionInner';
+import Paragraph from '../components/Page/Paragraph';
 
-import Banner from '../components/ProjectPage/Banner';
-import ImgContainer from '../components/ProjectPage/ImgContainer';
-import ImgFluid from '../components/ProjectPage/ImgFluid';
+import Banner from '../components/Page/Banner';
+import ImgContainer from '../components/Page/ImgContainer';
+import ImgFluid from '../components/Page/ImgFluid';
 
-import HTag2 from '../components/ProjectPage/HTag2';
-import HTag4 from '../components/ProjectPage/HTag4';
+import HTag2 from '../components/Page/HTag2';
+import HTag4 from '../components/Page/HTag4';
 
 export default function NewProject() {
     

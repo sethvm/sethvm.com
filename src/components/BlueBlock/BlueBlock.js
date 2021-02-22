@@ -4,12 +4,12 @@ import './BlueBlock.css';
 
 export default function BlueBlock() {
 
-    const location = useLocation();
-    const isHome = (location.pathname === '/');
+    const currentPath = (useLocation().pathname);
+    const userOnHomePage = (currentPath === '/');
 
     return (
         <>
-        {isHome
+        {userOnHomePage
             ? <span className='block-blue animate__animated animate__fadeInLeft' />
             : <span className='block-blue thin animate__animated animate__fadeInRight' />
         }

@@ -1,13 +1,13 @@
 .project {
     width: 100%;
     min-height: 65vh;
-    margin: 0 auto 120px auto;
+    margin: 0 auto 80px auto;
     padding: 0;
 }
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
     .project {
-        margin: 196px auto 120px auto;
+        margin: 196px auto 80px auto;
     }
 }

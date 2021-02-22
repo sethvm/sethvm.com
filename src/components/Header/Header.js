@@ -28,12 +28,8 @@ export default function Header() {
     }, []);
 
     const handleClick = useCallback((e) => {
-        if (node.current.contains(e.target) || expanded === false) {
-            return;
-        }
-        setTimeout(() => {
-            closeNav();
-        }, 80);
+        if (node.current.contains(e.target) || expanded === false) return;
+        setTimeout(() => { closeNav(); }, 80);
     }, [expanded, closeNav]);
 
     useEffect(() => { 
