@@ -1,7 +1,3 @@
-.active_link, .in_progress {
-    color: #004080;
-}
-
 .project_card {
     display: flex;
     flex-direction: column-reverse;
@@ -16,10 +12,6 @@
 
 .card_text {
     padding: 40px 12% 0 12%;
-}
-
-.view_link:hover, .active_link:hover {
-    color: #0180FF;
 }
 
 /*md breakpoint*/

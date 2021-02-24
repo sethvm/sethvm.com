@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "Gilroy Bold";
     src:local('Gilroy Bold'),
@@ -67,6 +66,24 @@ a:hover {
 
 .nav-desktop {
     font-family: "Gilroy Regular", sans-serif !important;
+}
+
+/*link color styling*/
+.active_link {
+    color: #004080;
+}
+
+.active_link:hover {
+    background: #CFE7FF;
+    transition: background 0.4s ease-out;
+    -webkit-transition: background 0.4s ease-out;
+    -moz-transition: background 0.4s ease-out;
+    -o-transition: background 0.4s ease-out;
+}
+
+.active_link:active {
+    background: #004080;
+    color: #FFFFFF;
 }
 
 /*ultrawide container*/

@@ -43,7 +43,7 @@ function QuickLink(props) {
             </Link>
             : 
             <Link to={props.to}>
-                <span className='bold inactive_link'>{props.label}</span>
+                <span className='bold active_link rounded_link'>{props.label}</span>
             </Link>
         }
         </>

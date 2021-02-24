@@ -13,26 +13,14 @@
     color: #004080;
 }
 
-.curr_link, .inactive_link {
+.curr_link, .rounded_link {
     padding: 6px 10px;
     border-radius: 20px;
 }
 
 .curr_link {
-    background: #004080;
+    background: #004080 !important;
     color: #FFFFFF;
-}
-
-.inactive_link {
-    color: #004080 !important;
-}
-
-.inactive_link:hover {
-    background: #CFE7FF;
-    transition: background 0.4s ease-out;
-    -webkit-transition: background 0.4s ease-out;
-    -moz-transition: background 0.4s ease-out;
-    -o-transition: background 0.4s ease-out;
 }
 
 /*lg breakpoint*/

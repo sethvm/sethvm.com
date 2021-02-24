@@ -16,7 +16,7 @@ export default function Card(props) {
                     <br />
                     <br />
                     <Link to={props.link}>
-                        <span className={props.status}>
+                        <span className='active_link'>
                             <span class='bold'>{props.linkPrompt}</span>
                         </span>
                     </Link>

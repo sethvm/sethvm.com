@@ -58,7 +58,7 @@ export default function Soulfx() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Team:</span>
-                        &nbsp;2 Designers (including myself), Project Manager (PM)
+                        &nbsp;2 Designers (including myself), Product Manager, Project Manager
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Timeline:</span>
@@ -77,11 +77,12 @@ export default function Soulfx() {
                 <Section>
                     <HTag3>An ongoing health crisis</HTag3>
                     <Paragraph>
-                        COVID-19 has brought with it a large-scale challenge that
-                        has overloaded services within the healthcare industry. Our
-                        client has been prompted to move their financial aid service
-                        online due to the risk imposed on immunocompromised individuals
-                        by in-office consultation.
+                        COVID-19 has brought with it a global-scale challenge that
+                        has pushed the capacity of our healthcare sectors to their limit.
+                        A client approached Soulfx with the objective of moving their
+                        financial aid service online - a shift to web-based support
+                        that was necessary to minimize the risk imposed by the pandemic
+                        on immunocompromised individuals.
                     </Paragraph>
                 </Section>
 
@@ -102,14 +103,14 @@ export default function Soulfx() {
                 </ImgContainer>
 
                 <Section>
-                    <HTag3>The support service in a nutshell</HTag3>
+                    <HTag3>The support service</HTag3>
                     <Paragraph>
                         Our client's support service aims to make prescription repayment
-                        easier for patients by providing reimbursements or discounts to
-                        select pharmaceutical products. Each participaing manufacturer offers
-                        their own selection of program plans and provides prescription cards
-                        for select products that can be redeemed by patients. These programs
-                        can be restricted to specified provinces or offered Canada-wide.
+                        easier by providing reimbursements for pharmaceutical expenses.
+                        Each participating manufacturer offers their own collection of program
+                        plans, which in turn provide prescription cards for select products
+                        that can be redeemed by patients. These programs can be restricted to
+                        specified provinces or offered Canada-wide.
                     </Paragraph>
                 </Section>
 
