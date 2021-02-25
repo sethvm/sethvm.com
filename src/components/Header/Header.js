@@ -40,7 +40,7 @@ export default function Header() {
     }, [handleClick]);
 
     return (
-        <header className='header animate__animated animate__fadeIn'>
+        <header id='header' className='animate__animated animate__fadeIn'>
             <Navbar className='nav_banner' 
             expand='1024px'
             expanded={expanded}

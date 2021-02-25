@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-.header {
+#header {
     width: 100%;
     height: 96px;
     top: 0;
@@ -27,11 +27,13 @@
 }
 
 .nav_banner {
+    max-width: 2560px;
     position: fixed;
+    margin: 0 auto;
+    padding: 0;
     top: 22px;
     left: 5%;
     right: 5%;
-    padding: 0;
 }
 
 .nav-desktop, .nav_right {
@@ -74,7 +76,7 @@
 
 /*lg breakpoint*/
 @media (min-width: 1024px) {
-    .header {
+    #header {
         background: transparent;
         position: absolute;
     }

@@ -20,7 +20,7 @@
         height: 40vh;
         bottom: 0;
         padding-bottom: 50px;
-        left: 3%;
+        margin-left: 3%;
         z-index: 9;
     }
     .sidebar_item {
