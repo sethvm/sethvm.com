@@ -17,11 +17,11 @@ export default function QuickLinks() {
                 <div className='quick-link_container'>
                     <QuickLink
                     label='TRX'
-                    to='/trx'
+                    path='/trx'
                     currentPath={currentPath} />
                     <QuickLink
                     label='SOULFX'
-                    to='/soulfx'
+                    path='/soulfx'
                     currentPath={currentPath} />
                 </div>
             </div>
@@ -32,17 +32,17 @@ export default function QuickLinks() {
 
 function QuickLink(props) {
 
-    const linkToCurrentPage = (props.currentPath === props.to);
+    const linkToCurrentPage = (props.currentPath === props.path);
 
     return (
         <>
         {linkToCurrentPage
             ?
-            <Link to={props.to}>
+            <Link to={props.path}>
                 <span className='curr_link'>{props.label}</span>
             </Link>
             : 
-            <Link to={props.to}>
+            <Link to={props.path}>
                 <span className='bold active_link rounded_link'>{props.label}</span>
             </Link>
         }

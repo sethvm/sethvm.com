@@ -30,7 +30,17 @@ export default function About() {
                         A student in Human-centered Design
                     </HTag3>
                     <Paragraph>
-                        Lorem Ipsum Systems Design at Waterloo and stuff
+                        My journey through the field of design revolves around the objective of
+                        improving the quality of life for others. I'm currently
+                        exploring problem spaces within healthcare, food retail and e-commerce
+                        - essential industries that are facing never-before-seen challenges
+                        in light of the COVID-19 pandemic.
+                    </Paragraph>
+                    <Paragraph>
+                        I'm also a Systems Design Engineering (SYDE) undergraduate at the University
+                        of Waterloo. SYDE is a unique program that emphasizes the utilization of
+                        multi-disciplinary approaches to taking on problems faced by today's society
+                        - all with the user at the forefront.
                     </Paragraph>
                 </IndentNoBar>
 
@@ -39,7 +49,21 @@ export default function About() {
                         An adrenaline junkie
                     </HTag3>
                     <Paragraph>
-                        Haha boulder and skydive go brrr
+                        Should you ever need to find me outside of school and work, there's a
+                        good chance I'll be working on dynos at the bouldering gym,
+                        standing in line to board the fastest roller coaster at the park
+                        or hiking up a mountain. Occasionally, I enjoy diving head-first into
+                        clouds - with a parachute strapped to my back, of course.
+                    </Paragraph>
+                </IndentNoBar>
+
+                <IndentNoBar>
+                    <HTag3>
+                        An avid baker
+                    </HTag3>
+                    <Paragraph>
+                        I took a gap year to work full-time as a baker and continue to hone
+                        my craft.
                     </Paragraph>
                 </IndentNoBar>
 

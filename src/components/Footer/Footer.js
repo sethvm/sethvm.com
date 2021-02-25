@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer id='footer' className='animate__animated animate__fadeIn'>
             <div className='footer_txt'>
-                Designed + developed by Seth Morenos
+                Designed + developed by Seth Morenos, 2021
             </div>
         </footer>
     );

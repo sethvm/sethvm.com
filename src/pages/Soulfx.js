@@ -4,7 +4,6 @@ import React from 'react';
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 import SectionInner from '../components/Page/SectionInner';
-import Indent from '../components/Page/Indent';
 import IndentInner from '../components/Page/IndentInner';
 
 /*image container imports*/
@@ -83,15 +82,15 @@ export default function Soulfx() {
                         financial aid service online - a shift to web-based support
                         that was necessary to minimize the risk imposed by the pandemic
                         on immunocompromised individuals.
+                        <br />
                     </Paragraph>
+                    <IndentInner>
+                        <HTag4>
+                            How can we design a platform that will enable our client
+                            to provide their support service to patients remotely?
+                        </HTag4>
+                    </IndentInner>
                 </Section>
-
-                <Indent>
-                    <HTag4>
-                        How can we design a platform that will enable our client
-                        to provide their support service to patients remotely?
-                    </HTag4>
-                </Indent>
 
                 <ImgContainer>
                     <ImgFluid>
@@ -103,15 +102,21 @@ export default function Soulfx() {
                 </ImgContainer>
 
                 <Section>
-                    <HTag3>The support service</HTag3>
+                    <HTag3>Assisting patients with expenses</HTag3>
                     <Paragraph>
-                        Our client's support service aims to make prescription repayment
-                        easier by providing reimbursements for pharmaceutical expenses.
-                        Each participating manufacturer offers their own collection of program
-                        plans, which in turn provide prescription cards for select products
-                        that can be redeemed by patients. These programs can be restricted to
-                        specified provinces or offered Canada-wide.
+                        Participating manufacturers registered within our client's service
+                        offer their own collection of program plans, which provide
+                        prescription cards for select products. These prescription cards in
+                        turn can be redeemed by patients for payment deductions.
+                        Program plans can be restricted to specified provinces or offered Canada-wide.
+                        <br />
                     </Paragraph>
+                    <IndentInner>
+                        <HTag4>
+                            Our client's support service aims to make prescription repayment
+                            easier via reimbursements for pharmaceutical expenses.
+                        </HTag4>
+                    </IndentInner>
                 </Section>
 
                 <Section>

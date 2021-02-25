@@ -58,8 +58,7 @@ export default function Home() {
                 portal module used by Loblaw's area managers and stores"
                 img={OngoingCard}
                 alt='OPS Transaction Logs (TRX)'
-                link='/trx'
-                linkPrompt='VIEW PROJECT'>
+                path='/trx'>
                     <Badge pill variant='dark'>Product Design</Badge>
                 </Card>
                 <Card
@@ -68,8 +67,7 @@ export default function Home() {
                 financial aid service for patients in need"
                 img={SoulfxCard}
                 alt='Patient Support App'
-                link='/soulfx'
-                linkPrompt='VIEW PROJECT'>
+                path='/soulfx'>
                     <Badge pill variant='dark'>UX Design</Badge>&nbsp;
                     <Badge pill variant='dark'>Information Architecture</Badge>
                 </Card>

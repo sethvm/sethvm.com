@@ -6,6 +6,10 @@
     color: #004080;
 }
 
+.footer_txt {
+    font-size: 0.925em;
+}
+
 /*md breakpoint*/
 @media (min-width: 768px) {
     #footer {

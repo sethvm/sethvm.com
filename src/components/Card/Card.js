@@ -15,14 +15,14 @@ export default function Card(props) {
                     {props.children}
                     <br />
                     <br />
-                    <Link to={props.link}>
+                    <Link to={props.path}>
                         <span className='active_link'>
-                            <span class='bold'>{props.linkPrompt}</span>
+                            <span class='bold'>VIEW CASE STUDY  →</span>
                         </span>
                     </Link>
                 </p>
             </div>
-            <Link to={props.link}>
+            <Link to={props.path}>
                 <img className='card_img' src={props.img} alt={props.alt} />
             </Link>
         </div>
