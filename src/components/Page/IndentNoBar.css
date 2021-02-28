@@ -1,6 +1,6 @@
 .indent_nobar {
     width: 80%;
-    margin: 90px auto 90px auto;
+    margin: 90px auto;
 }
 
 /*md breakpoint*/
@@ -13,7 +13,7 @@
 /*lg breakpoint*/
 @media (min-width: 1024px) {
     .indent_nobar {
-        width: 40%;
-        margin-left: 25%;
+        width: 38%;
+        margin-left: 24%;
     }
 }
