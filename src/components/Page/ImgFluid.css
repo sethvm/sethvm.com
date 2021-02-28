@@ -1,5 +1,16 @@
 .image_flex{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    margin: 60px auto 60px auto;
+    width: 100%;
+    height: auto;
+    padding: 40px 7.5%;
+}
+
+/*md breakpoint*/
+@media (min-width: 768px) {
+    .image_flex {
+        flex-direction: row;
+        padding: 0;
+    }
 }

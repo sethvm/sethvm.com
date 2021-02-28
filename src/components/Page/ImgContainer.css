@@ -1,6 +1,13 @@
-.image {
+.clear {
+    background-color: transparent;
+}
+
+.glass {
     background-color: rgb(210, 210, 210, 0.4);
     backdrop-filter: blur(2px);
+}
+
+.image {
     margin: 100px auto;
     padding: 24px 0;
 }

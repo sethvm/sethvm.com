@@ -8,12 +8,16 @@ import IndentNoBar from '../components/Page/IndentNoBar';
 /*image container imports*/
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
-import ImgCaption from '../components/Page/ImgCaption';
+import Img from '../components/Page/Img';
 
 /*typography imports*/
 import HTag2 from '../components/Page/HTag2';
 import HTag3 from '../components/Page/HTag3';
 import Paragraph from '../components/Page/Paragraph';
+
+/*img imports*/
+import Gondola from '../components/about/gondola.jpg';
+import SkyDive from '../components/about/skydive.jpg';
 
 export default function About() {
     return (
@@ -31,10 +35,10 @@ export default function About() {
                     </HTag3>
                     <Paragraph>
                         My journey through the field of design revolves around the objective of
-                        improving the quality of life for others. I'm currently
-                        exploring problem spaces within healthcare, food retail and e-commerce
-                        - essential industries that are facing never-before-seen challenges
-                        in light of the COVID-19 pandemic.
+                        improving the quality of life for others.
+                        I'm currently exploring the never-before-seen challenges being brought by
+                        the COVID-19 pandemic to our essential industries - my spaces of interest
+                        include healthcare, food retail, e-commerce and tech.
                     </Paragraph>
                     <Paragraph>
                         I'm also a Systems Design Engineering (SYDE) undergraduate at the University
@@ -74,13 +78,13 @@ export default function About() {
                         <br />
                     </HTag2>
                 </Section>
-                <ImgContainer>
+                <ImgContainer clear>
                     <ImgFluid>
-                        [portraits go here]
+                        <Img src={Gondola}
+                        alt='Hiking up Sulphur Mountain in Banff' />
+                        <Img src={SkyDive}
+                        alt='Skydiving at Hamilton' />
                     </ImgFluid>
-                    <ImgCaption>
-                        haha hiking and skydive go brr
-                    </ImgCaption>
                 </ImgContainer>
             </Project>
         </main>

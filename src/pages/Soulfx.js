@@ -53,7 +53,11 @@ export default function Soulfx() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Company:</span>
-                        &nbsp;Soulfx Technologies (client kept confidential as per NDA)
+                        &nbsp;Soulfx Technologies
+                    </Paragraph>
+                    <Paragraph>
+                        <span className='bold'>Client:</span>
+                        &nbsp;Multinational pharmaceutical company (confidential as per NDA)
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Team:</span>
@@ -65,7 +69,7 @@ export default function Soulfx() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Tools:</span>
-                        &nbsp;Adobe XD
+                        &nbsp;Adobe XD, Draw.io
                     </Paragraph>
                 </Section>
 
