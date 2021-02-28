@@ -11,11 +11,13 @@ export default function ImgContainer(props) {
         <>
         {clearContainer
             ?
-            <div className='clear image animate__animated animate__fadeIn'>
+            <div
+            className='clear image_container animate__animated animate__fadeIn'>
                 {props.children}
             </div>
             :
-            <div className='glass image animate__animated animate__fadeIn'>
+            <div
+            className='glass image_container animate__animated animate__fadeIn'>
                 {props.children}
             </div>
         }
