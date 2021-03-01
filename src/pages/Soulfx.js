@@ -61,7 +61,7 @@ export default function Soulfx() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Team:</span>
-                        &nbsp;2 Designers (including myself), Product Manager, Project Manager
+                        &nbsp;2 Designers (including myself), Product Owner, Project Manager
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Timeline:</span>

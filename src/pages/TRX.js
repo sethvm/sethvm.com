@@ -35,7 +35,7 @@ export default function TRX() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Team:</span>
-                        &nbsp;2 Designers (including myself), Product Manager
+                        &nbsp;2 Designers (including myself), Product Owner
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Timeline:</span>

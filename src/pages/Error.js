@@ -22,11 +22,10 @@ export default function Error() {
                         <br />
                     </HTag2>
                     <HTag3>
-                        Hop over to the landing page
+                        Please don't chuck a sickie, hop over to the landing page
                         <Link to='/'>
                             &nbsp;<span className='active_link bold'>here!</span>
                         </Link>
-                        <br />
                     </HTag3>
                 </Section>
             </Project>
