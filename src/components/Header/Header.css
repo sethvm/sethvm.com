@@ -17,13 +17,8 @@
 }
 
 .name {
-    display: none;
-}
-
-.svm_logo {
-    width: auto;
-    height: 40px;
-    margin-left: 4px;
+    font-size: 1.4em !important;
+    text-decoration: none;
 }
 
 .nav_banner {
@@ -63,14 +58,6 @@
         top: 24px;
         left: 5%;
         right: 5%;
-    }
-    .name {
-        display: block;
-        font-size: 1.4em !important;
-        text-decoration: none;
-    }
-    .branding {
-        display: none;
     }
 }
 
