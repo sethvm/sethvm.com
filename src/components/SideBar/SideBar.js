@@ -1,10 +1,13 @@
 import React from 'react';
 import './SideBar.css';
 
+// item logo imports
 import ContactLogo from './contact-logo.svg';
 import LinkedInLogo from './linkedin-logo.svg';
-import ResumeFile from '../../pdf/sethvm_resume.pdf';
 import ResumeLogo from './resume-logo.svg';
+
+// file imports
+import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
 export default function SideBar() {
     return (

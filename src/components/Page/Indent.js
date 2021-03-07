@@ -1,6 +1,6 @@
-/*A variant of the Section component
-- use to highlight important quotes
-- utilize larger text*/
+// A variant of the Section component
+// - use to highlight important quotes
+// - utilize larger text
 import React from 'react';
 import './Indent.css';
 

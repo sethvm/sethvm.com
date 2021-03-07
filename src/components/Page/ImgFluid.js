@@ -1,4 +1,4 @@
-/*flexbox container for displaying an image(s)*/
+// flexbox container for displaying an image(s)
 import React from 'react';
 import './ImgFluid.css';
 

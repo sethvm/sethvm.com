@@ -1,24 +1,24 @@
 import React from 'react';
 
-/*layout imports*/
+// layout imports
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 import IndentNoBar from '../components/Page/IndentNoBar';
 
-/*image container imports*/
+// image container imports
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
 import Img from '../components/Page/Img';
 
-/*typography imports*/
+// typography imports
 import HTag2 from '../components/Page/HTag2';
 import HTag3 from '../components/Page/HTag3';
 import Paragraph from '../components/Page/Paragraph';
 
-/*file imports*/
+// file imports
 import ResumeFile from '../pdf/sethvm_resume.pdf';
 
-/*img imports*/
+// img imports
 import Gondola from '../components/about/gondola.jpg';
 import SkyDive from '../components/about/skydive.jpg';
 
@@ -26,6 +26,7 @@ export default function About() {
     return (
         <main>
             <Project>
+
                 <Section>
                     <HTag2>
                         Thanks for dropping by! I am...
@@ -114,6 +115,7 @@ export default function About() {
                         alt='Skydiving at Hamilton' />
                     </ImgFluid>
                 </ImgContainer>
+                
             </Project>
         </main>
     );

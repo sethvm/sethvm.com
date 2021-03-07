@@ -1,4 +1,4 @@
-/*h4 tag wrapped in bold styling - for section title use*/
+// h4 tag wrapped in bold styling - use for highlighting body text
 import React from 'react';
 
 export default function HTag4(props) {

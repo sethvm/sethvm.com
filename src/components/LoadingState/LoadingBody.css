@@ -1,0 +1,10 @@
+.loading-body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.loading-blurb {
+    color: #cccccc;
+}

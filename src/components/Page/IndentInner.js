@@ -1,5 +1,5 @@
-/*a container for highlighting text inside sections
-- place within the same tier as paragraphs*/
+// a container for highlighting text inside sections
+// - place within the same tier as paragraphs
 import React from 'react';
 import './IndentInner.css';
 

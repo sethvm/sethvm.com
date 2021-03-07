@@ -1,4 +1,4 @@
-/*for containing header-paragraph segments*/
+// for containing header-paragraph segments
 import React from 'react';
 import './Section.css';
 

@@ -4,17 +4,12 @@ import Card from '../components/Card/Card';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/Home.css';
 
-/*component imports*/
+// component imports
 import DownArrow from '../components/Navigation/down-arrow.svg';
+
+// card img imports
 import OngoingCard from '../components/Page/wip-card.svg';
-
-/*card img imports*/
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
-
-/*old cards*/
-/*import VisualsCard from '../components/visuals/visuals-card.svg';
-import FASSBCard from '../components/fassb/fassb-card.svg';
-import AlbertCard from '../components/albert/albert-card.svg';*/
 
 export default function Home() {
     return (

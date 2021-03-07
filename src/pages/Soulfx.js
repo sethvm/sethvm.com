@@ -1,24 +1,24 @@
 import React from 'react';
 
-/*layout imports*/
+// layout imports
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 import SectionInner from '../components/Page/SectionInner';
 import IndentInner from '../components/Page/IndentInner';
 
-/*image container imports*/
+// image container imports
 import Banner from '../components/Page/Banner';
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
 import ImgCaption from '../components/Page/ImgCaption';
 
-/*typography imports*/
+// typography imports
 import HTag2 from '../components/Page/HTag2';
 import HTag3 from '../components/Page/HTag3';
 import HTag4 from '../components/Page/HTag4';
 import Paragraph from '../components/Page/Paragraph';
 
-/*banner import*/
+// banner import
 import SoulfxCard from '../components/soulfx/soulfx-card.svg';
 
 /*old graphics - to be reworked*/
@@ -38,7 +38,6 @@ import ProgramSelection from '../components/soulfx/soulfx-program_selection.svg'
 import ProgramCards from '../components/soulfx/soulfx-program_cards.svg';*/
 
 export default function Soulfx() {
-    
     return(
         <main>
             <Project>

@@ -1,4 +1,4 @@
-/*a variant of Section.js for use inside other containers*/
+// a variant of Section.js for use inside other containers
 import React from 'react';
 import './SectionInner.css';
 

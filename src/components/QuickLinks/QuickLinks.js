@@ -5,6 +5,7 @@ import './QuickLinks.css';
 
 export default function QuickLinks() {
 
+    // check if user is on the landing page
     const currentPath = (useLocation().pathname);
     const userOnHomePage = (currentPath === '/');
 

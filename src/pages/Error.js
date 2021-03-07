@@ -2,11 +2,11 @@ import React from 'react';
 import { Link }  from 'react-router-dom';
 import '../styles/Error.css';
 
-/*layout imports*/
+// layout imports
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 
-/*typography imports*/
+// typography imports
 import HTag2 from '../components/Page/HTag2';
 import HTag3 from '../components/Page/HTag3';
 

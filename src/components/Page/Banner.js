@@ -1,4 +1,4 @@
-/*project banner*/
+// project banner
 import React from 'react';
 import './Banner.css';
 

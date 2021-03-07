@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
 import './Header.css';
 
-/*file imports*/
+// file imports
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
 export default function Header() {

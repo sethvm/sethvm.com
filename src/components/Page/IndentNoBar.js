@@ -1,6 +1,6 @@
-/*A variant of the Section component
-- use in about page
-- utilize larger text*/
+// A variant of the Section component
+// - use in about page
+// - utilize larger text
 import React from 'react';
 import './IndentNoBar.css';
 
