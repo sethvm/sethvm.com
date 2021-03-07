@@ -4,13 +4,13 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
-import ScrollToTop from './components/Navigation/ScrollToTop';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ScrollToTop from './components/Navigation/ScrollToTop';
 
 // component imports
-import LoadingBody from './components/LoadingState/LoadingBody';
 import Container from './components/Page/Container';
+import LoadingBody from './components/LoadingState/LoadingBody';
 import Header from './components/Header/Header';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import TopShortcut from './components/Navigation/TopShortcut';

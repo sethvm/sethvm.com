@@ -83,7 +83,7 @@ export default function About() {
                         <br />
                     </HTag2>
                     <HTag3>
-                        Say hi via
+                        Say hi on
                         <ExtLink
                         href='https://www.linkedin.com/in/sethvm'>
                             LinkedIn

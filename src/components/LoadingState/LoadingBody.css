@@ -1,10 +1,17 @@
-.loading-body {
+.loading-home, .loading-page {
     display: flex;
     justify-content: center;
     align-content: center;
     min-height: 100vh;
+    padding-top: 96px;
 }
 
-.loading-blurb {
-    color: #cccccc;
+.loading-home {
+    width: 58.5%;
+    padding-left: 10%;
+}
+
+.loading-msg {
+    text-align: center;
+    color: #cccccc !important;
 }
