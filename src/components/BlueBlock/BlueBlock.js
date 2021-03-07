@@ -4,8 +4,7 @@ import './BlueBlock.css';
 
 export default function BlueBlock() {
 
-    const currentPath = (useLocation().pathname);
-    const userOnHomePage = (currentPath === '/');
+    const userOnHomePage = (useLocation().pathname === '/');
 
     return (
         <>

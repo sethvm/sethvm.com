@@ -47,7 +47,7 @@ export default function About() {
                         improving the quality of life for others.
                         I'm currently exploring the never-before-seen challenges being brought by
                         COVID-19 to our essential industries - my spaces of interest
-                        include <strong>healthcare</strong>, <strong>e-commerce</strong> and <strong>tech.</strong>
+                        include <strong>healthcare</strong>, <strong>e-commerce</strong> and <strong>tech</strong>.
                     </Paragraph>
                 </IndentNoBar>
 

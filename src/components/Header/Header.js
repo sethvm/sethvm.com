@@ -62,7 +62,9 @@ export default function Header() {
                     onClick={() => handleClick}>
                         <Nav.Link className='nav_item' as={Link} to='/'><span class='bold'>Work</span></Nav.Link>
                         <Nav.Link className='nav_item' as={Link} to='/about'><span class='bold'>About</span></Nav.Link>
-                        <ExtLink href={ResumeFile} label='Résumé' />
+                        <Nav.Link className='nav_item' rel='noopener noreferrer' href={ResumeFile} target='_blank'>
+                            <span class='bold'>Résumé</span>
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <div className='nav_right'>
@@ -72,13 +74,5 @@ export default function Header() {
                 </div>
             </Navbar>
         </header>
-    );
-}
-
-function ExtLink(props) {
-    return (
-        <Nav.Link className='nav_item' rel='noopener noreferrer' href={props.href} target='_blank'>
-            <span class='bold'>{props.label}</span>
-        </Nav.Link>
     );
 }

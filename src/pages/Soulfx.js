@@ -53,15 +53,15 @@ export default function Soulfx() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Company:</span>
-                        &nbsp;Soulfx Technologies
+                        &nbsp;Soulfx Technologies Inc.
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Client:</span>
-                        &nbsp;Multinational pharmaceutical company (confidential as per NDA)
+                        &nbsp;Multinational pharmaceutical company
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Team:</span>
-                        &nbsp;2 Designers (including myself), Product Owner, Project Manager
+                        &nbsp;2 Designers, Product Owner, Project Manager
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Timeline:</span>
@@ -78,11 +78,22 @@ export default function Soulfx() {
                 alt='Soulfx Patient Support App' />
 
                 <Section>
+                    <HTag3>Overview</HTag3>
+                    <Paragraph>
+                        Soulfx Technologies Inc. is a Mississauga-based software consulting firm
+                        specializing in healthcare applications. I interned as a Software Designer
+                        at Soulfx during the summer of 2019, working with a multinationally-based
+                        pharmaceutical client in designing a record management application from the
+                        ground up.
+                    </Paragraph>
+                </Section>
+
+                <Section>
                     <HTag3>An ongoing health crisis</HTag3>
                     <Paragraph>
                         COVID-19 has brought with it a global-scale challenge that
                         has pushed the capacity of our healthcare sectors to their limit.
-                        A client approached Soulfx with the objective of moving their
+                        Our client approached us with the objective of moving their
                         financial aid service online - a shift to web-based support
                         that was necessary to minimize the risk imposed by the pandemic
                         on immunocompromised individuals.
@@ -106,7 +117,7 @@ export default function Soulfx() {
                 </ImgContainer>
 
                 <Section>
-                    <HTag3>Assisting patients with expenses</HTag3>
+                    <HTag3>Our client's assistance service</HTag3>
                     <Paragraph>
                         Participating manufacturers registered within our client's service
                         offer their own collection of program plans, which provide
@@ -124,35 +135,25 @@ export default function Soulfx() {
                 </Section>
 
                 <Section>
-                    <HTag3>Decoding a hierarchy</HTag3>
-                    <Paragraph>
-                        Talk about discovery and information architecture mapping
-                    </Paragraph>
-                </Section>
-
-                <Section>
                     <HTag3>Jobs-to-be-done</HTag3>
                     <Paragraph>
-                        We identified two user groups after obtaining an in-depth look at how
-                        our client's service functions and outlined how each group's objective
-                        with .
+                        Write about user groups and what each group wants to do with the platform
                     </Paragraph>
                 </Section>
 
                 <Section>
                     <HTag3>Laying out the groundwork</HTag3>
                     <Paragraph>
-                        Talk about user flows for both user groups
+                        Write about user flows and information hierarchy for both user groups
                     </Paragraph>
                 </Section>
 
                 <Section>
                     <HTag3>Putting it all together</HTag3>
                     <Paragraph>
-                        We carried out the product's end-to-end design from inception
-                        to developer handoff. My responsibilities included information
-                        architecture (IA) mapping, user flows and navigation; my fellow
-                        co-op focused primarily on visual design and animations.
+                        Write about the objective of each set of designs and how our approach
+                        helped in making the service easy to provide and cards easy to retreive.
+                        Briefly discuss business objectives within glass container.
                     </Paragraph>
                 </Section>
 
@@ -195,7 +196,8 @@ export default function Soulfx() {
                 <Section>
                     <HTag3>Key interactions</HTag3>
                     <Paragraph>
-                        Talks about breadcrumbs + switches, and what pain points they address
+                        Write about breadcrumbs + switches, and what pain points they address -
+                        refer to the old write-up!
                     </Paragraph>
                 </Section>
 
