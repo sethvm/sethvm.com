@@ -1,4 +1,4 @@
 # sethvm.com
-Portfolio website containing projects and resume
+Portfolio website containing design case studies
 
-Built using [React.js](https://github.com/facebook/react)
+Built with [React](https://github.com/facebook/react)
