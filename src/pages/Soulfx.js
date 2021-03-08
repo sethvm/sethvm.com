@@ -80,11 +80,17 @@ export default function Soulfx() {
                     <HTag3>Overview</HTag3>
                     <Paragraph>
                         Soulfx Technologies Inc. is a Mississauga-based software consulting firm
-                        specializing in healthcare applications. I interned as a Software Designer
-                        at Soulfx during the summer of 2019, working with a multinationally-based
-                        pharmaceutical client in designing a record management application from the
-                        ground up.
+                        that focuses on building applications for clients within the healthcare indusry.
+                        I worked as a Software Designer within the product team during the summer of 2020,
+                        where we worked closely with a multinationally based pharmaceutical client in
+                        executing an end-to-end design project.
                     </Paragraph>
+                    <IndentInner>
+                        <HTag4>
+                            Soulfx specializes in the development of platforms that drive innovation
+                            within the healthcare sector.
+                        </HTag4>
+                    </IndentInner>
                 </Section>
 
                 <Section>
@@ -96,7 +102,6 @@ export default function Soulfx() {
                         financial aid service online - a shift to web-based support
                         that was necessary to minimize the risk imposed by the pandemic
                         on immunocompromised individuals.
-                        <br />
                     </Paragraph>
                     <IndentInner>
                         <HTag4>

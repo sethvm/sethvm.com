@@ -24,10 +24,10 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #1a1a1a;
+    color: #1A1A1A;
 }
 
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, strong, .bold {
     font-family: "Gilroy Semi Bold", sans-serif;
 }
 
@@ -44,15 +44,11 @@ h4 {
 }
 
 p {
-    font-size: 1.05em;
+    color: #404040;
 }
 
 a:hover {
     text-decoration: none;
-}
-
-.bold {
-    font-weight: bold;
 }
 
 .italic {
