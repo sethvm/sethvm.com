@@ -1,4 +1,7 @@
-import React, { Suspense, lazy } from 'react';
+import React, {
+    Suspense,
+    lazy
+} from 'react';
 import {
     HashRouter,
     Switch,
@@ -6,6 +9,7 @@ import {
 } from 'react-router-dom';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TrackPageViews from './components/Analytics/TrackPageViews';
 import ScrollToTop from './components/Navigation/ScrollToTop';
 
 // component imports
@@ -29,6 +33,7 @@ export default function App() {
     return (
         <HashRouter>
             <ScrollToTop />
+            <TrackPageViews />
             <Container>
                 <Header />
                 <BlueBlock />
