@@ -61,10 +61,10 @@ export default function Header() {
                 <Navbar.Collapse id='nav-dropdown'>
                     <Nav className='nav_drop' 
                     onClick={() => handleClick}>
-                        <Nav.Link className='nav_item' as={Link} to='/'><span class='bold'>Work</span></Nav.Link>
-                        <Nav.Link className='nav_item' as={Link} to='/about'><span class='bold'>About</span></Nav.Link>
+                        <Nav.Link className='nav_item' as={Link} to='/'><span className='bold'>Work</span></Nav.Link>
+                        <Nav.Link className='nav_item' as={Link} to='/about'><span className='bold'>About</span></Nav.Link>
                         <Nav.Link className='nav_item' rel='noopener noreferrer' href={ResumeFile} target='_blank'>
-                            <span class='bold'>Résumé</span>
+                            <span className='bold'>Résumé</span>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

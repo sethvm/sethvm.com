@@ -5,13 +5,18 @@ import ReactGA from 'react-ga';
 export default function TrackPageViews() {
 
     const location = useLocation();
+    const trackerID = 'UA-152533938-2';
 
-    ReactGA.initialize('UA-152533938-2');
-    console.log('ReactGA initialized');
+    useEffect(() => {
+        ReactGA.initialize(trackerID, {
+            standardImplementation: true
+        });
+        console.log('ReactGA initialized');
+    }, []);
 
     useEffect(() => {
         ReactGA.pageview(location.pathname);
-        console.log(location.pathname);
+        console.log('page_path: ' + location.pathname);
     }, [location.pathname]);
 
     return null;

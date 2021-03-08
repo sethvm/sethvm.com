@@ -17,7 +17,7 @@ export default function Card(props) {
                     <br />
                     <Link to={props.path}>
                         <span className='active_link'>
-                            <span class='bold'>VIEW CASE STUDY  →</span>
+                            <span className='bold'>VIEW CASE STUDY  →</span>
                         </span>
                     </Link>
                 </p>
