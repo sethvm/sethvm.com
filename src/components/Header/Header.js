@@ -1,8 +1,8 @@
-import React, { 
-    useState, 
-    useRef, 
-    useEffect, 
-    useCallback
+import React, {
+    useState,
+    useEffect,
+    useCallback,
+    createRef
 } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -16,7 +16,7 @@ import ResumeFile from '../../pdf/sethvm_resume.pdf';
 export default function Header() {
 
     const [ expanded, setExpanded ] = useState(false);
-    const node = useRef();
+    const node = createRef();
 
     const toggleNav = () => {
         const newExpanded = expanded;
@@ -31,7 +31,7 @@ export default function Header() {
     const handleClick = useCallback((e) => {
         if (node.current.contains(e.target) || expanded === false) return;
         setTimeout(() => { closeNav(); }, 80);
-    }, [expanded, closeNav]);
+    }, [expanded, node, closeNav]);
 
     useEffect(() => { 
         document.addEventListener('mousedown', handleClick);

@@ -19,7 +19,7 @@ import HTag4 from '../components/Page/HTag4';
 import Paragraph from '../components/Page/Paragraph';
 
 // banner import
-import SoulfxCard from '../components/soulfx/soulfx-card.svg';
+import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
 
 /*old graphics - to be reworked*/
 /*import AddRecord from '../components/soulfx/soulfx-add_company.svg';

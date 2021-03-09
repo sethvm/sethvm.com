@@ -15,7 +15,7 @@ import Paragraph from '../components/Page/Paragraph';
 import Banner from '../components/Page/Banner';
 
 // banner import
-import OngoingCard from '../components/Page/wip-card.svg';
+import OngoingCard from '../assets/wip/wip-card.svg';
 
 export default function TRX() {
     return (

@@ -8,8 +8,8 @@ import '../styles/Home.css';
 import DownArrow from '../components/Navigation/down-arrow.svg';
 
 // card img imports
-import OngoingCard from '../components/Page/wip-card.svg';
-import SoulfxCard from '../components/soulfx/soulfx-card.svg';
+import OngoingCard from '../assets/wip/wip-card.svg';
+import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
 
 export default function Home() {
     return (

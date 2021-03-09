@@ -19,8 +19,8 @@ import Paragraph from '../components/Page/Paragraph';
 import ResumeFile from '../pdf/sethvm_resume.pdf';
 
 // img imports
-import Gondola from '../components/about/gondola.jpg';
-import SkyDive from '../components/about/skydive.jpg';
+import Gondola from '../assets/about/gondola.jpg';
+import SkyDive from '../assets/about/skydive.jpg';
 
 export default function About() {
     return (
