@@ -32,8 +32,8 @@ const TRX = lazy(() => import('./pages/TRX'));
 export default function App() {
     return (
         <HashRouter>
-            <ScrollToTop />
             <TrackPageViews />
+            <ScrollToTop />
             <Container>
                 <Header />
                 <BlueBlock />

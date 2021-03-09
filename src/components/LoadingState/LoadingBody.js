@@ -30,7 +30,7 @@ function LoadingBody(props) {
                     <LoadingIcon />
                     <h2>
                         <div className='loading-msg'>
-                            to-do: write witty loading message
+                            to-do: insert witty loading message
                         </div>
                     </h2>
                 </Section>

@@ -41,7 +41,8 @@ export default function About() {
                         I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                         SYDE is a unique program that emphasizes the utilization of multi-disciplinary
                         approaches to tackling technological and socioeconomical problems we face today -
-                        all with users at the forefront.
+                        all with users at the forefront. As a SYDE student, my work focuses on examining
+                        how we humans interact with the technology around us.
                     </Paragraph>
                     <Paragraph>
                         My endeavours in design revolve around the objective of
@@ -59,7 +60,7 @@ export default function About() {
                     <Paragraph>
                         Should you ever need to find me outside of school and work, there's a
                         good chance I'll be working on dynos at the bouldering gym,
-                        standing in line to board the fastest roller coaster at the park
+                        amping up for deadlifts in the weight room
                         or hiking up a mountain somewhere. Occasionally, I enjoy diving head-first into
                         clouds - with a parachute strapped to my back, of course.
                     </Paragraph>
