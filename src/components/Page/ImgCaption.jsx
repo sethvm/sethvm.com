@@ -3,11 +3,11 @@
 import React from 'react';
 import './ImgCaption.css';
 
-export default function ImgCaption(props) {
+export default function ImgCaption({ children }) {
     return (
         <div className='image_caption'>
             <p>
-                <span className='italic'>{props.children}</span>
+                <span className='italic'>{children}</span>
             </p>
         </div>
     );

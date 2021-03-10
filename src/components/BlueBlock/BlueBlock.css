@@ -3,7 +3,7 @@
 }
 
 /*lg breakpoint*/
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .block-blue {
         display: block;
         height: 100%;

@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Paragraph(props) {
+export default function Paragraph({ children }) {
     return(
         <p>
-            {props.children}
+            {children}
             <br />
         </p>
     );

@@ -4,10 +4,10 @@
 import React from 'react';
 import './Indent.css';
 
-export default function Indent(props) {
+export default function Indent({ children }) {
     return (
         <div className='indent animate__animated animate__fadeIn'>
-            {props.children}
+            {children}
         </div>
     );
 }

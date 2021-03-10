@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function HTag5(props) {
+export default function HTag5({ children }) {
     return(
         <h5>
-            {props.children}
+            {children}
             <br />
         </h5>
     );

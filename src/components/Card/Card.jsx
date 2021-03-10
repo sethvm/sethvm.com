@@ -2,28 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Card.css';
 
-export default function Card(props) {
+export default function Card({ title, desc, path, img, alt, children }) {
     return (
         <div className='project_card'>
             <div className='card_text'>
-                <h2>{props.title}</h2>
+                <h2>{title}</h2>
                 <p>
                     <br />
-                    {props.desc}
+                    {desc}
                     <br />
                     <br />
-                    {props.children}
+                    {children}
                     <br />
                     <br />
-                    <Link to={props.path}>
+                    <Link to={path}>
                         <span className='active_link'>
                             <span className='bold'>VIEW CASE STUDY  →</span>
                         </span>
                     </Link>
                 </p>
             </div>
-            <Link to={props.path}>
-                <img className='card_img' src={props.img} alt={props.alt} />
+            <Link to={path}>
+                <img className='card_img' src={img} alt={alt} />
             </Link>
         </div>
     );

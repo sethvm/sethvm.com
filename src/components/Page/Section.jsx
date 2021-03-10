@@ -2,10 +2,10 @@
 import React from 'react';
 import './Section.css';
 
-export default function Section(props) {
+export default function Section({ children }) {
     return (
         <div className='section animate__animated animate__fadeIn'>
-            {props.children}
+            {children}
         </div>
     );
 }

@@ -122,10 +122,10 @@ export default function About() {
     );
 }
 
-function ExtLink(props) {
+function ExtLink({ href, children }) {
     return (
-        <a rel='noopener noreferrer' href={props.href} target='_blank'>
-            &nbsp;<span className='active_link'>{props.children}</span>
+        <a rel='noopener noreferrer' href={href} target='_blank'>
+            &nbsp;<span className='active_link'>{children}</span>
         </a>
     );
 }

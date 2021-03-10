@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 import './QuickLinks.css';
 
-export default function QuickLinks() {
+export default function RenderQuickLinks() {
 
     // check if user is on the landing page
     const currentPath = (useLocation().pathname);
@@ -33,20 +33,20 @@ export default function QuickLinks() {
     );
 }
 
-function QuickLink(props) {
+function QuickLink({ label, path, currentPath }) {
 
-    const linkToCurrentPage = (props.currentPath === props.path);
+    const linkToCurrentPage = (currentPath === path);
 
     return (
         <>
         {linkToCurrentPage
             ?
-            <Link to={props.path}>
-                <span className='curr_link'>{props.label}</span>
+            <Link to={path}>
+                <span className='curr_link'>{label}</span>
             </Link>
             : 
-            <Link to={props.path}>
-                <span className='bold active_link rounded_link'>{props.label}</span>
+            <Link to={path}>
+                <span className='bold active_link rounded_link'>{label}</span>
             </Link>
         }
         </>

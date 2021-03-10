@@ -2,10 +2,10 @@
 import React from 'react';
 import './ImgFluid.css';
 
-export default function ImgFluid(props) {
+export default function ImgFluid({ children }) {
     return (
         <div className='image_flex'>
-            {props.children}
+            {children}
         </div>
     );
 }

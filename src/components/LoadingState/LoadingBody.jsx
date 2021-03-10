@@ -22,10 +22,10 @@ export default function RenderLoadingBody() {
 
 }
 
-function LoadingBody(props) {
+function LoadingBody({ variant }) {
     return (
         <main>
-            <div className={props.variant}>
+            <div className={variant}>
                 <Section>
                     <LoadingIcon />
                     <h2>

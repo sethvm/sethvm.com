@@ -43,7 +43,7 @@ export default function Header() {
     return (
         <header id='header' className='animate__animated animate__fadeIn'>
             <Navbar className='nav_banner' 
-            expand='1024px'
+            expand='lg'
             expanded={expanded}
             onToggle={toggleNav}>
                 <Nav.Link className='name link' as={Link} to='/'>

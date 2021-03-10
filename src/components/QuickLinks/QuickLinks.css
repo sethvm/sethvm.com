@@ -24,7 +24,7 @@
 }
 
 /*lg breakpoint*/
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     #quick-links {
         display: flex;
         justify-content: center;

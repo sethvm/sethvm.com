@@ -16,7 +16,7 @@
 }
 
 /*lg breakpoint*/
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .shortcut_logo {
         width: 38px;
         height: 38px;

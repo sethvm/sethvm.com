@@ -6,7 +6,7 @@
 }
 
 /*lg breakpoint*/
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     .project {
         margin: 196px auto 80px auto;
     }

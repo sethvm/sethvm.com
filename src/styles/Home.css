@@ -42,7 +42,7 @@
 }
 
 /*lg breakpoint*/
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     #intro {
         padding-top: 24vh;
     }

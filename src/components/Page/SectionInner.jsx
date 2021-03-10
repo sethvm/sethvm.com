@@ -2,10 +2,10 @@
 import React from 'react';
 import './SectionInner.css';
 
-export default function SectionInner(props) {
+export default function SectionInner({ children }) {
     return (
         <div className='section_inner'>
-            {props.children}
+            {children}
         </div>
     );
 }

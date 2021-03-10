@@ -3,9 +3,9 @@
 import React from 'react';
 import './ImgContainer.css';
 
-export default function ImgContainer(props) {
+export default function ImgContainer({ clear, children }) {
     
-    const clearContainer=(props.clear);
+    const clearContainer=(clear);
 
     return (
         <>
@@ -13,12 +13,12 @@ export default function ImgContainer(props) {
             ?
             <div
             className='clear image_container animate__animated animate__fadeIn'>
-                {props.children}
+                {children}
             </div>
             :
             <div
             className='glass image_container animate__animated animate__fadeIn'>
-                {props.children}
+                {children}
             </div>
         }
         </>
