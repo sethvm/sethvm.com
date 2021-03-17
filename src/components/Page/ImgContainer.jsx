@@ -4,12 +4,9 @@ import React from 'react';
 import './ImgContainer.css';
 
 export default function ImgContainer({ clear, children }) {
-    
-    const clearContainer=(clear);
-
     return (
         <>
-        {clearContainer
+        {clear
             ?
             <div
             className='clear image_container animate__animated animate__fadeIn'>

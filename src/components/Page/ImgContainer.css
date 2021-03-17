@@ -6,7 +6,7 @@
 
 .glass {
     background-color: rgb(210, 210, 210, 0.4);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(84px);
     margin: 100px auto;
     padding: 24px 0;
 }

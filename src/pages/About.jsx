@@ -60,7 +60,7 @@ export default function About() {
                     <Paragraph>
                         Should you ever need to find me outside of school and work, there's a
                         good chance I'll be working on dynos at the bouldering gym,
-                        amping up for deadlifts in the weight room
+                        amping up for deadlifts in the weight room,
                         or hiking up a mountain somewhere. Occasionally, I enjoy diving head-first into
                         clouds - with a parachute strapped to my back, of course.
                     </Paragraph>
@@ -110,9 +110,11 @@ export default function About() {
 
                 <ImgContainer clear>
                     <ImgFluid>
-                        <Img src={Gondola}
+                        <Img item
+                        src={Gondola}
                         alt='Hiking up Sulphur Mountain in Banff' />
-                        <Img src={SkyDive}
+                        <Img item
+                        src={SkyDive}
                         alt='Skydiving at Hamilton' />
                     </ImgFluid>
                 </ImgContainer>

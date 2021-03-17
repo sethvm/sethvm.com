@@ -1,12 +1,14 @@
 // image component with a loading state
-import React, { Suspense } from 'react';
+import React from 'react';
 import './Img.css';
-import LoadingIcon from '../LoadingState/LoadingIcon';
 
-export default function Image({ src, alt }) {
+export default function Image({ item, src, alt }) {
     return (
-        <Suspense fallback={<LoadingIcon />}>
-            <img className='image_item' src={src} alt={alt} />
-        </Suspense>
+        <>
+        {item
+            ? <img className='image item' src={src} alt={alt} />
+            : <img className='image' src={src} alt={alt} />
+        }
+        </>
     );
 }

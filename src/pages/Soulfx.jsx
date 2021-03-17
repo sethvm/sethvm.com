@@ -11,6 +11,7 @@ import Banner from '../components/Page/Banner';
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
 import ImgCaption from '../components/Page/ImgCaption';
+import Img from '../components/Page/Img';
 
 // typography imports
 import HTag2 from '../components/Page/HTag2';
@@ -20,6 +21,7 @@ import Paragraph from '../components/Page/Paragraph';
 
 // banner import
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
+import Methodology from '../assets/soulfx/soulfx-methodology.svg';
 
 /*old graphics - to be reworked*/
 /*import AddRecord from '../components/soulfx/soulfx-add_company.svg';
@@ -31,7 +33,6 @@ import CompanyDetails from '../components/soulfx/soulfx-company_details.svg';
 import EnterpriseIA from '../components/soulfx/soulfx-enterprise_architecture.svg';
 import EnterpriseWorkflow from '../components/soulfx/soulfx-enterprise_workflow.svg';
 import ListView from '../components/soulfx/soulfx-list_view.svg';
-import Methodology from '../components/soulfx/soulfx-methodology.svg';
 import PortalWorkflow from '../components/soulfx/soulfx-portal_workflow.svg';
 import ProgramDetails from '../components/soulfx/soulfx-program_details.svg';
 import ProgramSelection from '../components/soulfx/soulfx-program_selection.svg';
@@ -64,11 +65,7 @@ export default function Soulfx() {
                     </Paragraph>
                     <Paragraph>
                         <span className='bold'>Timeline:</span>
-                        &nbsp;May 2020 - Aug 2020 (10 weeks)
-                    </Paragraph>
-                    <Paragraph>
-                        <span className='bold'>Tools:</span>
-                        &nbsp;Adobe XD, Draw.io
+                        &nbsp;Jul 2020 - Aug 2020 (8 weeks)
                     </Paragraph>
                 </Section>
 
@@ -113,10 +110,12 @@ export default function Soulfx() {
 
                 <ImgContainer>
                     <ImgFluid>
-                        <div>[ insert design process diagram ]</div>
+                        <Img
+                        src={Methodology}
+                        alt='The design approach' />
                     </ImgFluid>
                     <ImgCaption>
-                        Our approach
+                        An outline of our approach
                     </ImgCaption>
                 </ImgContainer>
 
@@ -141,7 +140,10 @@ export default function Soulfx() {
                 <Section>
                     <HTag3>Jobs-to-be-done</HTag3>
                     <Paragraph>
-                        Write about user groups and what each group wants to do with the platform
+                        [Write about user groups and what each group wants to do with the platform]
+                        Even though we designed our client's application from the ground up,
+                        we were working with a service that was already up and running. Our user audience
+                        consisted of two groups:
                     </Paragraph>
                 </Section>
 

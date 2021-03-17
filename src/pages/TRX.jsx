@@ -41,10 +41,6 @@ export default function TRX() {
                         <span className='bold'>Timeline:</span>
                         &nbsp;Ongoing
                     </Paragraph>
-                    <Paragraph>
-                        <span className='bold'>Tools:</span>
-                        &nbsp;Figma
-                    </Paragraph>
                 </Section>
 
                 <Banner

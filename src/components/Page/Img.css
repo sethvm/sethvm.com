@@ -1,4 +1,4 @@
-.image_item {
+.image {
     width: 100%;
     height: auto;
     margin: 30px auto;
@@ -6,14 +6,14 @@
 
 /*md breakpoint*/
 @media (min-width: 768px) {
-    .image_item {
+    .item {
         width: 42%;
     }
 }
 
 /*lg breakpoint*/
 @media (min-width: 992px) {
-    .image_item {
+    .item {
         width: 38%;
     }
 }
