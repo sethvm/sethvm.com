@@ -1,4 +1,3 @@
-import React from 'react';
 import Badge from 'react-bootstrap/Badge';
 import Card from '../components/Card/Card';
 import { HashLink } from 'react-router-hash-link';

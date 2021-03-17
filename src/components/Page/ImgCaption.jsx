@@ -1,6 +1,5 @@
 // for providing brief image descriptions
 // - place at the bottom of each image
-import React from 'react';
 import './ImgCaption.css';
 
 export default function ImgCaption({ children }) {

@@ -1,5 +1,4 @@
-// image component with a loading state
-import React from 'react';
+// image component
 import './Img.css';
 
 export default function Image({ item, src, alt }) {

@@ -1,5 +1,4 @@
-// h4 tag wrapped in bold styling - use for highlighting body text
-import React from 'react';
+// h4 tag with line break
 
 export default function HTag4({ children }) {
     return(

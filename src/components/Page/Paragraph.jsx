@@ -1,4 +1,4 @@
-import React from 'react';
+// paragraph - use to section text content together
 
 export default function Paragraph({ children }) {
     return(

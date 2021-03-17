@@ -1,7 +1,6 @@
 // A variant of the Section component
 // - use in about page
 // - utilize larger text
-import React from 'react';
 import './IndentNoBar.css';
 
 export default function Indent({ children }) {

@@ -1,5 +1,3 @@
-import React from 'react';
-
 // layout imports
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';

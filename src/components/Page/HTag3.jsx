@@ -1,5 +1,4 @@
-// h3 tag wrapped in bold styling - use to title sections
-import React from 'react';
+// h3 tag with line break
 
 export default function HTag3({ children }) {
     return(

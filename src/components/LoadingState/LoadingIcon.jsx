@@ -1,4 +1,3 @@
-import React from 'react';
 import './LoadingIcon.css';
 
 export default function LoadingIcon() {

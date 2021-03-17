@@ -1,6 +1,5 @@
 // a container for highlighting text inside sections
 // - place within the same tier as paragraphs
-import React from 'react';
 import './IndentInner.css';
 
 export default function IndentInner({ children }) {

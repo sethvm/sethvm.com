@@ -1,5 +1,4 @@
-// h2 tag wrapped in bold styling - for use with project titles
-import React from 'react';
+// h2 tag with line break
 
 export default function HTag2({ children }) {
     return(
