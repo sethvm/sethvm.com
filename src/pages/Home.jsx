@@ -9,6 +9,7 @@ import DownArrow from '../components/Navigation/down-arrow.svg';
 // card img imports
 import OngoingCard from '../assets/wip/wip-card.svg';
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
+import FASSBCard from '../assets/fassb/fassb-card.svg';
 
 export default function Home() {
     return (
@@ -46,24 +47,36 @@ export default function Home() {
                 </div>
             </div>
             <div id='projects'>
-            <Card
+                <Card
                 title='OPS Transaction Logs'
                 desc="Redesigning an order validation experience for a
-                portal module used by Loblaw's area managers and stores"
+                portal module used by Loblaw's grocery banners"
                 img={OngoingCard}
                 alt='OPS Transaction Logs (TRX)'
-                path='/trx'>
+                path='/trx'
+                linkLabel='VIEW CASE STUDY  →'>
                     <Badge pill variant='dark'>Product Design</Badge>
                 </Card>
                 <Card
                 title='Patient Support App'
                 desc="Facilitating the remote delivery of a client's
-                financial aid service for patients in need"
+                financial aid platform for patients in need"
                 img={SoulfxCard}
                 alt='Patient Support App'
-                path='/soulfx'>
+                path='/soulfx'
+                linkLabel='VIEW CASE STUDY  →'>
                     <Badge pill variant='dark'>UX Design</Badge>&nbsp;
                     <Badge pill variant='dark'>Information Architecture</Badge>
+                </Card>
+                <Card
+                title='FASSB Design'
+                desc='Reworking interfaces and service experiences for Employment
+                Ontario platforms used to help jobseekers secure employment'
+                img={FASSBCard}
+                alt='FASSB Design'
+                path={null}
+                linkLabel='VIEW TERM RECAP →'>
+                    <Badge pill variant='dark'>Web Design</Badge>
                 </Card>
             </div>
         </main>

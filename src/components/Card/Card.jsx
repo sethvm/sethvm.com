@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Card.css';
 
-export default function Card({ title, desc, path, img, alt, children }) {
+export default function Card({ title, desc, path, linkLabel, img, alt, children }) {
     return (
         <div className='project_card'>
             <div className='card_text'>
@@ -16,7 +16,7 @@ export default function Card({ title, desc, path, img, alt, children }) {
                     <br />
                     <Link to={path}>
                         <span className='active_link'>
-                            <span className='bold'>VIEW CASE STUDY  →</span>
+                            <span className='bold'>{linkLabel}</span>
                         </span>
                     </Link>
                 </p>

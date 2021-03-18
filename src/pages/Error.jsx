@@ -1,5 +1,4 @@
 import { Link }  from 'react-router-dom';
-import '../styles/Error.css';
 
 // layout imports
 import Project from '../components/Page/Project';
@@ -10,12 +9,17 @@ import HTag2 from '../components/Page/HTag2';
 import HTag3 from '../components/Page/HTag3';
 
 export default function Error() {
+
+    const errorTxtColor = {
+        color: '#800000'
+    };
+
     return (
         <main>
             <Project>
                 <Section>
                     <HTag2>
-                        <span className='warning'>
+                        <span style={errorTxtColor}>
                             404, mate - probably an old link!
                         </span>
                         <br />
