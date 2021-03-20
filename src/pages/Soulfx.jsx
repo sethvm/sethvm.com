@@ -44,7 +44,7 @@ export default function Soulfx() {
                     <HTag2>Patient Support App</HTag2>
                     <Paragraph>
                         Soulfx's Patient Support Application is a web-based
-                        platform developed for an external client within the
+                        platform developed for a client within the
                         pharmaceutical industry. It facilitates the remote delivery
                         of a service that provides financial assistance to Canadian
                         patients for medical payments such as therapy and prescriptions.

@@ -74,7 +74,7 @@ export default function Home() {
                 Ontario platforms used to help jobseekers secure employment'
                 img={FASSBCard}
                 alt='FASSB Design'
-                path={null}
+                path='/'
                 linkLabel='VIEW TERM RECAP →'>
                     <Badge pill variant='dark'>Web Design</Badge>
                 </Card>

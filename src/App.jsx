@@ -17,7 +17,6 @@ import Container from './components/Page/Container';
 import LoadingBody from './components/LoadingState/LoadingBody';
 import Header from './components/Header/Header';
 import BlueBlock from './components/BlueBlock/BlueBlock';
-import TopShortcut from './components/Navigation/TopShortcut';
 import QuickLinks from './components/QuickLinks/QuickLinks';
 import SideBar from './components/SideBar/SideBar';
 import Footer from './components/Footer/Footer';
@@ -49,7 +48,6 @@ export default function App() {
                 <QuickLinks />
                 <SideBar />
                 <Footer />
-                <TopShortcut />
             </Container>
         </HashRouter>
     );

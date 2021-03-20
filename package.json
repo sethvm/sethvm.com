@@ -8,7 +8,6 @@
     "bootstrap": "^4.6.0",
     "hamburger-react": "^2.4.0",
     "react": "^16.14.0",
-    "react-back-to-top-button": "0.0.14",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^16.14.0",
     "react-ga": "^3.3.0",
