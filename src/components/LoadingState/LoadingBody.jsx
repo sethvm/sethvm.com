@@ -23,17 +23,15 @@ export default function RenderLoadingBody() {
 
 function LoadingBody({ variant }) {
     return (
-        <main>
-            <div className={variant}>
-                <Section>
-                    <LoadingIcon />
-                    <h2>
-                        <div className='loading-msg'>
-                            to-do: insert witty loading message
-                        </div>
-                    </h2>
-                </Section>
-            </div>
+        <main className={variant}>
+            <Section>
+                <LoadingIcon />
+                <h2>
+                    <div className='loading-msg'>
+                        to-do: insert witty loading message
+                    </div>
+                </h2>
+            </Section>
         </main>
     );
 }

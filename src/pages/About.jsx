@@ -22,9 +22,7 @@ import SkyDive from '../assets/about/skydive.jpg';
 
 export default function About() {
     return (
-        <main>
             <Project>
-
                 <Section>
                     <HTag2>
                         Thanks for dropping by! I am...
@@ -39,7 +37,7 @@ export default function About() {
                         I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                         SYDE is a unique program that emphasizes the utilization of multi-disciplinary
                         approaches to tackling technological and socioeconomical problems we face today -
-                        all with users at the forefront. As a SYDE student, my work focuses on examining
+                        all with users at the forefront. As a SYDE student, my work centers around examining
                         how we humans interact with the technology around us.
                     </Paragraph>
                     <Paragraph>
@@ -115,10 +113,8 @@ export default function About() {
                         src={SkyDive}
                         alt='Skydiving at Hamilton' />
                     </ImgFluid>
-                </ImgContainer>
-                
+                </ImgContainer>           
             </Project>
-        </main>
     );
 }
 

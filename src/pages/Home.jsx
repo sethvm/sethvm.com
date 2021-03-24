@@ -49,7 +49,7 @@ export default function Home() {
             <div id='projects'>
                 <Card
                 title='OPS Transaction Logs'
-                desc="Redesigning an order validation experience for a
+                desc="Streamlining an order validation experience for a
                 portal module used by Loblaw's grocery banners"
                 img={OngoingCard}
                 alt='OPS Transaction Logs (TRX)'
@@ -69,14 +69,15 @@ export default function Home() {
                     <Badge pill variant='dark'>Information Architecture</Badge>
                 </Card>
                 <Card
-                title='FASSB Design'
-                desc='Reworking interfaces and service experiences for Employment
-                Ontario platforms used to help jobseekers secure employment'
+                title='Employment Services Transformation'
+                desc='Reworking interfaces and experiences for services delivered
+                by Employment Ontario to help jobseekers secure employment'
                 img={FASSBCard}
                 alt='FASSB Design'
-                path='/'
+                path='/est'
                 linkLabel='VIEW TERM RECAP →'>
-                    <Badge pill variant='dark'>Web Design</Badge>
+                    <Badge pill variant='dark'>Web Design</Badge>&nbsp;
+                    <Badge pill variant='dark'>Service Design</Badge>
                 </Card>
             </div>
         </main>

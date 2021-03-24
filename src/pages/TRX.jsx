@@ -17,35 +17,33 @@ import OngoingCard from '../assets/wip/wip-card.svg';
 
 export default function TRX() {
     return (
-        <main>
-            <Project>
-                <Section>
-                    <HTag2>OPS Transaction Logs (TRX)</HTag2>
-                    <Paragraph>
-                        Transaction logs (collectively referred to as TRX) are modules situated within Loblaw's
-                        OPS Portal, a centralized platform that enables Loblaw's store employees to manage their
-                        day-to-day operations. They are used to troubleshoot online grocery orders as well as
-                        validate fulfillment completion times.
-                    </Paragraph>
-                    <Paragraph>
-                        <span className='bold'>Company:</span>
-                        &nbsp;Loblaw Digital
-                    </Paragraph>
-                    <Paragraph>
-                        <span className='bold'>Team:</span>
-                        &nbsp;2 Product Designers, Product Owner
-                    </Paragraph>
-                    <Paragraph>
-                        <span className='bold'>Timeline:</span>
-                        &nbsp;Ongoing
-                    </Paragraph>
-                </Section>
+        <Project>
+            <Section>
+                <HTag2>OPS Transaction Logs</HTag2>
+                <Paragraph>
+                    Transaction logs (collectively referred to as TRX) are order modules
+                    situated within Loblaw's OPS Portal, a centralized platform that enables
+                    store employees to manage their day-to-day operations. They are used to
+                    troubleshoot online grocery orders and validate fulfillment completion times.
+                </Paragraph>
+                <Paragraph>
+                    <span className='bold'>Company:</span>
+                    &nbsp;Loblaw Digital
+                </Paragraph>
+                <Paragraph>
+                    <span className='bold'>Team:</span>
+                    &nbsp;2 Product Designers, Product Owner
+                </Paragraph>
+                <Paragraph>
+                    <span className='bold'>Timeline:</span>
+                    &nbsp;Ongoing
+                </Paragraph>
+            </Section>
 
-                <Banner
-                img={OngoingCard}
-                alt='Ongoing project. Reach out for more details' />
-                
-            </Project>
-        </main>
+            <Banner
+            img={OngoingCard}
+            alt='Ongoing project. Reach out for more details' />
+            
+        </Project>
     );
 }

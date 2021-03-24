@@ -25,6 +25,7 @@ import Footer from './components/Footer/Footer';
 const Home = lazy(() => import('./pages/Home'));
 const Error = lazy(() => import('./pages/Error'));
 const About = lazy(() => import('./pages/About'));
+const EST = lazy(() => import('./pages/EST'));
 const Soulfx = lazy(() => import('./pages/Soulfx'));
 const TRX = lazy(() => import('./pages/TRX'));
 
@@ -42,6 +43,7 @@ export default function App() {
                         <Route exact path='/about' component={About} />
                         <Route exact path='/trx' component={TRX} />
                         <Route exact path='/soulfx' component={Soulfx} />
+                        <Route exact path='/est' component={EST} />
                         <Route component={Error} />
                     </Switch>
                 </Suspense>

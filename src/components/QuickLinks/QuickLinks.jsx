@@ -25,6 +25,10 @@ export default function RenderQuickLinks() {
                     label='SOULFX'
                     path='/soulfx'
                     currentPath={currentPath} />
+                    <QuickLink
+                    label='EST'
+                    path='/est'
+                    currentPath={currentPath} />
                 </div>
             </div>
         }

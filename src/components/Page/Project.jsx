@@ -3,8 +3,8 @@ import './Project.css';
 
 export default function Project({ children }) {
     return (
-        <div className='project'>
+        <main className='project'>
             {children}
-        </div>
+        </main>
     );
 }
