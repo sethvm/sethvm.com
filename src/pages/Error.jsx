@@ -14,23 +14,21 @@ export default function Error() {
     };
 
     return (
-        <main>
-            <Project>
-                <Section>
-                    <Header type={2}>
-                        <span style={errorTxtColor}>
-                            404, mate - probably an old link!
-                        </span>
-                        <br />
-                    </Header>
-                    <Header type={3}>
-                        Please don't chuck a sickie, hop over to the landing page
-                        <Link to='/'>
-                            &nbsp;<span className='active_link bold'>here!</span>
-                        </Link>
-                    </Header>
-                </Section>
-            </Project>
-        </main>
+        <Project>
+            <Section>
+                <Header type={2}>
+                    <span style={errorTxtColor}>
+                        404, mate - probably an old link!
+                    </span>
+                    <br />
+                </Header>
+                <Header type={3}>
+                    Please don't chuck a sickie, hop over to the landing page
+                    <Link to='/'>
+                        &nbsp;<span className='active_link bold'>here!</span>
+                    </Link>
+                </Header>
+            </Section>
+        </Project>
     );
 }

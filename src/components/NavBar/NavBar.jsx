@@ -41,7 +41,7 @@ export default function NavBar() {
     }, [handleClick]);
 
     return (
-        <header id='header' className='animate__animated animate__fadeIn'>
+        <header id='navbar' className='animate__animated animate__fadeIn'>
             <Navbar className='nav_banner' 
             expand='lg'
             expanded={expanded}

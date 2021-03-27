@@ -1,6 +1,7 @@
 #intro {
     width: 100vw;
     min-height: 100vh;
+    margin-top: 80px;
     padding-top: 12%;
 }
 
@@ -44,7 +45,7 @@
 /*lg breakpoint*/
 @media (min-width: 992px) {
     #intro {
-        padding-top: 24vh;
+        padding-top: 14vh;
     }
     .intro_text, .jump_container {
         width: 300px;

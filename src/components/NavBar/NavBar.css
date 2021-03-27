@@ -7,12 +7,12 @@
     text-decoration: none;
 }
 
-#header {
+#navbar {
     width: 100%;
     height: 80px;
     top: 0;
     background: #FFFFFF;
-    position: sticky;
+    position: fixed;
     z-index: 10;
 }
 
@@ -63,9 +63,8 @@
 
 /*lg breakpoint*/
 @media (min-width: 992px) {
-    #header {
+    #navbar {
         background: transparent;
-        position: absolute;
     }
     .nav_banner {
         top: 24px;
