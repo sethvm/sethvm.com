@@ -1,37 +1,20 @@
-// dynamic header component
+// dynamic header text component
 
-export default function RenderHeader({ type, children }) {
+export default function Header({ type, children }) {
 
-    const Header = [
-        function(children) {
-            return (
-                <h2>
-                    {children}
-                </h2>
-            );
-        },
-        function(children) {
-            return (
-                <h3>
-                    {children}
-                </h3>
-            );
-        },
-        function(children) {
-            return (
-                <h4>
-                    {children}
-                </h4>
-            );
-        }
+    const HeaderType = [
+        () => { return <h1>{children}</h1> },
+        () => { return <h2>{children}</h2> },
+        () => { return <h3>{children}</h3> },
+        () => { return <h4>{children}</h4> }
     ]
 
-    const index = (type - 2);
+    const index = (type - 1);
 
     // fallback render if provided type value is invalid/null
-    if (!Header[index]) {
-        return Header[0](children);
+    if (!HeaderType[index]) {
+        return HeaderType[0](children);
     }
 
-    return Header[index](children);
+    return HeaderType[index](children);
 }

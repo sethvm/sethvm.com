@@ -6,6 +6,9 @@ import '../styles/Home.css';
 // components
 import DownArrow from '../components/Navigation/down-arrow.svg';
 
+//typography
+import Header from '../components/Page/Header';
+
 // card imgs
 import OngoingCard from '../assets/wip/wip-card.svg';
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
@@ -16,9 +19,9 @@ export default function Home() {
         <main>
             <div id='intro' className='intro'>
                 <div className='intro_text animate__animated animate__fadeIn'>
-                    <h1>
+                    <Header>
                         G'day! I'm Seth.
-                    </h1>
+                    </Header>
                     <p>
                         <br />
                         I'm a <strong>designer</strong> pursuing a BASc.
