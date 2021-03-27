@@ -3,10 +3,10 @@ import Card from '../components/Card/Card';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/Home.css';
 
-// component imports
+// components
 import DownArrow from '../components/Navigation/down-arrow.svg';
 
-// card img imports
+// card imgs
 import OngoingCard from '../assets/wip/wip-card.svg';
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
 import FASSBCard from '../assets/fassb/fassb-card.svg';
@@ -18,9 +18,8 @@ export default function Home() {
                 <div className='intro_text animate__animated animate__fadeIn'>
                     <h1>
                         G'day! I'm Seth.
-                        <br />
                     </h1>
-                    <p> 
+                    <p>
                         <br />
                         I'm a <strong>designer</strong> pursuing a BASc.
                         in <strong>Systems Design Engineering</strong> with a

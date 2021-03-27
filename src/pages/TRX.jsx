@@ -1,25 +1,23 @@
-// layout imports
+// layout
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 /*import SectionInner from '../components/Page/SectionInner';
 import Indent from '../components/Page/Indent';
 import IndentInner from '../components/Page/IndentInner';*/
 
-// typography imports
-import HTag2 from '../components/Page/HTag2';
-//import HTag4 from '../components/Page/HTag4';
-//import HTag5 from '../components/Page/HTag5';
+// typography
+import Header from '../components/Page/Header';
 import Paragraph from '../components/Page/Paragraph';
-import Banner from '../components/Page/Banner';
 
-// banner import
+// banner
+import Banner from '../components/Page/Banner';
 import OngoingCard from '../assets/wip/wip-card.svg';
 
 export default function TRX() {
     return (
         <Project>
             <Section>
-                <HTag2>OPS Transaction Logs</HTag2>
+                <Header type={2}>OPS Transaction Logs</Header>
                 <Paragraph>
                     Transaction logs (collectively referred to as TRX) are order modules
                     situated within Loblaw's OPS Portal, a centralized platform that enables

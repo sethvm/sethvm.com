@@ -15,7 +15,7 @@ import ScrollToTop from './components/Navigation/ScrollToTop';
 // component imports
 import Container from './components/Page/Container';
 import LoadingBody from './components/LoadingState/LoadingBody';
-import Header from './components/Header/Header';
+import NavBar from './components/NavBar/NavBar';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import QuickLinks from './components/QuickLinks/QuickLinks';
 import SideBar from './components/SideBar/SideBar';
@@ -35,7 +35,7 @@ export default function App() {
             <TrackPageViews />
             <ScrollToTop />
             <Container>
-                <Header />
+                <NavBar />
                 <BlueBlock />
                 <Suspense fallback={<LoadingBody />}>
                     <Switch>

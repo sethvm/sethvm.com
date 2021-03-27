@@ -3,20 +3,19 @@ import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 import IndentNoBar from '../components/Page/IndentNoBar';
 
-// image container imports
+// img containers
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
 import Img from '../components/Page/Img';
 
-// typography imports
-import HTag2 from '../components/Page/HTag2';
-import HTag3 from '../components/Page/HTag3';
+// typography
+import Header from '../components/Page/Header';
 import Paragraph from '../components/Page/Paragraph';
 
-// file imports
+// files
 import ResumeFile from '../pdf/sethvm_resume.pdf';
 
-// img imports
+// imgs
 import Gondola from '../assets/about/gondola.jpg';
 import SkyDive from '../assets/about/skydive.jpg';
 
@@ -24,15 +23,15 @@ export default function About() {
     return (
             <Project>
                 <Section>
-                    <HTag2>
+                    <Header type={2}>
                         Thanks for dropping by! I am...
-                    </HTag2>
+                    </Header>
                 </Section>
 
                 <IndentNoBar>
-                    <HTag3>
+                    <Header type={3}>
                         A student in Human-centered Design
-                    </HTag3>
+                    </Header>
                     <Paragraph>
                         I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                         SYDE is a unique program that emphasizes the utilization of multi-disciplinary
@@ -50,9 +49,9 @@ export default function About() {
                 </IndentNoBar>
 
                 <IndentNoBar>
-                    <HTag3>
+                    <Header type={3}>
                         An adrenaline junkie
-                    </HTag3>
+                    </Header>
                     <Paragraph>
                         Should you ever need to find me outside of school and work, there's a
                         good chance I'll be working on dynos at the bouldering gym,
@@ -63,9 +62,9 @@ export default function About() {
                 </IndentNoBar>
 
                 <IndentNoBar>
-                    <HTag3>
+                    <Header type={3}>
                         An avid baker
-                    </HTag3>
+                    </Header>
                     <Paragraph>
                         Having worked full-time as a baker prior to university,
                         I also spend time keeping my pastry craft sharp. Lately, I've been working towards
@@ -74,34 +73,37 @@ export default function About() {
                 </IndentNoBar>
 
                 <Section>
-                    <HTag2>
+                    <Header type ={2}>
                         Keen to collab?
                         Let's get in touch!
                         <br />
-                    </HTag2>
-                    <HTag3>
+                        <br />
+                    </Header>
+                    <Header type ={3}>
                         Say hi on
                         <ExtLink
                         href='https://www.linkedin.com/in/sethvm'>
                             LinkedIn
                         </ExtLink>
                         <br />
-                    </HTag3>
-                    <HTag3>
+                        <br />
+                    </Header>
+                    <Header type={3}>
                         Toss over an
                         <ExtLink
                         href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
                             email
                         </ExtLink>
                         <br />
-                    </HTag3>
-                    <HTag3>
+                        <br />
+                    </Header>
+                    <Header type={3}>
                         Running late to a meeting? Grab a
                         <ExtLink
                         href={ResumeFile}>
                             tl;dr
                         </ExtLink> of my experience
-                    </HTag3>
+                    </Header>
                 </Section>
 
                 <ImgContainer clear>

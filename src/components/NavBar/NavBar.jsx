@@ -8,12 +8,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
-import './Header.css';
+import './NavBar.css';
 
 // file imports
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function Header() {
+export default function NavBar() {
 
     const [ expanded, setExpanded ] = useState(false);
     const node = createRef();

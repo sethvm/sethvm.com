@@ -5,8 +5,7 @@ import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 
 // typography imports
-import HTag2 from '../components/Page/HTag2';
-import HTag3 from '../components/Page/HTag3';
+import Header from '../components/Page/Header';
 
 export default function Error() {
 
@@ -18,18 +17,18 @@ export default function Error() {
         <main>
             <Project>
                 <Section>
-                    <HTag2>
+                    <Header type={2}>
                         <span style={errorTxtColor}>
                             404, mate - probably an old link!
                         </span>
                         <br />
-                    </HTag2>
-                    <HTag3>
+                    </Header>
+                    <Header type={3}>
                         Please don't chuck a sickie, hop over to the landing page
                         <Link to='/'>
                             &nbsp;<span className='active_link bold'>here!</span>
                         </Link>
-                    </HTag3>
+                    </Header>
                 </Section>
             </Project>
         </main>
