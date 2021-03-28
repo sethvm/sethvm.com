@@ -2,12 +2,12 @@
 
 export default function ProjectType({ children }) {
 
-    const typeColor = {
+    const colorOlive = {
         color: '#7C6900'
     };
 
     return (
-        <span className='bold' style={typeColor}>
+        <span className='bold' style={colorOlive}>
             {children}
         </span>
     );

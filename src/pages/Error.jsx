@@ -9,7 +9,7 @@ import Header from '../components/Page/Header';
 
 export default function Error() {
 
-    const errorTxtColor = {
+    const colorRed = {
         color: '#A80000'
     };
 
@@ -17,7 +17,7 @@ export default function Error() {
         <Project>
             <Section>
                 <Header type={2}>
-                    <span style={errorTxtColor}>
+                    <span style={colorRed}>
                         404, mate - probably an old link!
                     </span>
                 </Header>

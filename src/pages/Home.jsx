@@ -26,8 +26,8 @@ export default function Home() {
                         <br />
                         I'm a <strong>designer</strong> pursuing a BASc
                         in <strong>Systems Design Engineering</strong> with a
-                        passion for creating products that help
-                        with <strong>moving the world forward</strong>.
+                        passion for creating products that
+                        help <strong>move the world forward</strong>.
                     </p>
                 </div>
                 <div className='intro_experience animate__animated animate__fadeIn'>
