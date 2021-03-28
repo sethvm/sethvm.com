@@ -12,9 +12,9 @@ import ImgCaption from '../components/Page/ImgCaption';
 import Img from '../components/Page/Img';
 
 // typography
-import Header from '../components/Page/Header';
-import ProjectType from '../components/Page/ProjectType';
-import Paragraph from '../components/Page/Paragraph';
+import Heading from '../components/Typography/Heading';
+import SubHeading from '../components/Typography/SubHeading';
+import Paragraph from '../components/Typography/Paragraph';
 
 // banner
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
@@ -39,9 +39,9 @@ export default function Soulfx() {
     return(
         <Project>
             <Section>
-                <Header type={2}>Patient Support App</Header>
-                <ProjectType>UX Design</ProjectType>&nbsp;/&nbsp;
-                <ProjectType>Info Architecture</ProjectType>
+                <Heading type={2}>Patient Support App</Heading>
+                <SubHeading>UX Design</SubHeading>&nbsp;/&nbsp;
+                <SubHeading>Info Architecture</SubHeading>
                 <Paragraph>
                     <br />
                     Soulfx's Patient Support Application is a web-based
@@ -73,7 +73,7 @@ export default function Soulfx() {
             alt='Soulfx Patient Support App' />
 
             <Section>
-                <Header type={3}>Overview</Header>
+                <Heading type={3}>Overview</Heading>
                 <Paragraph>
                     Soulfx Technologies Inc. is a Mississauga-based software consulting firm
                     that focuses on building applications for clients within the healthcare indusry.
@@ -82,15 +82,15 @@ export default function Soulfx() {
                     executing an end-to-end design project.
                 </Paragraph>
                 <IndentInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         Soulfx specializes in the development of platforms that drive innovation
                         within the healthcare sector.
-                    </Header>
+                    </Heading>
                 </IndentInner>
             </Section>
 
             <Section>
-                <Header type ={3}>An ongoing health crisis</Header>
+                <Heading type ={3}>An ongoing health crisis</Heading>
                 <Paragraph>
                     COVID-19 has brought with it a global-scale challenge that
                     has pushed the capacity of our healthcare sectors to their limit.
@@ -100,10 +100,10 @@ export default function Soulfx() {
                     on immunocompromised individuals.
                 </Paragraph>
                 <IndentInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         How can we design a platform that will enable our client
                         to provide their support service to patients remotely?
-                    </Header>
+                    </Heading>
                 </IndentInner>
             </Section>
 
@@ -119,7 +119,7 @@ export default function Soulfx() {
             </ImgContainer>
 
             <Section>
-                <Header type={3}>Our client's assistance service</Header>
+                <Heading type={3}>Our client's assistance service</Heading>
                 <Paragraph>
                     Participating manufacturers registered within our client's service
                     offer their own collection of program plans, which provide
@@ -128,15 +128,15 @@ export default function Soulfx() {
                     Program plans can be restricted to specified provinces or offered Canada-wide.
                 </Paragraph>
                 <IndentInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         Our client's support service aims to make prescription repayment
                         easier via reimbursements for pharmaceutical expenses.
-                    </Header>
+                    </Heading>
                 </IndentInner>
             </Section>
 
             <Section>
-                <Header type={3}>Jobs-to-be-done</Header>
+                <Heading type={3}>Jobs-to-be-done</Heading>
                 <Paragraph>
                     [Write about user groups and what each group wants to do with the platform]
                     Even though we designed our client's application from the ground up,
@@ -146,14 +146,14 @@ export default function Soulfx() {
             </Section>
 
             <Section>
-                <Header type={3}>Laying out the groundwork</Header>
+                <Heading type={3}>Laying out the groundwork</Heading>
                 <Paragraph>
                     Write about user flows and information hierarchy for both user groups
                 </Paragraph>
             </Section>
 
             <Section>
-                <Header type={3}>Putting it all together</Header>
+                <Heading type={3}>Putting it all together</Heading>
                 <Paragraph>
                     Write about the objective of each set of designs and how our approach
                     helped in making the service easy to provide and cards easy to retreive.
@@ -163,9 +163,9 @@ export default function Soulfx() {
 
             <ImgContainer>
                 <SectionInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         Record Management Dashboard
-                    </Header>
+                    </Heading>
                     <Paragraph>
                         While designing the record management dashboard, we focused
                         on enabling our caseworkers to skim through record lists and details
@@ -179,9 +179,9 @@ export default function Soulfx() {
                     image caption goes here
                 </ImgCaption>
                 <SectionInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         Card Retrieval Portal
-                    </Header>
+                    </Heading>
                     <Paragraph>
                         We aimed to make the card retrieval process as seamless as possible for
                         both new and returning users. Additionally, we wanted the interface to be
@@ -198,7 +198,7 @@ export default function Soulfx() {
             </ImgContainer>
 
             <Section>
-                <Header type={3}>Key interactions</Header>
+                <Heading type={3}>Key interactions</Heading>
                 <Paragraph>
                     Write about breadcrumbs + switches, and what pain points they address -
                     refer to the old write-up!
@@ -206,15 +206,15 @@ export default function Soulfx() {
             </Section>
 
             <Section>
-                <Header type={3}>
+                <Heading type={3}>
                     Takeaways and opportunities for refinement
                     <br />
                     <br />
-                </Header>
+                </Heading>
                 <IndentInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         Designs are products of curiosity and collaboration
-                    </Header>
+                    </Heading>
                 </IndentInner>
                 <Paragraph>
                     <br />
@@ -226,9 +226,9 @@ export default function Soulfx() {
                     <br />
                 </Paragraph>
                 <IndentInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         We as designers can contribute to essential industries, even amid a pandemic
-                    </Header>
+                    </Heading>
                 </IndentInner>
                 <Paragraph>
                     <br />
@@ -240,10 +240,10 @@ export default function Soulfx() {
                     <br />
                 </Paragraph>
                 <IndentInner>
-                    <Header type={4}>
+                    <Heading type={4}>
                         Upon a hypothetical return to this project, I would aim to further streamline
                         the navigation experience for our record management dashboard
-                    </Header>
+                    </Heading>
                 </IndentInner>
                 <Paragraph>
                     <br />

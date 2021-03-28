@@ -6,9 +6,9 @@ import Indent from '../components/Page/Indent';
 import IndentInner from '../components/Page/IndentInner';*/
 
 // typography
-import Header from '../components/Page/Header';
-import ProjectType from '../components/Page/ProjectType';
-import Paragraph from '../components/Page/Paragraph';
+import Heading from '../components/Typography/Heading';
+import SubHeading from '../components/Typography/SubHeading';
+import Paragraph from '../components/Typography/Paragraph';
 
 // banner
 import Banner from '../components/Page/Banner';
@@ -18,9 +18,9 @@ export default function EST() {
     return (
         <Project>
             <Section>
-                <Header type={2}>Employment Services Transformation</Header>
-                <ProjectType>Web Design</ProjectType>&nbsp;/&nbsp;
-                <ProjectType>Service Design</ProjectType>
+                <Heading type={2}>Employment Services Transformation</Heading>
+                <SubHeading>Web Design</SubHeading>&nbsp;/&nbsp;
+                <SubHeading>Service Design</SubHeading>
                 <Paragraph>
                     <br />
                     The Employment Services Transformation (EST) project is an ongoing
@@ -47,7 +47,7 @@ export default function EST() {
             alt='Finance, Analysis and Systems Support Branch' />
 
             <Section>
-                <Header type={3}>Overview</Header>
+                <Heading type={3}>Overview</Heading>
                 <Paragraph>
                     The Finance, Analysis and Systems Support Branch (FASSB) is a
                     Toronto-based division of Ontario's Ministry of Labour.

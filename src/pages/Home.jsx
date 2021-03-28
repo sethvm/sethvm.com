@@ -6,8 +6,8 @@ import '../styles/Home.css';
 import DownArrow from '../components/Navigation/down-arrow.svg';
 
 //typography
-import Header from '../components/Page/Header';
-import ProjectType from '../components/Page/ProjectType';
+import Heading from '../components/Typography/Heading';
+import SubHeading from '../components/Typography/SubHeading';
 
 // card imgs
 import OngoingCard from '../assets/wip/wip-card.svg';
@@ -19,9 +19,9 @@ export default function Home() {
         <main>
             <div id='intro' className='intro'>
                 <div className='intro_text animate__animated animate__fadeIn'>
-                    <Header>
+                    <Heading>
                         G'day! I'm Seth.
-                    </Header>
+                    </Heading>
                     <p>
                         <br />
                         I'm a <strong>designer</strong> pursuing a BASc
@@ -51,13 +51,13 @@ export default function Home() {
             <div id='projects'>
                 <Card
                 title='OPS Transaction Logs'
-                desc="Streamlining an order validation experience for a
-                portal module used by Loblaw's grocery banners"
+                desc="Streamlining an order validation experience for an
+                internal-facing application used by Canada's largest grocery retailer"
                 img={OngoingCard}
                 alt='OPS Transaction Logs (TRX)'
                 path='/trx'
                 linkLabel='VIEW CASE STUDY  →'>
-                    <ProjectType>Product Design</ProjectType>
+                    <SubHeading>Product Design</SubHeading>
                 </Card>
                 <Card
                 title='Patient Support App'
@@ -67,8 +67,8 @@ export default function Home() {
                 alt='Patient Support App'
                 path='/soulfx'
                 linkLabel='VIEW CASE STUDY  →'>
-                    <ProjectType>UX Design</ProjectType>&nbsp;/&nbsp;
-                    <ProjectType>Info Architecture</ProjectType>
+                    <SubHeading>UX Design</SubHeading>&nbsp;/&nbsp;
+                    <SubHeading>Info Architecture</SubHeading>
                 </Card>
                 <Card
                 title='Employment Services Transformation'
@@ -78,8 +78,8 @@ export default function Home() {
                 alt='FASSB Design'
                 path='/est'
                 linkLabel='VIEW TERM RECAP →'>
-                    <ProjectType>Web Design</ProjectType>&nbsp;/&nbsp;
-                    <ProjectType>Service Design</ProjectType>
+                    <SubHeading>Web Design</SubHeading>&nbsp;/&nbsp;
+                    <SubHeading>Service Design</SubHeading>
                 </Card>
             </div>
         </main>

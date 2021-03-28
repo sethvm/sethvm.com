@@ -9,8 +9,8 @@ import ImgFluid from '../components/Page/ImgFluid';
 import Img from '../components/Page/Img';
 
 // typography
-import Header from '../components/Page/Header';
-import Paragraph from '../components/Page/Paragraph';
+import Heading from '../components/Typography/Heading';
+import Paragraph from '../components/Typography/Paragraph';
 
 // files
 import ResumeFile from '../pdf/sethvm_resume.pdf';
@@ -23,15 +23,15 @@ export default function About() {
     return (
         <Project>
             <Section>
-                <Header type={2}>
+                <Heading type={2}>
                     Thanks for dropping by! I am...
-                </Header>
+                </Heading>
             </Section>
 
             <IndentNoBar>
-                <Header type={3}>
+                <Heading type={3}>
                     A student in Human-centered Design
-                </Header>
+                </Heading>
                 <Paragraph>
                     I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                     SYDE is a unique program that emphasizes the utilization of multi-disciplinary
@@ -49,9 +49,9 @@ export default function About() {
             </IndentNoBar>
 
             <IndentNoBar>
-                <Header type={3}>
+                <Heading type={3}>
                     An adrenaline junkie
-                </Header>
+                </Heading>
                 <Paragraph>
                     Should you ever need to find me outside of school and work, there's a
                     good chance I'll be working on dynos at the bouldering gym,
@@ -62,9 +62,9 @@ export default function About() {
             </IndentNoBar>
 
             <IndentNoBar>
-                <Header type={3}>
+                <Heading type={3}>
                     An avid baker
-                </Header>
+                </Heading>
                 <Paragraph>
                     Having worked full-time as a baker prior to university,
                     I also spend time keeping my pastry craft sharp. Lately, I've been working towards
@@ -73,13 +73,13 @@ export default function About() {
             </IndentNoBar>
 
             <Section>
-                <Header type ={2}>
+                <Heading type ={2}>
                     Keen to collab?
                     Let's get in touch!
                     <br />
                     <br />
-                </Header>
-                <Header type ={3}>
+                </Heading>
+                <Heading type ={3}>
                     Say hi on
                     <ExtLink
                     href='https://www.linkedin.com/in/sethvm'>
@@ -87,8 +87,8 @@ export default function About() {
                     </ExtLink>
                     <br />
                     <br />
-                </Header>
-                <Header type={3}>
+                </Heading>
+                <Heading type={3}>
                     Toss over an
                     <ExtLink
                     href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
@@ -96,14 +96,14 @@ export default function About() {
                     </ExtLink>
                     <br />
                     <br />
-                </Header>
-                <Header type={3}>
+                </Heading>
+                <Heading type={3}>
                     Running late to a meeting? Grab a
                     <ExtLink
                     href={ResumeFile}>
                         tl;dr
                     </ExtLink> of my experience
-                </Header>
+                </Heading>
             </Section>
 
             <ImgContainer clear>

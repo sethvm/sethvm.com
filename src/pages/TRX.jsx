@@ -6,9 +6,9 @@ import Indent from '../components/Page/Indent';
 import IndentInner from '../components/Page/IndentInner';*/
 
 // typography
-import Header from '../components/Page/Header';
-import ProjectType from '../components/Page/ProjectType';
-import Paragraph from '../components/Page/Paragraph';
+import Heading from '../components/Typography/Heading';
+import SubHeading from '../components/Typography/SubHeading';
+import Paragraph from '../components/Typography/Paragraph';
 
 // banner
 import Banner from '../components/Page/Banner';
@@ -18,8 +18,8 @@ export default function TRX() {
     return (
         <Project>
             <Section>
-                <Header type={2}>OPS Transaction Logs</Header>
-                <ProjectType>Product Design</ProjectType>
+                <Heading type={2}>OPS Transaction Logs</Heading>
+                <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
                     Transaction logs (collectively referred to as TRX) are order modules

@@ -5,7 +5,7 @@ import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 
 // typography imports
-import Header from '../components/Page/Header';
+import Heading from '../components/Typography/Heading';
 
 export default function Error() {
 
@@ -16,18 +16,18 @@ export default function Error() {
     return (
         <Project>
             <Section>
-                <Header type={2}>
+                <Heading type={2}>
                     <span style={colorRed}>
                         404, mate - probably an old link!
                     </span>
-                </Header>
-                <Header type={3}>
+                </Heading>
+                <Heading type={3}>
                     <br />
                     Please don't chuck a sickie, hop over to the landing page
                     <Link to='/'>
                         &nbsp;<span className='active_link bold'>here!</span>
                     </Link>
-                </Header>
+                </Heading>
             </Section>
         </Project>
     );

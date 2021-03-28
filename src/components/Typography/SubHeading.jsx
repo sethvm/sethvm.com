@@ -1,6 +1,6 @@
-// text component for use as project subheader
+// text component for use as project subheading
 
-export default function ProjectType({ children }) {
+export default function SubHeading({ children }) {
 
     const colorOlive = {
         color: '#7C6900'
