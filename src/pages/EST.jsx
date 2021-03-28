@@ -7,6 +7,7 @@ import IndentInner from '../components/Page/IndentInner';*/
 
 // typography
 import Header from '../components/Page/Header';
+import ProjectType from '../components/Page/ProjectType';
 import Paragraph from '../components/Page/Paragraph';
 
 // banner
@@ -18,7 +19,10 @@ export default function EST() {
         <Project>
             <Section>
                 <Header type={2}>Employment Services Transformation</Header>
+                <ProjectType>Web Design</ProjectType>&nbsp;/&nbsp;
+                <ProjectType>Service Design</ProjectType>
                 <Paragraph>
+                    <br />
                     The Employment Services Transformation (EST) project is an ongoing
                     overhaul of Employment Ontario's assistance services. Its objective
                     is to provide a more streamlined job search experience for Ontarians

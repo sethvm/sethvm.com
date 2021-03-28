@@ -13,6 +13,7 @@ import Img from '../components/Page/Img';
 
 // typography
 import Header from '../components/Page/Header';
+import ProjectType from '../components/Page/ProjectType';
 import Paragraph from '../components/Page/Paragraph';
 
 // banner
@@ -39,7 +40,10 @@ export default function Soulfx() {
         <Project>
             <Section>
                 <Header type={2}>Patient Support App</Header>
+                <ProjectType>UX Design</ProjectType>&nbsp;/&nbsp;
+                <ProjectType>Info Architecture</ProjectType>
                 <Paragraph>
+                    <br />
                     Soulfx's Patient Support Application is a web-based
                     platform developed for a client within the
                     pharmaceutical industry. It facilitates the remote delivery

@@ -1,4 +1,3 @@
-import Badge from 'react-bootstrap/Badge';
 import Card from '../components/Card/Card';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/Home.css';
@@ -8,6 +7,7 @@ import DownArrow from '../components/Navigation/down-arrow.svg';
 
 //typography
 import Header from '../components/Page/Header';
+import ProjectType from '../components/Page/ProjectType';
 
 // card imgs
 import OngoingCard from '../assets/wip/wip-card.svg';
@@ -24,10 +24,10 @@ export default function Home() {
                     </Header>
                     <p>
                         <br />
-                        I'm a <strong>designer</strong> pursuing a BASc.
+                        I'm a <strong>designer</strong> pursuing a BASc
                         in <strong>Systems Design Engineering</strong> with a
-                        passion for creating products that
-                        help <strong>move the world forward</strong>.
+                        passion for creating products that help
+                        with <strong>moving the world forward</strong>.
                     </p>
                 </div>
                 <div className='intro_experience animate__animated animate__fadeIn'>
@@ -57,7 +57,7 @@ export default function Home() {
                 alt='OPS Transaction Logs (TRX)'
                 path='/trx'
                 linkLabel='VIEW CASE STUDY  →'>
-                    <Badge pill variant='dark'>Product Design</Badge>
+                    <ProjectType>Product Design</ProjectType>
                 </Card>
                 <Card
                 title='Patient Support App'
@@ -67,8 +67,8 @@ export default function Home() {
                 alt='Patient Support App'
                 path='/soulfx'
                 linkLabel='VIEW CASE STUDY  →'>
-                    <Badge pill variant='dark'>UX Design</Badge>&nbsp;
-                    <Badge pill variant='dark'>Information Architecture</Badge>
+                    <ProjectType>UX Design</ProjectType>&nbsp;/&nbsp;
+                    <ProjectType>Info Architecture</ProjectType>
                 </Card>
                 <Card
                 title='Employment Services Transformation'
@@ -78,8 +78,8 @@ export default function Home() {
                 alt='FASSB Design'
                 path='/est'
                 linkLabel='VIEW TERM RECAP →'>
-                    <Badge pill variant='dark'>Web Design</Badge>&nbsp;
-                    <Badge pill variant='dark'>Service Design</Badge>
+                    <ProjectType>Web Design</ProjectType>&nbsp;/&nbsp;
+                    <ProjectType>Service Design</ProjectType>
                 </Card>
             </div>
         </main>

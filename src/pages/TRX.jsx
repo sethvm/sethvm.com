@@ -7,6 +7,7 @@ import IndentInner from '../components/Page/IndentInner';*/
 
 // typography
 import Header from '../components/Page/Header';
+import ProjectType from '../components/Page/ProjectType';
 import Paragraph from '../components/Page/Paragraph';
 
 // banner
@@ -18,7 +19,9 @@ export default function TRX() {
         <Project>
             <Section>
                 <Header type={2}>OPS Transaction Logs</Header>
+                <ProjectType>Product Design</ProjectType>
                 <Paragraph>
+                    <br />
                     Transaction logs (collectively referred to as TRX) are order modules
                     situated within Loblaw's OPS Portal, a centralized platform that enables
                     store employees to manage their day-to-day operations. They are used to

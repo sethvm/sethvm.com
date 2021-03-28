@@ -6,12 +6,10 @@ export default function Card({ title, desc, path, linkLabel, img, alt, children 
         <div className='project_card'>
             <div className='card_text'>
                 <h2>{title}</h2>
+                {children}
                 <p>
                     <br />
                     {desc}
-                    <br />
-                    <br />
-                    {children}
                     <br />
                     <br />
                     <Link to={path}>
