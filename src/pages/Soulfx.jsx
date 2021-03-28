@@ -224,6 +224,7 @@ export default function Soulfx() {
                     side-by-side with people who posses varying domains of knowledge, some of which
                     may not overlap.
                     <br />
+                    <br />
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -237,6 +238,7 @@ export default function Soulfx() {
                     the people who do. The project provided an opportunity to leverage this understanding
                     to mitigate the increase in pressure brought to our client's caseworkers by the pandemic
                     and play a part in making healthcare services more accessible through design.
+                    <br />
                     <br />
                 </Paragraph>
                 <IndentInner>

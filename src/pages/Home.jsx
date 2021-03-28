@@ -5,9 +5,10 @@ import '../styles/Home.css';
 // components
 import DownArrow from '../components/Navigation/down-arrow.svg';
 
-//typography
+// typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
+import Paragraph from '../components/Typography/Paragraph';
 
 // card imgs
 import OngoingCard from '../assets/wip/wip-card.svg';
@@ -22,26 +23,27 @@ export default function Home() {
                     <Heading>
                         G'day! I'm Seth.
                     </Heading>
-                    <p>
+                    <Paragraph>
                         <br />
                         I'm a <strong>designer</strong> pursuing a BASc
                         in <strong>Systems Design Engineering</strong> with a
                         passion for creating products that
                         help <strong>move the world forward</strong>.
-                    </p>
+                    </Paragraph>
                 </div>
                 <div className='intro_experience animate__animated animate__fadeIn'>
-                    <p>
+                    <Paragraph>
                         Currently focusing on 
                         <strong>&nbsp;online fulfillment</strong> initiatives at Loblaw Digital
                         <br />
                         <br />
-                    </p>
+                    </Paragraph>
                     <div className='jump_container animate__animated animate__fadeInDown animate__delay-1s'>
                         <HashLink smooth to='#projects'>
                             <div className='jump'>
-                                <img  
-                                src={DownArrow} 
+                                <img
+                                className='jump_arrow'
+                                src={DownArrow}
                                 alt='Scroll down to check out my work!' />
                             </div>
                         </HashLink>
