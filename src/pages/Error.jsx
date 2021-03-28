@@ -10,7 +10,7 @@ import Header from '../components/Page/Header';
 export default function Error() {
 
     const errorTxtColor = {
-        color: '#800000'
+        color: '#A80000'
     };
 
     return (
@@ -20,9 +20,9 @@ export default function Error() {
                     <span style={errorTxtColor}>
                         404, mate - probably an old link!
                     </span>
-                    <br />
                 </Header>
                 <Header type={3}>
+                    <br />
                     Please don't chuck a sickie, hop over to the landing page
                     <Link to='/'>
                         &nbsp;<span className='active_link bold'>here!</span>
