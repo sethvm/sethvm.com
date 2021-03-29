@@ -13,7 +13,7 @@
 
 /*lg breakpoint*/
 @media (min-width: 992px) {
-    .image_container {
+    .img_container {
         width: 75%;
     }
     .glass {

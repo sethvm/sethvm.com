@@ -13,12 +13,12 @@
     color: #004080;
 }
 
-.curr_link, .rounded_link {
+.quick-link {
     padding: 6px 10px;
     border-radius: 20px;
 }
 
-.curr_link {
+.current-link {
     background: #004080 !important;
     color: #FFFFFF;
 }

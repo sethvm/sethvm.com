@@ -3,8 +3,8 @@ import './Card.css';
 
 export default function Card({ title, desc, path, linkLabel, img, alt, children }) {
     return (
-        <div className='project_card'>
-            <div className='card_text'>
+        <div className='project-card'>
+            <div className='card-text'>
                 <h2>{title}</h2>
                 {children}
                 <p>
@@ -13,14 +13,14 @@ export default function Card({ title, desc, path, linkLabel, img, alt, children 
                     <br />
                     <br />
                     <Link to={path}>
-                        <span className='active_link'>
+                        <span className='active-link'>
                             <span className='bold'>{linkLabel}</span>
                         </span>
                     </Link>
                 </p>
             </div>
             <Link to={path}>
-                <img className='card_img' src={img} alt={alt} />
+                <img className='card-img' src={img} alt={alt} />
             </Link>
         </div>
     );

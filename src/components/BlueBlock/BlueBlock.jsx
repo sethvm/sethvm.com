@@ -3,14 +3,13 @@ import './BlueBlock.css';
 
 export default function BlueBlock() {
 
+    // check if user is on home page and style accordingly
     const userOnHomePage = (useLocation().pathname === '/');
+    const styleBlock = userOnHomePage
+        ? 'animate__animated animate__fadeInLeft'
+        : 'thin animate__animated animate__fadeInRight';
 
     return (
-        <>
-        {userOnHomePage
-            ? <span className='block-blue animate__animated animate__fadeInLeft' />
-            : <span className='block-blue thin animate__animated animate__fadeInRight' />
-        }
-        </>
+        <span className={`block-blue ${styleBlock}`} />
     );
 }

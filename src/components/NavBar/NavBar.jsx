@@ -42,33 +42,33 @@ export default function NavBar() {
 
     return (
         <header id='navbar' className='animate__animated animate__fadeIn'>
-            <Navbar className='nav_banner' 
+            <Navbar className='nav-banner'
             expand='lg'
             expanded={expanded}
             onToggle={toggleNav}>
                 <Nav.Link className='name link' as={Link} to='/'>
                     <span className='blue'>SETH</span> <span>MORENOS</span>
                 </Nav.Link>
-                <Navbar.Toggle className='mobile_nav' aria-controls='nav-dropdown'
+                <Navbar.Toggle className='mobile-nav' aria-controls='nav-dropdown'
                 ref={node}>
-                    <Hamburger 
-                    color='#004080' 
-                    size={25} 
-                    toggled={expanded} 
+                    <Hamburger
+                    color='#004080'
+                    size={25}
+                    toggled={expanded}
                     toggle={setExpanded}
                     label='Show Menu'/>
                 </Navbar.Toggle>
                 <Navbar.Collapse id='nav-dropdown'>
-                    <Nav className='nav_drop' 
+                    <Nav className='nav-drop'
                     onClick={() => handleClick}>
-                        <Nav.Link className='nav_item' as={Link} to='/'><span className='bold'>Work</span></Nav.Link>
-                        <Nav.Link className='nav_item' as={Link} to='/about'><span className='bold'>About</span></Nav.Link>
-                        <Nav.Link className='nav_item' rel='noopener noreferrer' href={ResumeFile} target='_blank'>
+                        <Nav.Link className='nav-item' as={Link} to='/'><span className='bold'>Work</span></Nav.Link>
+                        <Nav.Link className='nav-item' as={Link} to='/about'><span className='bold'>About</span></Nav.Link>
+                        <Nav.Link className='nav-item' rel='noopener noreferrer' href={ResumeFile} target='_blank'>
                             <span className='bold'>Résumé</span>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <div className='nav_right'>
+                <div className='nav-right'>
                     <Nav.Link className='nav-desktop link' as={Link} to='/about'>
                         ABOUT
                     </Nav.Link>

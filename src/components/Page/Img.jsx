@@ -2,12 +2,10 @@
 import './Img.css';
 
 export default function Image({ item, src, alt }) {
+
+    const styleImg = item ? 'item' : null;
+
     return (
-        <>
-        {item
-            ? <img className='image item' src={src} alt={alt} />
-            : <img className='image' src={src} alt={alt} />
-        }
-        </>
+        <img className={`image ${styleImg}`} src={src} alt={alt} />
     );
 }

@@ -1,4 +1,4 @@
-.project_card {
+.project-card {
     display: flex;
     flex-direction: column-reverse;
     width: 100vw;
@@ -6,38 +6,38 @@
     overflow: hidden;
 }
 
-.card_img {
+.card-img {
     width: 100%;
 }
 
-.card_text {
+.card-text {
     padding: 40px 12% 0 12%;
 }
 
 /*md breakpoint*/
 @media (min-width: 768px) {
-    .project_card {
+    .project-card {
         margin: 0 0 120px 0;
     }
-    .card_img {
+    .card-img {
         height: auto;
     }
-    .card_text {
+    .card-text {
         padding: 40px 20% 0 20%;
     }
 }
 
 /*lg breakpoint*/
 @media (min-width: 992px) {
-    .project_card {
+    .project-card {
         flex-direction: row;
         max-width: 90%;
         margin: 0 17vw 250px 17vw;
     }
-    .card_img, .card_text {
+    .card-img, .card-text {
         margin: 0;
     }
-    .card_img {
+    .card-img {
         max-width: 424px;
         height: auto;
         left: 0;
@@ -46,10 +46,10 @@
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
     }
-    .card_img:hover {
+    .card-img:hover {
         margin-left: 16px;
     }
-    .card_text {
+    .card-text {
         width: 40%;
         padding: 20px 7% 0 0;
         right: 0;

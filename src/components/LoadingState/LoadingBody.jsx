@@ -8,30 +8,20 @@ import LoadingIcon from './LoadingIcon';
 
 export default function RenderLoadingBody() {
 
+    // check if user is on home page and style accordingly
     const userOnHomePage = (useLocation().pathname === '/');
+    const styleLoadingBody = userOnHomePage ? 'home' : null;
 
-    return (
-        <>
-        {userOnHomePage
-            ? <LoadingBody variant='loading-home' />
-            : <LoadingBody variant='loading-page' />
-        }
-        </>
-    );
-
-}
-
-function LoadingBody({ variant }) {
-    return (
-        <main className={variant}>
-            <Section>
-                <LoadingIcon />
-                <h2>
-                    <div className='loading-msg'>
-                        to-do: insert witty loading message
-                    </div>
-                </h2>
-            </Section>
-        </main>
-    );
+        return (
+            <main className={`loading ${styleLoadingBody}`}>
+                <Section>
+                    <LoadingIcon />
+                    <h2>
+                        <div className='loading-msg'>
+                            to-do: insert witty loading message
+                        </div>
+                    </h2>
+                </Section>
+            </main>
+        );
 }

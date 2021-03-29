@@ -6,7 +6,7 @@
     margin: 0 auto 32px auto;
 }
 
-.sidebar_item {
+.sidebar-item {
     width: 36px;
     height: 36px;
 }
@@ -23,7 +23,7 @@
         margin-left: 3%;
         z-index: 9;
     }
-    .sidebar_item {
+    .sidebar-item {
         width: 32px;
         height: 32px;
         transition: margin 0.15s ease-out;
@@ -31,7 +31,7 @@
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
     }
-    .sidebar_item:hover {
+    .sidebar-item:hover {
         cursor: pointer;
         margin-left: 4px;
     }

@@ -39,19 +39,13 @@ export default function RenderQuickLinks() {
 function QuickLink({ label, path, currentPath }) {
 
     const linkToCurrentPage = (currentPath === path);
+    const styleQuickLink = linkToCurrentPage
+        ? 'current-link'
+        : 'bold active-link';
 
     return (
-        <>
-        {linkToCurrentPage
-            ?
-            <Link to={path}>
-                <span className='curr_link'>{label}</span>
-            </Link>
-            : 
-            <Link to={path}>
-                <span className='bold active_link rounded_link'>{label}</span>
-            </Link>
-        }
-        </>
+        <Link to={path}>
+            <span className={`quick-link ${styleQuickLink}`}>{label}</span>
+        </Link>
     );
 }

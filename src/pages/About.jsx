@@ -138,7 +138,7 @@ export default function About() {
 function ExternalLink({ href, children }) {
     return (
         <a rel='noopener noreferrer' href={href} target='_blank'>
-            &nbsp;<span className='active_link'>{children}</span>
+            &nbsp;<span className='active-link'>{children}</span>
         </a>
     );
 }
