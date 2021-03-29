@@ -13,8 +13,8 @@ export default function Heading({ type, children }) {
 
     // fallback render if provided type value is invalid/null
     if (!HeadingType[index]) {
-        return HeadingType[0](children);
+        return HeadingType[0]();
     }
 
-    return HeadingType[index](children);
+    return HeadingType[index]();
 }

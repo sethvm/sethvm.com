@@ -2,6 +2,9 @@ import Card from '../components/Card/Card';
 import { HashLink } from 'react-router-hash-link';
 import '../styles/Home.css';
 
+// page title
+import pageTitle from '../components/Page/pageTitle';
+
 // components
 import DownArrow from '../components/Navigation/down-arrow.svg';
 
@@ -16,6 +19,9 @@ import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
 import FASSBCard from '../assets/fassb/fassb-card.svg';
 
 export default function Home() {
+
+    pageTitle('Seth Morenos');
+
     return (
         <main>
             <div id='intro' className='intro'>

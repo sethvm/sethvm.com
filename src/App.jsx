@@ -41,12 +41,23 @@ export default function App() {
                 <BlueBlock />
                 <Suspense fallback={<LoadingBody />}>
                     <Switch>
-                        <Route exact path='/' component={Home} />
-                        <Route exact path='/about' component={About} />
-                        <Route exact path='/trx' component={TRX} />
-                        <Route exact path='/soulfx' component={Soulfx} />
-                        <Route exact path='/est' component={EST} />
-                        <Route component={Error} />
+                        <Route exact
+                        path='/'
+                        render={() => <Home />} />
+                        <Route exact
+                        path='/about'
+                        render={() => <About />} />
+                        <Route exact
+                        path='/trx'
+                        render={() => <TRX />} />
+                        <Route exact
+                        path='/soulfx'
+                        render={() => <Soulfx />} />
+                        <Route exact
+                        path='/est'
+                        render={() => <EST />} />
+                        <Route
+                        render={() => <Error />} />
                     </Switch>
                 </Suspense>
                 <QuickLinks />

@@ -1,3 +1,6 @@
+// page title
+import pageTitle from '../components/Page/pageTitle';
+
 // layout
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
@@ -36,6 +39,9 @@ import ProgramSelection from '../components/soulfx/soulfx-program_selection.svg'
 import ProgramCards from '../components/soulfx/soulfx-program_cards.svg';*/
 
 export default function Soulfx() {
+
+    pageTitle('Patient Support App');
+
     return(
         <Project>
             <Section>
@@ -228,7 +234,7 @@ export default function Soulfx() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        We as designers can contribute to essential industries, even amid a pandemic
+                        We can utilize design to help out our essential industries, even amid a pandemic
                     </Heading>
                 </IndentInner>
                 <Paragraph>

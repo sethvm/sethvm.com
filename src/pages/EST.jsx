@@ -1,3 +1,6 @@
+//page title
+import pageTitle from '../components/Page/pageTitle';
+
 // layout
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
@@ -15,6 +18,9 @@ import Banner from '../components/Page/Banner';
 import FASSBCard from '../assets/fassb/fassb-card.svg';
 
 export default function EST() {
+
+    pageTitle('Employment Services Transformation');
+
     return (
         <Project>
             <Section>

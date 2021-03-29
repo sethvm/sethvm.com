@@ -1,3 +1,6 @@
+// page title
+import pageTitle from '../components/Page/pageTitle';
+
 // layout imports
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
@@ -20,6 +23,9 @@ import Gondola from '../assets/about/gondola.jpg';
 import SkyDive from '../assets/about/skydive.jpg';
 
 export default function About() {
+
+    pageTitle('About');
+
     return (
         <Project>
             <Section>
