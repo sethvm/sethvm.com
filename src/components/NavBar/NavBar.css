@@ -17,6 +17,7 @@
 }
 
 .name {
+    font-family: "Gilroy Bold", sans-serif !important;
     font-size: 1.4em !important;
     text-decoration: none;
 }
@@ -72,8 +73,9 @@
         right: 2%;
     }
     .nav-desktop {
-        font-size: 1.1em;
         display: block;
+        font-family: "Gilroy Regular", sans-serif !important;
+        font-size: 1.1em;
         color: white !important;
     }
     .nav_right {

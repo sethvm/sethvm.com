@@ -9,6 +9,8 @@ import {
 } from 'react-router-dom';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+// page scripts
 import TrackPageViews from './components/Analytics/TrackPageViews';
 import ScrollToTop from './components/Navigation/ScrollToTop';
 

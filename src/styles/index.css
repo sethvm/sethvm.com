@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6, a, strong, .bold {
     font-family: "Gilroy Semi Bold", sans-serif;
 }
 
-h1, h2 {
-    color: #004080 !important;
+h1 {
+    color: #004080;
 }
 
 h3 {
@@ -53,15 +53,6 @@ a:hover {
 
 .italic {
     font-style: italic;
-}
-
-/*font controllers for desktop navbar links*/
-.name {
-    font-family: "Gilroy Bold", sans-serif !important;
-}
-
-.nav-desktop {
-    font-family: "Gilroy Regular", sans-serif !important;
 }
 
 /*link color styling*/

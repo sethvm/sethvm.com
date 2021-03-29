@@ -4,7 +4,7 @@ import Section from '../components/Page/Section';
 import SectionInner from '../components/Page/SectionInner';
 import IndentInner from '../components/Page/IndentInner';
 
-// img container
+// img containers
 import Banner from '../components/Page/Banner';
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
