@@ -19,20 +19,20 @@ export default function NavBar() {
     const node = createRef();
 
     const toggleNav = () => {
-        const newExpanded = expanded;
-        setExpanded(!newExpanded);
+        setExpanded(!expanded);
     }
 
     const closeNav = useCallback(() => {
-        const newExpanded = false;
-        setExpanded(newExpanded);
+        setExpanded(false);
     }, []);
 
+    // close nav menu if user clicks outside of hamburger icon
     const handleClick = useCallback((e) => {
         if (node.current.contains(e.target) || expanded === false) return;
         setTimeout(() => { closeNav(); }, 80);
     }, [expanded, node, closeNav]);
 
+    // set navbar event listeners
     useEffect(() => { 
         document.addEventListener('mousedown', handleClick);
         return () => {

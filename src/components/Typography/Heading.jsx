@@ -1,4 +1,4 @@
-// dynamic header text component
+// dynamic heading component
 
 export default function Heading({ type, children }) {
 

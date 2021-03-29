@@ -1,9 +1,9 @@
-// used as page body loading state
+// page body loading state
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import './LoadingBody.css';
 
-// component imports
+// components
 import Section from '../Page/Section';
 import LoadingIcon from './LoadingIcon';
 
@@ -13,6 +13,7 @@ export default function RenderLoadingBody() {
     const userOnHomePage = (useLocation().pathname === '/');
     const styleLoadingBody = userOnHomePage ? 'home' : null;
 
+    // reset scroll position when page finishes loading
     useEffect(() => {
         return () => window.scrollTo(0, 0);
     });

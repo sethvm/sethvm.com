@@ -1,3 +1,4 @@
+// resets scroll position on route change
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 

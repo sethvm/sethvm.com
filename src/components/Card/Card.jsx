@@ -1,3 +1,4 @@
+// card component for project previews on homepage
 import { Link } from 'react-router-dom';
 import './Card.css';
 

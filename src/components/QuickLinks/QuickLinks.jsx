@@ -36,12 +36,12 @@ export default function RenderQuickLinks() {
     );
 }
 
-function QuickLink({ label, path, currentPath }) {
+function QuickLink({ currentPath, label, path }) {
 
-    const linkToCurrentPage = (currentPath === path);
-    const styleQuickLink = linkToCurrentPage
-        ? 'current-link'
-        : 'bold active-link';
+    // check if link path is the current route and style accordingly
+    const styleQuickLink = (currentPath === path)
+    ? 'current-link'
+    : 'bold active-link';
 
     return (
         <Link to={path}>

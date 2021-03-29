@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TrackPageViews from './components/Analytics/TrackPageViews';
 import ScrollToTop from './components/Navigation/ScrollToTop';
 
-// component imports
+// components
 import Container from './components/Page/Container';
 import LoadingBody from './components/LoadingState/LoadingBody';
 import NavBar from './components/NavBar/NavBar';

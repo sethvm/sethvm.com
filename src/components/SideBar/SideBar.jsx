@@ -1,11 +1,11 @@
 import './SideBar.css';
 
-// item logo imports
+// sidebar item logos
 import ContactLogo from './contact-logo.svg';
 import LinkedInLogo from './linkedin-logo.svg';
 import ResumeLogo from './resume-logo.svg';
 
-// file imports
+// files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
 export default function SideBar() {
