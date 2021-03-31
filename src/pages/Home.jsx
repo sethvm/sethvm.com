@@ -1,4 +1,4 @@
-import React from 'react';
+import { Fragment } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { v4 as uuidv4 } from 'uuid';
 import '../styles/Home.css';
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
             <div id='projects'>
                 {projects.map((project) => (
-                    <React.Fragment key={uuidv4()}>
+                    <Fragment key={uuidv4()}>
                         <Card
                         title={project.title}
                         desc={project.desc}
@@ -108,18 +108,19 @@ export default function Home() {
                             {project.subHeadings.map((subHeading, index, arr) => {
                                 if (index !== (arr.length - 1)) {
                                     return (
-                                        <React.Fragment key={uuidv4()}>
+                                        <Fragment key={uuidv4()}>
                                             <SubHeading>{subHeading}</SubHeading>&nbsp;/&nbsp;
-                                        </React.Fragment>);
+                                        </Fragment>
+                                    );
                                 }
                                 return (
-                                    <React.Fragment key={uuidv4()}>
+                                    <Fragment key={uuidv4()}>
                                         <SubHeading>{subHeading}</SubHeading>
-                                    </React.Fragment>
+                                    </Fragment>
                                 );
                             })}
                         </Card>
-                    </React.Fragment>
+                    </Fragment>
                 ))}
             </div>
         </main>
