@@ -1,14 +1,32 @@
+import { Fragment } from 'react';
 import {
     Link,
     useLocation
 } from 'react-router-dom';
+import { v4 as uuidv4 } from 'uuid';
 import './QuickLinks.css';
 
 export default function RenderQuickLinks() {
 
+    // links to render
+    const quickLinks = [
+        {
+            label: 'TRX',
+            url: '/trx'
+        },
+        {
+            label: 'SOULFX',
+            url: '/soulfx'
+        },
+        {
+            label: 'EST',
+            url: '/est'
+        }
+    ]
+
     // check if user is on the landing page
-    const currentPath = (useLocation().pathname);
-    const userOnHomePage = (currentPath === '/');
+    const currentURL = (useLocation().pathname);
+    const userOnHomePage = (currentURL === '/');
 
     return (
         <>
@@ -17,18 +35,14 @@ export default function RenderQuickLinks() {
             :
             <div id='quick-links'>
                 <div className='quick-link_container'>
-                    <QuickLink
-                    label='TRX'
-                    path='/trx'
-                    currentPath={currentPath} />
-                    <QuickLink
-                    label='SOULFX'
-                    path='/soulfx'
-                    currentPath={currentPath} />
-                    <QuickLink
-                    label='EST'
-                    path='/est'
-                    currentPath={currentPath} />
+                    {quickLinks.map((quickLink) => (
+                        <Fragment key={uuidv4()}>
+                            <QuickLink
+                            label={quickLink.label}
+                            url={quickLink.url}
+                            currentURL={currentURL} />
+                        </Fragment>
+                    ))}
                 </div>
             </div>
         }
@@ -36,15 +50,15 @@ export default function RenderQuickLinks() {
     );
 }
 
-function QuickLink({ currentPath, label, path }) {
+function QuickLink({ currentURL, label, url }) {
 
     // check if link path is the current route and style accordingly
-    const styleQuickLink = (currentPath === path)
+    const styleQuickLink = (currentURL === url)
     ? 'current-link'
     : 'bold active-link';
 
     return (
-        <Link to={path}>
+        <Link to={url}>
             <span className={`quick-link ${styleQuickLink}`}>{label}</span>
         </Link>
     );

@@ -1,3 +1,5 @@
+import { Fragment } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import './SideBar.css';
 
 // sidebar item logos
@@ -8,20 +10,44 @@ import ResumeLogo from './resume-logo.svg';
 // files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function SideBar() {
+export default function RenderSideBar() {
+
+    const sideBarItems = [
+        {
+            href: 'https://www.linkedin.com/in/sethvm',
+            img: LinkedInLogo,
+            alt: 'linkedin.com/in/sethvm'
+        },
+        {
+            href: 'mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca',
+            img: ContactLogo,
+            alt: 'sethvm64@gmail.com'
+        },
+        {
+            href: ResumeFile,
+            img: ResumeLogo,
+            alt: 'resume'
+        }
+    ]
+
     return (
         <div className='sidebar animate__animated animate__fadeIn'>
-            <SideBarItem href='https://www.linkedin.com/in/sethvm' img={LinkedInLogo} alt='linkedin.com/in/sethvm' />
-            <SideBarItem href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' img={ContactLogo} alt='contact' />
-            <SideBarItem href={ResumeFile} img={ResumeLogo} alt='resume' />
+            {sideBarItems.map((sideBarItem) => (
+                <Fragment key={uuidv4()}>
+                    <SideBarItem
+                    href={sideBarItem.href}
+                    img={sideBarItem.img}
+                    alt={sideBarItem.alt} />
+                </Fragment>
+            ))}
         </div>
     );
 }
 
-function SideBarItem(props) {
+function SideBarItem({ href, img, alt }) {
     return (
-        <a rel='noopener noreferrer' href={props.href} target='_blank'>
-            <img src={props.img} alt={props.alt} className='sidebar-item' />
+        <a rel='noopener noreferrer' href={href} target='_blank'>
+            <img src={img} alt={alt} className='sidebar-item' />
         </a>
     );
 }
