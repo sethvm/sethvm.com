@@ -11,16 +11,16 @@ export default function RenderQuickLinks() {
     // links to render
     const quickLinks = [
         {
-            label: 'TRX',
-            url: '/trx'
+            label: 'LOBLAW',
+            url: '/loblaw'
         },
         {
             label: 'SOULFX',
             url: '/soulfx'
         },
         {
-            label: 'EST',
-            url: '/est'
+            label: 'FASSB',
+            url: '/fassb'
         }
     ]
 

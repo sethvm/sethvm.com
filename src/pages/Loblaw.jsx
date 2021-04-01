@@ -17,25 +17,21 @@ import Paragraph from '../components/Typography/Paragraph';
 import Banner from '../components/Page/Banner';
 import OngoingCard from '../assets/wip/wip-card.svg';
 
-export default function TRX() {
+export default function Loblaw() {
 
-    pageTitle('Transaction Logs');
+    pageTitle('OPS Transaction Logs');
 
     return (
         <Project>
             <Section>
                 <Heading type={2}>OPS Transaction Logs</Heading>
-                <SubHeading>Product Design</SubHeading>
+                <SubHeading>Loblaw Digital</SubHeading>
                 <Paragraph>
                     <br />
                     Transaction logs (collectively referred to as TRX) are order modules
                     situated within Loblaw's OPS Portal, a centralized platform that enables
                     store employees to manage their day-to-day operations. They are used to
                     troubleshoot online grocery orders and validate fulfillment completion times.
-                </Paragraph>
-                <Paragraph>
-                    <span className='bold'>Company:</span>
-                    &nbsp;Loblaw Digital
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Team:</span>

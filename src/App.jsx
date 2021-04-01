@@ -27,9 +27,9 @@ import Footer from './components/Footer/Footer';
 const Home = lazy(() => import('./pages/Home'));
 const Error = lazy(() => import('./pages/Error'));
 const About = lazy(() => import('./pages/About'));
-const EST = lazy(() => import('./pages/EST'));
+const FASSB = lazy(() => import('./pages/FASSB'));
 const Soulfx = lazy(() => import('./pages/Soulfx'));
-const TRX = lazy(() => import('./pages/TRX'));
+const Loblaw = lazy(() => import('./pages/Loblaw'));
 
 export default function App() {
     return (
@@ -48,14 +48,14 @@ export default function App() {
                         path='/about'
                         render={() => <About />} />
                         <Route exact
-                        path='/trx'
-                        render={() => <TRX />} />
+                        path='/loblaw'
+                        render={() => <Loblaw />} />
                         <Route exact
                         path='/soulfx'
                         render={() => <Soulfx />} />
                         <Route exact
-                        path='/est'
-                        render={() => <EST />} />
+                        path='/fassb'
+                        render={() => <FASSB />} />
                         <Route
                         render={() => <Error />} />
                     </Switch>

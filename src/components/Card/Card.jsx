@@ -6,11 +6,11 @@ export default function Card(props) {
     return (
         <div className='project-card'>
             <div className='card-text'>
-                <h2>{props.title}</h2>
+                <h2>{props.heading}</h2>
                 {props.children}
                 <p>
                     <br />
-                    {props.desc}
+                    {props.description}
                     <br />
                     <br />
                     <Link to={props.url}>

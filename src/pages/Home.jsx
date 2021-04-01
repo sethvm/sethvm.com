@@ -26,38 +26,31 @@ export default function Home() {
 
     const projects = [
         {
-            title: 'OPS Transaction Logs',
-            desc: "Streamlining an order validation experience for an internal-facing tool used by Canada's largest grocery retailer",
+            heading: 'OPS Transaction Logs',
+            subHeading: 'Loblaw Digital',
+            description: "Streamlining an order validation experience for an internal-facing tool used by Canada's largest grocery retailer",
             img: OngoingCard,
             alt: 'OPS Transaction Logs',
             link: 'VIEW CASE STUDY →',
-            url: '/trx',
-            subHeadings: [
-                'Product Design'
-            ]
+            url: '/loblaw'
         },
         {
-            title: 'Patient Support App',
-            desc: "Facilitating the remote delivery of a client's financial aid service for patients in need",
+            heading: 'Patient Support App',
+            subHeading: 'Soulfx Technologies Inc.',
+            description: "Facilitating the remote delivery of a client's financial aid service for patients in need",
             img: SoulfxCard,
             alt: 'Patient Support App',
             link: 'VIEW CASE STUDY →',
-            url: '/soulfx',
-            subHeadings: [
-                'UX Design',
-                'Info Architecture'
-            ]
+            url: '/soulfx'
         },
         {
-            title: 'Employment Services Transformation',
-            desc: "Reworking interfaces and experiences for services delivered by Employment Ontario to help jobseekers secure employment",
+            heading: 'Employment Services Transformation',
+            subHeading: 'Ontario Ministry of Labour',
+            description: "Reworking interfaces and experiences for services delivered by Employment Ontario to help jobseekers secure employment",
             img: FASSBCard,
             alt: 'Employment Services Transformation',
             link: 'VIEW TERM RECAP →',
-            url: '/est',
-            subHeadings: [
-                'Web Design'
-            ]
+            url: '/fassb'
         }
     ]
 
@@ -99,26 +92,13 @@ export default function Home() {
                 {projects.map((project) => (
                     <Fragment key={uuidv4()}>
                         <Card
-                        title={project.title}
-                        desc={project.desc}
+                        heading={project.heading}
+                        description={project.description}
                         img={project.img}
                         alt={project.alt}
                         link={project.link}
                         url={project.url}>
-                            {project.subHeadings.map((subHeading, index, arr) => {
-                                if (index !== (arr.length - 1)) {
-                                    return (
-                                        <Fragment key={uuidv4()}>
-                                            <SubHeading>{subHeading}</SubHeading>&nbsp;/&nbsp;
-                                        </Fragment>
-                                    );
-                                }
-                                return (
-                                    <Fragment key={uuidv4()}>
-                                        <SubHeading>{subHeading}</SubHeading>
-                                    </Fragment>
-                                );
-                            })}
+                            <SubHeading>{project.subHeading}</SubHeading>
                         </Card>
                     </Fragment>
                 ))}
