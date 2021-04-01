@@ -15,7 +15,7 @@ import Paragraph from '../components/Typography/Paragraph';
 
 // banner
 import Banner from '../components/Page/Banner';
-import OngoingCard from '../assets/wip/wip-card.svg';
+import LoblawCard from '../assets/loblaw/loblaw-card.svg';
 
 export default function Loblaw() {
 
@@ -48,8 +48,8 @@ export default function Loblaw() {
             </Section>
 
             <Banner
-            img={OngoingCard}
-            alt='Ongoing project. Reach out for more details' />
+            img={LoblawCard}
+            alt='An ongoing project. Reach out for more details' />
             
         </Project>
     );

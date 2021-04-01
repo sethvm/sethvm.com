@@ -16,7 +16,7 @@ import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
 
 // card imgs
-import OngoingCard from '../assets/wip/wip-card.svg';
+import LoblawCard from '../assets/loblaw/loblaw-card.svg';
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
 import FASSBCard from '../assets/fassb/fassb-card.svg';
 
@@ -32,7 +32,7 @@ export default function Home() {
                 'Product Design',
             ],
             description: "Streamlining an order validation experience for an internal-facing tool used by Canada's largest grocery retailer",
-            img: OngoingCard,
+            img: LoblawCard,
             alt: 'OPS Transaction Logs',
             link: 'VIEW CASE STUDY →',
             url: '/ops-transaction-logs'
