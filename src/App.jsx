@@ -48,13 +48,13 @@ export default function App() {
                         path='/about'
                         render={() => <About />} />
                         <Route exact
-                        path='/loblaw'
+                        path='/ops-transaction-logs'
                         render={() => <Loblaw />} />
                         <Route exact
-                        path='/soulfx'
+                        path='/patient-support-app'
                         render={() => <Soulfx />} />
                         <Route exact
-                        path='/fassb'
+                        path='/employment-services-transformation'
                         render={() => <FASSB />} />
                         <Route
                         render={() => <Error />} />

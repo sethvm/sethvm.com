@@ -24,33 +24,42 @@ export default function Home() {
 
     pageTitle('Seth Morenos');
 
+    // project card content to render
     const projects = [
         {
             heading: 'OPS Transaction Logs',
-            subHeading: 'Loblaw Digital',
+            subHeadings: [
+                'Product Design',
+            ],
             description: "Streamlining an order validation experience for an internal-facing tool used by Canada's largest grocery retailer",
             img: OngoingCard,
             alt: 'OPS Transaction Logs',
             link: 'VIEW CASE STUDY →',
-            url: '/loblaw'
+            url: '/ops-transaction-logs'
         },
         {
             heading: 'Patient Support App',
-            subHeading: 'Soulfx Technologies Inc.',
+            subHeadings: [
+                'UX Design',
+                'Info Architecture'
+            ],
             description: "Facilitating the remote delivery of a client's financial aid service for patients in need",
             img: SoulfxCard,
             alt: 'Patient Support App',
             link: 'VIEW CASE STUDY →',
-            url: '/soulfx'
+            url: '/patient-support-app'
         },
         {
             heading: 'Employment Services Transformation',
-            subHeading: 'Ontario Ministry of Labour',
+            subHeadings: [
+                'Web Design',
+                'Service Design'
+            ],
             description: "Reworking interfaces and experiences for services delivered by Employment Ontario to help jobseekers secure employment",
             img: FASSBCard,
             alt: 'Employment Services Transformation',
             link: 'VIEW TERM RECAP →',
-            url: '/fassb'
+            url: '/employment-services-transformation'
         }
     ]
 
@@ -98,7 +107,20 @@ export default function Home() {
                         alt={project.alt}
                         link={project.link}
                         url={project.url}>
-                            <SubHeading>{project.subHeading}</SubHeading>
+                            {project.subHeadings.map((subHeading, index, arr) => {
+                                if (index !== (arr.length - 1)) {
+                                    return (
+                                        <Fragment key={uuidv4()}>
+                                            <SubHeading>{subHeading}</SubHeading>&nbsp;/&nbsp;
+                                        </Fragment>
+                                    );
+                                }
+                                return (
+                                    <Fragment key={uuidv4()}>
+                                        <SubHeading>{subHeading}</SubHeading>
+                                    </Fragment>
+                                );
+                            })}
                         </Card>
                     </Fragment>
                 ))}

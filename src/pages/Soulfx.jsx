@@ -46,7 +46,8 @@ export default function Soulfx() {
         <Project>
             <Section>
                 <Heading type={2}>Patient Support App</Heading>
-                <SubHeading>Soulfx Technologies Inc.</SubHeading>
+                <SubHeading>UX Design</SubHeading>&nbsp;/&nbsp;
+                <SubHeading>Info Architecture</SubHeading>
                 <Paragraph>
                     <br />
                     Soulfx's Patient Support Application is a web-based
@@ -54,6 +55,10 @@ export default function Soulfx() {
                     pharmaceutical industry. It facilitates the remote delivery
                     of a service that provides financial assistance to Canadian
                     patients for medical payments such as therapy and prescriptions.
+                </Paragraph>
+                <Paragraph>
+                    <span className='bold'>Company:</span>
+                    &nbsp;Soulfx Technologies Inc.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Client:</span>

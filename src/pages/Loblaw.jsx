@@ -25,13 +25,17 @@ export default function Loblaw() {
         <Project>
             <Section>
                 <Heading type={2}>OPS Transaction Logs</Heading>
-                <SubHeading>Loblaw Digital</SubHeading>
+                <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
                     Transaction logs (collectively referred to as TRX) are order modules
                     situated within Loblaw's OPS Portal, a centralized platform that enables
                     store employees to manage their day-to-day operations. They are used to
                     troubleshoot online grocery orders and validate fulfillment completion times.
+                </Paragraph>
+                <Paragraph>
+                    <span className='bold'>Company:</span>
+                    &nbsp;Loblaw Digital
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Team:</span>

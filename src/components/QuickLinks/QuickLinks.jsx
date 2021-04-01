@@ -12,15 +12,15 @@ export default function RenderQuickLinks() {
     const quickLinks = [
         {
             label: 'LOBLAW',
-            url: '/loblaw'
+            url: '/ops-transaction-logs'
         },
         {
             label: 'SOULFX',
-            url: '/soulfx'
+            url: '/patient-support-app'
         },
         {
             label: 'FASSB',
-            url: '/fassb'
+            url: '/employment-services-transformation'
         }
     ]
 
