@@ -1,11 +1,11 @@
 // page body loading state
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import './LoadingBody.css';
+import '../styles/Loading.css';
 
 // components
-import Section from '../Page/Section';
-import LoadingIcon from './LoadingIcon';
+import Section from '../components/Page/Section';
+import LoadingIcon from '../components/LoadingIcon/LoadingIcon';
 
 export default function RenderLoadingBody() {
 

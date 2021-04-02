@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import {
     Link,
     useLocation
@@ -6,7 +5,11 @@ import {
 import { v4 as uuidv4 } from 'uuid';
 import './QuickLinks.css';
 
-export default function RenderQuickLinks() {
+export default function QuickLinks() {
+
+    const currentURL = (useLocation().pathname);
+
+    const onHomePage = (currentURL === '/');
 
     // links to render
     const quickLinks = [
@@ -24,25 +27,22 @@ export default function RenderQuickLinks() {
         }
     ]
 
-    // check if user is on the landing page
-    const currentURL = (useLocation().pathname);
-    const userOnHomePage = (currentURL === '/');
+    const renderQuickLinks = quickLinks.map(quickLink => (
+        <QuickLink
+        key={uuidv4()}
+        label={quickLink.label}
+        url={quickLink.url}
+        currentURL={currentURL} />
+    ))    
 
     // render if user is NOT on the landing page
     return (
         <>
-        {(!userOnHomePage)
+        {(!onHomePage)
             &&
             <div id='quick-links'>
                 <div className='quick-link_container'>
-                    {quickLinks.map((quickLink) => (
-                        <Fragment key={uuidv4()}>
-                            <QuickLink
-                            label={quickLink.label}
-                            url={quickLink.url}
-                            currentURL={currentURL} />
-                        </Fragment>
-                    ))}
+                    {renderQuickLinks}
                 </div>
             </div>
         }

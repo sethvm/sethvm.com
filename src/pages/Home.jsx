@@ -63,6 +63,28 @@ export default function Home() {
         }
     ]
 
+    const renderProjects = projects.map(project => (
+        <Card
+        key={uuidv4()}
+        heading={project.heading}
+        description={project.description}
+        img={project.img}
+        alt={project.alt}
+        link={project.link}
+        url={project.url}>
+            {project.subHeadings.map((subHeading, index, arr) => {
+                if (index !== (arr.length - 1)) {
+                    return (
+                        <Fragment key={uuidv4()}>
+                            <SubHeading>{subHeading}</SubHeading>&nbsp;/&nbsp;
+                        </Fragment>
+                    );
+                }
+                return <SubHeading key={uuidv4()}>{subHeading}</SubHeading>
+            })}
+        </Card>
+    ))
+
     return (
         <main>
             <div id='intro' className='intro'>
@@ -98,32 +120,7 @@ export default function Home() {
                 </div>
             </div>
             <div id='projects'>
-                {projects.map((project) => (
-                    <Fragment key={uuidv4()}>
-                        <Card
-                        heading={project.heading}
-                        description={project.description}
-                        img={project.img}
-                        alt={project.alt}
-                        link={project.link}
-                        url={project.url}>
-                            {project.subHeadings.map((subHeading, index, arr) => {
-                                if (index !== (arr.length - 1)) {
-                                    return (
-                                        <Fragment key={uuidv4()}>
-                                            <SubHeading>{subHeading}</SubHeading>&nbsp;/&nbsp;
-                                        </Fragment>
-                                    );
-                                }
-                                return (
-                                    <Fragment key={uuidv4()}>
-                                        <SubHeading>{subHeading}</SubHeading>
-                                    </Fragment>
-                                );
-                            })}
-                        </Card>
-                    </Fragment>
-                ))}
+                {renderProjects}
             </div>
         </main>
     );

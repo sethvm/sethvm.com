@@ -16,12 +16,14 @@ import ScrollToTop from './components/Navigation/ScrollToTop';
 
 // components
 import Container from './components/Page/Container';
-import LoadingBody from './components/LoadingState/LoadingBody';
 import NavBar from './components/NavBar/NavBar';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import QuickLinks from './components/QuickLinks/QuickLinks';
 import SideBar from './components/SideBar/SideBar';
 import Footer from './components/Footer/Footer';
+
+// loading state
+import Loading from './pages/Loading';
 
 // page body content
 const Home = lazy(() => import('./pages/Home'));
@@ -39,7 +41,7 @@ export default function App() {
             <Container>
                 <NavBar />
                 <BlueBlock />
-                <Suspense fallback={<LoadingBody />}>
+                <Suspense fallback={<Loading />}>
                     <Switch>
                         <Route exact
                         path='/'

@@ -16,6 +16,7 @@ import ResumeFile from '../../pdf/sethvm_resume.pdf';
 export default function NavBar() {
 
     const [ expanded, setExpanded ] = useState(false);
+    
     const node = createRef();
 
     const toggleNav = () => {
