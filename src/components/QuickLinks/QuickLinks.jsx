@@ -28,11 +28,11 @@ export default function RenderQuickLinks() {
     const currentURL = (useLocation().pathname);
     const userOnHomePage = (currentURL === '/');
 
+    // render if user is NOT on the landing page
     return (
         <>
-        {userOnHomePage
-            ? null
-            :
+        {(!userOnHomePage)
+            &&
             <div id='quick-links'>
                 <div className='quick-link_container'>
                     {quickLinks.map((quickLink) => (

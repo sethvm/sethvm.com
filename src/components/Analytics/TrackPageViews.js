@@ -8,6 +8,7 @@ export default function TrackPageViews() {
     const location = useLocation();
     const trackerID = 'UA-152533938-2';
 
+    // initialize ReactGA with tracker id
     useEffect(() => {
         ReactGA.initialize(trackerID, {
             standardImplementation: true
@@ -15,6 +16,7 @@ export default function TrackPageViews() {
         console.log('ReactGA initialized');
     }, []);
 
+    // update page_path value and increment pageview count
     useEffect(() => {
         ReactGA.pageview(location.pathname);
         console.log('page_path: ' + location.pathname);

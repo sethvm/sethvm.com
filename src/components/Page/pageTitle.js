@@ -8,6 +8,7 @@ export default function PageTitle(title) {
             document.title = title;
             return;
         }
+        
         // fallback title
         document.title = 'Seth Morenos';
     }, [title]);
