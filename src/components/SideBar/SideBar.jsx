@@ -10,8 +10,9 @@ import ResumeLogo from './resume-logo.svg';
 // files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function RenderSideBar() {
+function SideBarItems() {
 
+    // sidebar items to render
     const sideBarItems = [
         {
             href: 'https://www.linkedin.com/in/sethvm',
@@ -29,10 +30,14 @@ export default function RenderSideBar() {
             alt: 'resume'
         }
     ]
+    return sideBarItems;
+}
+
+export default function RenderSideBar() {
 
     return (
         <div className='sidebar animate__animated animate__fadeIn'>
-            {sideBarItems.map((sideBarItem) => (
+            {SideBarItems().map((sideBarItem) => (
                 <Fragment key={uuidv4()}>
                     <SideBarItem
                     href={sideBarItem.href}

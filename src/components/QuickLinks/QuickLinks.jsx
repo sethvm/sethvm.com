@@ -5,11 +5,7 @@ import {
 import { v4 as uuidv4 } from 'uuid';
 import './QuickLinks.css';
 
-export default function QuickLinks() {
-
-    const currentURL = (useLocation().pathname);
-
-    const onHomePage = (currentURL === '/');
+function QuickLinks() {
 
     // links to render
     const quickLinks = [
@@ -26,8 +22,16 @@ export default function QuickLinks() {
             url: '/employment-services-transformation'
         }
     ]
+    return quickLinks;
+}
 
-    const renderQuickLinks = quickLinks.map(quickLink => (
+export default function RenderQuickLinks() {
+
+    const currentURL = (useLocation().pathname);
+
+    const onHomePage = (currentURL === '/');
+
+    const renderQuickLinks = QuickLinks().map(quickLink => (
         <QuickLink
         key={uuidv4()}
         label={quickLink.label}

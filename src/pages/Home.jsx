@@ -20,11 +20,9 @@ import LoblawCard from '../assets/loblaw/loblaw-card.svg';
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
 import FASSBCard from '../assets/fassb/fassb-card.svg';
 
-export default function Home() {
+function Projects() {
 
-    pageTitle('Seth Morenos');
-
-    // project card content to render
+    // project cards to render
     const projects = [
         {
             heading: 'OPS Transaction Logs',
@@ -62,8 +60,14 @@ export default function Home() {
             url: '/employment-services-transformation'
         }
     ]
+    return projects;
+}
 
-    const renderProjects = projects.map(project => (
+export default function Home() {
+
+    pageTitle('Seth Morenos');
+
+    const renderProjects = Projects().map(project => (
         <Card
         key={uuidv4()}
         heading={project.heading}
