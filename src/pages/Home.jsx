@@ -76,7 +76,7 @@ export default function Home() {
         alt={project.alt}
         link={project.link}
         url={project.url}>
-            {project.subHeadings.map((subHeading, index, arr) => {
+            {project.subHeadings && project.subHeadings.map((subHeading, index, arr) => {
                 if (index !== (arr.length - 1)) {
                     return (
                         <Fragment key={uuidv4()}>
