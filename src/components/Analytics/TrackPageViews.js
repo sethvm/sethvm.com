@@ -13,13 +13,11 @@ export default function TrackPageViews() {
         ReactGA.initialize(trackerID, {
             standardImplementation: true
         });
-        console.log('ReactGA initialized');
     }, []);
 
     // update page_path value and increment pageview count
     useEffect(() => {
         ReactGA.pageview(location.pathname);
-        console.log('page_path: ' + location.pathname);
     }, [location.pathname]);
 
     return null;

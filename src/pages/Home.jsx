@@ -32,8 +32,8 @@ function Projects() {
             description: "Streamlining an order validation experience for an internal-facing tool used by Canada's largest grocery retailer",
             img: LoblawCard,
             alt: 'OPS Transaction Logs',
-            link: 'VIEW CASE STUDY →',
-            url: '/ops-transaction-logs'
+            url: '/ops-transaction-logs',
+            link: 'VIEW CASE STUDY →'
         },
         {
             heading: 'Patient Support App',
@@ -44,8 +44,8 @@ function Projects() {
             description: "Facilitating the remote delivery of a client's financial aid service for patients in need",
             img: SoulfxCard,
             alt: 'Patient Support App',
-            link: 'VIEW CASE STUDY →',
-            url: '/patient-support-app'
+            url: '/patient-support-app',
+            link: 'VIEW CASE STUDY →'
         },
         {
             heading: 'Employment Services Transformation',
@@ -56,8 +56,8 @@ function Projects() {
             description: "Reworking interfaces and experiences for services delivered by Employment Ontario to help jobseekers secure employment",
             img: FASSBCard,
             alt: 'Employment Services Transformation',
-            link: 'VIEW TERM RECAP →',
-            url: '/employment-services-transformation'
+            url: '/employment-services-transformation',
+            link: 'VIEW TERM RECAP →'
         }
     ]
     return projects;

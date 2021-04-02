@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './SideBar.css';
 
@@ -12,7 +11,7 @@ import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
 function SideBarItems() {
 
-    // sidebar items to render
+    // items to render
     const sideBarItems = [
         {
             href: 'https://www.linkedin.com/in/sethvm',
@@ -37,22 +36,16 @@ export default function RenderSideBar() {
 
     return (
         <div className='sidebar animate__animated animate__fadeIn'>
-            {SideBarItems().map((sideBarItem) => (
-                <Fragment key={uuidv4()}>
-                    <SideBarItem
-                    href={sideBarItem.href}
-                    img={sideBarItem.img}
+            {SideBarItems().map(sideBarItem => (
+                <a key={uuidv4()}
+                rel='noopener noreferrer'
+                href={sideBarItem.href}
+                target='_blank'>
+                    <img className='sidebar-item'
+                    src={sideBarItem.img}
                     alt={sideBarItem.alt} />
-                </Fragment>
+                </a>
             ))}
         </div>
-    );
-}
-
-function SideBarItem({ href, img, alt }) {
-    return (
-        <a rel='noopener noreferrer' href={href} target='_blank'>
-            <img src={img} alt={alt} className='sidebar-item' />
-        </a>
     );
 }

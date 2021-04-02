@@ -10,16 +10,16 @@ function QuickLinks() {
     // links to render
     const quickLinks = [
         {
+            url: '/ops-transaction-logs',
             label: 'LOBLAW',
-            url: '/ops-transaction-logs'
         },
         {
-            label: 'SOULFX',
-            url: '/patient-support-app'
+            url: '/patient-support-app',
+            label: 'SOULFX'
         },
         {
-            label: 'FASSB',
-            url: '/employment-services-transformation'
+            url: '/employment-services-transformation',
+            label: 'FASSB'
         }
     ]
     return quickLinks;
@@ -31,13 +31,21 @@ export default function RenderQuickLinks() {
 
     const onHomePage = (currentURL === '/');
 
-    const renderQuickLinks = QuickLinks().map(quickLink => (
-        <QuickLink
-        key={uuidv4()}
-        label={quickLink.label}
-        url={quickLink.url}
-        currentURL={currentURL} />
-    ))    
+    const renderQuickLinks = QuickLinks().map(quickLink => {
+
+        // check if link path is the current route and style accordingly
+        const styleQuickLink = (currentURL === quickLink.url)
+        ? 'current-link'
+        : 'bold active-link';
+
+        return (
+            <Link
+            key={uuidv4()}
+            to={quickLink.url}>
+                <span className={`quick-link ${styleQuickLink}`}>{quickLink.label}</span>
+            </Link>
+        );
+    })
 
     // render if user is NOT on the landing page
     return (
@@ -51,19 +59,5 @@ export default function RenderQuickLinks() {
             </div>
         }
         </>
-    );
-}
-
-function QuickLink({ currentURL, label, url }) {
-
-    // check if link path is the current route and style accordingly
-    const styleQuickLink = (currentURL === url)
-    ? 'current-link'
-    : 'bold active-link';
-
-    return (
-        <Link to={url}>
-            <span className={`quick-link ${styleQuickLink}`}>{label}</span>
-        </Link>
     );
 }
