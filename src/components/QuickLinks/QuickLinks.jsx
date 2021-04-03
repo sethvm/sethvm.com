@@ -57,7 +57,7 @@ export default function RenderQuickLinks() {
             &&
             <nav
             id='quick-links'
-            aria-label='project menu'>
+            aria-label='project links'>
                 <div
                 className='quick-link_container'>
                     {renderQuickLinks}

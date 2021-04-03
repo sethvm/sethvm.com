@@ -47,7 +47,8 @@ export default function NavBar() {
         className='animate__animated animate__fadeIn'
         expand='lg'
         expanded={expanded}
-        onToggle={toggleNav}>
+        onToggle={toggleNav}
+        aria-label='navbar'>
             <Nav.Link
             className='nav-brand-name link'
             as={Link}
