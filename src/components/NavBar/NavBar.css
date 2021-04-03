@@ -10,42 +10,34 @@
 #navbar {
     width: 100%;
     height: 80px;
+    position: fixed;
+    padding: 16px 5% 16px 5%;
+    margin: 0 auto;
     top: 0;
     background: #FFFFFF;
-    position: fixed;
     z-index: 10;
 }
 
-.name {
-    font-family: "Gilroy Bold", sans-serif !important;
-    font-size: 1.4em !important;
+.nav-brand-name {
+    font-family: "Gilroy Bold", sans-serif;
+    font-size: 1.4em;
     text-decoration: none;
 }
 
-.nav-banner {
-    max-width: 2560px;
-    position: fixed;
-    margin: 0 auto;
-    padding: 0;
-    top: 16px;
-    left: 5%;
-    right: 5%;
-}
-
-.nav-desktop, .nav-right {
+.nav-desktop {
     display: none;
 }
 
-.mobile-nav {
+.nav-mobile-toggle {
     background-color: transparent;
     border: transparent;
 }
 
-.nav-drop {
+.nav-drop-overlay {
     background-color: white;
 }
 
-.nav-item {
+.nav-overlay-item {
     width: 200px;
     text-align: center;
     margin: 0 auto;
@@ -54,34 +46,19 @@
     color: #004080 !important;
 }
 
-/*md breakpoint*/
-@media (min-width: 768px) {
-    .nav-banner {
-        left: 5%;
-        right: 5%;
-    }
-}
-
 /*lg breakpoint*/
 @media (min-width: 992px) {
     #navbar {
         background: transparent;
-    }
-    .nav-banner {
-        top: 24px;
-        left: 2%;
-        right: 2%;
+        padding: 20px 2% 0 2%;
     }
     .nav-desktop {
-        display: block;
-        font-family: "Gilroy Regular", sans-serif !important;
-        font-size: 1.1em;
-        color: white !important;
-    }
-    .nav-right {
         display: flex;
+        font-family: "Gilroy Regular", sans-serif;
+        font-size: 1.1em;
+        color: #FFFFFF !important;
     }
-    .mobile-nav, .nav-drop {
+    .nav-mobile-toggle, .nav-drop-overlay {
         display: none;
     }
 }

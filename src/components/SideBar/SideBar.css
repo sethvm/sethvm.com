@@ -1,4 +1,4 @@
-.sidebar {
+#sidebar {
     display: flex;
     justify-content: space-evenly;
     width: 280px;
@@ -13,7 +13,7 @@
 
 /*lg breakpoint*/
 @media (min-width: 992px) {
-    .sidebar {
+    #sidebar {
         flex-direction: column;
         position: fixed;
         width: auto;

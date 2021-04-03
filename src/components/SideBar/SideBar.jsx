@@ -26,7 +26,7 @@ function SideBarItems() {
         {
             href: ResumeFile,
             img: ResumeLogo,
-            alt: 'resume'
+            alt: 'résumé'
         }
     ]
     return sideBarItems;
@@ -35,7 +35,9 @@ function SideBarItems() {
 export default function RenderSideBar() {
 
     return (
-        <div className='sidebar animate__animated animate__fadeIn'>
+        <article
+        id='sidebar'
+        className='animate__animated animate__fadeIn'>
             {SideBarItems().map(sideBarItem => (
                 <a key={uuidv4()}
                 rel='noopener noreferrer'
@@ -46,6 +48,6 @@ export default function RenderSideBar() {
                     alt={sideBarItem.alt} />
                 </a>
             ))}
-        </div>
+        </article>
     );
 }
