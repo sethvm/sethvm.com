@@ -6,8 +6,8 @@
 
 .quick-link_container {
     display: flex;
-    justify-content: space-evenly;
-    min-width: 344px;
+    justify-content: space-around;
+    min-width: 280px;
     margin: 0 auto 4em auto;
     padding-top: 0;
     color: #004080;

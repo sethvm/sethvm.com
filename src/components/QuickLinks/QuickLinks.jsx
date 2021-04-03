@@ -11,11 +11,11 @@ function QuickLinks() {
     const quickLinks = [
         {
             url: '/ops-transaction-logs',
-            label: 'LOBLAW',
+            label: 'Loblaw',
         },
         {
             url: '/patient-support-app',
-            label: 'SOULFX'
+            label: 'Soulfx'
         },
         {
             url: '/employment-services-transformation',

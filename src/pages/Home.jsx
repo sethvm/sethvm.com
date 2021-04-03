@@ -33,7 +33,7 @@ function Projects() {
             img: LoblawCard,
             alt: 'OPS Transaction Logs',
             url: '/ops-transaction-logs',
-            link: 'VIEW CASE STUDY →'
+            link: 'View case study →'
         },
         {
             heading: 'Patient Support App',
@@ -45,7 +45,7 @@ function Projects() {
             img: SoulfxCard,
             alt: 'Patient Support App',
             url: '/patient-support-app',
-            link: 'VIEW CASE STUDY →'
+            link: 'View case study →'
         },
         {
             heading: 'Employment Services Transformation',
@@ -57,7 +57,7 @@ function Projects() {
             img: FASSBCard,
             alt: 'Employment Services Transformation',
             url: '/employment-services-transformation',
-            link: 'VIEW TERM RECAP →'
+            link: 'View term recap →'
         }
     ]
     return projects;
