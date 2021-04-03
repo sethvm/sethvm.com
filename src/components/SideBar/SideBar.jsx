@@ -35,9 +35,10 @@ function SideBarItems() {
 export default function RenderSideBar() {
 
     return (
-        <article
+        <nav
         id='sidebar'
-        className='animate__animated animate__fadeIn'>
+        className='animate__animated animate__fadeIn'
+        aria-label='contact links'>
             {SideBarItems().map(sideBarItem => (
                 <a key={uuidv4()}
                 rel='noopener noreferrer'
@@ -48,6 +49,6 @@ export default function RenderSideBar() {
                     alt={sideBarItem.alt} />
                 </a>
             ))}
-        </article>
+        </nav>
     );
 }

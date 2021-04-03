@@ -42,7 +42,10 @@ export default function RenderQuickLinks() {
             <Link
             key={uuidv4()}
             to={quickLink.url}>
-                <span className={`quick-link ${styleQuickLink}`}>{quickLink.label}</span>
+                <span
+                className={`quick-link ${styleQuickLink}`}>
+                    {quickLink.label}
+                </span>
             </Link>
         );
     })
@@ -52,11 +55,14 @@ export default function RenderQuickLinks() {
         <>
         {(!onHomePage)
             &&
-            <div id='quick-links'>
-                <div className='quick-link_container'>
+            <nav
+            id='quick-links'
+            aria-label='project menu'>
+                <div
+                className='quick-link_container'>
                     {renderQuickLinks}
                 </div>
-            </div>
+            </nav>
         }
         </>
     );
