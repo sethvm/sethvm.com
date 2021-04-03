@@ -3,6 +3,7 @@
 import './IndentInner.css';
 
 export default function IndentInner({ children }) {
+    
     return (
         <div className='indent_inner animate__animated animate__fadeIn'>
             {children}

@@ -3,6 +3,7 @@
 import './ImgCaption.css';
 
 export default function ImgCaption({ children }) {
+    
     return (
         <div className='image_caption'>
             <p>

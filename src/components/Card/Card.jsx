@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Card.css';
 
 export default function Card(props) {
+    
     return (
         <div className='project-card'>
             <div className='card-text'>
@@ -21,7 +22,9 @@ export default function Card(props) {
                 </p>
             </div>
             <Link to={props.url}>
-                <img className='card-img' src={props.img} alt={props.alt} />
+                <img className='card-img'
+                src={props.img}
+                alt={props.alt} />
             </Link>
         </div>
     );

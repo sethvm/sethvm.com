@@ -12,7 +12,7 @@ import Heading from '../components/Typography/Heading';
 
 export default function Error() {
 
-    pageTitle('404 Error');
+    pageTitle('404 - Not Found');
 
     const colorRed = {
         color: '#A80000'

@@ -37,7 +37,7 @@ export default function About() {
                 </Heading>
                 <IndentInner>
                     <Heading type={3}>
-                        A student in Human-centered Design
+                        ... a student in Human-centered Design
                     </Heading>
                 </IndentInner>
                 <Paragraph>
@@ -60,7 +60,7 @@ export default function About() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={3}>
-                        An adrenaline junkie
+                        ... an adrenaline junkie
                     </Heading>
                 </IndentInner>
                 <Paragraph>
@@ -76,7 +76,7 @@ export default function About() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type ={3}>
-                        An avid baker
+                        ... an avid baker
                     </Heading>
                 </IndentInner>
                 <Paragraph>

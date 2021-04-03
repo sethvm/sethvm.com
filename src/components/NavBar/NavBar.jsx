@@ -47,8 +47,10 @@ export default function NavBar() {
             expand='lg'
             expanded={expanded}
             onToggle={toggleNav}>
-                <Nav.Link className='name link' as={Link} to='/'>
-                    <span className='blue'>SETH</span> <span>MORENOS</span>
+                <Nav.Link className='name link' as={Link}
+                to='/'>
+                    <span className='blue'>SETH</span>&nbsp;
+                    <span>MORENOS</span>
                 </Nav.Link>
                 <Navbar.Toggle className='mobile-nav' aria-controls='nav-dropdown'
                 ref={node}>
@@ -62,15 +64,23 @@ export default function NavBar() {
                 <Navbar.Collapse id='nav-dropdown'>
                     <Nav className='nav-drop'
                     onClick={() => handleClick}>
-                        <Nav.Link className='nav-item' as={Link} to='/'><span className='bold'>Work</span></Nav.Link>
-                        <Nav.Link className='nav-item' as={Link} to='/about'><span className='bold'>About</span></Nav.Link>
-                        <Nav.Link className='nav-item' rel='noopener noreferrer' href={ResumeFile} target='_blank'>
+                        <Nav.Link className='nav-item' as={Link}
+                        to='/'>
+                            <span className='bold'>Work</span>
+                        </Nav.Link>
+                        <Nav.Link className='nav-item' as={Link}
+                        to='/about'>
+                            <span className='bold'>About</span>
+                        </Nav.Link>
+                        <Nav.Link className='nav-item' rel='noopener noreferrer'
+                        href={ResumeFile} target='_blank'>
                             <span className='bold'>Résumé</span>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <div className='nav-right'>
-                    <Nav.Link className='nav-desktop link' as={Link} to='/about'>
+                    <Nav.Link className='nav-desktop link' as={Link}
+                    to='/about'>
                         ABOUT
                     </Nav.Link>
                 </div>
