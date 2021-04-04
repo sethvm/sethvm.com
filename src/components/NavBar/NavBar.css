@@ -9,10 +9,9 @@
 
 #navbar {
     width: 100vw;
-    max-width: 1920px;
     height: 80px;
     padding: 16px 5% 16px 5%;
-    margin: 0 auto;
+    margin: 0;
     position: fixed;
     top: 0;
     background: #FFFFFF;
