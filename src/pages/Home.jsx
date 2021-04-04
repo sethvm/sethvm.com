@@ -98,9 +98,9 @@ export default function Home() {
                     </Heading>
                     <Paragraph>
                         <br />
-                        I'm a <strong>designer</strong> pursuing a BASc
-                        in <strong>Systems Design Engineering</strong> with a
-                        passion for creating products that
+                        A <strong>designer</strong> pursuing a degree
+                        in <strong>Systems Design Engineering</strong> -
+                        passionate about creating products that
                         help <strong>move the world forward</strong>.
                     </Paragraph>
                 </div>
