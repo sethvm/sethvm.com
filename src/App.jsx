@@ -15,7 +15,7 @@ import TrackPageViews from './components/Analytics/TrackPageViews';
 import ScrollToTop from './components/Navigation/ScrollToTop';
 
 // components
-import Container from './components/Page/Container';
+import Wrapper from './components/Page/Wrapper';
 import NavBar from './components/NavBar/NavBar';
 import BlueBlock from './components/BlueBlock/BlueBlock';
 import QuickLinks from './components/QuickLinks/QuickLinks';
@@ -38,7 +38,7 @@ export default function App() {
         <HashRouter>
             <TrackPageViews />
             <ScrollToTop />
-            <Container>
+            <Wrapper>
                 <NavBar />
                 <BlueBlock />
                 <Suspense fallback={<Loading />}>
@@ -65,7 +65,7 @@ export default function App() {
                 <QuickLinks />
                 <SideBar />
                 <Footer />
-            </Container>
+            </Wrapper>
         </HashRouter>
     );
 }

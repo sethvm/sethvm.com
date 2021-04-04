@@ -8,11 +8,12 @@
 }
 
 #navbar {
-    width: 100%;
+    width: 100vw;
+    max-width: 1920px;
     height: 80px;
-    position: fixed;
     padding: 16px 5% 16px 5%;
     margin: 0 auto;
+    position: fixed;
     top: 0;
     background: #FFFFFF;
     z-index: 10;
@@ -34,7 +35,7 @@
 }
 
 .nav-drop-overlay {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .nav-overlay-item {
