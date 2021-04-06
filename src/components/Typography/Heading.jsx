@@ -1,12 +1,12 @@
 // dynamic heading component
 
-export default function Heading({ type, children }) {
+export default function Heading({ type, weight, children }) {
 
     const HeadingType = [
-        () => { return <h1>{children}</h1> },
-        () => { return <h2>{children}</h2> },
-        () => { return <h3>{children}</h3> },
-        () => { return <h4>{children}</h4> }
+        () => { return <h1 className={`${weight}`}>{children}</h1> },
+        () => { return <h2 className={`${weight}`}>{children}</h2> },
+        () => { return <h3 className={`${weight}`}>{children}</h3> },
+        () => { return <h4 className={`${weight}`}>{children}</h4> }
     ]
 
     const index = (type - 1);

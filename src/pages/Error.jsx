@@ -22,7 +22,7 @@ export default function Error() {
         <Project>
             <Section>
                 <Heading type={2}>
-                    <span style={colorRed}>
+                    <span className='heavy' style={colorRed}>
                         404, mate - probably an old link!
                     </span>
                 </Heading>

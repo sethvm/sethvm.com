@@ -27,7 +27,11 @@ body {
     color: #1A1A1A;
 }
 
-h1, h2, h3, h4, h5, h6, a, strong, .bold {
+h1, h2, .heavy {
+    font-family: "Gilroy Bold", sans-serif;
+}
+
+h3, h4, h5, h6, a, strong, .bold {
     font-family: "Gilroy Semi Bold", sans-serif;
 }
 
@@ -43,11 +47,11 @@ h4 {
     font-size: 1.15em;
 }
 
-h4, p {
+p {
     color: #404040;
 }
 
-a:hover {
+a, a:hover {
     text-decoration: none;
 }
 

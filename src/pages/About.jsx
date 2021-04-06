@@ -88,7 +88,7 @@ export default function About() {
             </Section>
 
             <Section>
-                <Heading type ={2}>
+                <Heading type={2}>
                     Keen to collab?
                     Let's get in touch!
                     <br />
