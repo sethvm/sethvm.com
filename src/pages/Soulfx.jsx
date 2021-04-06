@@ -21,7 +21,12 @@ import Paragraph from '../components/Typography/Paragraph';
 
 // banner
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
-import Methodology from '../assets/soulfx/soulfx-methodology.svg';
+
+// visuals
+import Outline from '../assets/soulfx/soulfx-outline.svg';
+import JobsToBeDone from '../assets/soulfx/soulfx-jtbd.svg';
+import EndtoEnd from '../assets/soulfx/soulfx-end-to-end.svg';
+import RecordIA from '../assets/soulfx/soulfx-record-ia.svg';
 
 /*old graphics - to be reworked*/
 /*import AddRecord from '../components/soulfx/soulfx-add_company.svg';
@@ -50,11 +55,11 @@ export default function Soulfx() {
                 <SubHeading>Info Architecture</SubHeading>
                 <Paragraph>
                     <br />
-                    Soulfx's Patient Support Application is a web-based
-                    platform developed for a client within the
-                    pharmaceutical industry. It facilitates the remote delivery
-                    of a service that provides financial assistance to Canadian
-                    patients for medical payments such as therapy and prescriptions.
+                    Soulfx’s Patient Support Platform is a web-based application
+                    developed for a pharmaceutical firm. It facilitates the remote
+                    management and operation of a service that provides financial
+                    assistance to Canadian patients for medical payments such as
+                    prescriptions and therapy.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
@@ -70,7 +75,7 @@ export default function Soulfx() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Timeline:</span>
-                    &nbsp;Jul 2020 - Aug 2020 (8 weeks)
+                    &nbsp;8 weeks
                 </Paragraph>
             </Section>
 
@@ -81,34 +86,33 @@ export default function Soulfx() {
             <Section>
                 <Heading type={3}>Overview</Heading>
                 <Paragraph>
-                    Soulfx Technologies Inc. is a Mississauga-based software consulting firm
-                    that focuses on building applications for clients within the healthcare indusry.
-                    I worked as a Software Designer within the product team during the summer of 2020,
-                    where we worked closely with a multinationally based pharmaceutical client in
-                    executing an end-to-end design project.
+                    Soulfx Technologies Inc is a Mississauga-based software consulting
+                    firm that focuses on creating applications for clients within the
+                    healthcare industry. I worked as a Software Designer within the product
+                    team during the summer of 2020, where we worked closely with a multinational
+                    pharmaceutical client in executing an end-to-end design project.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        Soulfx specializes in the development of platforms that drive innovation
-                        within the healthcare sector.
+                        Soulfx specializes in the development of software products
+                        that drive innovation within the healthcare sector.
                     </Heading>
                 </IndentInner>
             </Section>
 
             <Section>
-                <Heading type ={3}>An ongoing health crisis</Heading>
+                <Heading type ={3}>An unprecedented Health Crisis</Heading>
                 <Paragraph>
-                    COVID-19 has brought with it a global-scale challenge that
-                    has pushed the capacity of our healthcare sectors to their limit.
-                    Our client approached us with the objective of moving their
-                    financial aid service online - a shift to web-based support
-                    that was necessary to minimize the risk imposed by the pandemic
-                    on immunocompromised individuals.
+                    COVID-19 has brought with it a global-scale challenge that has pushed the
+                    capacity of our healthcare industries to their limits. Our client approached
+                    us with the objective of moving their financial aid service online – a shift
+                    to web-based operations aimed at to mitigating the risks imposed by the
+                    pandemic on immunocompromised individuals.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        How can we design a platform that will enable our client
-                        to provide their support service to patients remotely?
+                        How can we design a platform that will enable our client to provide
+                        their support service to patients remotely?
                     </Heading>
                 </IndentInner>
             </Section>
@@ -116,8 +120,8 @@ export default function Soulfx() {
             <ImgContainer>
                 <ImgFluid>
                     <Img
-                    src={Methodology}
-                    alt='The design approach' />
+                    src={Outline}
+                    alt='The design outline' />
                 </ImgFluid>
                 <ImgCaption>
                     An outline of our approach
@@ -125,41 +129,115 @@ export default function Soulfx() {
             </ImgContainer>
 
             <Section>
-                <Heading type={3}>Our client's assistance service</Heading>
+                <Heading type={3}>Our client's Assistance Service</Heading>
                 <Paragraph>
-                    Participating manufacturers registered within our client's service
-                    offer their own collection of program plans, which provide
-                    prescription cards for select products. These prescription cards in
-                    turn can be redeemed by patients for payment deductions.
-                    Program plans can be restricted to specified provinces or offered Canada-wide.
+                    Manufacturers registered under our client’s service platform offer their
+                    own collection of financial assistance and/or therapy program plans, which
+                    provide prescription certificates. These certificates in turn can be redeemed
+                    by patients for reimbursements upon purchasing select drugs. Program plans
+                    can be restricted to certain provinces or offered Canada-wide.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        Our client's support service aims to make prescription repayment
-                        easier via reimbursements for pharmaceutical expenses.
+                        Our client works alongside pharmaceutical manufacturers in making prescription
+                        payment easier by providing reimbursements to patients for medical expenses.
                     </Heading>
                 </IndentInner>
             </Section>
 
             <Section>
-                <Heading type={3}>Jobs-to-be-done</Heading>
+                <Heading type={3}>Jobs to Be Done</Heading>
                 <Paragraph>
-                    [Write about user groups and what each group wants to do with the platform]
-                    Even though we designed our client's application from the ground up,
-                    we were working with a service that was already up and running. Our user audience
-                    consisted of two groups:
+                    We designed our client’s application from the ground up – however, we worked
+                    with a service that was already in operation. Thus, we conducted generative research
+                    with the intention of identifying our user groups and what outcomes each group wants
+                    to achieve by interacting with our platform.
                 </Paragraph>
             </Section>
 
+            <ImgContainer>
+                <ImgFluid>
+                    <Img
+                    src={JobsToBeDone}
+                    alt='our user groups and objectives' />
+                </ImgFluid>
+                <ImgCaption>
+                    Our user groups and objectives
+                </ImgCaption>
+            </ImgContainer>
+
             <Section>
-                <Heading type={3}>Laying out the groundwork</Heading>
-                <Paragraph>
-                    Write about user flows and information hierarchy for both user groups
-                </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>
+                    We learned about who our users are and what they want out of our platform.
+                    What do their journeys within the existing service look like?
+                    </Heading>
+                </IndentInner>
             </Section>
 
             <Section>
-                <Heading type={3}>Putting it all together</Heading>
+                <Heading type={3}>Reimbursement Lifecycle</Heading>
+                <Paragraph>
+                    We sought to get an in-depth look at how the support platform itself works and how
+                    our users interact with it. To visualize our user journeys, we created a lifecycle
+                    diagram to document the steps taken from onboarding a new manufacturer to distributing
+                    the manufacturer’s program cards to patients.
+                </Paragraph>
+            </Section>
+
+            <ImgContainer>
+                <ImgFluid>
+                    <Img
+                    src={EndtoEnd}
+                    alt='end-to-end reimbursement flow' />
+                </ImgFluid>
+                <ImgCaption>
+                    End-to-end reimbursement flow
+                </ImgCaption>
+            </ImgContainer>
+
+            <Section>
+                <Paragraph>
+                    Upon mapping out the patient journey, we learned that each program could provide only one
+                    of two types of certificates. National-level certificates enable reimbursement access to patients
+                    regardless of province, while provincial-level certificates restrict a program’s availability to
+                    specified provinces. Furthermore, the availability of cards offered by programs continuously
+                    fluctuate based on demand.
+                </Paragraph>
+                <Paragraph>
+                    Furthermore, it became clear from modelling the caseworker journey that <strong>there was a discernible
+                    hierarchy in how records are organized</strong>. We took this as an opportunity to create an architecture diagram
+                    and illustrate a more granular view of the details being managed within each tier of information.
+                </Paragraph>
+            </Section>
+
+            <ImgContainer>
+                <ImgFluid>
+                    <Img
+                    src={RecordIA}
+                    alt='record information artichetcure' />
+                </ImgFluid>
+                <ImgCaption>
+                    Record information artichetcure
+                </ImgCaption>
+            </ImgContainer>
+
+            <Section>
+                <Paragraph>
+                    Due to the limited amount of time we had to develop a comprehensive understanding of our
+                    client’s support program, these flows would play a critical role later in the project
+                    with ensuring alignment with our developers.
+                </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>
+                        Clarity was established regarding how our client’s service operates –
+                        how can we ensure that our to-be design encompasses the tasks we have outlined?
+                    </Heading>
+                </IndentInner>
+            </Section>
+
+            <Section>
+                <Heading type={3}>Putting it All Together</Heading>
                 <Paragraph>
                     Write about the objective of each set of designs and how our approach
                     helped in making the service easy to provide and cards easy to retreive.
@@ -204,7 +282,7 @@ export default function Soulfx() {
             </ImgContainer>
 
             <Section>
-                <Heading type={3}>Key interactions</Heading>
+                <Heading type={3}>Key Interactions</Heading>
                 <Paragraph>
                     Write about breadcrumbs + switches, and what pain points they address -
                     refer to the old write-up!
@@ -213,7 +291,7 @@ export default function Soulfx() {
 
             <Section>
                 <Heading type={3}>
-                    Takeaways and opportunities for refinement
+                    Takeaways and Opportunities for Refinement
                     <br />
                     <br />
                 </Heading>
