@@ -5,7 +5,32 @@ import {
 import { v4 as uuidv4 } from 'uuid';
 import './QuickLinks.css';
 
-function QuickLinks() {
+export default function QuickLinkContainer() {
+
+    const currentURL = (useLocation().pathname);
+
+    const onHomePage = (currentURL === '/');
+
+    // render if user is NOT on the landing page
+    return (
+        <>
+        {(!onHomePage)
+            &&
+            <nav
+            id='quick-links'
+            aria-label='project links'>
+                <div
+                className='quick-link_container'>
+                    <QuickLinks
+                    currentURL={currentURL}/>
+                </div>
+            </nav>
+        }
+        </>
+    );
+}
+
+function QuickLinks({ currentURL }) {
 
     // links to render
     const quickLinks = [
@@ -22,48 +47,27 @@ function QuickLinks() {
             label: 'FASSB'
         }
     ]
-    return quickLinks;
-}
 
-export default function RenderQuickLinks() {
-
-    const currentURL = (useLocation().pathname);
-
-    const onHomePage = (currentURL === '/');
-
-    const renderQuickLinks = QuickLinks().map(quickLink => {
-
-        // check if link path is the current route and style accordingly
-        const styleQuickLink = (currentURL === quickLink.url)
-        ? 'current-link'
-        : 'bold active-link';
-
-        return (
-            <Link
-            key={uuidv4()}
-            to={quickLink.url}>
-                <span
-                className={`quick-link ${styleQuickLink}`}>
-                    {quickLink.label}
-                </span>
-            </Link>
-        );
-    })
-
-    // render if user is NOT on the landing page
     return (
         <>
-        {(!onHomePage)
-            &&
-            <nav
-            id='quick-links'
-            aria-label='project links'>
-                <div
-                className='quick-link_container'>
-                    {renderQuickLinks}
-                </div>
-            </nav>
-        }
+        {quickLinks.map(quickLink => {
+
+            // check if link path is the current route and style accordingly
+            const styleQuickLink = (currentURL === quickLink.url)
+            ? 'current-link'
+            : 'bold active-link';
+
+            return (
+                <Link
+                key={uuidv4()}
+                to={quickLink.url}>
+                    <span
+                    className={`quick-link ${styleQuickLink}`}>
+                        {quickLink.label}
+                    </span>
+                </Link>
+            );
+        })}
         </>
     );
 }

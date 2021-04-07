@@ -9,7 +9,7 @@ import ResumeLogo from './resume-logo.svg';
 // files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-function SideBarItems() {
+export default function SideBar() {
 
     // items to render
     const sideBarItems = [
@@ -29,17 +29,13 @@ function SideBarItems() {
             alt: 'résumé'
         }
     ]
-    return sideBarItems;
-}
-
-export default function RenderSideBar() {
 
     return (
         <nav
         id='sidebar'
         className='animate__animated animate__fadeIn'
         aria-label='contact links'>
-            {SideBarItems().map(sideBarItem => (
+            {sideBarItems.map(sideBarItem => (
                 <a key={uuidv4()}
                 rel='noopener noreferrer'
                 href={sideBarItem.href}
