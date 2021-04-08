@@ -31,8 +31,9 @@
 @media (min-width: 992px) {
     .project-card {
         flex-direction: row;
-        max-width: 90%;
-        margin: 0 17vw 250px 17vw;
+        width: 100%;
+        margin-bottom: 250px;
+        padding-left: 20vw;
     }
     .card-img, .card-text {
         margin: 0;
@@ -40,7 +41,6 @@
     .card-img {
         max-width: 424px;
         height: auto;
-        left: 0;
         transition: margin 0.15s ease-out;
         -webkit-transition: margin 0.15s ease-out;
         -moz-transition: margin 0.15s ease-out;
@@ -50,8 +50,7 @@
         margin-left: 16px;
     }
     .card-text {
-        width: 40%;
-        padding: 20px 7% 0 0;
-        right: 0;
+        width: 42%;
+        padding: 16px 8% 0 0;
     }
 }
