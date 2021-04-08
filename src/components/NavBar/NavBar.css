@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100vw;
     height: 80px;
-    padding: 16px 8%;
+    padding: 20px 8%;
     margin: 0;
     position: fixed;
     top: 0;
@@ -23,6 +23,7 @@
 
 .toggle-button {
     position: absolute;
+    padding: 4px;
     top: 16px;
     right: 6%;
 }
@@ -67,7 +68,7 @@
 @media (min-width: 992px) {
     #navbar {
         flex-direction: row;
-        padding: 20px 2% 0 2%;
+        padding: 26px 2.4% 0 2.4%;
         background-color: transparent;
     }
     .toggle-button {
@@ -77,6 +78,8 @@
         display: flex;
         font-family: "Gilroy Regular", sans-serif;
         font-size: 1.1em;
+        margin-top: 10px;
+        margin-right: 10px;
         color: #FFFFFF;
     }
 }

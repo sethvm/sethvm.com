@@ -52,6 +52,8 @@ export default function NavBar() {
             </Link>
             <div
             className='toggle-button'
+            aria-label='toggle menu'
+            tabIndex='0'
             onClick={toggleNav}
             ref={node}>
                 <Hamburger
