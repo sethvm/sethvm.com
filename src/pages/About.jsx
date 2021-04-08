@@ -33,15 +33,13 @@ export default function About() {
                     Thanks for dropping by! I am...
                     <br />
                     <br />
-                    <br />
                 </Heading>
                 <IndentInner>
-                    <Heading type={3}>
+                    <Heading type={3} weight='bold'>
                         ... a student in Human-centered Design
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    <br />
                     I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                     SYDE is a unique program that emphasizes the utilization of multi-disciplinary
                     approaches to tackling technological and socioeconomical problems we face today -
@@ -56,15 +54,13 @@ export default function About() {
                     include <strong>healthcare</strong>, <strong>e-commerce</strong> and <strong>tech</strong>.
                     <br />
                     <br />
-                    <br />
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={3}>
+                    <Heading type={3} weight='bold'>
                         ... an adrenaline junkie
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    <br />
                     Should you ever need to find me outside of school and work, there's a
                     good chance I'll be working on dynos at the bouldering gym,
                     amping up for deadlifts in the weight room,
@@ -72,15 +68,13 @@ export default function About() {
                     clouds - with a parachute strapped to my back, of course.
                     <br />
                     <br />
-                    <br />
                 </Paragraph>
                 <IndentInner>
-                    <Heading type ={3}>
+                    <Heading type={3} weight='bold'>
                         ... an avid baker
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    <br />
                     Having worked full-time as a baker prior to university,
                     I also spend time keeping my pastry craft sharp. Lately, I've been working towards
                     perfecting my soufflé texture.
@@ -94,7 +88,7 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <Heading type ={3}>
+                <Heading type={3} weight='bold'>
                     Say hi on
                     <ExternalLink
                     href='https://www.linkedin.com/in/sethvm'>
@@ -103,7 +97,7 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <Heading type={3}>
+                <Heading type={3} weight='bold'>
                     Toss over an
                     <ExternalLink
                     href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
@@ -112,7 +106,7 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <Heading type={3}>
+                <Heading type={3} weight='bold'>
                     Running late to a meeting? Grab a
                     <ExternalLink
                     href={ResumeFile}>

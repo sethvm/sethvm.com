@@ -32,7 +32,6 @@ export default function Home() {
                         G'day! I'm Seth.
                     </Heading>
                     <Paragraph>
-                        <br />
                         A <strong>designer</strong> pursuing a degree
                         in <strong>Systems Design Engineering</strong> -
                         passionate about creating products that
@@ -70,7 +69,7 @@ function Projects() {
     // project cards to render
     const projects = [
         {
-            heading: 'OPS Pick History',
+            heading: 'Order Pick History',
             subHeadings: [
                 'Product Design'
             ],
@@ -78,13 +77,13 @@ function Projects() {
             img: LoblawCard,
             alt: 'OPS Pick History',
             link: 'View case study →',
-            url: '/ops-pick-history'
+            url: '/order-pick-history'
         },
         {
             heading: 'Patient Support App',
             subHeadings: [
-                'UX',
-                'Software Design'
+                'Software',
+                'UX Design'
             ],
             description: "Facilitating the remote operation of a client's patient support service",
             img: SoulfxCard,

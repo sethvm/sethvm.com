@@ -44,7 +44,7 @@ export default function FASSB() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Timeline:</span>
-                    &nbsp;Sep 2019 - Dec 2019 (16 weeks)
+                    &nbsp;16 weeks
                 </Paragraph>
             </Section>
 
