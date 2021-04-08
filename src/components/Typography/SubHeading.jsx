@@ -2,12 +2,8 @@
 
 export default function SubHeading({ children }) {
 
-    const colorOlive = {
-        color: '#7C6900'
-    };
-
     return (
-        <span className='bold' style={colorOlive}>
+        <span className='bold' style={{ color: '#7C6900' }}>
             {children}
         </span>
     );

@@ -13,16 +13,12 @@ import Heading from '../components/Typography/Heading';
 export default function Error() {
 
     pageTitle('404 - Not Found');
-
-    const colorRed = {
-        color: '#A80000'
-    };
-
+    
     return (
         <Project>
             <Section>
                 <Heading type={2}>
-                    <span className='heavy' style={colorRed}>
+                    <span className='heavy' style={{ color: '#A80000' }}>
                         404, mate - probably an old link!
                     </span>
                 </Heading>
