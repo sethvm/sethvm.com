@@ -127,7 +127,7 @@ function Projects() {
                             </Fragment>
                         );
                     }
-                    return <SubHeading>{subHeading}</SubHeading>
+                    return <SubHeading key={uuidv4()}>{subHeading}</SubHeading>
                 })}
             </Card>
         ))}
