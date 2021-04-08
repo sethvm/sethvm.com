@@ -64,7 +64,7 @@ export default function NavBar() {
                 label='Show Menu'/>
             </div>
             <div
-            className={`nav-overlay ${ expanded ? 'active' : null }`}
+            className={`nav-overlay ${ expanded ? 'active' : 'inactive' }`}
             aria-label='navbar menu'
             onClick={() => handleClick}>
                 <ul>

@@ -29,9 +29,12 @@
 }
 
 .nav-overlay {
-    display: none;
     width: 100%;
     z-index: 5;
+}
+
+.inactive {
+    display: none;
 }
 
 .active {
@@ -74,8 +77,12 @@
     .toggle-button {
         display: none;
     }
+    .active {
+        display: none;
+    }
     .nav-desktop {
-        display: flex;
+        display: block;
+        position: relative;
         font-family: "Gilroy Regular", sans-serif;
         font-size: 1.1em;
         margin-top: 10px;
