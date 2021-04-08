@@ -8,7 +8,6 @@ import {
     Route
 } from 'react-router-dom';
 import 'animate.css/animate.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // page scripts
 import TrackPageViews from './components/Analytics/TrackPageViews';
@@ -50,7 +49,7 @@ export default function App() {
                         path='/about'
                         render={() => <About />} />
                         <Route exact
-                        path='/ops-pick-history'
+                        path='/order-pick-history'
                         render={() => <Loblaw />} />
                         <Route exact
                         path='/patient-support-app'

@@ -16,6 +16,12 @@
         url('../fonts/gilroy-regular.otf') format('opentype');
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     margin: 0;
@@ -23,25 +29,45 @@ body {
     overflow-x: hidden;
     font-family: "Gilroy Regular", sans-serif;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #1A1A1A;
+    -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #1A1A1A;
+    -webkit-tap-highlight-color: transparent;
 }
 
-h1, h2, .heavy {
+h1, h2, h3, .heavy {
     font-family: "Gilroy Bold", sans-serif;
 }
 
-h3, h4, h5, h6, a, strong, .bold {
+h4, h5, h6, a, strong, .bold {
     font-family: "Gilroy Semi Bold", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+h1, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+
 h1 {
+    font-size: 2.5em;
     color: #004080;
 }
 
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
 h3 {
-    font-size: 1.55em;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -49,10 +75,14 @@ h4 {
 }
 
 p {
+    margin-top: 0;
+    margin-bottom: 1em;
     color: #404040;
 }
 
-a, a:hover {
+a,
+a:hover,
+a:focus {
     text-decoration: none;
 }
 
@@ -60,7 +90,7 @@ a, a:hover {
     font-style: italic;
 }
 
-/*link color styling*/
+/* link styling */
 .active-link {
     color: #004080;
     transition: background 0.4s ease-out;
@@ -73,7 +103,7 @@ a, a:hover {
     background: #CFE7FF;
 }
 
-/*scrollbar styling*/
+/* scrollbar styling */
 ::-webkit-scrollbar {
     width: 10px;
 }

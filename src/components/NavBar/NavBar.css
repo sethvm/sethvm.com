@@ -30,7 +30,8 @@
 
 .nav-overlay {
     width: 100%;
-    z-index: 5;
+    padding-top: 0.75em;
+    background-color: #FFFFFF;
 }
 
 .inactive {
@@ -57,7 +58,6 @@
     list-style: none;
     width: 100%;
     text-align: center;
-    background-color: #FFFFFF;
 }
 
 .nav-overlay li a {
@@ -85,7 +85,7 @@
         position: relative;
         font-family: "Gilroy Regular", sans-serif;
         font-size: 1.1em;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-right: 10px;
         color: #FFFFFF;
     }
