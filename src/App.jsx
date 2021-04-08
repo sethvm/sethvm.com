@@ -3,7 +3,7 @@ import {
     lazy
 } from 'react';
 import {
-    HashRouter,
+    BrowserRouter,
     Switch,
     Route
 } from 'react-router-dom';
@@ -34,7 +34,7 @@ const Loblaw = lazy(() => import('./pages/Loblaw'));
 
 export default function App() {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <TrackPageViews />
             <ScrollToTop />
             <BlueBlock />
@@ -65,6 +65,6 @@ export default function App() {
             </Container>
             <SideBar />
             <Footer />
-        </HashRouter>
+        </BrowserRouter>
     );
 }
