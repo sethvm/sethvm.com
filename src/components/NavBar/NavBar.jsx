@@ -1,11 +1,9 @@
 import {
     useState,
     useEffect,
-    useCallback,
-    createRef
+    createRef,
+    useCallback
 } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
 import './NavBar.css';
@@ -16,21 +14,21 @@ import ResumeFile from '../../pdf/sethvm_resume.pdf';
 export default function NavBar() {
 
     const [ expanded, setExpanded ] = useState(false);
-    
+
     const node = createRef();
 
     const toggleNav = () => {
-        setExpanded(!expanded);
+        setTimeout(() => { setExpanded(!expanded) }, 160);
     }
 
     const closeNav = useCallback(() => {
-        setExpanded(false);
+        setTimeout(() => { setExpanded(false) }, 160);
     }, []);
 
     // dropdown outside-click-close interaction
     const handleClick = useCallback((e) => {
         if (node.current.contains(e.target) || expanded === false) return;
-        setTimeout(() => { closeNav(); }, 80);
+        closeNav();
     }, [expanded, node, closeNav]);
 
     // navbar event listener
@@ -42,23 +40,19 @@ export default function NavBar() {
     }, [handleClick]);
 
     return (
-        <Navbar
-        id='navbar'
+        <nav id='navbar'
         className='animate__animated animate__fadeIn'
-        expand='lg'
-        expanded={expanded}
-        onToggle={toggleNav}
         aria-label='navbar'>
-            <Nav.Link
-            className='nav-brand-name link'
-            as={Link}
+            <Link
+            className='nav-brand'
+            aria-label='Seth Morenos'
             to='/'>
-                <span className='blue'>SETH</span>&nbsp;
-                <span>MORENOS</span>
-            </Nav.Link>
-            <Navbar.Toggle
-            className='nav-mobile-toggle'
-            aria-controls='nav-dropdown'
+                <span style={{ color: '#004080' }}>SETH</span>&nbsp;
+                <span style={{ color: '#1A1A1A' }}>MORENOS</span>
+            </Link>
+            <div
+            className='toggle-button'
+            onClick={toggleNav}
             ref={node}>
                 <Hamburger
                 color='#004080'
@@ -66,39 +60,29 @@ export default function NavBar() {
                 toggled={expanded}
                 toggle={setExpanded}
                 label='Show Menu'/>
-            </Navbar.Toggle>
-            <Navbar.Collapse
-            id='nav-dropdown'>
-                <Nav
-                className='nav-drop-overlay'
-                onClick={() => handleClick}>
-                    <Nav.Link
-                    className='nav-overlay-item'
-                    as={Link}
-                    to='/'>
-                        <span className='bold'>Work</span>
-                    </Nav.Link>
-                    <Nav.Link
-                    className='nav-overlay-item'
-                    as={Link}
-                    to='/about'>
-                        <span className='bold'>About</span>
-                    </Nav.Link>
-                    <Nav.Link
-                    className='nav-overlay-item'
-                    rel='noopener noreferrer'
-                    href={ResumeFile}
-                    target='_blank'>
-                        <span className='bold'>Résumé</span>
-                    </Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-            <Nav.Link
-            className='nav-desktop link'
-            as={Link}
+            </div>
+            <div
+            className={`nav-overlay ${ expanded ? 'active' : null }`}
+            aria-label='navbar menu'
+            onClick={() => handleClick}>
+                <ul>
+                    <li>
+                        <Link aria-label='Work' to='/'>Work</Link>
+                    </li>
+                    <li><Link aria-label='About' to='/about'>About</Link></li>
+                    <li>
+                        <a rel='noopener noreferrer'
+                        aria-label='Résumé'
+                        href={ResumeFile}
+                        target='_blank'>Résumé</a>
+                    </li>
+                </ul>
+            </div>
+            <Link
+            aria-label='About'
             to='/about'>
-                ABOUT
-            </Nav.Link>
-        </Navbar>
+                <div className='nav-desktop'>ABOUT</div>
+            </Link>
+        </nav>
     );
 }
