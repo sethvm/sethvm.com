@@ -70,39 +70,39 @@ function Projects() {
     // project cards to render
     const projects = [
         {
-            heading: 'OPS Transaction Logs',
+            heading: 'OPS Pick History',
             subHeadings: [
                 'Product Design'
             ],
-            description: "Streamlining an order validation experience for an internal-facing tool used by Canada's largest grocery retailer",
+            description: "Creating a streamlined order validation experience for Canada's largest grocery retailer",
             img: LoblawCard,
-            alt: 'OPS Transaction Logs',
-            url: '/ops-transaction-logs',
-            link: 'View case study →'
+            alt: 'OPS Pick History',
+            link: 'View case study →',
+            url: '/ops-pick-history'
         },
         {
             heading: 'Patient Support App',
             subHeadings: [
-                'UX Design',
-                'Info Architecture'
+                'UX',
+                'Software Design'
             ],
-            description: "Facilitating the remote delivery of a client's financial aid service for patients in need",
+            description: "Facilitating the remote operation of a client's patient support service",
             img: SoulfxCard,
             alt: 'Patient Support App',
-            url: '/patient-support-app',
-            link: 'View case study →'
+            link: 'View case study →',
+            url: '/patient-support-app'
         },
         {
             heading: 'Employment Services Transformation',
             subHeadings: [
-                'Web Design',
+                'Web',
                 'Service Design'
             ],
-            description: "Reworking interfaces and experiences for services delivered by Employment Ontario to help jobseekers secure employment",
+            description: "Supporting Employment Ontario's push towards improving provincial employment retention",
             img: FASSBCard,
             alt: 'Employment Services Transformation',
-            url: '/employment-services-transformation',
-            link: 'View term recap →'
+            link: 'View term recap →',
+            url: '/employment-services-transformation'
         }
     ]
 

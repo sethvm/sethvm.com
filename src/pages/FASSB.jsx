@@ -25,7 +25,7 @@ export default function FASSB() {
         <Project>
             <Section>
                 <Heading type={2}>Employment Services Transformation</Heading>
-                <SubHeading>Web Design</SubHeading>&nbsp;/&nbsp;
+                <SubHeading>Web</SubHeading>&nbsp;/&nbsp;
                 <SubHeading>Service Design</SubHeading>
                 <Paragraph>
                     <br />

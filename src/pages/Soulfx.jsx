@@ -51,8 +51,8 @@ export default function Soulfx() {
         <Project>
             <Section>
                 <Heading type={2}>Patient Support App</Heading>
-                <SubHeading>UX Design</SubHeading>&nbsp;/&nbsp;
-                <SubHeading>Info Architecture</SubHeading>
+                <SubHeading>UX</SubHeading>&nbsp;/&nbsp;
+                <SubHeading>Software Design</SubHeading>
                 <Paragraph>
                     <br />
                     Soulfx’s Patient Support Platform is a web-based application

@@ -19,12 +19,12 @@ import LoblawCard from '../assets/loblaw/loblaw-card.svg';
 
 export default function Loblaw() {
 
-    pageTitle('OPS Transaction Logs');
+    pageTitle('OPS Pick History');
 
     return (
         <Project>
             <Section>
-                <Heading type={2}>OPS Transaction Logs</Heading>
+                <Heading type={2}>OPS Pick History</Heading>
                 <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />

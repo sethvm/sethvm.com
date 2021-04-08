@@ -35,7 +35,7 @@ function QuickLinks({ currentURL }) {
     // links to render
     const quickLinks = [
         {
-            url: '/ops-transaction-logs',
+            url: '/ops-pick-history',
             label: 'Loblaw',
         },
         {

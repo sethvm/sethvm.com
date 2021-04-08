@@ -50,7 +50,7 @@ export default function App() {
                         path='/about'
                         render={() => <About />} />
                         <Route exact
-                        path='/ops-transaction-logs'
+                        path='/ops-pick-history'
                         render={() => <Loblaw />} />
                         <Route exact
                         path='/patient-support-app'
