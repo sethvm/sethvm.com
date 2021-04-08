@@ -19,8 +19,8 @@ import Paragraph from '../components/Typography/Paragraph';
 import ResumeFile from '../pdf/sethvm_resume.pdf';
 
 // imgs
-import Gondola from '../assets/about/gondola.jpg';
 import SkyDive from '../assets/about/skydive.jpg';
+import Gondola from '../assets/about/gondola.jpg';
 
 export default function About() {
 
@@ -124,11 +124,11 @@ export default function About() {
             <ImgContainer clear>
                 <ImgFluid>
                     <Img item
-                    src={Gondola}
-                    alt='Hiking up Sulphur Mountain in Banff' />
-                    <Img item
                     src={SkyDive}
                     alt='Skydiving at Hamilton' />
+                    <Img item
+                    src={Gondola}
+                    alt='Hiking up Sulphur Mountain in Banff' />
                 </ImgFluid>
             </ImgContainer>           
         </Project>
