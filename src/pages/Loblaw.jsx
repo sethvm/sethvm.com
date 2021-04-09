@@ -25,7 +25,8 @@ export default function Loblaw() {
         <Project>
             <Section>
                 <Heading type={2}>Order Pick History</Heading>
-                <SubHeading>Product Design</SubHeading>
+                <SubHeading>Product</SubHeading>&nbsp;/&nbsp;
+                <SubHeading>Interaction Design</SubHeading>
                 <Paragraph>
                     <br />
                     Transaction logs (collectively referred to as TRX) are order modules

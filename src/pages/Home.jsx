@@ -73,7 +73,8 @@ function Projects() {
         {
             heading: 'Order Pick History',
             subHeadings: [
-                'Product Design'
+                'Product',
+                'Interaction Design'
             ],
             description: "Creating a streamlined order validation experience for Canada's largest grocery retailer",
             img: LoblawCard,
