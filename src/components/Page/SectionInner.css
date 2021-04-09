@@ -3,14 +3,14 @@
     margin: 20px auto 0 auto;
 }
 
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
     .section_inner {
         width: 75%;
     }
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     .section_inner {
         width: 64%;

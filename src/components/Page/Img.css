@@ -4,14 +4,14 @@
     margin: 30px auto;
 }
 
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
     .item {
         width: 42%;
     }
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     .item {
         width: 38%;

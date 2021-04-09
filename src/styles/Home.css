@@ -37,7 +37,7 @@
     padding-top: 100px;
 }
 
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
     .intro_text {
         margin: 40px 24% 0 24%;
@@ -47,7 +47,7 @@
     }
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     #intro {
         padding-top: 16vh;
@@ -60,12 +60,22 @@
         width: 350px;
     }
     .intro_text {
-        margin: 0 0 0 20vw;
+        margin: 0 0 0 14vw;
     }
     .intro_experience {
-        margin: 30px 0 0 20vw;
+        margin: 24px 0 0 14vw;
     }
     #projects {
         padding-top: 140px;
+    }
+}
+
+/* xl breakpoint */
+@media (min-width: 1200px) {
+    .intro_text {
+        margin: 0 0 0 20vw;
+    }
+    .intro_experience {
+        margin: 24px 0 0 20vw;
     }
 }

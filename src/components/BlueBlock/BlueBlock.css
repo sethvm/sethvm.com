@@ -2,7 +2,7 @@
     display: none;
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     .block-blue {
         display: block;

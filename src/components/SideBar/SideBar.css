@@ -11,7 +11,7 @@
     height: 36px;
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     #sidebar {
         flex-direction: column;

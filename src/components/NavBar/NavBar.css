@@ -67,7 +67,7 @@
     color: #004080;
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     #navbar {
         flex-direction: row;

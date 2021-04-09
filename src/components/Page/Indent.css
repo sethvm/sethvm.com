@@ -7,14 +7,14 @@
     border-radius: 4px;
 }
 
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
     .indent {
         width: 75%;
     }
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     .indent {
         width: 40%;

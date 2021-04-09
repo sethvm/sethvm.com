@@ -7,7 +7,7 @@
     padding: 40px 7.5%;
 }
 
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
     .image_flex {
         flex-direction: row;

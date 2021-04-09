@@ -23,7 +23,7 @@
     color: #FFFFFF;
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     #quick-links {
         display: flex;

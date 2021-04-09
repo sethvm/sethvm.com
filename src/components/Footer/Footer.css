@@ -10,14 +10,14 @@
     font-size: 0.9em;
 }
 
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
     #footer {
         height: 112px;
     }
 }
 
-/*lg breakpoint*/
+/* lg breakpoint */
 @media (min-width: 992px) {
     #footer {
         height: 85px;
