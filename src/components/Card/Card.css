@@ -39,7 +39,7 @@
         margin: 0;
     }
     .card-img {
-        max-width: 424px;
+        width: 424px;
         height: auto;
         transition: margin 0.15s ease-out;
         -webkit-transition: margin 0.15s ease-out;

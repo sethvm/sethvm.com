@@ -47,8 +47,8 @@ export default function Home() {
                     </Paragraph>
                     <div className='jump_container animate__animated animate__fadeInDown animate__delay-1s'>
                         <Link
-                        to='/#projects'
-                        scroll={el => { el.scrollIntoView({ behavior: 'smooth' }) }}>
+                        smooth
+                        to='/#projects'>
                             <div className='jump'>
                                 <img
                                 className='jump_arrow'
