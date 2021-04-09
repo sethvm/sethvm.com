@@ -2,7 +2,6 @@
   "name": "sethvm.react",
   "version": "2.0.0",
   "private": true,
-  "homepage": "http://sethvm.github.io/",
   "dependencies": {
     "animate.css": "^4.1.1",
     "hamburger-react": "^2.4.0",
