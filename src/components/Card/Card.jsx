@@ -16,7 +16,7 @@ export default function Card(props) {
                     <br />
                     <Link to={props.url}>
                         <span className='active-link'>
-                            <span className='bold'>{props.link}</span>
+                            <span className='heavy'>{props.link}</span>
                         </span>
                     </Link>
                 </p>

@@ -69,14 +69,26 @@ export default function NavBar() {
             onClick={() => handleClick}>
                 <ul>
                     <li>
-                        <Link aria-label='Work' to='/'>Work</Link>
+                        <Link
+                        to='/'
+                        aria-label='Work'>
+                            Work
+                        </Link>
                     </li>
-                    <li><Link aria-label='About' to='/about'>About</Link></li>
+                    <li>
+                        <Link
+                        to='/about'
+                        aria-label='About'>
+                            About
+                        </Link>
+                    </li>
                     <li>
                         <a rel='noopener noreferrer'
                         aria-label='Résumé'
                         href={ResumeFile}
-                        target='_blank'>Résumé</a>
+                        target='_blank'>
+                            Résumé
+                        </a>
                     </li>
                 </ul>
             </div>

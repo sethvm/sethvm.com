@@ -5,7 +5,6 @@
     flex-direction: column;
     width: 100vw;
     height: 80px;
-    padding: 20px 8%;
     margin: 0;
     position: fixed;
     top: 0;
@@ -18,7 +17,7 @@
     font-family: "Gilroy Bold", sans-serif;
     font-size: 1.4em;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 28px auto auto 9%;
 }
 
 .toggle-button {
@@ -30,7 +29,8 @@
 
 .nav-overlay {
     width: 100%;
-    padding-top: 0.75em;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
     background-color: #FFFFFF;
 }
 
@@ -71,8 +71,11 @@
 @media (min-width: 992px) {
     #navbar {
         flex-direction: row;
-        padding: 26px 2.4% 0 2.4%;
+        padding: 36px 3.2% 0 3.2%;
         background-color: transparent;
+    }
+    .nav-brand {
+        margin: 0;
     }
     .toggle-button {
         display: none;
@@ -85,8 +88,7 @@
         position: relative;
         font-family: "Gilroy Regular", sans-serif;
         font-size: 1.1em;
-        margin-top: 8px;
-        margin-right: 10px;
+        margin: 0;
         color: #FFFFFF;
     }
 }
