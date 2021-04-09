@@ -25,8 +25,7 @@ export default function FASSB() {
         <Project>
             <Section>
                 <Heading type={2}>Employment Services Transformation</Heading>
-                <SubHeading>Web</SubHeading>&nbsp;/&nbsp;
-                <SubHeading>Service Design</SubHeading>
+                <SubHeading>Web Design</SubHeading>
                 <Paragraph>
                     <br />
                     The Employment Services Transformation (EST) project is an ongoing

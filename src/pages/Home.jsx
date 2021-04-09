@@ -73,8 +73,7 @@ function Projects() {
         {
             heading: 'Order Pick History',
             subHeadings: [
-                'Product',
-                'Interaction Design'
+                'Product Design'
             ],
             description: "Creating a streamlined order validation experience for Canada's largest grocery retailer",
             img: LoblawCard,
@@ -85,7 +84,7 @@ function Projects() {
         {
             heading: 'Patient Support App',
             subHeadings: [
-                'Software',
+                'Software Design',
                 'UX Design'
             ],
             description: "Facilitating the remote operation of a client's patient support service",
@@ -97,8 +96,7 @@ function Projects() {
         {
             heading: 'Employment Services Transformation',
             subHeadings: [
-                'Web',
-                'Service Design'
+                'Web Design'
             ],
             description: "Supporting Employment Ontario's push towards improving provincial employment retention",
             img: FASSBCard,
