@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { HashLink } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 import { v4 as uuidv4 } from 'uuid';
 import '../styles/Home.css';
 
@@ -46,14 +46,16 @@ export default function Home() {
                         <br />
                     </Paragraph>
                     <div className='jump_container animate__animated animate__fadeInDown animate__delay-1s'>
-                        <HashLink smooth to='#projects'>
+                        <Link
+                        to='/#projects'
+                        scroll={el => { el.scrollIntoView({ behavior: 'smooth' }) }}>
                             <div className='jump'>
                                 <img
                                 className='jump_arrow'
                                 src={DownArrow}
                                 alt='Scroll down to check out my work!' />
                             </div>
-                        </HashLink>
+                        </Link>
                     </div>
                 </div>
             </div>
