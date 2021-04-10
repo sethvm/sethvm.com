@@ -15,7 +15,7 @@ export default function NavBar() {
 
     const [ expanded, setExpanded ] = useState(false);
 
-    const node = createRef();
+    const toggleButton = createRef();
 
     const toggleNav = () => {
         setTimeout(() => { setExpanded(!expanded) }, 160);
@@ -27,9 +27,9 @@ export default function NavBar() {
 
     // dropdown outside-click-close interaction
     const handleClick = useCallback((e) => {
-        if (node.current.contains(e.target) || expanded === false) return;
+        if (toggleButton.current.contains(e.target) || expanded === false) return;
         closeNav();
-    }, [expanded, node, closeNav]);
+    }, [expanded, toggleButton, closeNav]);
 
     // navbar event listener
     useEffect(() => { 
@@ -55,7 +55,7 @@ export default function NavBar() {
             aria-label='toggle menu'
             tabIndex='0'
             onClick={toggleNav}
-            ref={node}>
+            ref={toggleButton}>
                 <Hamburger
                 color='#004080'
                 size={24}
