@@ -1,4 +1,4 @@
-.project-card {
+.container {
     display: flex;
     flex-direction: column-reverse;
     width: 100vw;
@@ -6,39 +6,39 @@
     overflow: hidden;
 }
 
-.card-img {
+.image {
     width: 100%;
 }
 
-.card-text {
+.text {
     padding: 40px 12% 0 12%;
 }
 
 /* md breakpoint */
 @media (min-width: 768px) {
-    .project-card {
+    .container {
         margin: 0 0 120px 0;
     }
-    .card-img {
+    .image {
         height: auto;
     }
-    .card-text {
+    .text {
         padding: 40px 20% 0 20%;
     }
 }
 
 /* lg breakpoint */
 @media (min-width: 992px) {
-    .project-card {
+    .container {
         flex-direction: row;
         width: 100%;
         margin-bottom: 250px;
         padding-left: 14vw;
     }
-    .card-img, .card-text {
+    .image, .text {
         margin: 0;
     }
-    .card-img {
+    .image {
         width: 424px;
         height: auto;
         transition: margin 0.15s ease-out;
@@ -46,10 +46,10 @@
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
     }
-    .card-img:hover {
+    .image:hover {
         margin-left: 16px;
     }
-    .card-text {
+    .text {
         width: 42%;
         padding: 16px 8% 0 0;
     }
@@ -57,7 +57,7 @@
 
 /* xl breakpoint */
 @media (min-width: 1200px) {
-    .project-card {
+    .container {
         padding-left: 20vw;
     }
 }

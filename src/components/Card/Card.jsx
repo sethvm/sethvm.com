@@ -1,12 +1,12 @@
 // card component for project previews on homepage
 import { Link } from 'react-router-dom';
-import './Card.css';
+import cardStyle from './Card.module.css';
 
 export default function Card(props) {
     
     return (
-        <div className='project-card'>
-            <div className='card-text'>
+        <div className={cardStyle.container}>
+            <div className={cardStyle.text}>
                 <h2>{props.heading}</h2>
                 {props.children}
                 <p>
@@ -15,14 +15,14 @@ export default function Card(props) {
                     <br />
                     <br />
                     <Link to={props.url}>
-                        <span className='active-link'>
+                        <span className='activeLink'>
                             <span className='heavy'>{props.link}</span>
                         </span>
                     </Link>
                 </p>
             </div>
             <Link to={props.url}>
-                <img className='card-img'
+                <img className={cardStyle.image}
                 src={props.img}
                 alt={props.alt} />
             </Link>

@@ -1,4 +1,4 @@
-.image_flex{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -9,7 +9,7 @@
 
 /* md breakpoint */
 @media (min-width: 768px) {
-    .image_flex {
+    .container {
         flex-direction: row;
         padding: 0;
     }

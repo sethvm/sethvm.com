@@ -1,18 +1,16 @@
-.banner {
+.container {
     width: 100%;
     margin: 0 auto;
-
-    /*remove or comment out after making template!*/
-    /*background: #ffdcb1;*/
 }
 
-.banner_img {
+.image {
     width: 100%;
     height: auto;
 }
 
+/* lg breakpoint */
 @media (min-width: 992px) {
-    .banner {
+    .container {
         width: 70%;
     }
 }

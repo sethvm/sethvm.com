@@ -13,21 +13,21 @@
     z-index: 10;
 }
 
-.nav-brand {
+.brand {
     font-family: "Gilroy Bold", sans-serif;
     font-size: 1.4em;
     text-decoration: none;
     margin: 28px auto auto 9%;
 }
 
-.toggle-button {
+.toggleBtn {
     position: absolute;
     padding: 4px;
     top: 16px;
     right: 6%;
 }
 
-.nav-overlay {
+.overlay {
     width: 100%;
     padding-top: 1.2em;
     padding-bottom: 1em;
@@ -42,11 +42,11 @@
     display: flex;
 }
 
-.nav-desktop {
+.desktop {
     display: none;
 }
 
-.nav-overlay ul {
+.overlay ul {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -54,13 +54,13 @@
     padding: 0;
 }
 
-.nav-overlay li {
+.overlay li {
     list-style: none;
     width: 100%;
     text-align: center;
 }
 
-.nav-overlay li a {
+.overlay li a {
     display: block;
     text-decoration: none;
     padding: 1rem;
@@ -74,16 +74,16 @@
         padding: 36px 3.2% 0 3.2%;
         background-color: transparent;
     }
-    .nav-brand {
+    .brand {
         margin: 0;
     }
-    .toggle-button {
+    .toggleBtn {
         display: none;
     }
     .active {
         display: none;
     }
-    .nav-desktop {
+    .desktop {
         display: block;
         position: relative;
         font-family: "Gilroy Regular", sans-serif;

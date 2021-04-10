@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import './BlueBlock.css';
+import blueBlockStyle from './BlueBlock.module.css';
 
 export default function BlueBlock() {
 
@@ -8,9 +8,9 @@ export default function BlueBlock() {
     
     const styleBlock = userOnHomePage
     ? 'animate__fadeInLeft'
-    : 'thin animate__fadeInRight';
+    : `${blueBlockStyle.thin} animate__fadeInRight`;
 
     return (
-        <span className={`block-blue animate__animated ${styleBlock}`} />
+        <span className={`${blueBlockStyle.default} animate__animated ${styleBlock}`} />
     );
 }

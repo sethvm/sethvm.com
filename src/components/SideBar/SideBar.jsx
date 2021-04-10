@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import './SideBar.css';
+import sideBarStyle from './SideBar.module.css';
 
 // sidebar item logos
 import ContactLogo from './contact-logo.svg';
@@ -32,7 +32,7 @@ export default function SideBar() {
 
     return (
         <nav
-        id='sidebar'
+        id={sideBarStyle.sidebar}
         className='animate__animated animate__fadeIn'
         aria-label='contact links'>
             {sideBarItems.map(sideBarItem => (
@@ -40,7 +40,7 @@ export default function SideBar() {
                 rel='noopener noreferrer'
                 href={sideBarItem.href}
                 target='_blank'>
-                    <img className='sidebar-item'
+                    <img className={sideBarStyle.itemLogo}
                     src={sideBarItem.img}
                     alt={sideBarItem.alt} />
                 </a>

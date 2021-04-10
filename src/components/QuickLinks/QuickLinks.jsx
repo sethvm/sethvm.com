@@ -3,7 +3,7 @@ import {
     useLocation
 } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-import './QuickLinks.css';
+import quickLinksStyle from './QuickLinks.module.css';
 
 export default function QuickLinkContainer() {
 
@@ -17,10 +17,10 @@ export default function QuickLinkContainer() {
         {(!onHomePage)
             &&
             <nav
-            id='quick-links'
+            id={quickLinksStyle.quickLinks}
             aria-label='project links'>
                 <div
-                className='quick-link_container'>
+                className={quickLinksStyle.container}>
                     <QuickLinks
                     currentURL={currentURL}/>
                 </div>
@@ -54,15 +54,15 @@ function QuickLinks({ currentURL }) {
 
             // check if link path is the current route and style accordingly
             const styleQuickLink = (currentURL === quickLink.url)
-            ? 'current-link'
-            : 'bold active-link';
+            ? quickLinksStyle.currentLink
+            : 'bold activeLink';
 
             return (
                 <Link
                 key={uuidv4()}
                 to={quickLink.url}>
                     <span
-                    className={`quick-link ${styleQuickLink}`}>
+                    className={`${quickLinksStyle.link} ${styleQuickLink}`}>
                         {quickLink.label}
                     </span>
                 </Link>

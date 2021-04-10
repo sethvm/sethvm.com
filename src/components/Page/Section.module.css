@@ -1,18 +1,18 @@
-.section {
+.container {
     width: 78%;
     margin: 96px auto;
 }
 
 /* md breakpoint */
 @media (min-width: 768px) {
-    .section {
+    .container {
         width: 75%;
     }
 }
 
 /* lg breakpoint */
 @media (min-width: 992px) {
-    .section {
+    .container {
         width: 40%;
         margin-left: 22%;
     }

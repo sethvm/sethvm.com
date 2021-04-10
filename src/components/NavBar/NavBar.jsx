@@ -6,7 +6,7 @@ import {
 } from 'react';
 import { Link } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
-import './NavBar.css';
+import navStyle from './NavBar.module.css';
 
 // files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
@@ -40,18 +40,18 @@ export default function NavBar() {
     }, [handleClick]);
 
     return (
-        <nav id='navbar'
+        <nav id={navStyle.navbar}
         className='animate__animated animate__fadeIn'
         aria-label='navbar'>
             <Link
-            className='nav-brand'
+            className={navStyle.brand}
             aria-label='Seth Morenos'
             to='/'>
                 <span style={{ color: '#004080' }}>SETH</span>&nbsp;
                 <span style={{ color: '#1A1A1A' }}>MORENOS</span>
             </Link>
             <div
-            className='toggle-button'
+            className={navStyle.toggleBtn}
             aria-label='toggle menu'
             tabIndex='0'
             onClick={toggleNav}
@@ -64,7 +64,7 @@ export default function NavBar() {
                 label='Show Menu'/>
             </div>
             <div
-            className={`nav-overlay ${ expanded ? 'active' : 'inactive' }`}
+            className={`${navStyle.overlay} ${ expanded ? navStyle.active : navStyle.inactive }`}
             aria-label='navbar menu'
             onClick={() => handleClick}>
                 <ul>
@@ -95,7 +95,7 @@ export default function NavBar() {
             <Link
             aria-label='About'
             to='/about'>
-                <div className='nav-desktop'>ABOUT</div>
+                <div className={navStyle.desktop}>ABOUT</div>
             </Link>
         </nav>
     );

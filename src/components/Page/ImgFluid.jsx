@@ -1,10 +1,10 @@
 // flexbox container for displaying an image(s)
-import './ImgFluid.css';
+import imgFluidStyle from './ImgFluid.module.css';
 
 export default function ImgFluid({ children }) {
     
     return (
-        <div className='image_flex'>
+        <div className={imgFluidStyle.container}>
             {children}
         </div>
     );

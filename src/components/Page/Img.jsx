@@ -1,11 +1,11 @@
 // image component
-import './Img.css';
+import imgStyle from './Img.module.css';
 
 export default function Image({ item, src, alt }) {
 
-    const styleImg = item ? 'item' : null;
+    const isItem = item ? imgStyle.item : null;
 
     return (
-        <img className={`image ${styleImg}`} src={src} alt={alt} />
+        <img className={`${imgStyle.image} ${isItem}`} src={src} alt={alt} />
     );
 }

@@ -27,7 +27,7 @@ export default function Home() {
     return (
         <main>
             <div id='intro' className='intro'>
-                <div className='intro_text animate__animated animate__fadeIn'>
+                <div className='introText animate__animated animate__fadeIn'>
                     <Heading>
                         G'day! I'm Seth.
                     </Heading>
@@ -38,20 +38,20 @@ export default function Home() {
                         help <strong>move the world forward</strong>.
                     </Paragraph>
                 </div>
-                <div className='intro_experience animate__animated animate__fadeIn'>
+                <div className='introExperience animate__animated animate__fadeIn'>
                     <Paragraph>
                         Currently focusing on 
                         <strong>&nbsp;online fulfillment</strong> initiatives at Loblaw Digital
                         <br />
                         <br />
                     </Paragraph>
-                    <div className='jump_container animate__animated animate__fadeInDown animate__delay-1s'>
+                    <div className='jumpContainer animate__animated animate__fadeInDown animate__delay-1s'>
                         <Link
                         smooth
                         to='/#projects'>
                             <div className='jump'>
                                 <img
-                                className='jump_arrow'
+                                className='jumpBtn'
                                 src={DownArrow}
                                 alt='Scroll down to check out my work!' />
                             </div>
