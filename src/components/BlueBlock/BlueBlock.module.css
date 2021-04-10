@@ -1,10 +1,10 @@
-.block-blue {
+.default {
     display: none;
 }
 
 /* lg breakpoint */
 @media (min-width: 992px) {
-    .block-blue {
+    .default {
         display: block;
         height: 100%;
         position: fixed;

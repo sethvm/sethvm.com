@@ -1,10 +1,10 @@
 // a variant of Section.js for use inside other containers
-import './SectionInner.css';
+import sectionInnerStyle from './SectionInner.module.css';
 
 export default function SectionInner({ children }) {
     
     return (
-        <div className='section_inner'>
+        <div className={sectionInnerStyle.container}>
             {children}
         </div>
     );

@@ -1,9 +1,9 @@
-import './LoadingIcon.css';
+import ldsStyle from './LoadingIcon.module.css';
 
 export default function LoadingIcon() {
     return (
-        <div className='lds-container'>
-            <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <div className={ldsStyle.container}>
+            <div className={ldsStyle.ring}><div></div><div></div><div></div><div></div></div>
         </div>
     );
 }

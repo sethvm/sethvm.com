@@ -23,7 +23,7 @@ export default function RenderLoadingBody() {
             <Section>
                 <LoadingIcon />
                 <h2>
-                    <div className='loading-msg'>
+                    <div className='loadingMsg'>
                         to-do: insert witty loading message
                     </div>
                 </h2>

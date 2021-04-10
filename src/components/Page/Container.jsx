@@ -1,7 +1,7 @@
 // ultrawide container
 export default function Container({ children }) {
 
-    const styleContainer = {
+    const containerStyle = {
         width: '100%',
         maxWidth: 1920,
         margin: '0 auto',
@@ -9,7 +9,7 @@ export default function Container({ children }) {
     }
     
     return (
-        <div className='content' style={styleContainer}>
+        <div className='content' style={containerStyle}>
             {children}
         </div>
     );

@@ -26,7 +26,7 @@ export default function Error() {
                     <br />
                     Please don't chuck a sickie, hop over to the landing page
                     <Link to='/'>
-                        &nbsp;<span className='active-link bold'>here!</span>
+                        &nbsp;<span className='activeLink bold'>here!</span>
                     </Link>
                 </Heading>
             </Section>

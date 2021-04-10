@@ -2,11 +2,13 @@
 
 export default function Heading({ type, weight, children }) {
 
+    const weightValue = weight ? weight : '';
+
     const HeadingType = [
-        () => { return <h1 className={`${weight}`}>{children}</h1> },
-        () => { return <h2 className={`${weight}`}>{children}</h2> },
-        () => { return <h3 className={`${weight}`}>{children}</h3> },
-        () => { return <h4 className={`${weight}`}>{children}</h4> }
+        () => { return <h1 className={`${weightValue}`}>{children}</h1> },
+        () => { return <h2 className={`${weightValue}`}>{children}</h2> },
+        () => { return <h3 className={`${weightValue}`}>{children}</h3> },
+        () => { return <h4 className={`${weightValue}`}>{children}</h4> }
     ]
 
     const index = (type - 1);

@@ -1,18 +1,18 @@
-.section_inner {
+.container {
     width: 85%;
     margin: 20px auto 0 auto;
 }
 
 /* md breakpoint */
 @media (min-width: 768px) {
-    .section_inner {
+    .container {
         width: 75%;
     }
 }
 
 /* lg breakpoint */
 @media (min-width: 992px) {
-    .section_inner {
+    .container {
         width: 64%;
         margin-left: 10%;
     }

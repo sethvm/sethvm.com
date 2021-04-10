@@ -64,8 +64,8 @@ export default function About() {
                     Should you ever need to find me outside of school and work, there's a
                     good chance I'll be working on dynos at the bouldering gym,
                     amping up for deadlifts in the weight room,
-                    or hiking up a mountain somewhere. Occasionally, I enjoy diving head-first into
-                    clouds - with a parachute strapped to my back, of course.
+                    or hiking up a mountain somewhere. Occasionally, I enjoy jumping out of
+                    aircraft - with a parachute strapped to my back, of course.
                     <br />
                     <br />
                 </Paragraph>
@@ -132,7 +132,7 @@ export default function About() {
 function ExternalLink({ href, children }) {
     return (
         <a rel='noopener noreferrer' href={href} target='_blank'>
-            &nbsp;<span className='active-link'>{children}</span>
+            &nbsp;<span className='activeLink'>{children}</span>
         </a>
     );
 }

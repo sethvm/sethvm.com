@@ -1,4 +1,4 @@
-.indent {
+.container {
     width: 85%;
     margin: 90px auto 90px auto;
     padding-left: 26px;
@@ -9,14 +9,14 @@
 
 /* md breakpoint */
 @media (min-width: 768px) {
-    .indent {
+    .container {
         width: 75%;
     }
 }
 
 /* lg breakpoint */
 @media (min-width: 992px) {
-    .indent {
+    .container {
         width: 40%;
         margin-left: 22%;
         padding-left: 24px;
