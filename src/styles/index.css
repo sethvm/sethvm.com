@@ -1,45 +1,109 @@
 @font-face {
-    font-family: "Poppins Regular";
-    src:local('Poppins Regular'),
-        url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-family: "Gilroy Bold";
+    src:local('Gilroy Bold'),
+        url('../fonts/gilroy-bold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "Poppins Light";
-    src:local('Poppins Light'),
-        url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-family: "Gilroy Semi Bold";
+    src:local('Gilroy Semi Bold'),
+        url('../fonts/gilroy-semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Gilroy Regular";
+    src:local('Gilroy Regular'),
+        url('../fonts/gilroy-regular.otf') format('opentype');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
-    font-family: "Poppins Regular", sans-serif;
+    width: 100%;
     margin: 0;
-    max-width: 100%;
+    padding: 0;
     overflow-x: hidden;
+    font-family: "Gilroy Regular", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #1A1A1A;
+    -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #1a1a1a;
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, .heavy {
+    font-family: "Gilroy Bold", sans-serif;
+}
+
+h4, h5, h6, a, strong, .bold {
+    font-family: "Gilroy Semi Bold", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+h1, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #004080;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.15em;
 }
 
 p {
-    font-family: "Poppins Light", sans-serif;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: #404040;
 }
 
-.bold {
-    font-weight: bold;
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
 }
 
 .italic {
     font-style: italic;
 }
 
-/*ultrawide container*/
-.container {
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 0;
+/* link styling */
+.active-link {
+    color: #004080;
+    transition: background 0.4s ease-out;
+    -webkit-transition: background 0.4s ease-out;
+    -moz-transition: background 0.4s ease-out;
+    -o-transition: background 0.4s ease-out;
 }
 
-/*scrollbar styling*/
+.active-link:hover {
+    background: #CFE7FF;
+}
+
+/* scrollbar styling */
 ::-webkit-scrollbar {
     width: 10px;
 }

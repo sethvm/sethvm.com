@@ -1,0 +1,22 @@
+.clear {
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.glass {
+    background-color: rgb(210, 210, 210, 0.4);
+    backdrop-filter: blur(84px);
+    margin: 100px auto;
+    padding: 24px 0;
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .img_container {
+        width: 75%;
+    }
+    .glass {
+        border-radius: 10px;
+    }
+}

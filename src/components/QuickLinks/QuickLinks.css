@@ -1,0 +1,33 @@
+#quick-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quick-link_container {
+    display: flex;
+    justify-content: space-around;
+    min-width: 280px;
+    margin: 0 auto 4em auto;
+    padding-top: 0;
+    color: #004080;
+}
+
+.quick-link {
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+.current-link {
+    background: #004080 !important;
+    color: #FFFFFF;
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    #quick-links {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }    
+}

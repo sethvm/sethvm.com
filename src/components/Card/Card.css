@@ -1,8 +1,4 @@
-h2, .view_link {
-    color: #004080;
-}
-
-.project_card {
+.project-card {
     display: flex;
     flex-direction: column-reverse;
     width: 100vw;
@@ -10,64 +6,58 @@ h2, .view_link {
     overflow: hidden;
 }
 
-.card_img {
+.card-img {
     width: 100%;
 }
 
-.card_img:hover {
-    cursor: url('./cursor_view.svg'), pointer;
-}
-
-.card_text {
+.card-text {
     padding: 40px 12% 0 12%;
 }
 
-.view_link {
-    font-family: "Poppins Regular", sans-serif;
-}
-
-.view_link:hover {
-    color: #0180FF;
-}
-
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
-    .project_card {
+    .project-card {
         margin: 0 0 120px 0;
     }
-    .card_img {
+    .card-img {
         height: auto;
     }
-    .card_text {
+    .card-text {
         padding: 40px 20% 0 20%;
     }
 }
 
-/*lg breakpoint*/
-@media (min-width: 1024px) {
-    .project_card {
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .project-card {
         flex-direction: row;
-        max-width: 90%;
-        margin: 0 17vw 250px 17vw;
+        width: 100%;
+        margin-bottom: 250px;
+        padding-left: 14vw;
     }
-    .card_img, .card_text {
+    .card-img, .card-text {
         margin: 0;
     }
-    .card_img {
-        max-width: 424px;
+    .card-img {
+        width: 424px;
         height: auto;
-        left: 0;
         transition: margin 0.15s ease-out;
         -webkit-transition: margin 0.15s ease-out;
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
     }
-    .card_img:hover {
+    .card-img:hover {
         margin-left: 16px;
     }
-    .card_text {
-        width: 40%;
-        padding: 20px 7% 0 0;
-        right: 0;
+    .card-text {
+        width: 42%;
+        padding: 16px 8% 0 0;
+    }
+}
+
+/* xl breakpoint */
+@media (min-width: 1200px) {
+    .project-card {
+        padding-left: 20vw;
     }
 }

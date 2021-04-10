@@ -2,8 +2,8 @@
     display: none;
 }
 
-/*lg breakpoint*/
-@media (min-width: 1024px) {
+/* lg breakpoint */
+@media (min-width: 992px) {
     .block-blue {
         display: block;
         height: 100%;
@@ -12,6 +12,9 @@
         right: 0;
         bottom: 0;
         background-color: #004080;
-        z-index: -900;
+        z-index: -10;
+    }
+    .thin {
+        left: 80% !important;
     }
 }

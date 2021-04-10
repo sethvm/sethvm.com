@@ -1,0 +1,16 @@
+.image_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    padding: 40px 7.5%;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .image_flex {
+        flex-direction: row;
+        padding: 0;
+    }
+}

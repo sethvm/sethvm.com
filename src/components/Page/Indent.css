@@ -1,0 +1,24 @@
+.indent {
+    width: 85%;
+    margin: 90px auto 90px auto;
+    padding-left: 26px;
+    border-left: #7C6900 solid;
+    border-width: 6px;
+    border-radius: 4px;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .indent {
+        width: 75%;
+    }
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .indent {
+        width: 40%;
+        margin-left: 22%;
+        padding-left: 24px;
+    }
+}

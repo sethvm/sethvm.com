@@ -1,0 +1,6 @@
+# place a copy of this file into /build before deployment
+[[redirects]]
+    from = "/*"
+    to = "/"
+    status = 200
+    

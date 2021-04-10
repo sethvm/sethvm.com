@@ -1,28 +1,28 @@
-#footer-home, #footer-page {
-    width: 100%;
+#footer {
+    max-width: 1920px;
+    height: 200px;
     text-align: center;
     padding-top: 0;
+    color: #004080;
 }
 
-#footer-home, #footer-page {
-    height: 200px;
+.footer-txt {
+    font-size: 0.9em;
 }
 
-/*md breakpoint*/
+/* md breakpoint */
 @media (min-width: 768px) {
-    #footer-home, #footer-page {
+    #footer {
         height: 112px;
     }
 }
 
-/*lg breakpoint*/
-@media (min-width: 1024px) {
-    #footer-home, #footer-page {
+/* lg breakpoint */
+@media (min-width: 992px) {
+    #footer {
         height: 85px;
-    }
-    #footer-home {
         position: relative;
         text-align: left;
-        padding: 0 0 50px 3.25%;
+        padding-left: 3%;
     }
 }

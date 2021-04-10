@@ -1,35 +1,37 @@
-.sidebar {
+#sidebar {
     display: flex;
     justify-content: space-evenly;
-    width: 216px;
+    width: 280px;
     height: auto;
     margin: 0 auto 32px auto;
 }
 
-.sidebar_item {
-    width: 30px;
-    height: 30px;
+.sidebar-item {
+    width: 36px;
+    height: 36px;
 }
 
-/*lg breakpoint*/
-@media (min-width: 1024px) {
-    .sidebar {
+/* lg breakpoint */
+@media (min-width: 992px) {
+    #sidebar {
         flex-direction: column;
         position: fixed;
         width: auto;
         height: 40vh;
         bottom: 0;
         padding-bottom: 50px;
-        left: 3%;
+        margin-left: 3%;
         z-index: 9;
     }
-    .sidebar_item {
+    .sidebar-item {
+        width: 32px;
+        height: 32px;
         transition: margin 0.15s ease-out;
         -webkit-transition: margin 0.15s ease-out;
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
     }
-    .sidebar_item:hover {
+    .sidebar-item:hover {
         cursor: pointer;
         margin-left: 4px;
     }

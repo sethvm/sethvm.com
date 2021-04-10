@@ -1,0 +1,94 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 80px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    color: #004080;
+    z-index: 10;
+}
+
+.nav-brand {
+    font-family: "Gilroy Bold", sans-serif;
+    font-size: 1.4em;
+    text-decoration: none;
+    margin: 28px auto auto 9%;
+}
+
+.toggle-button {
+    position: absolute;
+    padding: 4px;
+    top: 16px;
+    right: 6%;
+}
+
+.nav-overlay {
+    width: 100%;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+    background-color: #FFFFFF;
+}
+
+.inactive {
+    display: none;
+}
+
+.active {
+    display: flex;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-overlay ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-overlay li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-overlay li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    color: #004080;
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    #navbar {
+        flex-direction: row;
+        padding: 36px 3.2% 0 3.2%;
+        background-color: transparent;
+    }
+    .nav-brand {
+        margin: 0;
+    }
+    .toggle-button {
+        display: none;
+    }
+    .active {
+        display: none;
+    }
+    .nav-desktop {
+        display: block;
+        position: relative;
+        font-family: "Gilroy Regular", sans-serif;
+        font-size: 1.1em;
+        margin: 0;
+        color: #FFFFFF;
+    }
+}

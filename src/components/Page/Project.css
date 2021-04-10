@@ -1,0 +1,13 @@
+.project {
+    width: 100%;
+    min-height: 65vh;
+    margin: 160px auto 80px auto;
+    padding: 0;
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .project {
+        margin: 196px auto 80px auto;
+    }
+}
