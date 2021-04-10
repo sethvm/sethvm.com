@@ -51,13 +51,6 @@ export default function FASSB() {
             img={FASSBCard}
             alt='Finance, Analysis and Systems Support Branch' />
 
-            <Section>
-                <Heading type={3}>Overview</Heading>
-                <Paragraph>
-                    The Finance, Analysis and Systems Support Branch (FASSB) is a
-                    Toronto-based division of Ontario's Ministry of Labour.
-                </Paragraph>
-            </Section>
         </Project>
     );
 }

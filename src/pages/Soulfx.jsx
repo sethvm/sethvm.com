@@ -103,11 +103,11 @@ export default function Soulfx() {
             <Section>
                 <Heading type ={3}>An unprecedented Health Crisis</Heading>
                 <Paragraph>
-                    COVID-19 has brought with it a global-scale challenge that has pushed the
-                    capacity of our healthcare industries to their limits. Our client approached
-                    us with the objective of moving their financial aid service online – a shift
-                    to web-based operations aimed at to mitigating the risks imposed by the
-                    pandemic on immunocompromised individuals.
+                    COVID-19 has brought with it a global-scale challenge that has pushed
+                    the capacity of our healthcare industries to their limits. Our client
+                    approached us with the objective of moving their financial aid service
+                    online – a shift to web-based operations aimed at mitigating the risks
+                    imposed by the pandemic on immunocompromised individuals.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -169,8 +169,8 @@ export default function Soulfx() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                    We learned about who our users are and what they want out of our platform.
-                    What do their journeys within the existing service look like?
+                        We learned about who our users are and what they want out of our platform.
+                        What do their journeys within the existing service look like?
                     </Heading>
                 </IndentInner>
             </Section>
@@ -305,7 +305,7 @@ export default function Soulfx() {
                     A solid understanding of our client's service in conjunction with our users'
                     expectations with the product were critical to the execution of each design phase.
                     Working on this project taught me that effective designs are created by working
-                    side-by-side with people who posses varying domains of knowledge, some of which
+                    side-by-side with people who possess varying domains of knowledge, some of which
                     may not overlap.
                     <br />
                     <br />

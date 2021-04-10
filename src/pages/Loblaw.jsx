@@ -28,10 +28,11 @@ export default function Loblaw() {
                 <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
-                    Transaction logs (collectively referred to as TRX) are order modules
-                    situated within Loblaw's OPS Portal, a centralized platform that enables
-                    store employees to manage their day-to-day operations. They are used to
-                    troubleshoot online grocery orders and validate fulfillment completion times.
+                    The Order Pick History is a module attached to every online order listed within
+                    Loblaw’s grocery OPS Portal, a centralized internal tool that enables stores to
+                    carry out their day-to-day operations. It provides a list of every task actioned
+                    on every item associated with a given order, facilitating the quick validation and
+                    troubleshooting of fulfillment completion by managers and employees.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
