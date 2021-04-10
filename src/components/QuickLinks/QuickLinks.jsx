@@ -3,7 +3,7 @@ import {
     useLocation
 } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-import quickLinksStyle from './QuickLinks.module.css';
+import quickLinkStyle from './QuickLinks.module.css';
 
 export default function QuickLinkContainer() {
 
@@ -17,10 +17,10 @@ export default function QuickLinkContainer() {
         {(!onHomePage)
             &&
             <nav
-            id={quickLinksStyle.quickLinks}
+            id={quickLinkStyle.quickLinks}
             aria-label='project links'>
                 <div
-                className={quickLinksStyle.container}>
+                className={quickLinkStyle.container}>
                     <QuickLinks
                     currentURL={currentURL}/>
                 </div>
@@ -33,7 +33,7 @@ export default function QuickLinkContainer() {
 function QuickLinks({ currentURL }) {
 
     // links to render
-    const quickLinks = [
+    const quickLinkList = [
         {
             url: '/order-pick-history',
             label: 'Loblaw',
@@ -50,11 +50,11 @@ function QuickLinks({ currentURL }) {
 
     return (
         <>
-        {quickLinks.map(quickLink => {
+        {quickLinkList.map(quickLink => {
 
             // check if link path is the current route and style accordingly
-            const styleQuickLink = (currentURL === quickLink.url)
-            ? quickLinksStyle.currentLink
+            const isCurrentPage = (currentURL === quickLink.url)
+            ? quickLinkStyle.currentLink
             : 'bold activeLink';
 
             return (
@@ -62,7 +62,7 @@ function QuickLinks({ currentURL }) {
                 key={uuidv4()}
                 to={quickLink.url}>
                     <span
-                    className={`${quickLinksStyle.link} ${styleQuickLink}`}>
+                    className={`${quickLinkStyle.link} ${isCurrentPage}`}>
                         {quickLink.label}
                     </span>
                 </Link>
