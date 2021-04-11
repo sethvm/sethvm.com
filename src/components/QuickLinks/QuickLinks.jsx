@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import {
     Link,
     useLocation
@@ -8,7 +9,6 @@ import quickLinkStyle from './QuickLinks.module.css';
 export default function QuickLinkContainer() {
 
     const currentURL = (useLocation().pathname);
-
     const onHomePage = (currentURL === '/');
 
     // render if user is NOT on the landing page
@@ -19,9 +19,8 @@ export default function QuickLinkContainer() {
             <nav
             id={quickLinkStyle.quickLinks}
             aria-label='project links'>
-                <div
-                className={quickLinkStyle.container}>
-                    <QuickLinks
+                <div className={quickLinkStyle.container}>
+                    <MemoizedQuickLinks
                     currentURL={currentURL}/>
                 </div>
             </nav>
@@ -30,7 +29,7 @@ export default function QuickLinkContainer() {
     );
 }
 
-function QuickLinks({ currentURL }) {
+const MemoizedQuickLinks = memo(function QuickLinks({ currentURL }) {
 
     // links to render
     const quickLinkList = [
@@ -61,8 +60,7 @@ function QuickLinks({ currentURL }) {
                 <Link
                 key={uuidv4()}
                 to={quickLink.url}>
-                    <span
-                    className={`${quickLinkStyle.link} ${isCurrentPage}`}>
+                    <span className={`${quickLinkStyle.link} ${isCurrentPage}`}>
                         {quickLink.label}
                     </span>
                 </Link>
@@ -70,4 +68,4 @@ function QuickLinks({ currentURL }) {
         })}
         </>
     );
-}
+});
