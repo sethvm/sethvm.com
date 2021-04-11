@@ -1,8 +1,6 @@
 .container {
-    width: 100%;
     min-height: 65vh;
     margin: 160px auto 80px auto;
-    padding: 0;
 }
 
 /* lg breakpoint */

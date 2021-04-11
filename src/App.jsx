@@ -14,12 +14,11 @@ import TrackPageViews from './components/Analytics/TrackPageViews';
 import ScrollToTop from './components/Navigation/ScrollToTop';
 
 // components
-import Container from './components/Page/Container';
 import NavBar from './components/NavBar/NavBar';
-import BlueBlock from './components/BlueBlock/BlueBlock';
 import QuickLinks from './components/QuickLinks/QuickLinks';
 import SideBar from './components/SideBar/SideBar';
 import Footer from './components/Footer/Footer';
+import BlueBlock from './components/BlueBlock/BlueBlock';
 
 // loading state
 import Loading from './pages/Loading';
@@ -38,29 +37,27 @@ export default function App() {
             <TrackPageViews />
             <ScrollToTop />
             <NavBar />
-            <Container>
-                <Suspense fallback={<Loading />}>
-                    <Switch>
-                        <Route exact
-                        path='/'
-                        render={() => <Home />} />
-                        <Route exact
-                        path='/about'
-                        render={() => <About />} />
-                        <Route exact
-                        path='/order-pick-history'
-                        render={() => <Loblaw />} />
-                        <Route exact
-                        path='/patient-support-app'
-                        render={() => <Soulfx />} />
-                        <Route exact
-                        path='/employment-services-transformation'
-                        render={() => <FASSB />} />
-                        <Route
-                        render={() => <Error />} />
-                    </Switch>
-                </Suspense>
-            </Container>
+            <Suspense fallback={<Loading />}>
+                <Switch>
+                    <Route exact
+                    path='/'
+                    render={() => <Home />} />
+                    <Route exact
+                    path='/about'
+                    render={() => <About />} />
+                    <Route exact
+                    path='/order-pick-history'
+                    render={() => <Loblaw />} />
+                    <Route exact
+                    path='/patient-support-app'
+                    render={() => <Soulfx />} />
+                    <Route exact
+                    path='/employment-services-transformation'
+                    render={() => <FASSB />} />
+                    <Route
+                    render={() => <Error />} />
+                </Switch>
+            </Suspense>
             <QuickLinks />
             <SideBar />
             <Footer />
