@@ -60,8 +60,8 @@ export default function App() {
                         render={() => <Error />} />
                     </Switch>
                 </Suspense>
-                <QuickLinks />
             </Container>
+            <QuickLinks />
             <SideBar />
             <Footer />
             <BlueBlock />
