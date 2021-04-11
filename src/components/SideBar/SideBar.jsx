@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import sideBarStyle from './SideBar.module.css';
 
@@ -9,7 +10,7 @@ import ResumeLogo from './resume-logo.svg';
 // files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function SideBar() {
+export function SideBar() {
 
     // items to render
     const sideBarItems = [
@@ -48,3 +49,5 @@ export default function SideBar() {
         </nav>
     );
 }
+
+export default memo(SideBar);
