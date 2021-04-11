@@ -13,8 +13,7 @@ export default function BlueBlock({ screenWidth }) {
 
     return (
         <>
-        {(onDesktop)
-            &&
+        {onDesktop &&
             <div className={`${blueBlockStyle.default} animate__animated ${styleBlock}`} />
         }
         </>
