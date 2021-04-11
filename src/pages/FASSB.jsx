@@ -1,5 +1,5 @@
 //page title
-import pageTitle from '../components/Page/pageTitle';
+import { pageTitle } from '../components/Page/pageTitle';
 
 // layout
 import Project from '../components/Page/Project';

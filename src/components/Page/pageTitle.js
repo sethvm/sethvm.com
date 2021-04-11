@@ -1,6 +1,6 @@
 // update page title
-export default function PageTitle(title) {
-    
+export const pageTitle = (title) => {
+
     if (title) {
         document.title = title;
         return;

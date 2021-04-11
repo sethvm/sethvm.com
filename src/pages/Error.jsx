@@ -1,7 +1,7 @@
 import { Link }  from 'react-router-dom';
 
 // page title
-import pageTitle from '../components/Page/pageTitle';
+import { pageTitle } from '../components/Page/pageTitle';
 
 // layout imports
 import Project from '../components/Page/Project';
