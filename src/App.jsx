@@ -1,4 +1,6 @@
 import {
+    useState,
+    useEffect,
     Suspense,
     lazy
 } from 'react';
@@ -33,12 +35,28 @@ const Soulfx = lazy(() => import('./pages/Soulfx'));
 const Loblaw = lazy(() => import('./pages/Loblaw'));
 
 export default function App() {
+
+    const [ screenWidth, setScreenWidth ] = useState(window.screen.width);
+
+    const updateScreenWidth = () => {
+        const newWidth = window.screen.width;
+        setScreenWidth(newWidth);
+    }
+
+    useEffect(() => {
+        updateScreenWidth();
+        window.addEventListener('resize', updateScreenWidth);
+        return () => {
+            window.removeEventListener('resize', updateScreenWidth);
+        }
+    }, [])
+
     return (
         <Router>
             <TrackPageViews />
             <ScrollToTop />
-            <BlueBlock />
-            <NavBar />
+            <NavBar
+            screenWidth={screenWidth} />
             <Container>
                 <Suspense fallback={<Loading />}>
                     <Switch>
@@ -65,6 +83,8 @@ export default function App() {
             </Container>
             <SideBar />
             <Footer />
+            <BlueBlock
+            screenWidth={screenWidth} />
         </Router>
     );
 }
