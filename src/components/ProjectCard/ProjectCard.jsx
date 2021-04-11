@@ -1,8 +1,8 @@
 // card component for project previews on homepage
 import { Link } from 'react-router-dom';
-import cardStyle from './Card.module.css';
+import cardStyle from './ProjectCard.module.css';
 
-export default function Card(props) {
+export default function ProjectCard(props) {
     
     return (
         <div className={cardStyle.container}>

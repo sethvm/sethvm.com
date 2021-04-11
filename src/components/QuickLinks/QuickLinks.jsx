@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import quickLinkStyle from './QuickLinks.module.css';
+import { quickLinkData } from './quickLinkData';
 
 export default function QuickLinkContainer() {
 
@@ -31,25 +32,9 @@ export default function QuickLinkContainer() {
 
 const MemoizedQuickLinks = memo(function QuickLinks({ currentURL }) {
 
-    // links to render
-    const quickLinkList = [
-        {
-            url: '/order-pick-history',
-            label: 'Loblaw',
-        },
-        {
-            url: '/patient-support-app',
-            label: 'Soulfx'
-        },
-        {
-            url: '/employment-services-transformation',
-            label: 'FASSB'
-        }
-    ]
-
     return (
         <>
-        {quickLinkList.map(quickLink => {
+        {quickLinkData.map(quickLink => {
 
             // check if link path is the current route and style accordingly
             const isCurrentPage = (currentURL === quickLink.url)
