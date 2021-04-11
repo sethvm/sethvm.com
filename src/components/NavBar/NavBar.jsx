@@ -11,9 +11,11 @@ import navStyle from './NavBar.module.css';
 // files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function NavBar() {
+export default function NavBar({ screenWidth }) {
 
     const [ expanded, setExpanded ] = useState(false);
+
+    const onMobile = (screenWidth < 992);
 
     const toggleButton = createRef();
 
@@ -50,53 +52,59 @@ export default function NavBar() {
                 <span style={{ color: '#004080' }}>SETH</span>&nbsp;
                 <span style={{ color: '#1A1A1A' }}>MORENOS</span>
             </Link>
-            <div
-            className={navStyle.toggleBtn}
-            aria-label='toggle menu'
-            tabIndex='0'
-            onClick={toggleNav}
-            ref={toggleButton}>
-                <Hamburger
-                color='#004080'
-                size={24}
-                toggled={expanded}
-                toggle={setExpanded}
-                label='Show Menu'/>
-            </div>
-            <div
-            className={`${navStyle.overlay} ${ expanded ? navStyle.active : navStyle.inactive }`}
-            aria-label='navbar menu'
-            onClick={() => handleClick}>
-                <ul>
-                    <li>
-                        <Link
-                        to='/'
-                        aria-label='Work'>
-                            Work
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                        to='/about'
-                        aria-label='About'>
-                            About
-                        </Link>
-                    </li>
-                    <li>
-                        <a rel='noopener noreferrer'
-                        aria-label='Résumé'
-                        href={ResumeFile}
-                        target='_blank'>
-                            Résumé
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <Link
-            aria-label='About'
-            to='/about'>
-                <div className={navStyle.desktop}>ABOUT</div>
-            </Link>
+            {onMobile &&
+                <div
+                className={navStyle.toggleBtn}
+                aria-label='toggle menu'
+                tabIndex='0'
+                onClick={toggleNav}
+                ref={toggleButton}>
+                    <Hamburger
+                    color='#004080'
+                    size={24}
+                    toggled={expanded}
+                    toggle={setExpanded}
+                    label='Show Menu'/>
+                </div>
+            }
+            {onMobile &&
+                <div
+                className={`${navStyle.overlay} ${ expanded ? navStyle.active : navStyle.inactive }`}
+                aria-label='navbar menu'
+                onClick={() => handleClick}>
+                    <ul>
+                        <li>
+                            <Link
+                            to='/'
+                            aria-label='Work'>
+                                Work
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                            to='/about'
+                            aria-label='About'>
+                                About
+                            </Link>
+                        </li>
+                        <li>
+                            <a rel='noopener noreferrer'
+                            aria-label='Résumé'
+                            href={ResumeFile}
+                            target='_blank'>
+                                Résumé
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            }
+            {(!onMobile) &&
+                <Link
+                aria-label='About'
+                to='/about'>
+                    <div className={navStyle.desktop}>ABOUT</div>
+                </Link>
+            }
         </nav>
     );
 }
