@@ -11,13 +11,19 @@ import navStyle from './NavBar.module.css';
 // files
 import ResumeFile from '../../pdf/sethvm_resume.pdf';
 
-export default function NavBar({ screenWidth }) {
+export default function NavBar() {
 
+    const [ screenWidth, setScreenWidth ] = useState(window.screen.width);
     const [ expanded, setExpanded ] = useState(false);
 
     const onDesktop = (screenWidth >= 992);
 
     const toggleButton = createRef();
+
+    const updateScreenWidth = () => {
+        const newWidth = window.screen.width;
+        setScreenWidth(newWidth);
+    }
 
     const toggleNav = () => {
         setTimeout(() => { setExpanded(!expanded) }, 160);
@@ -27,7 +33,16 @@ export default function NavBar({ screenWidth }) {
         setTimeout(() => { setExpanded(false) }, 160);
     }, []);
 
-    // dropdown outside-click-close interaction
+    // screen width change listener
+    useEffect(() => {
+        updateScreenWidth();
+        window.addEventListener('resize', updateScreenWidth);
+        return () => {
+            window.removeEventListener('resize', updateScreenWidth);
+        }
+    }, [])
+
+    // close overlay on outside click if open
     const handleClick = useCallback((e) => {
         if (toggleButton.current.contains(e.target) || expanded === false) return;
         closeNav();
