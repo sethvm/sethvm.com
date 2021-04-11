@@ -15,7 +15,7 @@ export default function NavBar({ screenWidth }) {
 
     const [ expanded, setExpanded ] = useState(false);
 
-    const onMobile = (screenWidth < 992);
+    const onDesktop = (screenWidth >= 992);
 
     const toggleButton = createRef();
 
@@ -52,53 +52,49 @@ export default function NavBar({ screenWidth }) {
                 <span style={{ color: '#004080' }}>SETH</span>&nbsp;
                 <span style={{ color: '#1A1A1A' }}>MORENOS</span>
             </Link>
-            {onMobile &&
-                <div
-                className={navStyle.toggleBtn}
-                aria-label='toggle menu'
-                tabIndex='0'
-                onClick={toggleNav}
-                ref={toggleButton}>
-                    <Hamburger
-                    color='#004080'
-                    size={24}
-                    toggled={expanded}
-                    toggle={setExpanded}
-                    label='Show Menu'/>
-                </div>
-            }
-            {onMobile &&
-                <div
-                className={`${navStyle.overlay} ${ expanded ? navStyle.active : navStyle.inactive }`}
-                aria-label='navbar menu'
-                onClick={() => handleClick}>
-                    <ul>
-                        <li>
-                            <Link
-                            to='/'
-                            aria-label='Work'>
-                                Work
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                            to='/about'
-                            aria-label='About'>
-                                About
-                            </Link>
-                        </li>
-                        <li>
-                            <a rel='noopener noreferrer'
-                            aria-label='Résumé'
-                            href={ResumeFile}
-                            target='_blank'>
-                                Résumé
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            }
-            {(!onMobile) &&
+            <div
+            className={navStyle.toggleBtn}
+            aria-label='toggle menu'
+            tabIndex='0'
+            onClick={toggleNav}
+            ref={toggleButton}>
+                <Hamburger
+                color='#004080'
+                size={24}
+                toggled={expanded}
+                toggle={setExpanded}
+                label='Show Menu'/>
+            </div>
+            <div
+            className={`${navStyle.overlay} ${ expanded ? navStyle.active : navStyle.inactive }`}
+            aria-label='navbar menu'
+            onClick={() => handleClick}>
+                <ul>
+                    <li>
+                        <Link
+                        to='/'
+                        aria-label='Work'>
+                            Work
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                        to='/about'
+                        aria-label='About'>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <a rel='noopener noreferrer'
+                        aria-label='Résumé'
+                        href={ResumeFile}
+                        target='_blank'>
+                            Résumé
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            {onDesktop &&
                 <Link
                 aria-label='About'
                 to='/about'>
