@@ -16,5 +16,6 @@
     .home {
         width: 58.5%;
         padding-left: 10%;
+        margin-left: 0;
     }
 }
