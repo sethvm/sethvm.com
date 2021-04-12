@@ -17,13 +17,13 @@
     font-family: "Gilroy Bold", sans-serif;
     font-size: 1.4em;
     text-decoration: none;
-    margin: 18px auto auto 9%;
+    margin: 17px auto auto 9%;
 }
 
 .toggleBtn {
     position: absolute;
     padding: 4px;
-    top: 6px;
+    top: 5px;
     right: 6%;
 }
 
