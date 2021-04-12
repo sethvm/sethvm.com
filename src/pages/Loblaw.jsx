@@ -30,9 +30,9 @@ export default function Loblaw() {
                     <br />
                     The Order Pick History is a module attached to every online order listed within
                     Loblaw’s grocery OPS Portal, a centralized internal tool that enables stores to
-                    carry out their day-to-day operations. It provides a list of every task actioned
-                    on every item associated with a given order, facilitating the quick validation and
-                    troubleshooting of fulfillment completion by managers and employees.
+                    carry out their day-to-day operations. It provides a list of all tasks actioned
+                    on every item associated with a given order, facilitating quick validation and
+                    troubleshooting of fulfillment objectives by managers and employees.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
