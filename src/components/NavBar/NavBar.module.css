@@ -29,7 +29,7 @@
 
 .overlay {
     width: 100%;
-    padding-top: 1.2em;
+    padding-top: 1.4em;
     padding-bottom: 1em;
     background-color: #FFFFFF;
 }
@@ -62,8 +62,10 @@
 
 .overlay li a {
     display: block;
+    font-family: "Gilroy Bold", sans-serif;
     text-decoration: none;
     padding: 1rem;
+    margin: 0.5rem;
     color: #004080;
 }
 
