@@ -3,6 +3,7 @@ import Loblaw from '../../assets/loblaw/loblaw-card.svg';
 import Soulfx from '../../assets/soulfx/soulfx-card.svg';
 import FASSB from '../../assets/fassb/fassb-card.svg';
 
+// project card and quicklink properties
 export const projectData = [
     {
         heading: 'Order Pick History',
@@ -13,6 +14,7 @@ export const projectData = [
         img: Loblaw,
         alt: 'OPS Pick History',
         link: 'View case study →',
+        quickLinkLabel: 'Loblaw',
         url: '/order-pick-history'
     },
     {
@@ -25,6 +27,7 @@ export const projectData = [
         img: Soulfx,
         alt: 'Patient Support App',
         link: 'View case study →',
+        quickLinkLabel: 'Soulfx',
         url: '/patient-support-app'
     },
     {
@@ -36,6 +39,7 @@ export const projectData = [
         img: FASSB,
         alt: 'Employment Services Transformation',
         link: 'View term recap →',
+        quickLinkLabel: 'FASSB',
         url: '/employment-services-transformation'
     }
 ]

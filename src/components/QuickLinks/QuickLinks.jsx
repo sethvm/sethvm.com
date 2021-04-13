@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import quickLinkStyle from './QuickLinks.module.css';
-import { quickLinkData } from './quickLinkData';
+import { projectData } from '../dataSets/projectData';
 
 export default function QuickLinkContainer() {
 
@@ -19,18 +19,14 @@ export default function QuickLinkContainer() {
         {onAboutPage &&
             <div className={quickLinkStyle.prompt}>
                 <h3 className={`heavy`}>
-                    Scrolled this far?
-                    <br />
-                    <br />Check out some of my work ↓
+                    Scrolled this far? Check out some of my work ↓
                 </h3>
             </div>
         }
         {!onHomePage && !onAboutPage &&
             <div className={quickLinkStyle.prompt}>
                 <h3 className='heavy'>
-                    Scrolled this far?
-                    <br />
-                    <br />Check out more of my work ↓
+                    Scrolled this far? Check out more of my work ↓
                 </h3>
             </div>
         }
@@ -48,23 +44,23 @@ export default function QuickLinkContainer() {
     );
 }
 
-const MemoizedQuickLinks = memo(function QuickLinks({ currentURL }) {
+const MemoizedQuickLinks = memo(({ currentURL }) => {
 
     return (
         <>
-        {quickLinkData.map(quickLink => {
+        {projectData.map(project => {
 
-            // check if link path is the current route and style accordingly
-            const isCurrentPage = (currentURL === quickLink.url)
+            // check if link path is the current url and style accordingly
+            const isCurrentPage = (currentURL === project.url)
             ? quickLinkStyle.currentLink
             : 'heavy activeLink';
 
             return (
                 <Link
                 key={uuidv4()}
-                to={quickLink.url}>
+                to={project.url}>
                     <span className={`${quickLinkStyle.link} ${isCurrentPage}`}>
-                        {quickLink.label}
+                        {project.quickLinkLabel}
                     </span>
                 </Link>
             );

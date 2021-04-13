@@ -19,7 +19,7 @@ import Paragraph from '../components/Typography/Paragraph';
 
 // projects
 import ProjectCard from '../components/ProjectCard/ProjectCard';
-import { projectData } from '../components/ProjectCard/projectData';
+import { projectData } from '../components/dataSets/projectData';
 
 export default function Home() {
 
@@ -67,7 +67,7 @@ export default function Home() {
     );
 }
 
-const MemoizedProjects = memo(function Projects() {
+const MemoizedProjects = memo(() => {
 
     return (
         <>
