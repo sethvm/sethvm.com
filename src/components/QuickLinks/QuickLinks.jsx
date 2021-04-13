@@ -19,14 +19,18 @@ export default function QuickLinkContainer() {
         {onAboutPage &&
             <div className={quickLinkStyle.prompt}>
                 <h3 className={`heavy`}>
-                    Scrolled this far? Check out some of my work ↓
+                    Cheers for reading (or scrolling?) this far!
+                    <br />
+                    <br />Check out some of my work ↓
                 </h3>
             </div>
         }
         {!onHomePage && !onAboutPage &&
             <div className={quickLinkStyle.prompt}>
                 <h3 className='heavy'>
-                    Scrolled this far? Check out more of my work ↓
+                    Cheers for reading (or scrolling?) this far!
+                    <br />
+                    <br />Check out more of my work ↓
                 </h3>
             </div>
         }
