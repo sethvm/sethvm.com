@@ -1,7 +1,12 @@
-#quickLinks {
+#quickLinks,
+.prompt {
     display: flex;
-    justify-content: center;
     width: 100%;
+    justify-content: center;
+}
+
+.prompt {
+    padding: 16px 11% 32px 11%;
 }
 
 .container {
@@ -25,9 +30,11 @@
 
 /* lg breakpoint */
 @media (min-width: 992px) {
-    #quickLinks {
-        display: flex;
-        justify-content: center;
+    #quickLinks,
+    .prompt {
         width: 80%;
-    }    
+    }
+    .prompt {
+        padding: 32px 11%;
+    }
 }

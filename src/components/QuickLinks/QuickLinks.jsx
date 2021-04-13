@@ -11,12 +11,30 @@ export default function QuickLinkContainer() {
 
     const currentURL = (useLocation().pathname);
     const onHomePage = (currentURL === '/');
+    const onAboutPage = (currentURL === '/about');
 
-    // render if user is NOT on the landing page
+    // render based on current page
     return (
         <>
-        {(!onHomePage)
-            &&
+        {onAboutPage &&
+            <div className={quickLinkStyle.prompt}>
+                <h3 className={`heavy`}>
+                    Scrolled this far?
+                    <br />
+                    <br />Check out some of my work ↓
+                </h3>
+            </div>
+        }
+        {!onHomePage && !onAboutPage &&
+            <div className={quickLinkStyle.prompt}>
+                <h3 className='heavy'>
+                    Scrolled this far?
+                    <br />
+                    <br />Check out more of my work ↓
+                </h3>
+            </div>
+        }
+        {!onHomePage &&
             <nav
             id={quickLinkStyle.quickLinks}
             aria-label='project links'>
@@ -39,7 +57,7 @@ const MemoizedQuickLinks = memo(function QuickLinks({ currentURL }) {
             // check if link path is the current route and style accordingly
             const isCurrentPage = (currentURL === quickLink.url)
             ? quickLinkStyle.currentLink
-            : 'bold activeLink';
+            : 'heavy activeLink';
 
             return (
                 <Link
