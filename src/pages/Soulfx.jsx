@@ -175,7 +175,7 @@ export default function Soulfx() {
             </Section>
 
             <Section>
-                <Heading type={3}>Reimbursement Lifecycle</Heading>
+                <Heading type={3}>The Reimbursement Lifecycle</Heading>
                 <Paragraph>
                     We sought to get an in-depth look at how the support platform itself works and how
                     our users interact with it. To visualize our user journeys, we created a lifecycle
@@ -319,8 +319,8 @@ export default function Soulfx() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Our primary objective with the deadlines had to meet was to get our client operating fully
-                        remotely and deliver a design for a public-facing portal that can be iterated upon.
+                        Working under tight deadlines, our objective was to get our client operating fully remotely and
+                        deliver a design for a public-facing portal that can be iterated upon.
                     </Heading>
                 </IndentInner>
             </Section>
