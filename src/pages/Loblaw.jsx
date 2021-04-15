@@ -62,7 +62,9 @@ export default function Loblaw() {
                     designer on the PC Express (PCX) Fulfillment team during the winter of 2021.
                 </Paragraph>
                 <IndentInner>
-                    Loblaw’s mission is succinctly signified by their slogan - to help Canadians “Live Life Well”.
+                    <Heading type={4}>
+                        Loblaw’s mission is succinctly signified by their slogan - to help Canadians “Live Life Well”.
+                    </Heading>
                 </IndentInner>
             </Section>
 
@@ -75,11 +77,12 @@ export default function Loblaw() {
                     Our final product is set to be implemented as an OPS Portal module.
                 </Paragraph>
                 <IndentInner>
-                    The OPS Portal initiative aims to enhance the scalability of Loblaw’s grocery operations platform
-                    through a complete in-house rebuild of its existing components.
+                    <Heading type={4}>
+                        The OPS Portal initiative aims to enhance the scalability of Loblaw’s grocery operations platform
+                        through a complete in-house rebuild of its existing components.
+                    </Heading>
                 </IndentInner>
             </Section>
-            
         </Project>
     );
 }
