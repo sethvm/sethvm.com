@@ -39,8 +39,8 @@ import ProgramSelect from '../assets/soulfx/soulfx-program_selection.svg';
 import ProgramCardDispense from '../assets/soulfx/soulfx-program_cards.svg';
 
 import BreadCrumbs from '../assets/soulfx/soulfx-breadcrumbs.svg';
-import CertSwitches from '../assets/soulfx/soulfx-cert_switches.svg';
 import ActivationStatus from '../assets/soulfx/soulfx-activation_status.svg';
+import CertSwitches from '../assets/soulfx/soulfx-cert_switches.svg';
 
 export default function Soulfx() {
 
