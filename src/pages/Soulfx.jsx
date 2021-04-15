@@ -28,16 +28,21 @@ import JobsToBeDone from '../assets/soulfx/soulfx-jtbd.svg';
 import EndtoEnd from '../assets/soulfx/soulfx-end-to-end.svg';
 import RecordIA from '../assets/soulfx/soulfx-record-ia.svg';
 
-import RecordList from '../assets/soulfx/soulfx-list_view.svg';
+import RecordList from '../assets/soulfx/soulfx-company_list.svg';
+import CertList from '../assets/soulfx/soulfx-cert_list.svg';
 import RecordDetails from '../assets/soulfx/soulfx-company_details.svg';
 import ProgramDetails from '../assets/soulfx/soulfx-program_details.svg';
-import RecordAddition from '../assets/soulfx/soulfx-add_company.svg';
-import RecordAddConfirm from '../assets/soulfx/soulfx-add_company_2.svg';
+import RecordAddition from '../assets/soulfx/soulfx-company_addition.svg';
+import RecordAddConfirm from '../assets/soulfx/soulfx-company_addition_done.svg';
 
 import ProgramSelect from '../assets/soulfx/soulfx-program_selection.svg';
 import ProgramCardDispense from '../assets/soulfx/soulfx-program_cards.svg';
 
-/*old graphics - to be reworked*/
+import BreadCrumbs from '../assets/soulfx/soulfx-breadcrumbs.svg';
+import CertSwitches from '../assets/soulfx/soulfx-cert_switches.svg';
+import ActivationStatus from '../assets/soulfx/soulfx-activation_status.svg';
+
+/*assets to be removed*/
 /*
 import CertListAnnotated from '../components/soulfx/soulfx-cert_list_annotated.svg';
 import EnterpriseWorkflow from '../components/soulfx/soulfx-enterprise_workflow.svg';
@@ -245,6 +250,12 @@ export default function Soulfx() {
                     ensured during prototyping that all tasks defined by the end-to-end reimbursement journey were facilitated
                     by each component for its respective user group.
                 </Paragraph>
+                <Paragraph>
+                    <span className='italic'>
+                    Note: due to a non-disclosure agreement with our client, text areas that would contain manufacturer,
+                    program or drug names have been populated with template labels
+                    </span>
+                </Paragraph>
             </Section>
 
             <ImgContainer>
@@ -258,12 +269,15 @@ export default function Soulfx() {
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
-                    <Img screen
+                    <Img item
                     src={RecordList}
                     alt='Company record list' />
+                    <Img item
+                    src={CertList}
+                    alt='Certificate record list'/>
                 </ImgFluid>
                 <ImgCaption>
-                    Company record list
+                    Company and certificate record lists
                 </ImgCaption>
                 <ImgFluid>
                     <Img item
@@ -322,9 +336,10 @@ export default function Soulfx() {
                 <Heading type={3}>Validating our Solution</Heading>
                 <Paragraph>
                     We validated our record dashboard design by placing caseworkers in scenarios that mirror tasks
-                    they might encounter during their day-to-day work. Using a high-fidelity prototype, we had
-                    participants add, delete and edit record details to fulfill mock manufacturer requests. Our
-                    usability test also involved edits to provincial or national availability for program plans.
+                    they might encounter during their day-to-day work. Through the design, we wanted caseworkers to be able
+                    to efficiently add, delete and edit records pertaining to any manufacturer, program, certificate
+                    and drug. Additionally, they must be able to make changes to the provincial or national availability
+                    of any given program.
                 </Paragraph>
             </Section>
 
@@ -339,38 +354,37 @@ export default function Soulfx() {
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
-                    <div>[ breadcrumb visual ]</div>
+                    <Img screen
+                    src={BreadCrumbs}
+                    alt='Breadcrumbs'/>
                 </ImgFluid>
-                <ImgCaption>
-                    Breadcrumbs
-                </ImgCaption>
                 <SectionInner>
                     <Heading type={4}>Activation Switches</Heading>
                     <Paragraph>
-                        Manufacturers frequently make changes to the programs and certificates they offer, and will
-                        occasionally switch between servicing at the provincial and national levels. We included activation
-                        switches at the list level for certificates to avoid the need for caseworkers to navigate to each
-                        individual certificate’s property screen to activate or deactivate it.
+                        Manufacturers frequently make changes to the programs and certificates they offer, and will occasionally
+                        switch between servicing at the provincial and national levels. Activation switches serve as visual 
+                        ndicators that display the status of company, program and certificate records. They are placed at the
+                        top of each record detail screen.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
-                    <div>[ switch visual on certificate list ]</div>
+                    <Img screen
+                    src={ActivationStatus}
+                    alt='Activation switch on record details'/>
                 </ImgFluid>
-                <ImgCaption>
-                    Provincial and national-level switches
-                </ImgCaption>
                 <SectionInner>
                     <Paragraph>
-                        Furthermore, activation switches also serve as visual indicators - they are used to make a given company
-                        or program’s status more recognizable.
+                        We also placed activation switches at the list level for certificates to avoid the need for caseworkers
+                        to navigate to each individual certificate’s property screen to activate or deactivate it. Activating a
+                        national-level certificate will automatically disable any active provincial-level certificates, and vice
+                        versa.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
-                    <div>[ switch visual on record detail list ]</div>
+                    <Img screen 
+                    src={CertSwitches}
+                    alt='Provincial and national-level switches'/>
                 </ImgFluid>
-                <ImgCaption>
-                    Activation switch on record details
-                </ImgCaption>
             </ImgContainer>
 
             <Section>
