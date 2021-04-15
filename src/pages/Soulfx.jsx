@@ -28,20 +28,21 @@ import JobsToBeDone from '../assets/soulfx/soulfx-jtbd.svg';
 import EndtoEnd from '../assets/soulfx/soulfx-end-to-end.svg';
 import RecordIA from '../assets/soulfx/soulfx-record-ia.svg';
 
+import RecordList from '../assets/soulfx/soulfx-list_view.svg';
+import RecordDetails from '../assets/soulfx/soulfx-company_details.svg';
+import ProgramDetails from '../assets/soulfx/soulfx-program_details.svg';
+import RecordAddition from '../assets/soulfx/soulfx-add_company.svg';
+import RecordAddConfirm from '../assets/soulfx/soulfx-add_company_2.svg';
+
+import ProgramSelect from '../assets/soulfx/soulfx-program_selection.svg';
+import ProgramCardDispense from '../assets/soulfx/soulfx-program_cards.svg';
+
 /*old graphics - to be reworked*/
-/*import AddRecord from '../components/soulfx/soulfx-add_company.svg';
-import AddRecord2 from '../components/soulfx/soulfx-add_company_2.svg';
-import SoulfxBanner from '../components/soulfx/soulfx-banner.svg';
+/*
 import CertListAnnotated from '../components/soulfx/soulfx-cert_list_annotated.svg';
-import CertActivation from '../components/soulfx/soulfx-cert_list_popup.svg';
-import CompanyDetails from '../components/soulfx/soulfx-company_details.svg';
-import EnterpriseIA from '../components/soulfx/soulfx-enterprise_architecture.svg';
 import EnterpriseWorkflow from '../components/soulfx/soulfx-enterprise_workflow.svg';
-import ListView from '../components/soulfx/soulfx-list_view.svg';
-import PortalWorkflow from '../components/soulfx/soulfx-portal_workflow.svg';
 import ProgramDetails from '../components/soulfx/soulfx-program_details.svg';
-import ProgramSelection from '../components/soulfx/soulfx-program_selection.svg';
-import ProgramCards from '../components/soulfx/soulfx-program_cards.svg';*/
+*/
 
 export default function Soulfx() {
 
@@ -239,55 +240,138 @@ export default function Soulfx() {
             <Section>
                 <Heading type={3}>Putting it All Together</Heading>
                 <Paragraph>
-                    Write about the objective of each set of designs and how our approach
-                    helped in making the service easy to provide and cards easy to retreive.
-                    Briefly discuss business objectives within glass container.
+                    Our designed solution is an application consisting of two components: a record management dashboard for
+                    our caseworkers and a small public-facing portal for our patients to retrieve program cards through. We
+                    ensured during prototyping that all tasks defined by the end-to-end reimbursement journey were facilitated
+                    by each component for its respective user group.
                 </Paragraph>
             </Section>
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4}>
-                        Record Management Dashboard
-                    </Heading>
+                    <Heading type={4}>Record Management Dashboard</Heading>
                     <Paragraph>
-                        While designing the record management dashboard, we focused
-                        on enabling our caseworkers to skim through record lists and details
-                        as quickly as possible. Thus, we elected to employ a single-column approach.
+                        The majority of our prototyping focus went into ensuring that our record management dashboard
+                        incorporates every bit of information outlined in our information architecture diagram. We employed
+                        a single-column layout to allow caseworkers to quickly scan top-down through lists and record details
+                        - this pattern is kept consistent across all tiers of information.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
-                    <div>[ dashboard screens ]</div>
+                    <Img screen
+                    src={RecordList}
+                    alt='Company record list' />
                 </ImgFluid>
                 <ImgCaption>
-                    image caption goes here
+                    Company record list
                 </ImgCaption>
+                <ImgFluid>
+                    <Img item
+                    src={RecordDetails}
+                    alt='Company details' />
+                    <Img item
+                    src={ProgramDetails}
+                    alt='Program details'/>
+                </ImgFluid>
+                <ImgCaption>
+                    Company and program record details
+                </ImgCaption>
+                <ImgFluid>
+                    <Img item
+                    src={RecordAddition}
+                    alt='Record addition' />
+                    <Img item
+                    src={RecordAddConfirm}
+                    alt='Addition confirmation'/>
+                </ImgFluid>
+                    <ImgCaption>
+                        Record additon
+                    </ImgCaption>
                 <SectionInner>
-                    <Heading type={4}>
-                        Card Retrieval Portal
-                    </Heading>
+                    <Heading type={4}>Public-facing Portal</Heading>
                     <Paragraph>
-                        We aimed to make the card retrieval process as seamless as possible for
-                        both new and returning users. Additionally, we wanted the interface to be
-                        easy to navigate through using touch inputs, as our patients will have access
-                        to the platform through mobile devices.
+                        Our design for the public-facing portal was kept minimal as we placed priority in producing an intuitive
+                        navigation experience for our client’s caseworkers via the record dashboard. We aimed to make the card
+                        retrieval screens as simple as possible for our early adopters and easy to navigate using both desktop
+                        and touch inputs.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
-                    <div>[ portal screens ]</div>
+                    <Img item
+                    src={ProgramSelect}
+                    alt='Program selection' />
+                    <Img item
+                    src={ProgramCardDispense}
+                    alt='Program card retrieval' />
                 </ImgFluid>
                 <ImgCaption>
-                    image caption goes here
+                    Program selection and card retrieval
                 </ImgCaption>
             </ImgContainer>
 
             <Section>
-                <Heading type={3}>Key Interactions</Heading>
+                <IndentInner>
+                    <Heading type={4}>
+                        Our primary objective with the deadlines had to meet was to get our client operating fully
+                        remotely and deliver a design for a public-facing portal that can be iterated upon.
+                    </Heading>
+                </IndentInner>
+            </Section>
+
+            <Section>
+                <Heading type={3}>Validating our Solution</Heading>
                 <Paragraph>
-                    Write about breadcrumbs + switches, and what pain points they address -
-                    refer to the old write-up!
+                    We validated our record dashboard design by placing caseworkers in scenarios that mirror tasks
+                    they might encounter during their day-to-day work. Using a high-fidelity prototype, we had
+                    participants add, delete and edit record details to fulfill mock manufacturer requests. Our
+                    usability test also involved edits to provincial or national availability for program plans.
                 </Paragraph>
             </Section>
+
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4}>Breadcrumb Navigation</Heading>
+                    <Paragraph>
+                        Breadcrumbs simplify the dashboard navigation experience by reducing the number of clicks
+                        required to access higher-order screens from lower tiers of information. Our caseworkers
+                        often have to make changes to a company’s details editing a program or certificate - breadcrumbs
+                        mitigate the need to repeatedly click the “Back” button.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <div>[ breadcrumb visual ]</div>
+                </ImgFluid>
+                <ImgCaption>
+                    Breadcrumbs
+                </ImgCaption>
+                <SectionInner>
+                    <Heading type={4}>Activation Switches</Heading>
+                    <Paragraph>
+                        Manufacturers frequently make changes to the programs and certificates they offer, and will
+                        occasionally switch between servicing at the provincial and national levels. We included activation
+                        switches at the list level for certificates to avoid the need for caseworkers to navigate to each
+                        individual certificate’s property screen to activate or deactivate it.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <div>[ switch visual on certificate list ]</div>
+                </ImgFluid>
+                <ImgCaption>
+                    Provincial and national-level switches
+                </ImgCaption>
+                <SectionInner>
+                    <Paragraph>
+                        Furthermore, activation switches also serve as visual indicators - they are used to make a given company
+                        or program’s status more recognizable.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <div>[ switch visual on record detail list ]</div>
+                </ImgFluid>
+                <ImgCaption>
+                    Activation switch on record details
+                </ImgCaption>
+            </ImgContainer>
 
             <Section>
                 <Heading type={3}>
@@ -302,11 +386,10 @@ export default function Soulfx() {
                 </IndentInner>
                 <Paragraph>
                     <br />
-                    A solid understanding of our client's service in conjunction with our users'
-                    expectations with the product were critical to the execution of each design phase.
-                    Working on this project taught me that effective designs are created by working
-                    side-by-side with people who possess varying domains of knowledge, some of which
-                    may not overlap.
+                    A concrete understanding of our client's service in conjunction with our users' expectations
+                    with the product were critical to the execution of each design phase. Working on this project
+                    taught me that effective designs are created by working side-by-side with people who possess
+                    varying domains of knowledge, some of which may not overlap.
                     <br />
                     <br />
                 </Paragraph>
@@ -317,11 +400,10 @@ export default function Soulfx() {
                 </IndentInner>
                 <Paragraph>
                     <br />
-                    I do not have the resources nor the know-how to help patients with their
-                    medical expenses, but a critical objective of my role as a designer was to learn about
-                    the people who do. The project provided an opportunity to leverage this understanding
-                    to mitigate the increase in pressure brought to our client's caseworkers by the pandemic
-                    and play a part in making healthcare services more accessible through design.
+                    I do not have the resources nor the know-how to help patients with their medical expenses,
+                    but a critical element of my role as a designer was to learn about the people who do. The
+                    project provided an opportunity to leverage this understanding and contribute to improving
+                    accessibility to healthcare services through design.
                     <br />
                     <br />
                 </Paragraph>

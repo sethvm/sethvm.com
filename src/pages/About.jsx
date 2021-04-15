@@ -57,13 +57,13 @@ export default function About() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={3} weight='bold'>
-                        ... an adrenaline junkie
+                        ... a zealous adrenaline junkie
                     </Heading>
                 </IndentInner>
                 <Paragraph>
                     Should you ever need to find me outside of school and work, there's a
                     good chance I'll be working on dynos at the bouldering gym,
-                    amping up for deadlifts in the weight room,
+                    amping up to hit deadlifts in the weight room,
                     or hiking up a mountain somewhere. Occasionally, I enjoy jumping out of
                     aircraft - with a parachute strapped to my back, of course.
                     <br />
@@ -84,6 +84,7 @@ export default function About() {
             <Section>
                 <Heading type={2}>
                     Keen to collab?
+                    Perhaps ascend together?
                     Let's get in touch!
                     <br />
                     <br />
