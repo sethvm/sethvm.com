@@ -29,7 +29,7 @@ export default function QuickLinkContainer() {
                     {onAboutPage &&
                         <>some</>
                     }
-                    &nbsp;of my work!
+                    &nbsp;of my work ↓
                 </h3>
             </div>
             <nav
