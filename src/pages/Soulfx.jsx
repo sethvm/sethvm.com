@@ -110,8 +110,8 @@ export default function Soulfx() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        How can we design a platform that will enable our client to provide
-                        their support service to patients remotely?
+                        How can we design a platform that will enable our client to deliver their
+                        support service to patients remotely?
                     </Heading>
                 </IndentInner>
             </Section>
@@ -139,7 +139,7 @@ export default function Soulfx() {
                 <IndentInner>
                     <Heading type={4}>
                         Our client works alongside pharmaceutical manufacturers in making prescription
-                        payment easier by providing reimbursements to patients for medical expenses.
+                        payment easier by providing reimbursements for medical expenses.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -197,16 +197,17 @@ export default function Soulfx() {
 
             <Section>
                 <Paragraph>
-                    Upon mapping out the patient journey, we learned that each program could provide only one
-                    of two types of certificates. National-level certificates enable reimbursement access to patients
-                    regardless of province, while provincial-level certificates restrict a program’s availability to
-                    specified provinces. Furthermore, the availability of cards offered by programs continuously
+                    Upon mapping out the patient journey, we learned that each program could provide only one of
+                    two types of certificates. National-level certificates enable reimbursement access to patients
+                    regardless of province, while provincial-level certificates restrict a program’s availability
+                    to specified provinces. Furthermore, the availability of cards offered by programs continuously
                     fluctuate based on demand.
                 </Paragraph>
                 <Paragraph>
-                    Furthermore, it became clear from modelling the caseworker journey that <strong>there was a discernible
-                    hierarchy in how records are organized</strong>. We took this as an opportunity to create an architecture diagram
-                    and illustrate a more granular view of the details being managed within each tier of information.
+                    Additionally, it became clear from modelling the caseworker journey that <strong>there was a discernible
+                    hierarchy in how records are organized</strong>. We took this as an opportunity to create an architecture
+                    diagram and illustrate a more granular view of the details being managed within each tier of
+                    information.
                 </Paragraph>
             </Section>
 
@@ -229,8 +230,8 @@ export default function Soulfx() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        Clarity was established regarding how our client’s service operates –
-                        how can we ensure that our to-be design encompasses the tasks we have outlined?
+                        Clarity was established regarding how our client’s service operates. How can we ensure
+                        that our to-be design encompasses the tasks we have outlined?
                     </Heading>
                 </IndentInner>
             </Section>
@@ -243,12 +244,14 @@ export default function Soulfx() {
                     ensured during prototyping that all tasks defined by the end-to-end reimbursement journey were facilitated
                     by each component for its respective user group.
                 </Paragraph>
-                <Paragraph>
-                    <span className='italic'>
-                    Note: due to a non-disclosure agreement with our client, text areas that would contain manufacturer,
-                    program or drug names have been populated with template labels
-                    </span>
-                </Paragraph>
+                <IndentInner>
+                    <Paragraph>
+                        <span className='italic'>
+                            Note: due to a non-disclosure agreement with our client, text areas that would contain manufacturer,
+                            program or drug names have been populated with template labels
+                        </span>
+                    </Paragraph>
+                </IndentInner>
             </Section>
 
             <ImgContainer>
