@@ -54,11 +54,10 @@ export default function Soulfx() {
                 <SubHeading>UX Design</SubHeading>
                 <Paragraph>
                     <br />
-                    Soulfx’s Patient Support Platform is a web-based application
-                    developed for a pharmaceutical firm. It facilitates the remote
-                    management and operation of a service that provides financial
-                    assistance to Canadian patients for medical payments such as
-                    prescriptions and therapy.
+                    Soulfx’s Patient Support Application is a web-based platform developed for
+                    a pharmaceutical firm. It facilitates the remote management and operation
+                    of a service that provides financial assistance to Canadian patients for medical
+                    payments such as prescriptions and therapy.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
@@ -102,11 +101,10 @@ export default function Soulfx() {
             <Section>
                 <Heading type ={3}>An unprecedented Health Crisis</Heading>
                 <Paragraph>
-                    COVID-19 has brought with it a global-scale challenge that has pushed
-                    the capacity of our healthcare industries to their limits. Our client
-                    approached us with the objective of moving their financial aid service
-                    online – a shift to web-based operations aimed at mitigating the risks
-                    imposed by the pandemic on immunocompromised individuals.
+                    COVID-19 has brought with it a global-scale challenge that has pushed the capacity
+                    of our healthcare industries to their limits. Our client approached us with the
+                    objective of moving their financial aid service online – a shift to web-based operations
+                    aimed at mitigating the risks imposed by the pandemic on immunocompromised individuals.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
