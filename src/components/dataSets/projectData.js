@@ -1,7 +1,7 @@
 // card images
 import Loblaw from '../../assets/loblaw/loblaw-card.svg';
 import Soulfx from '../../assets/soulfx/soulfx-card.svg';
-import FASSB from '../../assets/fassb/fassb-card.svg';
+//import FASSB from '../../assets/fassb/fassb-card.svg';
 
 // project card and quicklink properties
 export const projectData = [
@@ -30,7 +30,7 @@ export const projectData = [
         quickLinkLabel: 'Soulfx',
         url: '/patient-support-app'
     },
-    {
+    /*{
         heading: 'Employment Services Transformation',
         subHeadings: [
             'Web Design'
@@ -41,5 +41,5 @@ export const projectData = [
         link: 'View term recap →',
         quickLinkLabel: 'FASSB',
         url: '/employment-services-transformation'
-    }
+    }*/
 ]
