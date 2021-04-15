@@ -326,13 +326,14 @@ export default function Soulfx() {
             </Section>
 
             <Section>
-                <Heading type={3}>Validating our Solution</Heading>
+                <Heading type={3}>Key Interactions</Heading>
                 <Paragraph>
-                    We validated our record dashboard design by placing caseworkers in scenarios that mirror tasks
-                    they might encounter during their day-to-day work. Through the design, we wanted caseworkers to be able
-                    to efficiently add, delete and edit records pertaining to any manufacturer, program, certificate
-                    and drug. Additionally, they must be able to make changes to the provincial or national availability
-                    of any given program.
+                    We validated our record dashboard design by placing caseworkers in scenarios that mirror tasks they
+                    might encounter during their day-to-day work. Through the design, we wanted caseworkers to be able
+                    to efficiently add, delete and edit records pertaining to any manufacturer, program, certificate and
+                    drug. Additionally, they must be able to make changes to the provincial or national availability of
+                    any given program. We incorporated navigation patterns that aimed to make these tasks as seamless as
+                    possible to complete.
                 </Paragraph>
             </Section>
 
