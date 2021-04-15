@@ -26,7 +26,7 @@ import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
 import Outline from '../assets/soulfx/soulfx-outline.svg';
 import JobsToBeDone from '../assets/soulfx/soulfx-jtbd.svg';
 import EndtoEnd from '../assets/soulfx/soulfx-end-to-end.svg';
-import RecordIA from '../assets/soulfx/soulfx-record-ia.svg';
+import RecordIA from '../assets/soulfx/soulfx-record_ia.svg';
 
 import RecordList from '../assets/soulfx/soulfx-company_list.svg';
 import CertList from '../assets/soulfx/soulfx-cert_list.svg';
@@ -41,13 +41,6 @@ import ProgramCardDispense from '../assets/soulfx/soulfx-program_cards.svg';
 import BreadCrumbs from '../assets/soulfx/soulfx-breadcrumbs.svg';
 import CertSwitches from '../assets/soulfx/soulfx-cert_switches.svg';
 import ActivationStatus from '../assets/soulfx/soulfx-activation_status.svg';
-
-/*assets to be removed*/
-/*
-import CertListAnnotated from '../components/soulfx/soulfx-cert_list_annotated.svg';
-import EnterpriseWorkflow from '../components/soulfx/soulfx-enterprise_workflow.svg';
-import ProgramDetails from '../components/soulfx/soulfx-program_details.svg';
-*/
 
 export default function Soulfx() {
 
