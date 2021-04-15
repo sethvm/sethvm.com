@@ -16,25 +16,22 @@ export default function QuickLinkContainer() {
     // render based on current page
     return (
         <>
-        {onAboutPage &&
-            <div className={quickLinkStyle.prompt}>
-                <h3 className={`heavy`}>
-                    Cheers for reading (or scrolling?) this far!
-                    <br />
-                    <br />Check out some of my work ↓
-                </h3>
-            </div>
-        }
-        {!onHomePage && !onAboutPage &&
+        {!onHomePage &&
+            <>
             <div className={quickLinkStyle.prompt}>
                 <h3 className='heavy'>
                     Cheers for reading (or scrolling?) this far!
                     <br />
-                    <br />Check out more of my work ↓
+                    <br />Check out&nbsp;
+                    {!onAboutPage &&
+                        <>more</>
+                    }
+                    {onAboutPage &&
+                        <>some</>
+                    }
+                    &nbsp;of my work!
                 </h3>
             </div>
-        }
-        {!onHomePage &&
             <nav
             id={quickLinkStyle.quickLinks}
             aria-label='project links'>
@@ -43,6 +40,7 @@ export default function QuickLinkContainer() {
                     currentURL={currentURL}/>
                 </div>
             </nav>
+            </>
         }
         </>
     );
