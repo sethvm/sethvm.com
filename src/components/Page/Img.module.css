@@ -6,6 +6,9 @@
 
 /* md breakpoint */
 @media (min-width: 768px) {
+    .screen {
+        width: 75%;
+    }
     .item {
         width: 42%;
     }
@@ -13,7 +16,10 @@
 
 /* lg breakpoint */
 @media (min-width: 992px) {
+    .screen {
+        width: 70%;
+    }
     .item {
-        width: 38%;
+        width: 44%;
     }
 }

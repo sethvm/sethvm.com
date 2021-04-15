@@ -1,11 +1,15 @@
 // image component
 import imgStyle from './Img.module.css';
 
-export default function Image({ item, src, alt }) {
+export default function Image(props) {
 
-    const isItem = item ? imgStyle.item : null;
+    const isItem = props.item ? imgStyle.item : '';
+    const isScreen = props.screen ? imgStyle.screen : '';
 
     return (
-        <img className={`${imgStyle.image} ${isItem}`} src={src} alt={alt} />
+        <img
+        className={`${imgStyle.image} ${isItem} ${isScreen}`}
+        src={props.src}
+        alt={props.alt} />
     );
 }
