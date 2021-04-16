@@ -73,15 +73,25 @@ export default function Loblaw() {
                 <Paragraph>
                     The OPS Portal is a brand-new application set to replace Loblaw’s aging grocery operations tool.
                     One of my first projects involved examining the current platform’s Transaction Logs (collectively
-                    referred to as TRX) and collaborating on innovating a renewed experience with another designer.
-                    Our final product is set to be implemented as an OPS Portal module.
+                    referred to as TRX) and collaborating on innovating a renewed experience with another designer. Our
+                    final product is set to be implemented and shipped as an OPS Portal module.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        The OPS Portal initiative aims to enhance the scalability of Loblaw’s grocery operations platform
-                        through a complete in-house rebuild of its existing components.
+                        The OPS Portal initiative aims to enhance the extensibility of Loblaw’s grocery operations
+                        platform through a complete in-house rebuild of its existing components.
                     </Heading>
                 </IndentInner>
+            </Section>
+
+            <Section>
+                <Heading type={3}>Transaction Logs (TRX)</Heading>
+                <Paragraph>
+                    A key element of the current operations platform is the Orders Dashboard, a section where grocery
+                    stores can view a tabulated list of orders to be fulfilled by any given day and hour. Attached to
+                    each order’s entry is a Transaction Log (or TRX module). Transaction logs record picker actions as
+                    an order is processed.
+                </Paragraph>
             </Section>
         </Project>
     );
