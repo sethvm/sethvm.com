@@ -58,13 +58,17 @@ const MemoizedQuickLinks = memo(({ currentURL }) => {
             : 'heavy activeLink';
 
             return (
-                <Link
-                key={uuidv4()}
-                to={project.url}>
-                    <span className={`${quickLinkStyle.link} ${isCurrentPage}`}>
-                        {project.quickLinkLabel}
-                    </span>
-                </Link>
+                <>
+                {project.quickLinkLabel &&
+                    <Link
+                    key={uuidv4()}
+                    to={project.url}>
+                        <span className={`${quickLinkStyle.link} ${isCurrentPage}`}>
+                            {project.quickLinkLabel}
+                        </span>
+                    </Link>
+                }
+                </>
             );
         })}
         </>
