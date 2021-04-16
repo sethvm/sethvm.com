@@ -194,18 +194,28 @@ export default function Soulfx() {
             </ImgContainer>
 
             <Section>
+                <IndentInner>
+                    <Heading type={4}>
+                        Upon mapping out the patient journey, we learned that each program could provide only one of
+                        two types of certificates.
+                    </Heading>
+                </IndentInner>
                 <Paragraph>
-                    Upon mapping out the patient journey, we learned that each program could provide only one of
-                    two types of certificates. National-level certificates enable reimbursement access to patients
-                    regardless of province, while provincial-level certificates restrict a program’s availability
-                    to specified provinces. Furthermore, the availability of cards offered by programs continuously
-                    fluctuate based on demand.
+                    National-level certificates enable reimbursement access to patients regardless of province, while
+                    provincial-level certificates restrict a program’s availability to specified provinces. Furthermore,
+                    the availability of cards offered by programs continuously fluctuate based on demand.
+                    <br />
+                    <br />
                 </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>
+                        Additionally, it became clear from modelling the caseworker journey that there was
+                        a discernible hierarchy in how records are organized.
+                    </Heading>
+                </IndentInner>
                 <Paragraph>
-                    Additionally, it became clear from modelling the caseworker journey that <strong>there was a discernible
-                    hierarchy in how records are organized</strong>. We took this as an opportunity to create an architecture
-                    diagram and illustrate a more granular view of the details being managed within each tier of
-                    information.
+                    We took this as an opportunity to create an architecture diagram and illustrate a more granular view
+                    of the details being managed within each tier of information.
                 </Paragraph>
             </Section>
 
@@ -394,7 +404,6 @@ export default function Soulfx() {
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    <br />
                     A concrete understanding of our client's service in conjunction with our users' expectations
                     with the product were critical to the execution of each design phase. Working on this project
                     taught me that effective designs are created by working side-by-side with people who possess
@@ -408,7 +417,6 @@ export default function Soulfx() {
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    <br />
                     I do not have the resources nor the know-how to help patients with their medical expenses,
                     but a critical element of my role as a designer was to learn about the people who do. The
                     project provided an opportunity to leverage this understanding and contribute to improving
@@ -423,7 +431,6 @@ export default function Soulfx() {
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    <br />
                     Features I would look to explore include <strong>search and filter functions.
                     </strong> As the number of registered records within the platform grows,
                     scrolling to find items within lists may become more laborious.
