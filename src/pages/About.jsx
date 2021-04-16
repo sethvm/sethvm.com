@@ -42,16 +42,12 @@ export default function About() {
                 <Paragraph>
                     I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                     SYDE is a unique program that emphasizes the utilization of multi-disciplinary
-                    approaches to tackling technological and socioeconomical problems we face today -
-                    all with users at the forefront. As a SYDE student, my work centers around examining
-                    how we humans utilize and interact with the technologies at our disposal.
+                    approaches to tackling technological and socioeconomical challenges we face today.
                 </Paragraph>
                 <Paragraph>
-                    My endeavours in design revolve around the objective of
-                    improving the quality of life for others.
-                    I'm currently exploring the never-before-seen challenges being brought by
-                    COVID-19 to our essential industries - my spaces of interest
-                    include <strong>healthcare</strong>, <strong>e-commerce</strong> and <strong>tech</strong>.
+                    My endeavours in design revolve around improving the quality of life for others. I'm
+                    particularly interested in the overlap between technology and problem spaces involving&nbsp;
+                    <strong>healthcare</strong>, <strong>commerce</strong> and <strong>community</strong>.
                     <br />
                     <br />
                 </Paragraph>
@@ -84,7 +80,6 @@ export default function About() {
             <Section>
                 <Heading type={2}>
                     Keen to collab?
-                    Perhaps ascend together?
                     Let's get in touch!
                     <br />
                     <br />
