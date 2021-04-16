@@ -1,4 +1,11 @@
-# place a copy of this file into /build before deployment
+# redirect netlify subdomain to custom domain
+[[redirects]]
+    from = "https://sethvm.netlify.app/*"
+    to = "https://sethvm.com/:splat"
+    status = 301
+    force = true
+
+# single-page app refresh
 [[redirects]]
     from = "/*"
     to = "/"
