@@ -349,9 +349,12 @@ export default function Soulfx() {
                     might encounter during their day-to-day work. Through the design, we wanted caseworkers to be able
                     to efficiently add, delete and edit records pertaining to any manufacturer, program, certificate and
                     drug. Additionally, they must be able to make changes to the provincial or national availability of
-                    any given program. We incorporated navigation patterns that aimed to make these tasks as seamless as
-                    possible to complete.
+                    any given program.
                 </Paragraph>
+                <IndentInner>
+                    We incorporated navigation patterns that aimed to expedite the completion of everyday duties for our
+                    client’s caseworkers.
+                </IndentInner>
             </Section>
 
             <ImgContainer>
@@ -374,7 +377,7 @@ export default function Soulfx() {
                     <Paragraph>
                         Manufacturers frequently make changes to the programs and certificates they offer, and will occasionally
                         switch between servicing at the provincial and national levels. Activation switches serve as visual 
-                        ndicators that display the status of company, program and certificate records. They are placed at the
+                        indicators that display the status of company, program and certificate records. They are placed at the
                         top of each record detail screen.
                     </Paragraph>
                 </SectionInner>
