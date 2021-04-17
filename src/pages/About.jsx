@@ -4,7 +4,6 @@ import { pageTitle } from '../components/Page/pageTitle';
 // layout imports
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
-import IndentInner from '../components/Page/IndentInner';
 
 // img containers
 import ImgContainer from '../components/Page/ImgContainer';
@@ -34,11 +33,9 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <IndentInner>
-                    <Heading type={3} weight='bold'>
-                        ... a student in Human-centered Design
-                    </Heading>
-                </IndentInner>
+                <Heading type={3} weight='bold'>
+                    ... a student in Human-centered Design {'\u{1F4D2}'}
+                </Heading>
                 <Paragraph>
                     I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                     SYDE is a unique program that emphasizes the utilization of multi-disciplinary
@@ -51,11 +48,9 @@ export default function About() {
                     <br />
                     <br />
                 </Paragraph>
-                <IndentInner>
-                    <Heading type={3} weight='bold'>
-                        ... a zealous adrenaline junkie
-                    </Heading>
-                </IndentInner>
+                <Heading type={3} weight='bold'>
+                    ... a zealous adrenaline junkie {'\u{1FA82}'}
+                </Heading>
                 <Paragraph>
                     Should you ever need to find me outside of school and work, there's a
                     good chance I'll be working on dynos at the bouldering gym,
@@ -65,11 +60,9 @@ export default function About() {
                     <br />
                     <br />
                 </Paragraph>
-                <IndentInner>
-                    <Heading type={3} weight='bold'>
-                        ... an avid baker
-                    </Heading>
-                </IndentInner>
+                <Heading type={3} weight='bold'>
+                    ... an avid baker {'\u{1F950}'}
+                </Heading>
                 <Paragraph>
                     Having worked full-time as a baker prior to university,
                     I also spend time keeping my pastry craft sharp. Lately, I've been working towards
