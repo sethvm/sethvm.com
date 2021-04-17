@@ -75,6 +75,20 @@ export default function Soulfx() {
                     <span className='bold'>Timeline:</span>
                     &nbsp;8 weeks
                 </Paragraph>
+                <Paragraph>
+                    <span className='bold'>Status:</span>
+                    &nbsp;Launched {'\u{1F680}'}
+                    <br />
+                    <br />
+                </Paragraph>
+                <IndentInner>
+                    <Paragraph>
+                        <span className='italic'>
+                            Note: due to a non-disclosure agreement with our client, mockup components that would
+                            contain manufacturer, program or drug names have been populated with placeholder text
+                        </span>
+                    </Paragraph>
+                </IndentInner>
             </Section>
 
             <Banner
@@ -252,14 +266,6 @@ export default function Soulfx() {
                     ensured during prototyping that all tasks defined by the end-to-end reimbursement journey were facilitated
                     by each component for its respective user group.
                 </Paragraph>
-                <IndentInner>
-                    <Paragraph>
-                        <span className='italic'>
-                            Note: due to a non-disclosure agreement with our client, text areas that would contain manufacturer,
-                            program or drug names have been populated with template labels
-                        </span>
-                    </Paragraph>
-                </IndentInner>
             </Section>
 
             <ImgContainer>

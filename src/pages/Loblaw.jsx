@@ -43,8 +43,8 @@ export default function Loblaw() {
                     &nbsp;2 Product Designers, Product Owner
                 </Paragraph>
                 <Paragraph>
-                    <span className='bold'>Timeline:</span>
-                    &nbsp;Ongoing
+                    <span className='bold'>Status:</span>
+                    &nbsp;In development {'\u{1F4BB}'}
                 </Paragraph>
             </Section>
 
@@ -55,11 +55,11 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Overview</Heading>
                 <Paragraph>
-                    Loblaw Digital is an innovation-focused subsidiary of Loblaw Companies Ltd., Canada’s
+                    Loblaw Digital is an innovation-oriented subsidiary of Loblaw Companies Ltd., Canada’s
                     largest food retailer. Focusing on digital solutions for banners operating across grocery,
                     pharmacy and fashion, Loblaw Digital is responsible for tackling complex problems faced
-                    today by Canada’s front-liners and consumers. I had the privilege of interning as a product
-                    designer on the PC Express (PCX) Fulfillment team during the winter of 2021.
+                    today by Canada’s front-liners and consumers. I had the privilege of serving as a product
+                    design intern on the PC Express (PCX) Fulfillment team during the winter of 2021.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -71,10 +71,10 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>The OPS Portal</Heading>
                 <Paragraph>
-                    The OPS Portal is a brand-new application set to replace Loblaw’s aging grocery operations tool.
-                    One of my first projects involved examining the current platform’s Transaction Logs (collectively
-                    referred to as TRX) and collaborating on innovating a renewed experience with another designer. Our
-                    final product is set to be implemented and shipped as an OPS Portal module.
+                    The OPS Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
+                    One of my first projects involved examining the current tool’s Transaction Logs (collectively referred
+                    to as TRX) and collaborating on innovating a renewed experience with another designer. Our final product
+                    is set to be implemented and shipped as an OPS Portal module.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -82,16 +82,6 @@ export default function Loblaw() {
                         platform through a complete in-house rebuild of its existing components.
                     </Heading>
                 </IndentInner>
-            </Section>
-
-            <Section>
-                <Heading type={3}>Transaction Logs (TRX)</Heading>
-                <Paragraph>
-                    A key element of the current operations platform is the Orders Dashboard, a section where grocery
-                    stores can view a tabulated list of orders to be fulfilled by any given day and hour. Attached to
-                    each order’s entry is a Transaction Log (or TRX module). Transaction logs record picker actions as
-                    an order is processed.
-                </Paragraph>
             </Section>
         </Project>
     );
