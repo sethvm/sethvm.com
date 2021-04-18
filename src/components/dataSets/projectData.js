@@ -13,7 +13,7 @@ export const projectData = [
         description: "Creating a streamlined order validation experience for Canada's largest grocery retailer",
         img: Loblaw,
         alt: 'OPS Pick History',
-        link: 'View case study →',
+        cardLink: 'View case study →',
         quickLinkLabel: 'Loblaw',
         url: '/order-pick-history'
     },
@@ -26,7 +26,7 @@ export const projectData = [
         description: "Facilitating the remote operation of a client's patient support service",
         img: Soulfx,
         alt: 'Patient Support App',
-        link: 'View case study →',
+        cardLink: 'View case study →',
         quickLinkLabel: 'Soulfx',
         url: '/patient-support-app'
     },
@@ -38,7 +38,7 @@ export const projectData = [
         description: "Supporting Employment Ontario's push towards improving provincial employment retention",
         img: FASSB,
         alt: 'Employment Services Transformation',
-        link: 'View term recap →',
+        cardLink: 'View term recap →',
         quickLinkLabel: 'FASSB',
         url: '/employment-services-transformation'
     }*/

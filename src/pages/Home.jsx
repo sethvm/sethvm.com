@@ -78,7 +78,7 @@ const MemoizedProjects = memo(() => {
             description={project.description}
             img={project.img}
             alt={project.alt}
-            link={project.link}
+            link={project.cardLink}
             url={project.url}>
                 {project.subHeadings
                 &&
