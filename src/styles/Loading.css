@@ -7,8 +7,20 @@
     padding-top: 96px;
 }
 
+.loadingContainer {
+    width: 78%;
+    margin: 96px auto;
+}
+
 .loadingMsg {
     color: #404040;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .loadingContainer {
+        width: 75%;
+    }
 }
 
 /* lg breakpoint */
@@ -17,5 +29,9 @@
         width: 58.5%;
         padding-left: 10%;
         margin-left: 0;
+    }
+    .loadingContainer {
+        width: 40%;
+        margin-left: 22%;
     }
 }

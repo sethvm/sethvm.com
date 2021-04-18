@@ -4,7 +4,6 @@ import { useLocation } from 'react-router-dom';
 import '../styles/Loading.css';
 
 // components
-import Section from '../components/Page/Section';
 import LoadingIcon from '../components/LoadingIcon/LoadingIcon';
 
 export default function RenderLoadingBody() {
@@ -20,14 +19,14 @@ export default function RenderLoadingBody() {
 
     return (
         <main className={`loading ${styleLoadingBody}`}>
-            <Section>
+            <div className='loadingContainer'>
                 <LoadingIcon />
                 <h2>
                     <div className='loadingMsg'>
                         to-do: insert witty loading message
                     </div>
                 </h2>
-            </Section>
+            </div>
         </main>
     );
 }
