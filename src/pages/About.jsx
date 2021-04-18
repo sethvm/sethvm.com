@@ -54,7 +54,7 @@ export default function About() {
                 <Paragraph>
                     Should you ever need to find me outside of school and work, there's a
                     good chance I'll be working on dynos at the bouldering gym,
-                    amping up to hit deadlifts in the weight room,
+                    amping up to hit deadlifts in the weight room
                     or hiking up a mountain somewhere. Occasionally, I enjoy jumping out of
                     aircraft - with a parachute strapped to my back, of course.
                     <br />

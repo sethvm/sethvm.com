@@ -28,11 +28,11 @@ export default function Loblaw() {
                 <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
-                    The Order Pick History is a module attached to every online order listed within
-                    Loblaw’s grocery OPS Portal, a centralized internal tool that enables stores to
-                    carry out their day-to-day operations. It provides a list of all tasks actioned
-                    on every item associated with a given order, facilitating quick validation and
-                    troubleshooting of fulfillment objectives by managers and employees.
+                    The Order Pick History is a module attached to every online order listed within Loblaw’s all-new
+                    OPS Portal, a centralized internal tool that enables grocery stores to manage their day-to-day
+                    operations. It provides a list of all tasks actioned on every item associated with a given order,
+                    facilitating quick validation and troubleshooting of fulfillment objectives by store colleagues
+                    and area managers.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
@@ -55,11 +55,9 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Overview</Heading>
                 <Paragraph>
-                    Loblaw Digital is an innovation-oriented subsidiary of Loblaw Companies Ltd., Canada’s
-                    largest food retailer. Focusing on digital solutions for banners operating across grocery,
-                    pharmacy and fashion, Loblaw Digital is responsible for tackling complex problems faced
-                    today by Canada’s front-liners and consumers. I had the privilege of serving as a product
-                    design intern on the PC Express (PCX) Fulfillment team during the winter of 2021.
+                    Loblaw Digital is an innovation-oriented subsidiary of Loblaw Companies Ltd., focusing on digital
+                    solutions for banners operating across grocery, pharmacy and fashion. I had the privilege of serving
+                    as a product design intern on the PC Express (PCX) Fulfillment team during the winter of 2021.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -73,8 +71,8 @@ export default function Loblaw() {
                 <Paragraph>
                     The OPS Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
                     One of my first projects involved examining the current tool’s Transaction Logs (collectively referred
-                    to as TRX) and collaborating on innovating a renewed experience with another designer. Our final product
-                    is set to be implemented and shipped as an OPS Portal module.
+                    to as TRX) and collaborating on the introduction of a renewed experience with another designer. Our final
+                    product is set to be implemented and shipped as an OPS Portal module.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>

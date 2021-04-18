@@ -352,8 +352,10 @@ export default function Soulfx() {
                     any given program.
                 </Paragraph>
                 <IndentInner>
-                    We incorporated navigation patterns that aimed to expedite the completion of everyday duties for our
-                    client’s caseworkers.
+                    <Heading type={4}>
+                        We incorporated navigation patterns that aimed to expedite the completion of everyday duties
+                        for our client’s caseworkers.
+                    </Heading>
                 </IndentInner>
             </Section>
 
