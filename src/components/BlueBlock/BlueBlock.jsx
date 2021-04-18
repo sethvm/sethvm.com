@@ -18,7 +18,6 @@ export default function BlueBlock() {
 
     // screen width change listener
     useEffect(() => {
-        updateScreenWidth();
         window.addEventListener('resize', updateScreenWidth);
         return () => {
             window.removeEventListener('resize', updateScreenWidth);

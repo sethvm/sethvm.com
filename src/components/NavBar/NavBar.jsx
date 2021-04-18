@@ -35,7 +35,6 @@ export default function NavBar() {
 
     // screen width change listener
     useEffect(() => {
-        updateScreenWidth();
         window.addEventListener('resize', updateScreenWidth);
         return () => {
             window.removeEventListener('resize', updateScreenWidth);
