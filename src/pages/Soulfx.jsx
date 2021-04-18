@@ -234,13 +234,16 @@ export default function Soulfx() {
             </Section>
 
             <ImgContainer>
+                <SectionInner>
+                    <Heading type={4}>Record Information Architecture</Heading>
+                </SectionInner>
                 <ImgFluid>
                     <Img
                     src={RecordIA}
                     alt='record information artichetcure' />
                 </ImgFluid>
                 <ImgCaption>
-                    Record information artichetcure
+                    Visualizing architecture made it easier to keep track of how records are structured
                 </ImgCaption>
             </ImgContainer>
 

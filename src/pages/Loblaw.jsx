@@ -72,7 +72,7 @@ export default function Loblaw() {
                     The OPS Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
                     One of my first projects involved examining the current tool’s Transaction Logs (collectively referred
                     to as TRX) and collaborating on the introduction of a renewed experience with another designer. Our final
-                    product is set to be implemented and shipped as an OPS Portal module.
+                    product is the Order Pick History - a module serving as the successor to TRX in the OPS Portal.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
