@@ -44,7 +44,7 @@ export default function About() {
                 <Paragraph>
                     My endeavours in design revolve around improving the quality of life for others. I'm
                     particularly interested in the overlap between technology and problem spaces involving&nbsp;
-                    <strong>healthcare</strong>, <strong>commerce</strong> and <strong>community</strong>.
+                    <strong>commerce</strong>, <strong>healthcare</strong> and <strong>community</strong>.
                     <br />
                     <br />
                 </Paragraph>
