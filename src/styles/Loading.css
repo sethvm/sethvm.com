@@ -12,10 +12,6 @@
     margin: 96px auto;
 }
 
-.loadingMsg {
-    color: #404040;
-}
-
 /* md breakpoint */
 @media (min-width: 768px) {
     .loadingContainer {

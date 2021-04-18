@@ -21,11 +21,6 @@ export default function RenderLoadingBody() {
         <main className={`loading ${styleLoadingBody}`}>
             <div className='loadingContainer'>
                 <LoadingIcon />
-                <h2>
-                    <div className='loadingMsg'>
-                        to-do: insert witty loading message
-                    </div>
-                </h2>
             </div>
         </main>
     );
