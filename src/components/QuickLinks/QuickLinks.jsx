@@ -1,4 +1,7 @@
-import { memo } from 'react';
+import { 
+    memo,
+    Fragment
+} from 'react';
 import {
     Link,
     useLocation
@@ -58,17 +61,17 @@ const MemoizedQuickLinks = memo(({ currentURL }) => {
             : 'heavy activeLink';
 
             return (
-                <>
-                {project.quickLinkLabel &&
-                    <Link
-                    key={uuidv4()}
-                    to={project.url}>
-                        <span className={`${quickLinkStyle.link} ${isCurrentPage}`}>
-                            {project.quickLinkLabel}
-                        </span>
-                    </Link>
-                }
-                </>
+                <Fragment key={uuidv4()}>
+                    {project.quickLinkLabel &&
+                        <Link
+                        to={project.url}>
+                            <span
+                            className={`${quickLinkStyle.link} ${isCurrentPage}`}>
+                                {project.quickLinkLabel}
+                            </span>
+                        </Link>
+                    }
+                </Fragment>
             );
         })}
         </>
