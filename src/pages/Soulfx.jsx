@@ -69,7 +69,7 @@ export default function Soulfx() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Team:</span>
-                    &nbsp;2 Designers, Product Owner, Project Manager
+                    &nbsp;2 Designers, 4 Developers, Product Owner, Project Manager
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Timeline:</span>
@@ -116,9 +116,9 @@ export default function Soulfx() {
                 <Heading type ={3}>An unprecedented Health Crisis</Heading>
                 <Paragraph>
                     COVID-19 has brought with it a global-scale challenge that has pushed the capacity
-                    of our healthcare industries to their limits. Our client approached us with the
-                    objective of moving their financial aid service online – a shift to web-based operations
-                    aimed at mitigating the risks imposed by the pandemic on immunocompromised individuals.
+                    of our healthcare industries to their limits. Our client approached us with the objective of
+                    moving their financial aid service online – a shift towards web-based operations aimed at
+                    mitigating the risks imposed by the pandemic on immunocompromised individuals.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>

@@ -28,11 +28,9 @@ export default function Loblaw() {
                 <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
-                    The Order Pick History is a module attached to every online order listed within Loblaw’s all-new
-                    OPS Portal, a centralized internal tool that enables grocery stores to manage their day-to-day
-                    operations. It provides a list of all tasks actioned on every item associated with a given order,
-                    facilitating quick validation and troubleshooting of fulfillment objectives by store colleagues
-                    and area managers.
+                    Loblaw’s Order Pick History provides a list of all tasks actioned on every item associated with a
+                    given grocery order. It is used as a tool by store colleagues and area managers to troubleshoot orders
+                    and validate fulfillment objectives.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
@@ -40,12 +38,21 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Team:</span>
-                    &nbsp;2 Product Designers, Product Owner
+                    &nbsp;2 Designers, 5 Developers, Product Manager
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
                     &nbsp;In development {'\u{1F4BB}'}
+                    <br />
+                    <br />
                 </Paragraph>
+                <IndentInner>
+                    <Paragraph>
+                        <span className='bold italic'>
+                            This is an ongoing project - don't hesitate to reach out for more details!
+                        </span>
+                    </Paragraph>
+                </IndentInner>
             </Section>
 
             <Banner
@@ -72,7 +79,7 @@ export default function Loblaw() {
                     The OPS Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
                     One of my first projects involved examining the current tool’s Transaction Logs (collectively referred
                     to as TRX) and collaborating on the introduction of a renewed experience with another designer. Our final
-                    product is the Order Pick History - a module serving as the successor to TRX in the OPS Portal.
+                    product is the Order Pick History - a module designed to succeed TRX within the OPS Portal.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
