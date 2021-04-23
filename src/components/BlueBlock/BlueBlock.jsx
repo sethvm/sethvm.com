@@ -1,28 +1,10 @@
-import {
-    useState,
-    useEffect
-} from 'react';
 import { useLocation } from 'react-router-dom';
+import { useScreenWidth } from '../customHooks/useScreenWidth';
 import blueBlockStyle from './BlueBlock.module.css';
 
 export default function BlueBlock() {
 
-    const [ screenWidth, setScreenWidth ] = useState(window.screen.width);
-
-    const onDesktop = (screenWidth >= 992);
-
-    const updateScreenWidth = () => {
-        const newWidth = window.screen.width;
-        setScreenWidth(newWidth);
-    }
-
-    // screen width change listener
-    useEffect(() => {
-        window.addEventListener('resize', updateScreenWidth);
-        return () => {
-            window.removeEventListener('resize', updateScreenWidth);
-        }
-    }, [])
+    const screenWidth = useScreenWidth();
 
     // check if user is on home page and style accordingly
     const userOnHomePage = (useLocation().pathname === '/');
@@ -32,7 +14,7 @@ export default function BlueBlock() {
 
     return (
         <>
-        {onDesktop &&
+        {(screenWidth >= 992) &&
             <div className={`${blueBlockStyle.default} animate__animated ${styleBlock}`} />
         }
         </>
