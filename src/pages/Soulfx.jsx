@@ -113,7 +113,7 @@ export default function Soulfx() {
             </Section>
 
             <Section>
-                <Heading type ={3}>An unprecedented Health Crisis</Heading>
+                <Heading type ={3}>An Unprecedented Health Crisis</Heading>
                 <Paragraph>
                     COVID-19 has brought with it a global-scale challenge that has pushed the capacity
                     of our healthcare industries to their limits. Our client approached us with the objective of
@@ -140,7 +140,7 @@ export default function Soulfx() {
             </ImgContainer>
 
             <Section>
-                <Heading type={3}>Our client's Assistance Service</Heading>
+                <Heading type={3}>Our Client's Assistance Service</Heading>
                 <Paragraph>
                     Manufacturers registered under our client’s service platform offer their
                     own collection of financial assistance and/or therapy program plans, which

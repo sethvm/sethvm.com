@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import quickLinkStyle from './QuickLinks.module.css';
-import { projectData } from '../dataSets/projectData';
+import { projectData } from '../../projects/projectData';
 
 export default function QuickLinkContainer() {
 

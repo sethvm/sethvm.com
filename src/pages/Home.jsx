@@ -19,7 +19,7 @@ import Paragraph from '../components/Typography/Paragraph';
 
 // projects
 import ProjectCard from '../components/ProjectCard/ProjectCard';
-import { projectData } from '../components/dataSets/projectData';
+import { projectData } from '../projects/projectData';
 
 export default function Home() {
 

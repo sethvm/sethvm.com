@@ -1,12 +1,12 @@
 // card images
-import Loblaw from '../../assets/loblaw/loblaw-card.svg';
-import Soulfx from '../../assets/soulfx/soulfx-card.svg';
-//import FASSB from '../../assets/fassb/fassb-card.svg';
+import Loblaw from '../assets/loblaw/loblaw-card.svg';
+import Soulfx from '../assets/soulfx/soulfx-card.svg';
+//import FASSB from '../assets/fassb/fassb-card.svg';
 
 // project card and quicklink properties
 export const projectData = [
     {
-        heading: 'Order Pick History',
+        heading: 'OPS Pick History',
         subHeadings: [
             'Product Design'
         ],
@@ -15,7 +15,7 @@ export const projectData = [
         alt: 'OPS Pick History',
         cardLink: 'View case study →',
         quickLinkLabel: 'Loblaw',
-        url: '/order-pick-history'
+        url: '/ops-pick-history'
     },
     {
         heading: 'Patient Support App',

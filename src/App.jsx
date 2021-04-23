@@ -46,7 +46,7 @@ export default function App() {
                     path='/about'
                     render={() => <About />} />
                     <Route exact
-                    path='/order-pick-history'
+                    path='/ops-pick-history'
                     render={() => <Loblaw />} />
                     <Route exact
                     path='/patient-support-app'
