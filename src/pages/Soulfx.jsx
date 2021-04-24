@@ -221,22 +221,27 @@ export default function Soulfx() {
                     <br />
                     <br />
                 </Paragraph>
+            </Section>
+
+            <Section>
+                <Heading type={3}>
+                    Record Information Architecture
+                    <br />
+                    <br />
+                </Heading>
                 <IndentInner>
                     <Heading type={4}>
-                        Additionally, it became clear from modelling the caseworker journey that there was
+                        It became clear from modelling the caseworker journey that there was
                         a discernible hierarchy in how records are organized.
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    We took this as an opportunity to create an architecture diagram and illustrate a more granular view
+                    We took this as an opportunity to create an architecture diagram and illustrate a granular view
                     of the details being managed within each tier of information.
                 </Paragraph>
             </Section>
 
             <ImgContainer>
-                <SectionInner>
-                    <Heading type={4}>Record Information Architecture</Heading>
-                </SectionInner>
                 <ImgFluid>
                     <Img
                     src={RecordIA}
@@ -262,7 +267,7 @@ export default function Soulfx() {
             </Section>
 
             <Section>
-                <Heading type={3}>Putting it All Together</Heading>
+                <Heading type={3}>Our Designed Solution</Heading>
                 <Paragraph>
                     Our designed solution is an application consisting of two components: a record management dashboard for
                     our caseworkers and a small public-facing portal for our patients to retrieve program cards through. We
@@ -273,7 +278,7 @@ export default function Soulfx() {
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4}>Record Management Dashboard</Heading>
+                    <Heading type={4} weight='heavy'>Record Management Dashboard</Heading>
                     <Paragraph>
                         The majority of our prototyping focus went into ensuring that our record management dashboard
                         incorporates every bit of information outlined in our information architecture diagram. We employed
@@ -315,12 +320,10 @@ export default function Soulfx() {
                         Record additon
                     </ImgCaption>
                 <SectionInner>
-                    <Heading type={4}>Public-facing Portal</Heading>
+                    <Heading type={4} weight='heavy'>Public-facing Portal</Heading>
                     <Paragraph>
-                        Our design for the public-facing portal was kept minimal as we placed priority in producing an intuitive
-                        navigation experience for our client’s caseworkers via the record dashboard. We aimed to make the card
-                        retrieval screens as simple as possible for our early adopters and easy to navigate using both desktop
-                        and touch inputs.
+                        We aimed to make the card retrieval screens as simple as possible for our early adopters and easy
+                        to navigate using both desktop and touch inputs.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -364,7 +367,7 @@ export default function Soulfx() {
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4}>Breadcrumb Navigation</Heading>
+                    <Heading type={4} weight='heavy'>Breadcrumb Navigation</Heading>
                     <Paragraph>
                         Breadcrumbs simplify the dashboard navigation experience by reducing the number of clicks
                         required to access higher-order screens from lower tiers of information. Our caseworkers
@@ -378,7 +381,7 @@ export default function Soulfx() {
                     alt='Breadcrumbs'/>
                 </ImgFluid>
                 <SectionInner>
-                    <Heading type={4}>Activation Switches</Heading>
+                    <Heading type={4} weight='heavy'>Activation Switches</Heading>
                     <Paragraph>
                         Manufacturers frequently make changes to the programs and certificates they offer, and will occasionally
                         switch between servicing at the provincial and national levels. Activation switches serve as visual 
@@ -408,13 +411,13 @@ export default function Soulfx() {
 
             <Section>
                 <Heading type={3}>
-                    Takeaways and Opportunities for Refinement
+                    Takeaways and Opportunities
                     <br />
                     <br />
                 </Heading>
                 <IndentInner>
                     <Heading type={4}>
-                        Designs are products of curiosity and collaboration
+                        Designs are products of curiosity and collaboration.
                     </Heading>
                 </IndentInner>
                 <Paragraph>
@@ -427,7 +430,7 @@ export default function Soulfx() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        We can utilize design to help out our essential industries, even amid a pandemic
+                        We can utilize design to help out our essential industries, even amid a pandemic.
                     </Heading>
                 </IndentInner>
                 <Paragraph>
@@ -440,17 +443,14 @@ export default function Soulfx() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        Upon a hypothetical return to this project, I would aim to further streamline
-                        the navigation experience for our record management dashboard
+                        There are still opportunities to streamline the navigation experience for our dashboard solution.
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    Features I would look to explore include <strong>search and filter functions.
-                    </strong> As the number of registered records within the platform grows,
-                    scrolling to find items within lists may become more laborious.
-                    The ability to search for and filter items would address such issues
-                    by providing our caseworkers direct access to the records they need
-                    to work with.
+                    Features I would explore next include <strong>search and filter functions</strong>. As the number
+                    of registered records within the platform grows, scrolling to find items within lists may become
+                    more laborious. The ability to search for and filter items would address such issues by providing
+                    our caseworkers direct access to the records they need to work with.
                 </Paragraph>
             </Section>
         </Project>
