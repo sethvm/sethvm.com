@@ -102,31 +102,28 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Transaction Logs (TRX)</Heading>
                 <Paragraph>
-                    A key element of the current operations platform is the All Orders Summary, a page where grocery
-                    stores can view a tabulated list of orders to be fulfilled by any given day and hour. Transaction
-                    Logs (also known as TRX modules) are attached to each order’s entry - these record picker actions
-                    throughout the fulfillment process of an order.
+                    Transaction Logs are key elements of the current operations platform. They keep records of every task performed
+                    by a PCX colleague throughout the pick process of an order, providing comprehensive insight regarding item status.
                 </Paragraph>
             </Section>
 
             <ImgContainer>
-                {/*<SectionInner>
-                    <Heading type={4} weight='heavy'>Orders Summary Entry Point</Heading>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Entry Point</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
                     src={EntryPoint}
-                    alt='Orders summary entry point'/>
+                    alt='All Orders Summary'/>
                 </ImgFluid>
                 <ImgCaption>
-                    The All Orders Summary page. Entry points to Transaction Logs are situated under each order’s “Go To”
-                    column. Customer names have been obscured.
-                </ImgCaption>*/}
+                    Transaction Logs are accessed via each order’s “Go To” column (marked in red; customer names have been obscured)
+                </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Action Entry Display</Heading>
                     <Paragraph>
                         Action entries present critical information regarding what has been done to any given item: these include
-                        where the item is, which container it is placed in, what has been done to it and who is responsible for
+                        where the item is, which container it is placed in, what has been done to it and who was responsible for
                         carrying out any given action on it.
                     </Paragraph>
                 </SectionInner>
@@ -143,7 +140,7 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Order Issue Resolution</Heading>
                 <Paragraph>
-                    Transaction Logs are most often used by store colleagues as tools to address issues regarding fulfillment and
+                    TRX is most often used by store colleagues and PCX specialists to address issues regarding fulfillment and
                     validate order completion times. We reached out to determine what tasks they look to get done during
                     investigation or validation.
                 </Paragraph>
@@ -151,7 +148,7 @@ export default function Loblaw() {
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4}>PCX Colleague/Specialist Jobs-to-be-Done</Heading>
+                    <Heading type={4}>Jobs-to-be-Done</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img
@@ -163,8 +160,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        We discovered that TRX is used by store colleagues and PCX Specialists to ensure consistent fulfillment.
-                        What sort of experience does it provide to our users?
+                        We defined our user needs and learned about the usage of TRX as a tool to ensure consistent order fulfillment.
+                        What does that experience look like for our colleagues and specialists?
                     </Heading>
                 </IndentInner>
             </Section>
@@ -175,17 +172,20 @@ export default function Loblaw() {
                     To uncover how our colleagues feel about using the existing module, we shifted the focus of our conversations
                     towards user sentiment.
                 </Paragraph>
-            </Section>
-
-            <Section>
-                <Paragraph>
-                    It became evident that new colleagues are introduced to a steep learning curve when onboarding onto the PCX pick
-                    procedure. Location changes and transaction descriptions are presented in the form of raw data, resulting in a
-                    workflow that can appear difficult to grasp.
-                </Paragraph>
-                <IndentInner>
-                    <Heading type={4}>
-                        Colleagues developed proficiency with TRX through memorization rather than intuition.
+                <IndentInner nobar>
+                    <Heading type={5}>
+                        “As is, I think [TRX] is very intimidating to colleagues because there are so many parts to learn and it’s
+                        full of information in every which way.”
+                        <br />
+                        <br />
+                        “TRX right now can be confusing to some [when] trying to find who skipped or substituted an item...”
+                        <br />
+                        <br />
+                        “Some of the descriptions of what a line is can be confusing… like ‘Put’ for example [is]
+                        not a term used anywhere else”
+                        <br />
+                        <br />
+                        “The data is all there but it can be more clear”
                     </Heading>
                 </IndentInner>
             </Section>
@@ -203,9 +203,18 @@ export default function Loblaw() {
 
             <Section>
                 <Paragraph>
-                    Additionally, we uncovered a navigation pain point stemming from the arrangement of action entries. Actions are
-                    not grouped by item and often span multiple pages; colleagues must refer to the number within the Line property
-                    to identify which entries are connected to the same sets of lifecycles.
+                    It became evident that new colleagues are introduced to a steep learning curve when onboarding onto the PCX pick
+                    procedure. Location changes and transaction descriptions are presented in the form of raw data, resulting in a
+                    workflow that can appear difficult to grasp.
+                </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>
+                        Colleagues developed proficiency with TRX through memorization rather than intuition.
+                    </Heading>
+                </IndentInner>
+                <Paragraph>
+                    Additionally, we discovered that actions are not grouped by item and often span multiple pages; colleagues must
+                    refer to the number within the Line property to identify which entries are connected to the same sets of lifecycles.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -213,10 +222,12 @@ export default function Loblaw() {
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    Redesigning TRX for the OPS Portal presented opportunities to establish new ways of organizing and describing pick
-                    actions. However, we needed a deeper understanding of how the item pick lifecycle works before proceeding.
+                    Redesigning TRX for the OPS Portal presented opportunities to establish new ways of organizing and
+                    describing pick actions.
                 </Paragraph>
             </Section>
+
+            
         </Project>
     );
 }

@@ -2,9 +2,16 @@
     width: 85%;
     margin: 90px auto 90px auto;
     padding-left: 26px;
-    border-left: #7C6900 solid;
     border-width: 6px;
     border-radius: 4px;
+}
+
+.bordered {
+    border-left: #7C6900 solid;
+}
+
+.borderless {
+    border-left: transparent;
 }
 
 /* md breakpoint */
