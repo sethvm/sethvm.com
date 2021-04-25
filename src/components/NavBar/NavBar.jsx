@@ -6,7 +6,9 @@ import {
 } from 'react';
 import { Link } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
+import { v4 as uuidv4 } from 'uuid';
 import { useScreenWidth } from '../customHooks/useScreenWidth';
+import { navLinks } from './navData';
 import navStyle from './NavBar.module.css';
 
 export default function NavBar() {
@@ -17,11 +19,11 @@ export default function NavBar() {
     const toggleButton = createRef();
 
     const toggleNav = () => {
-        setTimeout(() => { setExpanded(!expanded) }, 160);
+        setTimeout(() => { setExpanded(!expanded) }, 120);
     }
 
     const closeNav = useCallback(() => {
-        setTimeout(() => { setExpanded(false) }, 160);
+        setTimeout(() => { setExpanded(false) }, 120);
     }, []);
 
     // close overlay on outside click if open
@@ -62,27 +64,26 @@ export default function NavBar() {
                 toggle={setExpanded}
                 label='Show Menu'/>
             </div>
-            <div
-            className={`${navStyle.overlay} ${ expanded ? navStyle.active : navStyle.inactive }`}
-            aria-label='navbar menu'
-            onClick={() => handleClick}>
-                <ul>
-                    <li>
-                        <Link
-                        to='/'
-                        aria-label='Work'>
-                            Work
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                        to='/about'
-                        aria-label='About'>
-                            About
-                        </Link>
-                    </li>
-                </ul>
-            </div>
+            {expanded &&
+                <div
+                className={navStyle.overlay}
+                aria-label='navbar menu'
+                onClick={handleClick}>
+                    <ul>
+                        {navLinks.map(navLink => {
+                            return (
+                                <li key={uuidv4()}>
+                                    <Link
+                                    to={navLink.url}
+                                    aria-label={navLink.label}>
+                                        {navLink.label}
+                                    </Link>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </div>
+            }
             {(screenWidth >= 992) &&
                 <Link
                 aria-label='About'

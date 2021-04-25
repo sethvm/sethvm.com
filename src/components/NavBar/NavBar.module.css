@@ -28,18 +28,11 @@
 }
 
 .overlay {
+    display: flex;
     width: 100%;
     padding-top: 1.4em;
     padding-bottom: 1em;
     background-color: #FFFFFF;
-}
-
-.inactive {
-    display: none;
-}
-
-.active {
-    display: flex;
 }
 
 .desktop {
@@ -79,10 +72,7 @@
     .brand {
         margin: 0;
     }
-    .toggleBtn {
-        display: none;
-    }
-    .active {
+    .toggleBtn, .overlay {
         display: none;
     }
     .desktop {
