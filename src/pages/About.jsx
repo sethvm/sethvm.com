@@ -77,7 +77,7 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <Heading type={3} weight='bold'>
+                <Heading type={3} weight='heavy'>
                     Say hi on
                     <ExternalLink
                     href='https://www.linkedin.com/in/sethvm'>
@@ -86,7 +86,7 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <Heading type={3} weight='bold'>
+                <Heading type={3} weight='heavy'>
                     Toss over an
                     <ExternalLink
                     href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
@@ -95,7 +95,7 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <Heading type={3} weight='bold'>
+                <Heading type={3} weight='heavy'>
                     Running late to a meeting? Grab a
                     <ExternalLink
                     href={ResumeFile}>
@@ -121,7 +121,7 @@ export default function About() {
 function ExternalLink({ href, children }) {
     return (
         <a rel='noopener noreferrer' href={href} target='_blank'>
-            &nbsp;<span className='activeLink'>{children}</span>
+            &nbsp;<span className='activeLink heavy'>{children}</span>
         </a>
     );
 }

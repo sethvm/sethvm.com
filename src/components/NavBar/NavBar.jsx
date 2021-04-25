@@ -9,9 +9,6 @@ import { Sling as Hamburger } from 'hamburger-react';
 import { useScreenWidth } from '../customHooks/useScreenWidth';
 import navStyle from './NavBar.module.css';
 
-// files
-import ResumeFile from '../../pdf/sethvm_resume.pdf';
-
 export default function NavBar() {
 
     const screenWidth = useScreenWidth();
@@ -83,14 +80,6 @@ export default function NavBar() {
                         aria-label='About'>
                             About
                         </Link>
-                    </li>
-                    <li>
-                        <a rel='noopener noreferrer'
-                        aria-label='Résumé'
-                        href={ResumeFile}
-                        target='_blank'>
-                            Résumé
-                        </a>
                     </li>
                 </ul>
             </div>
