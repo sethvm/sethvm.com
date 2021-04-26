@@ -119,15 +119,16 @@ export default function Loblaw() {
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Entry Point</Heading>
+                    <Paragraph>
+                        Transaction Logs are attached to every order within the All Orders Summary, a page where grocery stores can view a
+                        tabulated list of orders to be fulfilled by any given day and hour (customer names have been obscured).
+                    </Paragraph>
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
                     src={EntryPoint}
                     alt='All Orders Summary'/>
                 </ImgFluid>
-                <ImgCaption>
-                    Transaction Logs are accessed via each order’s “Go To” column (marked in red; customer names have been obscured)
-                </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Action Entry Display</Heading>
                     <Paragraph>
