@@ -6,6 +6,7 @@ import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 import SectionInner from '../components/Page/SectionInner';
 import IndentInner from '../components/Page/IndentInner';
+import List from '../components/Page/List';
 
 // typography
 import Heading from '../components/Typography/Heading';
@@ -26,7 +27,6 @@ import ActionDisplay from '../assets/loblaw/loblaw-trx_action_display.png';
 import JobsToBeDone from '../assets/loblaw/loblaw-trx_jtbd.svg';
 import ActionProperties from '../assets/loblaw/loblaw-trx_properties.png';
 
-import ActionsTranslated from '../assets/loblaw/loblaw-trx_transaction_descriptions.svg';
 import StatusLifecycle from '../assets/loblaw/loblaw-trx_transaction_lifecycle.png';
 import TRXNavigation from '../assets/loblaw/loblaw-trx_navigation.png';
 
@@ -76,7 +76,7 @@ export default function Loblaw() {
 
             <Banner
             img={LoblawCard}
-            alt='An ongoing project. Reach out for more details' />
+            alt='Loblaw Digital' />
 
             <Section>
                 <Heading type={3}>Overview</Heading>
@@ -96,7 +96,7 @@ export default function Loblaw() {
                 <Heading type={3}>The OPS Portal</Heading>
                 <Paragraph>
                     The OPS Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
-                    One of my first projects involved examining the current tool’s Transaction Logs (collectively referred
+                    One of my first projects involved examining the current tool’s transaction logs (collectively referred
                     to as TRX) and collaborating on the introduction of a renewed experience with another designer. Our final
                     product is the Pick History - a module designed to succeed TRX within the OPS Portal.
                 </Paragraph>
@@ -111,7 +111,7 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Transaction Logs (TRX)</Heading>
                 <Paragraph>
-                    Transaction Logs are key elements of the current operations platform. They keep records of every task performed
+                    Transaction logs are key elements of the current operations platform. They keep records of every task performed
                     by a PCX colleague throughout the pick process of an order, providing comprehensive insight regarding item status.
                 </Paragraph>
             </Section>
@@ -120,7 +120,7 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Entry Point</Heading>
                     <Paragraph>
-                        Transaction Logs are attached to every order within the All Orders Summary, a page where grocery stores can view a
+                        Transaction logs are attached to every order within the All Orders Summary, a page where grocery stores can view a
                         tabulated list of orders to be fulfilled by any given day and hour (customer names have been obscured).
                     </Paragraph>
                 </SectionInner>
@@ -129,13 +129,16 @@ export default function Loblaw() {
                     src={EntryPoint}
                     alt='All Orders Summary'/>
                 </ImgFluid>
+                <ImgCaption>
+                    An order’s transaction log is accessed via the “Go To” column
+                </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Action Entry Display</Heading>
                     <Paragraph>
                         Transactions present critical information regarding item status. These include:
                     </Paragraph>
                     <IndentInner nobar>
-                        <ul>
+                        <List>
                             <li>
                                 <Paragraph>Where an item is</Paragraph>
                             </li>
@@ -147,7 +150,7 @@ export default function Loblaw() {
                                     Who was responsible for carrying out any given action on an item
                                 </Paragraph>
                             </li>
-                        </ul>
+                        </List>
                     </IndentInner>
                 </SectionInner>
                 <ImgFluid>
@@ -156,7 +159,7 @@ export default function Loblaw() {
                     alt='Action entry display'/>
                 </ImgFluid>
                 <ImgCaption>
-                    A Transaction Log - action entries are sorted earliest-first by timestamp
+                    A transaction log - action entries are sorted earliest-first by timestamp
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Usage in PCX Operations</Heading>
@@ -251,18 +254,63 @@ export default function Loblaw() {
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Minimizing Transaction Jargon</Heading>
+                    <Heading type={4} weight='heavy'>Reducing Transaction Jargon</Heading>
                     <Paragraph>
                         Tasks carried out on items are described by the transaction code property. Each transaction code represents
                         a different stage of the pick lifecycle and is paired with a description. We leveraged our learnings and
-                        rephrased each task description using simpler terminology.
+                        rephrased each task description using simpler terminology:
                     </Paragraph>
+                    <List unBulleted>
+                        <li>
+                            <p>
+                                <span className='bold'>300: Picking Induct LP → </span>
+                                Tote is assigned a license plate (LP) identifier
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span className='bold'>642: Line Skipped → </span>
+                                Item is “skipped” for a picker to come back to later
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span className='bold'>301: Picking (Pick) → </span>
+                                Item is picked and placed into a tote
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span className='bold'>210: Substitution by Picker → </span>
+                                Item is substituted (replaced) with another item
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span className='bold'>641: Line Shorted → </span>
+                                Item is unfulfilled (neither picked nor replaced)
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span className='bold'>302: Picking (Put) → </span>
+                                Tote containing the item is staged in a staging area
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span className='bold'>321: Loading (Pick) → </span>
+                                Item is being loaded onto customer's vehicle
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span className='bold'>323: Loading (Put) → </span>
+                                Item loaded
+                            </p>
+                        </li>
+                    </List>
                 </SectionInner>
-                <ImgFluid>
-                    <Img screen
-                    src={ActionsTranslated}
-                    alt="Transactions in Layman's Terms"/>
-                </ImgFluid>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Item Status Cycle</Heading>
                 </SectionInner>
@@ -339,7 +387,7 @@ export default function Loblaw() {
                 </ImgFluid>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Technical Constraints</Heading>
-                    <ul>
+                    <List>
                         <li>
                             <Paragraph>
                                 The data we could display was limited to the same set of data that is being
@@ -352,7 +400,7 @@ export default function Loblaw() {
                                 transactions that can be displayed on the screen at once.
                             </Paragraph>
                         </li>
-                    </ul>
+                    </List>
                 </SectionInner>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Unifying a Disjoint Item Journey</Heading>
@@ -399,8 +447,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Introducing Order-level Search</Heading>
                     <Paragraph>
-                        Colleagues will often go into TRX knowing exactly which items they want to look into.
-                        We wanted them to be able to navigate to these items without the need for too much
+                        Colleagues will often go into TRX knowing exactly which items they want to look into. We
+                        introduced a search function to enable access to these items without the need for too much
                         scrolling.
                     </Paragraph>
                 </SectionInner>
