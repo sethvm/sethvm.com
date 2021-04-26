@@ -30,6 +30,12 @@ import ActionsTranslated from '../assets/loblaw/loblaw-trx_transaction_descripti
 import StatusLifecycle from '../assets/loblaw/loblaw-trx_transaction_lifecycle.png';
 import TRXNavigation from '../assets/loblaw/loblaw-trx_navigation.png';
 
+import InitialRedesign from '../assets/loblaw/loblaw-ph_initial_redesign.svg';
+import AsIsSub from '../assets/loblaw/loblaw-trx_as-is_sub.png';
+import RedesignSub from '../assets/loblaw/loblaw-ph_redesign_sub.svg';
+import ItemCards from '../assets/loblaw/loblaw-ph_item_cards.svg';
+import RedesignNav from '../assets/loblaw/loblaw-ph_redesign_navbar.svg';
+
 export default function Loblaw() {
 
     pageTitle('OPS Pick History');
@@ -125,10 +131,23 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Action Entry Display</Heading>
                     <Paragraph>
-                        Action entries present critical information regarding what has been done to any given item: these include
-                        where the item is, which container it is placed in, what has been done to it and who was responsible for
-                        carrying out any given action on it.
+                        Transactions present critical information regarding item status. These include:
                     </Paragraph>
+                    <IndentInner nobar>
+                        <ul>
+                            <li>
+                                <Paragraph>Where an item is</Paragraph>
+                            </li>
+                            <li>
+                                <Paragraph>Which container an item is placed in</Paragraph>
+                            </li>
+                            <li>
+                                <Paragraph>
+                                    Who was responsible for carrying out any given action on an item
+                                </Paragraph>
+                            </li>
+                        </ul>
+                    </IndentInner>
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
@@ -138,20 +157,13 @@ export default function Loblaw() {
                 <ImgCaption>
                     A Transaction Log - action entries are sorted earliest-first by timestamp
                 </ImgCaption>
-            </ImgContainer>
-
-            <Section>
-                <Heading type={3}>Usage in PCX Operations</Heading>
-                <Paragraph>
-                    TRX is most often used by store colleagues and PCX specialists to address issues regarding fulfillment and
-                    validate order completion times. We reached out to determine what tasks they look to get done during
-                    investigation or validation.
-                </Paragraph>
-            </Section>
-
-            <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Jobs-to-be-Done</Heading>
+                    <Heading type={4} weight='heavy'>Usage in PCX Operations</Heading>
+                    <Paragraph>
+                        TRX is most often used by store colleagues and PCX specialists to address issues
+                        regarding fulfillment and validate order completion times. We reached out to determine
+                        what tasks they look to get done during investigation or validation.
+                    </Paragraph>
                 </SectionInner>
                 <ImgFluid>
                     <Img
@@ -313,6 +325,102 @@ export default function Loblaw() {
                     input from our colleagues, specialists, product manager and developers. We elected to split up
                     TRX into two layers of information: the transaction level and the item level.
                 </Paragraph>
+            </Section>
+
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>The Reworked Module Layout</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={InitialRedesign}
+                    alt='The initial redesign'/>
+                </ImgFluid>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Technical Constraints</Heading>
+                    <ul>
+                        <li>
+                            <Paragraph>
+                                The data we could display was limited to the same set of data that is being
+                                displayed by the existing module.
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                To avoid encountering performance issues, we needed to limit the number of
+                                transactions that can be displayed on the screen at once.
+                            </Paragraph>
+                        </li>
+                    </ul>
+                </SectionInner>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Unifying a Disjoint Item Journey</Heading>
+                    <Paragraph>
+                        To streamline the item tracking experience, transactions are now grouped based on the
+                        item they belong to. Additionally, each transaction set is sorted latest-first so that
+                        the most “current” state of each item is available to our colleagues upfront.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={AsIsSub}
+                    alt='Substitutions as they exist in TRX'/>
+                </ImgFluid>
+                <ImgCaption>
+                    A substitution lifecycle in TRX (highlighted in orange) - prior to the redesign, relationships
+                    between ordered and substitute items were indicated by the Line property
+                </ImgCaption>
+                <ImgFluid>
+                    <Img screen
+                    src={RedesignSub}
+                    alt='Substitutions in the initial redesign'/>
+                </ImgFluid>
+                <ImgCaption>
+                    The same substitution cycle in our redesign - the data displayed changes based on the selected
+                    item card
+                </ImgCaption>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Surfacing Visibility of Item Status</Heading>
+                    <Paragraph>
+                        At item-level is a list consisting of cards for every single item actioned within
+                        the log’s order. This new component facilitates one-click access to any transaction regardless
+                        of how many items are present within the order log.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={ItemCards}
+                    alt='Item cards'/>
+                </ImgFluid>
+                <ImgCaption>
+                    Each item card displays a timestamp and status describing the latest action carried out on it
+                </ImgCaption>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Introducing Order-level Search</Heading>
+                    <Paragraph>
+                        Colleagues will often go into TRX knowing exactly which items they want to look into.
+                        We wanted them to be able to navigate to these items without the need for too much
+                        scrolling.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={RedesignNav}
+                    alt='Search bar placement'/>
+                </ImgFluid>
+                <ImgCaption>
+                    The search bar is placed within the navbar to accommodate the potential need for a portal-wide
+                    search at order-level
+                </ImgCaption>
+            </ImgContainer>
+
+            <Section>
+                <IndentInner>
+                    <Heading type={4}>
+                        Our ideation run produced some radical changes to TRX. We needed to make sure that our new
+                        layout is easy to use by addressing potential pain points.
+                    </Heading>
+                </IndentInner>
             </Section>
             
         </Project>
