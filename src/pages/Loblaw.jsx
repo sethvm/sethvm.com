@@ -5,7 +5,6 @@ import { pageTitle } from '../components/Page/pageTitle';
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
 import SectionInner from '../components/Page/SectionInner';
-/*import Indent from '../components/Page/Indent';*/
 import IndentInner from '../components/Page/IndentInner';
 
 // typography
@@ -26,6 +25,10 @@ import EntryPoint from '../assets/loblaw/loblaw-trx_entry.png';
 import ActionDisplay from '../assets/loblaw/loblaw-trx_action_display.png';
 import JobsToBeDone from '../assets/loblaw/loblaw-trx_jtbd.svg';
 import ActionProperties from '../assets/loblaw/loblaw-trx_properties.png';
+
+import ActionsTranslated from '../assets/loblaw/loblaw-trx_transaction_descriptions.svg';
+import StatusLifecycle from '../assets/loblaw/loblaw-trx_transaction_lifecycle.png';
+import TRXNavigation from '../assets/loblaw/loblaw-trx_navigation.png';
 
 export default function Loblaw() {
 
@@ -138,7 +141,7 @@ export default function Loblaw() {
             </ImgContainer>
 
             <Section>
-                <Heading type={3}>Order Issue Resolution</Heading>
+                <Heading type={3}>Usage in PCX Operations</Heading>
                 <Paragraph>
                     TRX is most often used by store colleagues and PCX specialists to address issues regarding fulfillment and
                     validate order completion times. We reached out to determine what tasks they look to get done during
@@ -148,7 +151,7 @@ export default function Loblaw() {
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4}>Jobs-to-be-Done</Heading>
+                    <Heading type={4} weight='heavy'>Jobs-to-be-Done</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img
@@ -176,9 +179,6 @@ export default function Loblaw() {
                     <Heading type={5}>
                         “As is, I think [TRX] is very intimidating to colleagues because there are so many parts to learn and it’s
                         full of information in every which way.”
-                        <br />
-                        <br />
-                        “TRX right now can be confusing to some [when] trying to find who skipped or substituted an item...”
                         <br />
                         <br />
                         “Some of the descriptions of what a line is can be confusing… like ‘Put’ for example [is]
@@ -227,6 +227,93 @@ export default function Loblaw() {
                 </Paragraph>
             </Section>
 
+            <Section>
+                <Heading type={3}>Deciphering the Item Pick Lifecycle</Heading>
+                <Paragraph>
+                    Before proceeding with our redesign, we needed a deeper understanding of how the item pick lifecycle works.
+                    We worked closely with our colleagues, specialists and product manager to document every transaction type and
+                    where each transaction fits within the pick lifecycle.
+                </Paragraph>
+            </Section>
+
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Minimizing Transaction Jargon</Heading>
+                    <Paragraph>
+                        Tasks carried out on items are described by the transaction code property. Each transaction code represents
+                        a different stage of the pick lifecycle and is paired with a description. We leveraged our learnings and
+                        rephrased each task description using simpler terminology.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={ActionsTranslated}
+                    alt="Transactions in Layman's Terms"/>
+                </ImgFluid>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Item Status Cycle</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={StatusLifecycle}
+                    alt='Item Status Lifecycle' />
+                </ImgFluid>
+            </ImgContainer>
+
+            <Section>
+                <IndentInner>
+                    <Heading type={4} >
+                        Our first opportunity involved leveraging natural language to make transactions easier
+                        to understand for those unfamiliar with the pick procedure.
+                    </Heading>
+                </IndentInner>
+            </Section>
+
+            <Section>
+                <Heading type={3}>Exploring the Existing Layout</Heading>
+                <Paragraph>
+                    After obtaining a firm grasp on the item pick procedure, we sought to learn more about how
+                    our colleagues navigate through the existing interface.
+                </Paragraph>
+            </Section>
+
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Pagination</Heading>
+                    <Paragraph>
+                        TRX groups transactions in sequentially ordered pages, with each page containing up to 18
+                        transactions. The module provides two sets of navigation controls that enable the user to
+                        move through pages at varying “skip” distances.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={TRXNavigation}
+                    alt='Existing navigation flow'/>
+                </ImgFluid>
+                <ImgCaption>
+                We noticed that the existing solution becomes cumbersome to browse through when investigating logs
+                that contain large numbers of transactions.
+                </ImgCaption>
+            </ImgContainer>
+
+            <Section>
+                <IndentInner>
+                    <Heading type={4} >
+                        Our second opportunity revolved around enabling the TRX module’s navigation experience to
+                        scale more effectively as orders become larger.
+                    </Heading>
+                </IndentInner>
+            </Section>
+
+            <Section>
+                <Heading type={3}>Initial Redesign</Heading>
+                <Paragraph>
+                    Putting together (and later refining) our redesign was a team effort that called for
+                    input from our colleagues, specialists, product manager and developers. We elected to split up
+                    TRX into two layers of information: the transaction level and the item level.
+                </Paragraph>
+            </Section>
             
         </Project>
     );
