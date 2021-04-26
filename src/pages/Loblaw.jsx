@@ -27,7 +27,7 @@ import ActionDisplay from '../assets/loblaw/loblaw-trx_action_display.png';
 import JobsToBeDone from '../assets/loblaw/loblaw-trx_jtbd.svg';
 import ActionProperties from '../assets/loblaw/loblaw-trx_properties.png';
 
-import StatusLifecycle from '../assets/loblaw/loblaw-trx_transaction_lifecycle.png';
+import StatusLifecycle from '../assets/loblaw/loblaw-trx_transaction_lifecycle.svg';
 import TRXNavigation from '../assets/loblaw/loblaw-trx_navigation.png';
 
 import InitialRedesign from '../assets/loblaw/loblaw-ph_initial_redesign.svg';
@@ -140,14 +140,18 @@ export default function Loblaw() {
                     <IndentInner nobar>
                         <List>
                             <li>
-                                <Paragraph>Where an item is</Paragraph>
-                            </li>
-                            <li>
-                                <Paragraph>Which container an item is placed in</Paragraph>
+                                <Paragraph>
+                                    <span className='bold'>Where an item is</span>
+                                </Paragraph>
                             </li>
                             <li>
                                 <Paragraph>
-                                    Who was responsible for carrying out any given action on an item
+                                    <span className='bold'>Which container an item is placed in</span>
+                                </Paragraph>
+                            </li>
+                            <li>
+                                <Paragraph>
+                                    <span className='bold'>Who was responsible for carrying out any given action on an item</span>
                                 </Paragraph>
                             </li>
                         </List>
@@ -166,14 +170,17 @@ export default function Loblaw() {
                     <Paragraph>
                         TRX is most often used by store colleagues and PCX specialists to address issues
                         regarding fulfillment and validate order completion times. We reached out to determine
-                        what tasks they look to get done during investigation or validation.
+                        what tasks they need to get done during investigation or validation.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
-                    <Img
+                    <Img screen
                     src={JobsToBeDone}
-                    alt='Jobs to be done' />
+                    alt='Jobs-to-Be-Done' />
                 </ImgFluid>
+                <ImgCaption>
+                    We utilized the Jobs-to-Be-Done framework to outline user needs
+                </ImgCaption>
             </ImgContainer>
 
             <Section>
@@ -191,19 +198,31 @@ export default function Loblaw() {
                     To uncover how our colleagues feel about using the existing module, we shifted the focus of our conversations
                     towards user sentiment.
                 </Paragraph>
-                <IndentInner nobar>
-                    <Heading type={5}>
-                        “As is, I think [TRX] is very intimidating to colleagues because there are so many parts to learn and it’s
-                        full of information in every which way.”
-                        <br />
-                        <br />
-                        “Some of the descriptions of what a line is can be confusing… like ‘Put’ for example [is]
-                        not a term used anywhere else”
-                        <br />
-                        <br />
-                        “The data is all there but it can be more clear”
-                    </Heading>
-                </IndentInner>
+                <List unBulleted>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                “As is, I think [TRX] is very intimidating to colleagues because there are so many parts to learn and it’s
+                                full of information in every which way.”
+                            </span>
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                “Some of the descriptions of what a line is can be confusing… like ‘Put’ for example [is]
+                                not a term used anywhere else”
+                            </span>
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                “The data is all there but it can be more clear”
+                            </span>
+                        </Paragraph>
+                    </li>
+                </List>
             </Section>
 
             <ImgContainer>
@@ -213,15 +232,14 @@ export default function Loblaw() {
                     alt='Action properties'/>
                 </ImgFluid>
                 <ImgCaption>
-                    A high-level breakdown of what each action property describes
+                    Location changes and transaction descriptions are presented in the form of raw data, resulting in a workflow
+                    that can appear difficult to grasp.
                 </ImgCaption>
             </ImgContainer>
 
             <Section>
                 <Paragraph>
-                    It became evident that new colleagues are introduced to a steep learning curve when onboarding onto the PCX pick
-                    procedure. Location changes and transaction descriptions are presented in the form of raw data, resulting in a
-                    workflow that can appear difficult to grasp.
+                    It became evident that new hires are faced with a steep learning curve when onboarding onto the PCX pick procedure.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -254,60 +272,59 @@ export default function Loblaw() {
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Reducing Transaction Jargon</Heading>
+                    <Heading type={4} weight='heavy'>Breaking down Transaction Jargon</Heading>
                     <Paragraph>
-                        Tasks carried out on items are described by the transaction code property. Each transaction code represents
-                        a different stage of the pick lifecycle and is paired with a description. We leveraged our learnings and
-                        rephrased each task description using simpler terminology:
+                        Transaction codes represent the different stages of the pick lifecycle and are paired with brief descriptions.
+                        We leveraged our learnings and rephrased each code-description pairing using simpler terminology:
                     </Paragraph>
                     <List unBulleted>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>300: Picking Induct LP → </span>
                                 Tote is assigned a license plate (LP) identifier
-                            </p>
+                            </Paragraph>
                         </li>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>642: Line Skipped → </span>
                                 Item is “skipped” for a picker to come back to later
-                            </p>
+                            </Paragraph>
                         </li>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>301: Picking (Pick) → </span>
                                 Item is picked and placed into a tote
-                            </p>
+                            </Paragraph>
                         </li>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>210: Substitution by Picker → </span>
                                 Item is substituted (replaced) with another item
-                            </p>
+                            </Paragraph>
                         </li>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>641: Line Shorted → </span>
                                 Item is unfulfilled (neither picked nor replaced)
-                            </p>
+                            </Paragraph>
                         </li>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>302: Picking (Put) → </span>
                                 Tote containing the item is staged in a staging area
-                            </p>
+                            </Paragraph>
                         </li>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>321: Loading (Pick) → </span>
                                 Item is being loaded onto customer's vehicle
-                            </p>
+                            </Paragraph>
                         </li>
                         <li>
-                            <p>
+                            <Paragraph>
                                 <span className='bold'>323: Loading (Put) → </span>
                                 Item loaded
-                            </p>
+                            </Paragraph>
                         </li>
                     </List>
                 </SectionInner>
@@ -315,7 +332,7 @@ export default function Loblaw() {
                     <Heading type={4} weight='heavy'>Item Status Cycle</Heading>
                 </SectionInner>
                 <ImgFluid>
-                    <Img screen
+                    <Img
                     src={StatusLifecycle}
                     alt='Item Status Lifecycle' />
                 </ImgFluid>
@@ -353,16 +370,16 @@ export default function Loblaw() {
                     alt='Existing navigation flow'/>
                 </ImgFluid>
                 <ImgCaption>
-                We noticed that the existing solution becomes cumbersome to browse through when investigating logs
-                that contain large numbers of transactions.
+                    We noticed that the existing solution becomes cumbersome to browse through when investigating logs
+                    that contain large numbers of transactions.
                 </ImgCaption>
             </ImgContainer>
 
             <Section>
                 <IndentInner>
                     <Heading type={4} >
-                        Our second opportunity revolved around enabling the TRX module’s navigation experience to
-                        scale more effectively as orders become larger.
+                        Our second opportunity revolved around enabling the TRX module’s navigation experience to scale
+                        more effectively across varying order sizes.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -405,9 +422,10 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Unifying a Disjoint Item Journey</Heading>
                     <Paragraph>
-                        To streamline the item tracking experience, transactions are now grouped based on the
-                        item they belong to. Additionally, each transaction set is sorted latest-first so that
-                        the most “current” state of each item is available to our colleagues upfront.
+                        To streamline item tracking, transactions are now grouped based on the item they belong to.
+                        Each transaction set is sorted latest-first so that the most “current” state of each item is
+                        available to our colleagues upfront. We incorporated the revamped transaction
+                        descriptions we created while mapping out the pick lifecycle.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -425,15 +443,15 @@ export default function Loblaw() {
                     alt='Substitutions in the initial redesign'/>
                 </ImgFluid>
                 <ImgCaption>
-                    The same substitution cycle in our redesign - the data displayed changes based on the selected
-                    item card
+                    The same substitution cycle in our redesign - the data displayed at transaction-level
+                    changes based on the selected item card
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Surfacing Visibility of Item Status</Heading>
                     <Paragraph>
-                        At item-level is a list consisting of cards for every single item actioned within
-                        the log’s order. This new component facilitates one-click access to any transaction regardless
-                        of how many items are present within the order log.
+                        The “All Items” list facilitates one-click access to any transaction regardless of how many
+                        items are present within an order log. Additionally, cards provide insight into an item’s
+                        latest status without the need to select it from the item list.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
