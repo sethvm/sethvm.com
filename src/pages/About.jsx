@@ -34,7 +34,7 @@ export default function About() {
                     <br />
                 </Heading>
                 <Heading type={3} weight='bold'>
-                    ... a student in Human-centered Design {'\u{1F4D2}'}
+                    ... a student in Human-centered Design
                 </Heading>
                 <Paragraph>
                     I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
@@ -49,7 +49,7 @@ export default function About() {
                     <br />
                 </Paragraph>
                 <Heading type={3} weight='bold'>
-                    ... a zealous adrenaline junkie {'\u{1FA82}'}
+                    ... a zealous adrenaline junkie
                 </Heading>
                 <Paragraph>
                     Should you ever need to find me outside of school and work, there's a
@@ -61,7 +61,7 @@ export default function About() {
                     <br />
                 </Paragraph>
                 <Heading type={3} weight='bold'>
-                    ... an avid baker {'\u{1F950}'}
+                    ... an avid baker
                 </Heading>
                 <Paragraph>
                     Having worked full-time as a baker prior to university,

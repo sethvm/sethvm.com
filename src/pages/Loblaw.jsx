@@ -22,24 +22,25 @@ import ImgCaption from '../components/Page/ImgCaption';
 import Img from '../components/Page/Img';
 
 // visuals
-import EntryPoint from '../assets/loblaw/loblaw-trx_entry.png';
-import ActionDisplay from '../assets/loblaw/loblaw-trx_action_display.png';
-import JobsToBeDone from '../assets/loblaw/loblaw-trx_jtbd.svg';
-import ActionProperties from '../assets/loblaw/loblaw-trx_properties.png';
+import EntryPoint from '../assets/loblaw/trx_entry.png';
+import ActionDisplay from '../assets/loblaw/trx_action_display.png';
+import JobsToBeDone from '../assets/loblaw/trx_jtbd.svg';
+import ActionProperties from '../assets/loblaw/trx_properties.png';
 
-import StatusLifecycle from '../assets/loblaw/loblaw-trx_transaction_lifecycle.svg';
-import TRXNavigation from '../assets/loblaw/loblaw-trx_navigation.png';
+import StatusLifecycle from '../assets/loblaw/trx_transaction_lifecycle.svg';
+import TRXNavigation from '../assets/loblaw/trx_navigation.png';
 
-import InitialRedesign from '../assets/loblaw/loblaw-ph_initial_redesign.svg';
-import AsIsSub from '../assets/loblaw/loblaw-trx_as-is_sub.png';
-import RedesignSub from '../assets/loblaw/loblaw-ph_redesign_sub.svg';
-import ItemCards from '../assets/loblaw/loblaw-ph_item_cards.svg';
-import RedesignNav from '../assets/loblaw/loblaw-ph_redesign_navbar.svg';
+import InitialRedesign from '../assets/loblaw/ph_initial_redesign.svg';
+import AsIsSub from '../assets/loblaw/trx_as-is_sub.png';
+import RedesignSub from '../assets/loblaw/ph_redesign_sub.svg';
+import ItemCards from '../assets/loblaw/ph_item_cards.svg';
+import RedesignNav from '../assets/loblaw/ph_redesign_navbar.svg';
 
-import TransactionIterations from '../assets/loblaw/loblaw-ph_transaction_iterations.svg';
+import TransactionIterations from '../assets/loblaw/ph_transaction_iterations.svg';
+import ItemListChanges from '../assets/loblaw/ph_item_list_changes.svg';
 
-import ColourSystem from '../assets/loblaw/loblaw-ph_colours.svg';
-import TransactionIcons from '../assets/loblaw/loblaw-ph_transaction_icons.svg';
+import ColourSystem from '../assets/loblaw/ph_colours.svg';
+import TransactionIcons from '../assets/loblaw/ph_transaction_icons.svg';
 
 export default function Loblaw() {
 
@@ -61,8 +62,8 @@ export default function Loblaw() {
                     &nbsp;Loblaw Digital
                 </Paragraph>
                 <Paragraph>
-                    <span className='bold'>Team:</span>
-                    &nbsp;2 Designers, 5 Developers, Product Manager
+                    <span className='bold'>Role:</span>
+                    &nbsp;Lead Designer with 1 Product Designer, 5 Developers and 1 Product Owner
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
@@ -375,7 +376,7 @@ export default function Loblaw() {
                 <Heading type={3}>Initial Redesign</Heading>
                 <Paragraph>
                     Putting together (and later refining) our redesign was a team effort that called for input from our product
-                    manager and developers. We elected to split up TRX into two layers of information: the transaction level
+                    owner and developers. We elected to split up TRX into two layers of information: the transaction level
                     and the item level.
                 </Paragraph>
             </Section>
@@ -547,19 +548,27 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Post-Testing Evolution</Heading>
                 <Paragraph>
-                    We focused our post-testing efforts on refining our transaction layout. Collaboration with our
+                    We focused most of our post-testing efforts on refining our transaction layout. Collaboration with our
                     developers played a critical role in maintaining alignment regarding technical feasibility
                     as we polished our solution.
                 </Paragraph>
             </Section>
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Transaction Display Changes</Heading>
+                    <Heading type={4} weight='heavy'>Transaction Iterations</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img
                     src={TransactionIterations}
                     alt='Transaction iterations'/>
+                </ImgFluid>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Item List Changes</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img
+                    src={ItemListChanges}
+                    alt='Item list changes'/>
                 </ImgFluid>
             </ImgContainer>
             <Section>
