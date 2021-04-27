@@ -36,10 +36,10 @@ import RedesignSub from '../assets/loblaw/loblaw-ph_redesign_sub.svg';
 import ItemCards from '../assets/loblaw/loblaw-ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/loblaw-ph_redesign_navbar.svg';
 
+import TransactionIterations from '../assets/loblaw/loblaw-ph_transaction_iterations.svg';
+
 import ColourSystem from '../assets/loblaw/loblaw-ph_colours.svg';
 import TransactionIcons from '../assets/loblaw/loblaw-ph_transaction_icons.svg';
-
-import TransactionIterations from '../assets/loblaw/loblaw-ph_transaction_iterations.svg';
 
 export default function Loblaw() {
 
@@ -120,7 +120,6 @@ export default function Loblaw() {
                     by a PCX colleague throughout the pick process of an order, providing comprehensive insight regarding item status.
                 </Paragraph>
             </Section>
-
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Entry Point</Heading>
@@ -187,7 +186,6 @@ export default function Loblaw() {
                     We utilized the Jobs-to-Be-Done framework to outline user needs
                 </ImgCaption>
             </ImgContainer>
-
             <Section>
                 <IndentInner>
                     <Heading type={4}>
@@ -229,7 +227,6 @@ export default function Loblaw() {
                     </li>
                 </List>
             </Section>
-
             <ImgContainer>
                 <ImgFluid>
                     <Img screen
@@ -241,7 +238,6 @@ export default function Loblaw() {
                     that can appear difficult to grasp.
                 </ImgCaption>
             </ImgContainer>
-
             <Section>
                 <Paragraph>
                     It became evident that new hires are faced with a steep learning curve when onboarding onto the PCX pick procedure.
@@ -252,18 +248,14 @@ export default function Loblaw() {
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    Additionally, we discovered that actions are not grouped by item and often span multiple pages; colleagues must
-                    refer to the number within the Line property to identify which entries are connected to the same sets of lifecycles.
+                    Additionally, we discovered that actions often span multiple pages; colleagues must refer to the Line property to identify
+                    which entries are connected to the same sets of lifecycles.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
                         Tracking item movement was a tedious task due to the existing layout of the TRX module.
                     </Heading>
                 </IndentInner>
-                <Paragraph>
-                    Redesigning TRX for the OPS Portal presented opportunities to establish new ways of organizing and
-                    describing pick actions.
-                </Paragraph>
             </Section>
 
             <Section>
@@ -274,7 +266,6 @@ export default function Loblaw() {
                     in documenting our findings.
                 </Paragraph>
             </Section>
-
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Deciphering the Item Pick Lifecycle</Heading>
@@ -345,7 +336,6 @@ export default function Loblaw() {
                     We mapped out the pick lifecycle to obtain a firm grasp on where each status fits within the item journey
                 </ImgCaption>
             </ImgContainer>
-
             <Section>
                 <IndentInner>
                     <Heading type={4} >
@@ -354,7 +344,6 @@ export default function Loblaw() {
                     </Heading>
                 </IndentInner>
             </Section>
-
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Navigating the Existing Layout</Heading>
@@ -373,7 +362,6 @@ export default function Loblaw() {
                     that contain large numbers of transactions.
                 </ImgCaption>
             </ImgContainer>
-
             <Section>
                 <IndentInner>
                     <Heading type={4} >
@@ -391,7 +379,6 @@ export default function Loblaw() {
                     and the item level.
                 </Paragraph>
             </Section>
-
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>The Reworked Module Layout</Heading>
@@ -483,7 +470,6 @@ export default function Loblaw() {
                     search at order-level
                 </ImgCaption>
             </ImgContainer>
-
             <Section>
                 <IndentInner>
                     <Heading type={4}>
@@ -559,13 +545,39 @@ export default function Loblaw() {
             </Section>
 
             <Section>
-                <Heading type={3}>Recognition Over Recall</Heading>
+                <Heading type={3}>Post-Testing Evolution</Heading>
                 <Paragraph>
-                    Our testing feedback uncovered chances to better assist our colleagues in differentiating transaction
-                    types and item journeys. We took advantage of these by integrating some key visual elements.
+                    We focused our post-testing efforts on refining our transaction layout. Collaboration with our
+                    developers played a critical role in maintaining alignment regarding technical feasibility
+                    as we polished our solution.
                 </Paragraph>
             </Section>
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Transaction Display Changes</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img
+                    src={TransactionIterations}
+                    alt='Transaction iterations'/>
+                </ImgFluid>
+            </ImgContainer>
+            <Section>
+                <IndentInner>
+                    <Heading type={4}>
+                        Our iterations led to us opting to sort transactions earliest-first. The latest-first ordering
+                        did not align with our users’ mental model due to TRX’s chronologically ascending arrangement.
+                    </Heading>
+                </IndentInner>
+            </Section>
 
+            <Section>
+                <Heading type={3}>Recognition Over Recall</Heading>
+                <Paragraph>
+                    Our testing feedback uncovered chances to better assist our colleagues in differentiating 
+                    action types and item journeys.
+                </Paragraph>
+            </Section>
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Traffic Light Colour Sequence</Heading>
@@ -590,31 +602,6 @@ export default function Loblaw() {
                     <Img screen
                     src={TransactionIcons}
                     alt='Transaction icons'/>
-                </ImgFluid>
-            </ImgContainer>
-
-            <Section>
-                <Heading type={3}>Cutting Interaction Costs</Heading>
-                <Paragraph>
-                    We focused our post-testing efforts on refining our transaction layout. Collaboration with our
-                    developers played a critical role in maintaining alignment regarding technical feasibility
-                    as we polished our solution.
-                </Paragraph>
-            </Section>
-
-            <ImgContainer>
-                <SectionInner>
-                    <Heading type={4} weight='heavy'>Transaction Iterations</Heading>
-                    <Paragraph>
-                        Our iterations led to us opting to sort transactions earliest-first. We realized that the
-                        latest-first ordering we incorporated into our initial redesign did not align with our users’
-                        mental model due to TRX’s chronologically ascending arrangement.
-                    </Paragraph>
-                </SectionInner>
-                <ImgFluid>
-                    <Img
-                    src={TransactionIterations}
-                    alt='Transaction iterations'/>
                 </ImgFluid>
             </ImgContainer>
             
