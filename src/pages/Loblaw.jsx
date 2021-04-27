@@ -36,6 +36,11 @@ import RedesignSub from '../assets/loblaw/loblaw-ph_redesign_sub.svg';
 import ItemCards from '../assets/loblaw/loblaw-ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/loblaw-ph_redesign_navbar.svg';
 
+import ColourSystem from '../assets/loblaw/loblaw-ph_colours.svg';
+import TransactionIcons from '../assets/loblaw/loblaw-ph_transaction_icons.svg';
+
+import TransactionIterations from '../assets/loblaw/loblaw-ph_transaction_iterations.svg';
+
 export default function Loblaw() {
 
     pageTitle('OPS Pick History');
@@ -193,9 +198,9 @@ export default function Loblaw() {
             </Section>
 
             <Section>
-                <Heading type={3}>Unravelling our Problems</Heading>
+                <Heading type={3}>Uncovering our Problems</Heading>
                 <Paragraph>
-                    To uncover how our colleagues feel about using the existing module, we shifted the focus of our conversations
+                    To find out how our colleagues feel about using the existing module, we shifted the focus of our conversations
                     towards user sentiment.
                 </Paragraph>
                 <List unBulleted>
@@ -401,14 +406,18 @@ export default function Loblaw() {
                     <List>
                         <li>
                             <Paragraph>
-                                The data we could display was limited to the same set of data that is being
-                                displayed by the existing module.
+                                <span className='bold'>
+                                    The data we could display was limited to the same set of data that is being
+                                    displayed by the existing module.
+                                </span>
                             </Paragraph>
                         </li>
                         <li>
                             <Paragraph>
-                                To avoid encountering performance issues, we needed to limit the number of
-                                transactions that can be displayed on the screen at once.
+                                <span className='bold'>
+                                    To avoid encountering performance issues, we needed to limit the number of
+                                    transactions that can be displayed on the screen at once.
+                                </span>
                             </Paragraph>
                         </li>
                     </List>
@@ -512,7 +521,7 @@ export default function Loblaw() {
                     <li>
                         <Paragraph>
                             <span className='bold'>
-                                Layout drastically decreased the time taken verify staging times
+                                Layout drastically decreased the time taken to verify staging times
                             </span>
                         </Paragraph>
                     </li>
@@ -541,7 +550,73 @@ export default function Loblaw() {
                         </Paragraph>
                     </li>
                 </List>
+                <IndentInner>
+                    <Heading type={4}>
+                        Our redesign excelled in simplifying transaction descriptions and presenting item status upfront.
+                        However, there are still pain points that we had not managed to address.
+                    </Heading>
+                </IndentInner>
             </Section>
+
+            <Section>
+                <Heading type={3}>Recognition Over Recall</Heading>
+                <Paragraph>
+                    Our testing feedback uncovered chances to better assist our colleagues in differentiating transaction
+                    types and item journeys. We took advantage of these by integrating some key visual elements.
+                </Paragraph>
+            </Section>
+
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Traffic Light Colour Sequence</Heading>
+                    <Paragraph>
+                        We introduced a traffic light system to distinguish between the varying fulfillment
+                        levels attained by each type of action.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={ColourSystem}
+                    alt='traffic light colour sequence'/>
+                </ImgFluid>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>"[An icon] is Worth a Thousand Words"</Heading>
+                    <Paragraph>
+                        In adherence to a classic aphorism, timeline icons have been incorporated to serve as
+                        indicators for pick and load actions.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={TransactionIcons}
+                    alt='Transaction icons'/>
+                </ImgFluid>
+            </ImgContainer>
+
+            <Section>
+                <Heading type={3}>Cutting Interaction Costs</Heading>
+                <Paragraph>
+                    We focused our post-testing efforts on refining our transaction layout. Collaboration with our
+                    developers played a critical role in maintaining alignment regarding technical feasibility
+                    as we polished our solution.
+                </Paragraph>
+            </Section>
+
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Transaction Iterations</Heading>
+                    <Paragraph>
+                        Our iterations led to us opting to sort transactions earliest-first. We realized that the
+                        latest-first ordering we incorporated into our initial redesign did not align with our users’
+                        mental model due to TRX’s chronologically ascending arrangement.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img
+                    src={TransactionIterations}
+                    alt='Transaction iterations'/>
+                </ImgFluid>
+            </ImgContainer>
             
         </Project>
     );
