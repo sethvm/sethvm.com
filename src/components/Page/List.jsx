@@ -6,7 +6,7 @@ export default function List({ unBulleted, children }) {
     const noBullets = unBulleted ? listStyles.noBullets : '';
 
     return (
-        <ul className={noBullets}>
+        <ul className={`${listStyles.container} ${noBullets}`}>
             {children}
         </ul>
     );

@@ -262,20 +262,20 @@ export default function Loblaw() {
             </Section>
 
             <Section>
-                <Heading type={3}>Deciphering the Item Pick Lifecycle</Heading>
+                <Heading type={3}>Discovering Opportunities</Heading>
                 <Paragraph>
-                    Before proceeding with our redesign, we needed a deeper understanding of how the item pick lifecycle works.
-                    We worked closely with our colleagues, specialists and product manager to document every transaction type and
-                    where each transaction fits within the pick lifecycle.
+                    Before proceeding with our redesign, we needed a deeper understanding of how the item pick lifecycle
+                    works and how our users interact with the existing interface. We worked closely with our colleagues
+                    in documenting our findings.
                 </Paragraph>
             </Section>
 
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Breaking down Transaction Jargon</Heading>
+                    <Heading type={4} weight='heavy'>Deciphering the Item Pick Lifecycle</Heading>
                     <Paragraph>
-                        Transaction codes represent the different stages of the pick lifecycle and are paired with brief descriptions.
-                        We leveraged our learnings and rephrased each code-description pairing using simpler terminology:
+                        Transaction codes represent the different stages of the pick lifecycle and are paired within a description.
+                        We leveraged our learnings and rephrased every code-description pair using simpler terminology:
                     </Paragraph>
                     <List unBulleted>
                         <li>
@@ -329,45 +329,39 @@ export default function Loblaw() {
                     </List>
                 </SectionInner>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Item Status Cycle</Heading>
+                    <Heading type={4} weight='heavy'>The Lifecycle Visualized</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img
                     src={StatusLifecycle}
-                    alt='Item Status Lifecycle' />
+                    alt='The pick lifecycle visualized' />
                 </ImgFluid>
+                <ImgCaption>
+                    We mapped out the pick lifecycle to obtain a firm grasp on where each status fits within the item journey
+                </ImgCaption>
             </ImgContainer>
 
             <Section>
                 <IndentInner>
                     <Heading type={4} >
-                        Our first opportunity involved leveraging natural language to make transactions easier
+                        Our first design opportunity involved leveraging natural language to make transactions easier
                         to understand for those unfamiliar with the pick procedure.
                     </Heading>
                 </IndentInner>
             </Section>
 
-            <Section>
-                <Heading type={3}>Exploring the Existing Layout</Heading>
-                <Paragraph>
-                    After obtaining a firm grasp on the item pick procedure, we sought to learn more about how
-                    our colleagues navigate through the existing interface.
-                </Paragraph>
-            </Section>
-
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Pagination</Heading>
+                    <Heading type={4} weight='heavy'>Navigating the Existing Layout</Heading>
                     <Paragraph>
-                        TRX groups transactions in sequentially ordered pages, with each page containing up to 18
-                        transactions. The module provides two sets of navigation controls that enable the user to
-                        move through pages at varying “skip” distances.
+                        TRX arranges transactions in sequentially ordered pages. Navigation consists of two sets of “Next” and
+                        “Previous” buttons - the outer buttons enable users to skip pages when larger jumps are needed.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
                     src={TRXNavigation}
-                    alt='Existing navigation flow'/>
+                    alt='TRX navigation controls'/>
                 </ImgFluid>
                 <ImgCaption>
                     We noticed that the existing solution becomes cumbersome to browse through when investigating logs
@@ -378,7 +372,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4} >
-                        Our second opportunity revolved around enabling the TRX module’s navigation experience to scale
+                        Our second design opportunity revolved around enabling the TRX module’s navigation experience to scale
                         more effectively across varying order sizes.
                     </Heading>
                 </IndentInner>
@@ -387,9 +381,9 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Initial Redesign</Heading>
                 <Paragraph>
-                    Putting together (and later refining) our redesign was a team effort that called for
-                    input from our colleagues, specialists, product manager and developers. We elected to split up
-                    TRX into two layers of information: the transaction level and the item level.
+                    Putting together (and later refining) our redesign was a team effort that called for input from our product
+                    manager and developers. We elected to split up TRX into two layers of information: the transaction level
+                    and the item level.
                 </Paragraph>
             </Section>
 
@@ -484,10 +478,69 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Our ideation run produced some radical changes to TRX. We needed to make sure that our new
-                        layout is easy to use by addressing potential pain points.
+                        Our first ideations produced some radical changes to TRX.  Next, we needed to make sure that
+                        the new interface is easy to use.
                     </Heading>
                 </IndentInner>
+            </Section>
+
+            <Section>
+                <Heading type={3}>Validating Usability</Heading>
+                <Paragraph>
+                    We ran moderated tests and had several colleagues and specialists conduct mock order investigations
+                    using a prototype of our redesign. Our script outlined scenarios that mirror tasks they would encounter
+                    during their day-to-day work.
+                    <br />
+                    <br />
+                </Paragraph>
+                <Heading type={4} weight='heavy'>Targets We Hit</Heading>
+                <List>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Transaction descriptions were easy to understand
+                            </span>
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Item statuses were easily identified
+                            </span>
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Layout drastically decreased the time taken verify staging times
+                            </span>
+                        </Paragraph>
+                    </li>
+                </List>
+                <Heading type={4} weight='heavy'>What Needed Work</Heading>
+                <List>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Pick actions and load actions were hard to distinguish from one another
+                            </span>
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Substitution journeys were confusing to follow
+                            </span>
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Participants wanted access to the item number, a property that we thought was obsolete
+                            </span>
+                        </Paragraph>
+                    </li>
+                </List>
             </Section>
             
         </Project>
