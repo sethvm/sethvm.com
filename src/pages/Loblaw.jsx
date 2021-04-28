@@ -27,6 +27,7 @@ import ActionDisplay from '../assets/loblaw/trx_action_display.png';
 import JobsToBeDone from '../assets/loblaw/trx_jtbd.svg';
 import ActionProperties from '../assets/loblaw/trx_properties.png';
 
+import CodeDescriptionPairs from '../assets/loblaw/trx_code_description_pairs.png';
 import StatusLifecycle from '../assets/loblaw/trx_transaction_lifecycle.svg';
 import TRXNavigation from '../assets/loblaw/trx_navigation.png';
 
@@ -37,6 +38,7 @@ import ItemCards from '../assets/loblaw/ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/ph_redesign_navbar.svg';
 
 import TransactionIterations from '../assets/loblaw/ph_transaction_iterations.svg';
+import MultiToteLifecycle from '../assets/loblaw/ph_multi_tote_transactions.svg';
 import ItemColumnChanges from '../assets/loblaw/ph_item_list_changes.svg';
 
 import ColourSystem from '../assets/loblaw/ph_colours.svg';
@@ -277,9 +279,20 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Deciphering the Item Pick Lifecycle</Heading>
                     <Paragraph>
-                        Transaction codes represent the different stages of the pick lifecycle and are paired within a description.
-                        We leveraged our learnings and rephrased every code-description pair using simpler terminology:
+                        Transaction codes represent the different stages of the pick lifecycle and are paired within a
+                        description (highlighted below). We leveraged our learnings and rephrased every code-description
+                        pair using simpler terminology.
                     </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={CodeDescriptionPairs}
+                    alt='Transaction codes and descriptions'/>
+                </ImgFluid>
+                <ImgCaption>
+                    These numbers - what do they all mean?
+                </ImgCaption>
+                <SectionInner>
                     <List unBulleted>
                         <li>
                             <Paragraph>
@@ -421,8 +434,7 @@ export default function Loblaw() {
                     <Paragraph>
                         To streamline item tracking, transactions are now grouped based on the item they belong to.
                         Each transaction set is sorted latest-first so that the most “current” state of each item is
-                        available to our colleagues upfront. We incorporated the revamped transaction
-                        descriptions we created while mapping out the pick lifecycle.
+                        available to our colleagues upfront.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -480,8 +492,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Our first ideations produced some radical changes to TRX.  Next, we needed to make sure that
-                        the new interface is easy to use.
+                        Our first ideations produced some radical changes to TRX, now known as Pick History. Next, we
+                        needed to ensure that the new interface is easy to use.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -561,6 +573,31 @@ export default function Loblaw() {
             </Section>
             <ImgContainer>
                 <SectionInner>
+                    <Heading type={4} weight='heavy'>Technical Constraints and Edge Cases</Heading>
+                    <Paragraph>
+                        New constraints and edge cases were discovered during the development of our new module's API,
+                        which consolidates the same pieces of information as the TRX database:
+                    </Paragraph>
+                    <List>
+                        <li>
+                            <Paragraph>
+                                <span className='bold'>
+                                    The data model only provides the picked quantity of an item,
+                                    meaning we cannot display how many items are shorted on short transactions
+                                </span>
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                <span className='bold'>
+                                    If units of an item are picked into multiple totes, each tote’s
+                                    journey will be tracked asynchronously
+                                </span>
+                            </Paragraph>
+                        </li>
+                    </List>
+                </SectionInner>
+                <SectionInner>
                     <Heading type={4} weight='heavy'>Transaction Iterations</Heading>
                 </SectionInner>
                 <ImgFluid>
@@ -568,6 +605,18 @@ export default function Loblaw() {
                     src={TransactionIterations}
                     alt='Transaction iterations'/>
                 </ImgFluid>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Multi-Tote Item Journey</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img
+                    src={MultiToteLifecycle}
+                    alt='Multi-tote item journey'/>
+                </ImgFluid>
+                <ImgCaption>
+                    Displaying a multi-tote item journey required picked quantity and tote ID to be specified
+                    within staging actions
+                </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Item Column Changes</Heading>
                 </SectionInner>
@@ -589,15 +638,15 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Recognition Over Recall</Heading>
                 <Paragraph>
-                    Our testing feedback uncovered chances to better assist our colleagues in differentiating 
-                    action types and item journeys.
+                    Upon iterating our transaction designs, I discovered opportunities to better assist our colleagues in
+                    differentiating action types and item journeys.
                 </Paragraph>
             </Section>
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Traffic Light Colour Sequence</Heading>
                     <Paragraph>
-                        We introduced a traffic light system to distinguish between the varying fulfillment
+                        I introduced a traffic light system to distinguish between the varying fulfillment
                         levels attained by each type of action.
                     </Paragraph>
                 </SectionInner>
@@ -619,6 +668,14 @@ export default function Loblaw() {
                     alt='Transaction icons'/>
                 </ImgFluid>
             </ImgContainer>
+            <Section>
+                <IndentInner>
+                    <Heading type={4}>
+                        I introduced key visual elements to help our colleagues distinguish between transactions
+                        and “separate” timelines for different item journeys.
+                    </Heading>
+                </IndentInner>
+            </Section>
 
             <Section>
                 <Heading type={3}>Contextual Search</Heading>
@@ -654,12 +711,20 @@ export default function Loblaw() {
                     alt='Search bar states and empty state'/>
                 </ImgFluid>
             </ImgContainer>
+            <Section>
+                <IndentInner>
+                    <Heading type={4}>
+                        Localized context opened the opportunity to leverage an important design heuristic
+                        and streamline interactions with our search bar.
+                    </Heading>
+                </IndentInner>
+            </Section>
             
             <Section>
                 <Heading type={3}>The Rebirth</Heading>
                 <Paragraph>
-                    During the closing phases of designing the Pick History module, we constructed a pattern library
-                    for our developers and supported them throughout implementation and user acceptance testing (UAT).
+                    During the closing phases of designing the Pick History module, we supported our developers
+                    throughout implementation and user acceptance testing (UAT).
                 </Paragraph>
             </Section>
             <ImgContainer>
@@ -671,18 +736,22 @@ export default function Loblaw() {
                     src={PatternLibrary}
                     alt='Pattern library'/>
                 </ImgFluid>
+                <ImgCaption>
+                    I constructed a pattern library to serve as the single source of truth during the development
+                    of the new module’s frontend components
+                </ImgCaption>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Launch-ready Design</Heading>
-                    <Paragraph>
-                        We presented our final design at the OPS Roundup, a weekly forum attended by colleagues from the
-                        wider PCX operations branch.
-                    </Paragraph>
+                    <Heading type={4} weight='heavy'>Launch-Ready Design</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
                     src={FinalDesign}
                     alt='Launch-ready design'/>
                 </ImgFluid>
+                <ImgCaption>
+                    We presented our final design at the OPS Roundup, a weekly forum attended by colleagues from
+                    the wider PCX operations branch
+                </ImgCaption>
             </ImgContainer>
             <Section>
                 <IndentInner>
