@@ -37,10 +37,16 @@ import ItemCards from '../assets/loblaw/ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/ph_redesign_navbar.svg';
 
 import TransactionIterations from '../assets/loblaw/ph_transaction_iterations.svg';
-import ItemListChanges from '../assets/loblaw/ph_item_list_changes.svg';
+import ItemColumnChanges from '../assets/loblaw/ph_item_list_changes.svg';
 
 import ColourSystem from '../assets/loblaw/ph_colours.svg';
 import TransactionIcons from '../assets/loblaw/ph_transaction_icons.svg';
+
+import SearchPlacement from '../assets/loblaw/ph_search_placement.svg';
+import SearchStates from '../assets/loblaw/ph_search_states.svg';
+
+import PatternLibrary from '../assets/loblaw/ph_pattern_library.svg';
+import FinalDesign from '../assets/loblaw/ph_final_design.svg';
 
 export default function Loblaw() {
 
@@ -118,7 +124,7 @@ export default function Loblaw() {
                 <Heading type={3}>Transaction Logs (TRX)</Heading>
                 <Paragraph>
                     Transaction logs are key elements of the current operations platform. They keep records of every task performed
-                    by a PCX colleague throughout the pick process of an order, providing comprehensive insight regarding item status.
+                    by a PCX colleague throughout the pick process of a customer order, providing comprehensive insight regarding item status.
                 </Paragraph>
             </Section>
             <ImgContainer>
@@ -126,7 +132,7 @@ export default function Loblaw() {
                     <Heading type={4} weight='heavy'>Entry Point</Heading>
                     <Paragraph>
                         Transaction logs are attached to every order within the All Orders Summary, a page where grocery stores can view a
-                        tabulated list of orders to be fulfilled by any given day and hour (customer names have been obscured).
+                        tabulated list of orders to be fulfilled by any given day and hour.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -135,7 +141,7 @@ export default function Loblaw() {
                     alt='All Orders Summary'/>
                 </ImgFluid>
                 <ImgCaption>
-                    An order’s transaction log is accessed via the “Go To” column
+                    An order’s transaction log is accessed via the “Go To” column (customer names have been obscured)
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Action Entry Display</Heading>
@@ -467,7 +473,7 @@ export default function Loblaw() {
                     alt='Search bar placement'/>
                 </ImgFluid>
                 <ImgCaption>
-                    The search bar is placed within the navbar to accommodate the potential need for a portal-wide
+                    The search bar is placed within the navbar to accommodate the potential need for portal-wide
                     search at order-level
                 </ImgCaption>
             </ImgContainer>
@@ -563,12 +569,12 @@ export default function Loblaw() {
                     alt='Transaction iterations'/>
                 </ImgFluid>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Item List Changes</Heading>
+                    <Heading type={4} weight='heavy'>Item Column Changes</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img
-                    src={ItemListChanges}
-                    alt='Item list changes'/>
+                    src={ItemColumnChanges}
+                    alt='Item column changes'/>
                 </ImgFluid>
             </ImgContainer>
             <Section>
@@ -613,6 +619,79 @@ export default function Loblaw() {
                     alt='Transaction icons'/>
                 </ImgFluid>
             </ImgContainer>
+
+            <Section>
+                <Heading type={3}>Contextual Search</Heading>
+                <Paragraph>
+                    It was confirmed after testing that our search bar within our new module would be
+                    contextualized locally. As a user, we will be able to search through a customer
+                    order by item name or item number.
+                </Paragraph>
+            </Section>
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>If it Fitts’s, It Ships</Heading>
+                    <Paragraph>
+                        Our final item column design features a search bar that is 128 pixels wider and placed closer
+                        to where our users will be doing most of their navigation.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={SearchPlacement}
+                    alt='Search bar placement'/>
+                </ImgFluid>
+                <ImgCaption>
+                    Fitts’s Law states that the time to acquire a target is a function of the
+                    distance to and size of the target
+                </ImgCaption>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Microcopy and States</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img
+                    src={SearchStates}
+                    alt='Search bar states and empty state'/>
+                </ImgFluid>
+            </ImgContainer>
+            
+            <Section>
+                <Heading type={3}>The Rebirth</Heading>
+                <Paragraph>
+                    During the closing phases of designing the Pick History module, we constructed a pattern library
+                    for our developers and supported them throughout implementation and user acceptance testing (UAT).
+                </Paragraph>
+            </Section>
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Pattern Library</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img
+                    src={PatternLibrary}
+                    alt='Pattern library'/>
+                </ImgFluid>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Launch-ready Design</Heading>
+                    <Paragraph>
+                        We presented our final design at the OPS Roundup, a weekly forum attended by colleagues from the
+                        wider PCX operations branch.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={FinalDesign}
+                    alt='Launch-ready design'/>
+                </ImgFluid>
+            </ImgContainer>
+            <Section>
+                <IndentInner>
+                    <Heading type={4}>
+                        The Pick History module was deployed to stores as part of the OPS Portal rollout at the end of April
+                        2021 - the final week of my work term at Loblaw Digital.
+                    </Heading>
+                </IndentInner>
+            </Section>
             
         </Project>
     );
