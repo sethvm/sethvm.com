@@ -52,18 +52,18 @@ import FinalDesign from '../assets/loblaw/ph_final_design.svg';
 
 export default function Loblaw() {
 
-    pageTitle('OPS Pick History');
+    pageTitle('Ops Pick History');
 
     return (
         <Project>
             <Section>
-                <Heading type={2}>OPS Pick History</Heading>
+                <Heading type={2}>Ops Pick History</Heading>
                 <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
-                    Loblaw’s OPS Pick History provides a list of all tasks actioned on every item associated with a given
-                    grocery order. It is used as a tool by PC Express (PCX) colleagues and specialists to troubleshoot orders
-                    and validate fulfillment objectives.
+                    Loblaw’s Ops Pick History provides a list of all tasks actioned on every item associated with a given
+                    customer order. It is used as a tool by PC Express (PCX) colleagues to troubleshoot orders and validate
+                    fulfillment objectives.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
@@ -71,21 +71,18 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Role:</span>
-                    &nbsp;Lead Designer with 1 Product Designer, 5 Developers and 1 Product Owner
+                    &nbsp;Primary Designer with 1 Product Designer, 5 Developers and 1 Product Owner
+                </Paragraph>
+                <Paragraph>
+                    <span className='bold'>Timeline:</span>
+                    &nbsp;10 weeks
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
-                    &nbsp;In development {'\u{1F4BB}'}
+                    &nbsp;Launched {'\u{1F680}'}
                     <br />
                     <br />
                 </Paragraph>
-                <IndentInner>
-                    <Paragraph>
-                        <span className='bold italic'>
-                            This is an ongoing project - don't hesitate to reach out for more details!
-                        </span>
-                    </Paragraph>
-                </IndentInner>
             </Section>
 
             <Banner
@@ -107,16 +104,16 @@ export default function Loblaw() {
             </Section>
 
             <Section>
-                <Heading type={3}>The OPS Portal</Heading>
+                <Heading type={3}>The Ops Portal</Heading>
                 <Paragraph>
-                    The OPS Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
+                    The Ops Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
                     One of my first projects involved examining the current tool’s transaction logs (collectively referred
                     to as TRX) and collaborating on the introduction of a renewed experience with another designer. Our final
-                    product is the Pick History - a module designed to succeed TRX within the OPS Portal.
+                    product is the Pick History - a module designed to succeed TRX within the Ops Portal.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        The OPS Portal initiative aims to enhance the extensibility of Loblaw’s grocery operations
+                        The Ops Portal initiative aims to enhance the extensibility of Loblaw’s grocery operations
                         platform through a complete in-house rebuild of its existing components.
                     </Heading>
                 </IndentInner>
@@ -126,26 +123,13 @@ export default function Loblaw() {
                 <Heading type={3}>Transaction Logs (TRX)</Heading>
                 <Paragraph>
                     Transaction logs are key elements of the current operations platform. They keep records of every task performed
-                    by a PCX colleague throughout the pick process of a customer order, providing comprehensive insight regarding item status.
+                    by a PCX colleague throughout the pick process of a customer order, providing comprehensive insight regarding
+                    item status.
                 </Paragraph>
             </Section>
             <ImgContainer>
-                <SectionInner>
-                    <Heading type={4} weight='heavy'>Entry Point</Heading>
-                    <Paragraph>
-                        Transaction logs are attached to every order within the All Orders Summary, a page where grocery stores can view a
-                        tabulated list of orders to be fulfilled by any given day and hour.
-                    </Paragraph>
-                </SectionInner>
-                <ImgFluid>
-                    <Img screen
-                    src={EntryPoint}
-                    alt='All Orders Summary'/>
-                </ImgFluid>
-                <ImgCaption>
-                    An order’s transaction log is accessed via the “Go To” column (customer names have been obscured)
-                </ImgCaption>
-                <SectionInner>
+
+            <SectionInner>
                     <Heading type={4} weight='heavy'>Action Entry Display</Heading>
                     <Paragraph>
                         Transactions present critical information regarding item status. These include:
@@ -177,6 +161,21 @@ export default function Loblaw() {
                 </ImgFluid>
                 <ImgCaption>
                     A transaction log - action entries are sorted earliest-first by timestamp
+                </ImgCaption>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Entry Point</Heading>
+                    <Paragraph>
+                        Transaction logs are attached to every order within the All Orders Summary, a page where grocery stores can view a
+                        tabulated list of orders to be fulfilled by any given day and hour.
+                    </Paragraph>
+                </SectionInner>
+                <ImgFluid>
+                    <Img screen
+                    src={EntryPoint}
+                    alt='All Orders Summary'/>
+                </ImgFluid>
+                <ImgCaption>
+                    An order’s transaction log is accessed via the “Go To” column (customer names have been obscured)
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Usage in PCX Operations</Heading>
@@ -359,8 +358,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4} >
-                        Our first design opportunity involved leveraging natural language to make transactions easier
-                        to understand for those unfamiliar with the pick procedure.
+                        We had an opportunity to leverage natural language to make transactions easier to understand for those
+                        unfamiliar with the pick procedure.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -384,8 +383,8 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4} >
-                        Our second design opportunity revolved around enabling the TRX module’s navigation experience to scale
+                    <Heading type={4}>
+                        Our second opportunity revolved around enabling the TRX module’s navigation experience to scale
                         more effectively across varying order sizes.
                     </Heading>
                 </IndentInner>
@@ -408,6 +407,9 @@ export default function Loblaw() {
                     src={InitialRedesign}
                     alt='The initial redesign'/>
                 </ImgFluid>
+                <ImgCaption>
+                    We followed interface patterns that are consistent with the Ops Portal’s existing set of components
+                </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Technical Constraints</Heading>
                     <List>
@@ -415,7 +417,7 @@ export default function Loblaw() {
                             <Paragraph>
                                 <span className='bold'>
                                     The data we could display was limited to the same set of data that is being
-                                    displayed by the existing module.
+                                    displayed by the existing TRX module.
                                 </span>
                             </Paragraph>
                         </li>
@@ -432,7 +434,7 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Unifying a Disjoint Item Journey</Heading>
                     <Paragraph>
-                        To streamline item tracking, transactions are now grouped based on the item they belong to.
+                        To streamline item tracking, transactions are now grouped based on the items they belong to.
                         Each transaction set is sorted latest-first so that the most “current” state of each item is
                         available to our colleagues upfront.
                     </Paragraph>
@@ -492,8 +494,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Our first ideations produced some radical changes to TRX, now known as Pick History. Next, we
-                        needed to ensure that the new interface is easy to use.
+                        Our first ideations produced some radical changes to TRX, now known as the Pick History.
+                        Next, we needed to ensure that the new interface is easy to use.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -512,7 +514,7 @@ export default function Loblaw() {
                     <li>
                         <Paragraph>
                             <span className='bold'>
-                                Transaction descriptions were easy to understand
+                                Action descriptions were easy to understand
                             </span>
                         </Paragraph>
                     </li>
@@ -582,8 +584,8 @@ export default function Loblaw() {
                         <li>
                             <Paragraph>
                                 <span className='bold'>
-                                    The data model only provides the picked quantity of an item,
-                                    meaning we cannot display how many items are shorted on short transactions
+                                    The transaction data model only provides the picked quantity of an item, meaning we
+                                    cannot display how many items were originally ordered by the customer
                                 </span>
                             </Paragraph>
                         </li>
@@ -614,8 +616,8 @@ export default function Loblaw() {
                     alt='Multi-tote item journey'/>
                 </ImgFluid>
                 <ImgCaption>
-                    Displaying a multi-tote item journey required picked quantity and tote ID to be specified
-                    within staging actions
+                    Illustrating a clear multi-tote item journey required picked quantity and/or tote ID
+                    to be specified within stage and load actions
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Item Column Changes</Heading>
@@ -730,6 +732,10 @@ export default function Loblaw() {
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Pattern Library</Heading>
+                    <Paragraph>
+                        I constructed a pattern library to serve as the single source of truth during the development
+                        of the new module’s frontend components
+                    </Paragraph>
                 </SectionInner>
                 <ImgFluid>
                     <Img
@@ -737,8 +743,7 @@ export default function Loblaw() {
                     alt='Pattern library'/>
                 </ImgFluid>
                 <ImgCaption>
-                    I constructed a pattern library to serve as the single source of truth during the development
-                    of the new module’s frontend components
+                    Components have been styled in accordance with the PCX design system
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Launch-Ready Design</Heading>
@@ -749,14 +754,14 @@ export default function Loblaw() {
                     alt='Launch-ready design'/>
                 </ImgFluid>
                 <ImgCaption>
-                    We presented our final design at the OPS Roundup, a weekly forum attended by colleagues from
+                    We presented our final design at the Ops Roundup, a weekly forum attended by colleagues from
                     the wider PCX operations branch
                 </ImgCaption>
             </ImgContainer>
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        The Pick History module was deployed to stores as part of the OPS Portal rollout at the end of April
+                        The Pick History module was deployed to stores as part of the Ops Portal rollout at the end of April
                         2021 - the final week of my work term at Loblaw Digital.
                     </Heading>
                 </IndentInner>
