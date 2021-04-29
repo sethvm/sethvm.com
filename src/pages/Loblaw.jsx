@@ -61,9 +61,8 @@ export default function Loblaw() {
                 <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
-                    Loblaw’s Ops Pick History provides a list of all tasks actioned on every item associated with a given
-                    customer order. It is used as a tool by PC Express (PCX) colleagues to troubleshoot orders and validate
-                    fulfillment objectives.
+                    Loblaw’s Ops Pick History is a tool used by PC Express (PCX) colleagues to investigate
+                    customer order statuses and validate fulfillment completion times.
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Company:</span>
@@ -726,7 +725,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Localized context opened the opportunity to leverage an important design heuristic
+                        Localized context opened the opportunity to utilize an important design heuristic
                         and streamline interactions with our search bar.
                     </Heading>
                 </IndentInner>
@@ -744,7 +743,7 @@ export default function Loblaw() {
                     <Heading type={4} weight='heavy'>Pattern Library</Heading>
                     <Paragraph>
                         I constructed a pattern library to serve as the single source of truth during the development
-                        of the new module’s frontend components
+                        of the new module’s frontend components.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -786,12 +785,18 @@ export default function Loblaw() {
                 <IndentInner>
                     <Heading type={4}>Online fulfillment is a fast-moving problem space</Heading>
                 </IndentInner>
+                <Paragraph>
+                    Retailers are always looking for ways to operate more efficiently and better serve their consumer base.
+                    I’ve found that I thrive as a designer under the pace of delivering to uphold this tenet; designing the
+                    Pick History module felt closer to play than work.
+                </Paragraph>
                 <IndentInner>
                     <Heading type={4}>There is an endless tug-of-war between stakeholder requirements and technical constraints</Heading>
                 </IndentInner>
-                <IndentInner>
-                    <Heading type={4}>Identify when something ain’t broke, and don’t try to fix it</Heading>
-                </IndentInner>
+                <Paragraph>
+                    As designers, we all strive to craft the “perfect” experience for our users. However, it is also important
+                    to understand where a design’s constraints lie and leverage them when making informed decisions.
+                </Paragraph>
             </Section>
             <Section>
                 <Heading type={3}>
@@ -800,11 +805,21 @@ export default function Loblaw() {
                     <br />
                 </Heading>
                 <IndentInner>
-                    <Heading type={4}>Capture and address more potential edge cases</Heading>
+                    <Heading type={4}>Capture post-launch user feedback</Heading>
                 </IndentInner>
+                <Paragraph>
+                    Some design opportunities don’t reveal themselves until after a product is launched. Getting the Ops
+                    Portal into the hands of stores opens up a wider pool of users to collect insight from, and in turn
+                    more previously unseen insights.
+                </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>Explore the possibility of merging with another Ops Portal component</Heading>
+                    <Heading type={4}>Explore a potential merger with another Ops Portal component</Heading>
                 </IndentInner>
+                <Paragraph>
+                    Colleagues refer to an Order Details page to check ordered item quantities - a key piece of information
+                    missing from the Pick History. I would study the feasibility of consolidating the data provided across
+                    both components to create a unified investigation tool.
+                </Paragraph>
             </Section>
             
         </Project>
