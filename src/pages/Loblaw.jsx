@@ -15,7 +15,8 @@ import Paragraph from '../components/Typography/Paragraph';
 
 // img containers
 import Banner from '../components/Page/Banner';
-import LoblawCard from '../assets/loblaw/loblaw-card.svg';
+//import LoblawCard from '../assets/loblaw/loblaw-card.svg';
+import PickHistoryBanner from '../assets/loblaw/ph_banner.svg';
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
 import ImgCaption from '../components/Page/ImgCaption';
@@ -78,15 +79,15 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
-                    &nbsp;Launched {'\u{1F680}'}
+                    &nbsp;Launched 🚀
                     <br />
                     <br />
                 </Paragraph>
             </Section>
 
             <Banner
-            img={LoblawCard}
-            alt='Loblaw Digital' />
+            img={PickHistoryBanner}
+            alt='Ops Pick History' />
 
             <Section>
                 <Heading type={3}>Overview</Heading>
@@ -518,7 +519,7 @@ export default function Loblaw() {
                     <br />
                     <br />
                 </Paragraph>
-                <Heading type={4} weight='heavy'>The Hits</Heading>
+                <Heading type={4} weight='heavy'>🎯 The Hits</Heading>
                 <List>
                     <li>
                         <Paragraph>
@@ -542,7 +543,7 @@ export default function Loblaw() {
                         </Paragraph>
                     </li>
                 </List>
-                <Heading type={4} weight='heavy'>The Misses</Heading>
+                <Heading type={4} weight='heavy'>❌ The Misses</Heading>
                 <List>
                     <li>
                         <Paragraph>
@@ -787,15 +788,16 @@ export default function Loblaw() {
                 </IndentInner>
                 <Paragraph>
                     Retailers are always looking for ways to operate more efficiently and better serve their consumer base.
-                    I’ve found that I thrive as a designer under the pace of delivering to uphold this tenet; designing the
-                    Pick History module felt closer to play than work.
+                    I’ve found that I thrive as under the pace of delivering to uphold this tenet; designing the Pick History
+                    module felt closer to play than work.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>There is an endless tug-of-war between stakeholder requirements and technical constraints</Heading>
                 </IndentInner>
                 <Paragraph>
-                    As designers, we all strive to craft the “perfect” experience for our users. However, it is also important
-                    to understand where a design’s constraints lie and leverage them when making informed decisions.
+                    As designers, we all endeavour to craft the “perfect” experience for our users. However, striving to design for 
+                    the ideal experience often places compromise on the technical feasibility of a product. It is important to identify
+                    where a design’s constraints lie and make decisions that accommodate these.
                 </Paragraph>
             </Section>
             <Section>
@@ -808,17 +810,17 @@ export default function Loblaw() {
                     <Heading type={4}>Capture post-launch user feedback</Heading>
                 </IndentInner>
                 <Paragraph>
-                    Some design opportunities don’t reveal themselves until after a product is launched. Getting the Ops
-                    Portal into the hands of stores opens up a wider pool of users to collect feedback from, and in turn
-                    obtain more previously unseen insights.
+                    Some design opportunities don’t reveal themselves until after a product is released and undergoes unmoderated usage.
+                    Getting the Ops Portal into the hands of stores opens up a wider pool of users to collect feedback from, and in turn
+                    a wider pool of unseen insights.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>Explore a potential merger with another Ops Portal component</Heading>
                 </IndentInner>
                 <Paragraph>
                     Colleagues refer to an Order Details page to check ordered item quantities - a key piece of information
-                    missing from the Pick History. I would study the feasibility of consolidating the data provided across
-                    both components to create a unified investigation tool.
+                    missing from the Pick History module. I would study the feasibility of consolidating the data provided
+                    across both components to create a unified investigation tool.
                 </Paragraph>
             </Section>
             
