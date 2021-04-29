@@ -6,7 +6,7 @@ import Soulfx from '../assets/soulfx/soulfx-card.svg';
 // project card and quicklink properties
 export const projectData = [
     {
-        heading: 'OPS Pick History',
+        heading: 'Ops Pick History',
         subHeadings: [
             'Product Design'
         ],

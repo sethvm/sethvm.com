@@ -130,7 +130,7 @@ export default function Loblaw() {
             <ImgContainer>
 
             <SectionInner>
-                    <Heading type={4} weight='heavy'>Action Entry Display</Heading>
+                    <Heading type={4} weight='heavy'>Transaction Display</Heading>
                     <Paragraph>
                         Transactions present critical information regarding item status. These include:
                     </Paragraph>
@@ -180,9 +180,9 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Usage in PCX Operations</Heading>
                     <Paragraph>
-                        TRX is most often used by store colleagues and PCX specialists to address issues
-                        regarding fulfillment and validate order completion times. We reached out to determine
-                        what tasks they need to get done during investigation or validation.
+                        TRX is most often used by PCX colleagues to address issues regarding fulfillment
+                        and validate order completion times. We reached out to determine what tasks they need to get done
+                        during investigation or validation.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -197,8 +197,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        We defined our user needs and learned about the usage of TRX as a tool to ensure consistent order fulfillment.
-                        What does that experience look like for our colleagues and specialists?
+                        TRX is a tool used by PCX colleagues to ensure consistent and timely fulfillment of customer orders.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -292,6 +291,11 @@ export default function Loblaw() {
                     These numbers - what do they all mean?
                 </ImgCaption>
                 <SectionInner>
+                    <Heading type={4} weight='heavy'>
+                        Actions in Layman’s Terms
+                        <br />
+                        <br />
+                    </Heading>
                     <List unBulleted>
                         <li>
                             <Paragraph>
@@ -384,7 +388,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Our second opportunity revolved around enabling the TRX module’s navigation experience to scale
+                        Our next opportunity revolved around enabling the TRX module’s navigation experience to scale
                         more effectively across varying order sizes.
                     </Heading>
                 </IndentInner>
@@ -397,6 +401,12 @@ export default function Loblaw() {
                     owner and developers. We elected to split up TRX into two layers of information: the transaction level
                     and the item level.
                 </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>
+                        As PCX colleagues, we need to be able to quickly find any item within a customer order
+                        so that we can identify what has happened to it.
+                    </Heading>
+                </IndentInner>
             </Section>
             <ImgContainer>
                 <SectionInner>
@@ -503,13 +513,13 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Validating Usability</Heading>
                 <Paragraph>
-                    We ran moderated tests and had several colleagues and specialists conduct mock order investigations
+                    We ran moderated tests and had several colleagues conduct mock order investigations
                     using a prototype of our redesign. Our script outlined scenarios that mirror tasks they would encounter
                     during their day-to-day work.
                     <br />
                     <br />
                 </Paragraph>
-                <Heading type={4} weight='heavy'>Targets We Hit</Heading>
+                <Heading type={4} weight='heavy'>The Hits</Heading>
                 <List>
                     <li>
                         <Paragraph>
@@ -533,7 +543,7 @@ export default function Loblaw() {
                         </Paragraph>
                     </li>
                 </List>
-                <Heading type={4} weight='heavy'>What Needed Work</Heading>
+                <Heading type={4} weight='heavy'>The Misses</Heading>
                 <List>
                     <li>
                         <Paragraph>
@@ -701,7 +711,7 @@ export default function Loblaw() {
                     alt='Search bar placement'/>
                 </ImgFluid>
                 <ImgCaption>
-                    Fitts’s Law states that the time to acquire a target is a function of the
+                    Fitts’s Law (not a typo) states that the time to acquire a target is a function of the
                     distance to and size of the target
                 </ImgCaption>
                 <SectionInner>
@@ -762,8 +772,38 @@ export default function Loblaw() {
                 <IndentInner>
                     <Heading type={4}>
                         The Pick History module was deployed to stores as part of the Ops Portal rollout at the end of April
-                        2021 - the final week of my work term at Loblaw Digital.
+                        2021 - within the final week of my work term at Loblaw Digital.
                     </Heading>
+                </IndentInner>
+            </Section>
+
+            <Section>
+                <Heading type={3}>
+                    Takeaways
+                    <br />
+                    <br />
+                </Heading>
+                <IndentInner>
+                    <Heading type={4}>Online fulfillment is a fast-moving problem space</Heading>
+                </IndentInner>
+                <IndentInner>
+                    <Heading type={4}>There is an endless tug-of-war between stakeholder requirements and technical constraints</Heading>
+                </IndentInner>
+                <IndentInner>
+                    <Heading type={4}>Identify when something ain’t broke, and don’t try to fix it</Heading>
+                </IndentInner>
+            </Section>
+            <Section>
+                <Heading type={3}>
+                    What I Would Do Next
+                    <br />
+                    <br />
+                </Heading>
+                <IndentInner>
+                    <Heading type={4}>Capture and address more potential edge cases</Heading>
+                </IndentInner>
+                <IndentInner>
+                    <Heading type={4}>Explore the possibility of merging with another Ops Portal component</Heading>
                 </IndentInner>
             </Section>
             
