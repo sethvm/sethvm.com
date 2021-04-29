@@ -10,7 +10,7 @@ export const projectData = [
         subHeadings: [
             'Product Design'
         ],
-        description: "Launching a renewed order validation experience for Canada's largest grocery retailer",
+        description: "Crafting a renewed order validation experience for Canada's largest grocery retailer",
         img: Loblaw,
         alt: 'OPS Pick History',
         cardLink: 'View case study →',

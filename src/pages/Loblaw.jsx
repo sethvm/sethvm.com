@@ -23,17 +23,17 @@ import ImgCaption from '../components/Page/ImgCaption';
 import Img from '../components/Page/Img';
 
 // visuals
-import EntryPoint from '../assets/loblaw/trx_entry.png';
-import ActionDisplay from '../assets/loblaw/trx_action_display.png';
+import EntryPoint from '../assets/loblaw/trx_entry.jpg';
+import ActionDisplay from '../assets/loblaw/trx_action_display.jpg';
 import JobsToBeDone from '../assets/loblaw/trx_jtbd.svg';
-import ActionProperties from '../assets/loblaw/trx_properties.png';
+import ActionProperties from '../assets/loblaw/trx_properties.jpg';
 
-import CodeDescriptionPairs from '../assets/loblaw/trx_code_description_pairs.png';
+import CodeDescriptionPairs from '../assets/loblaw/trx_code_description_pairs.jpg';
 import StatusLifecycle from '../assets/loblaw/trx_transaction_lifecycle.svg';
-import TRXNavigation from '../assets/loblaw/trx_navigation.png';
+import TRXNavigation from '../assets/loblaw/trx_navigation.jpg';
 
 import InitialRedesign from '../assets/loblaw/ph_initial_redesign.svg';
-import AsIsSub from '../assets/loblaw/trx_as-is_sub.png';
+import AsIsSub from '../assets/loblaw/trx_as-is_sub.jpg';
 import RedesignSub from '../assets/loblaw/ph_redesign_sub.svg';
 import ItemCards from '../assets/loblaw/ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/ph_redesign_navbar.svg';
@@ -79,7 +79,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
-                    &nbsp;Launched 🚀
+                    &nbsp;User acceptance testing (UAT) 📈
                     <br />
                     <br />
                 </Paragraph>
@@ -771,8 +771,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        The Pick History module was deployed to stores as part of the Ops Portal rollout at the end of April
-                        2021 - within the final week of my work term at Loblaw Digital.
+                        The Pick History module is currently in UAT and is set to be deployed to production 
+                        in early May 2021.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -788,7 +788,7 @@ export default function Loblaw() {
                 </IndentInner>
                 <Paragraph>
                     Retailers are always looking for ways to operate more efficiently and better serve their consumer base.
-                    I’ve found that I thrive as under the pace of delivering to uphold this tenet; designing the Pick History
+                    I’ve found that I thrive under the pace of delivering to uphold this tenet; designing the Pick History
                     module felt closer to play than work.
                 </Paragraph>
                 <IndentInner>
@@ -810,9 +810,9 @@ export default function Loblaw() {
                     <Heading type={4}>Capture post-launch user feedback</Heading>
                 </IndentInner>
                 <Paragraph>
-                    Some design opportunities don’t reveal themselves until after a product is released and undergoes unmoderated usage.
-                    Getting the Ops Portal into the hands of stores opens up a wider pool of users to collect feedback from, and in turn
-                    a wider pool of unseen insights.
+                    Some design opportunities don’t reveal themselves until after a product undergoes extensive unmoderated
+                    usage. Getting the Ops Portal into the hands of stores opens up a wider pool of users to collect feedback
+                    from, and in turn a wider pool of unseen insights.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>Explore a potential merger with another Ops Portal component</Heading>
@@ -823,7 +823,6 @@ export default function Loblaw() {
                     across both components to create a unified investigation tool.
                 </Paragraph>
             </Section>
-            
         </Project>
     );
 }
