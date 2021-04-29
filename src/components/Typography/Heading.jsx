@@ -8,7 +8,8 @@ export default function Heading({ type, weight, children }) {
         () => { return <h1 className={`${weightValue}`}>{children}</h1> },
         () => { return <h2 className={`${weightValue}`}>{children}</h2> },
         () => { return <h3 className={`${weightValue}`}>{children}</h3> },
-        () => { return <h4 className={`${weightValue}`}>{children}</h4> }
+        () => { return <h4 className={`${weightValue}`}>{children}</h4> },
+        () => { return <h5 className={`${weightValue}`}>{children}</h5> }
     ]
 
     const index = (type - 1);

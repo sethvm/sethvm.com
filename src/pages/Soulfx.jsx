@@ -68,8 +68,8 @@ export default function Soulfx() {
                     &nbsp;Multinational pharmaceutical company
                 </Paragraph>
                 <Paragraph>
-                    <span className='bold'>Team:</span>
-                    &nbsp;2 Designers, 4 Developers, Product Owner, Project Manager
+                    <span className='bold'>Role:</span>
+                    &nbsp;Software Designer with 1 UX Designer, 4 Developers, 1 Product Owner and 1 Project Manager
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Timeline:</span>

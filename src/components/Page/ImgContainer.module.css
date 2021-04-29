@@ -11,6 +11,13 @@
     padding: 24px 0;
 }
 
+/* md breakpoint */
+@media (min-width: 768px) {
+    .glass {
+        margin: 0 auto;
+    }
+}
+
 /* lg breakpoint */
 @media (min-width: 992px) {
     .container {

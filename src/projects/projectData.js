@@ -6,11 +6,11 @@ import Soulfx from '../assets/soulfx/soulfx-card.svg';
 // project card and quicklink properties
 export const projectData = [
     {
-        heading: 'OPS Pick History',
+        heading: 'Ops Pick History',
         subHeadings: [
             'Product Design'
         ],
-        description: "Creating a streamlined order validation experience for Canada's largest grocery retailer",
+        description: "Launching a renewed order validation experience for Canada's largest grocery retailer",
         img: Loblaw,
         alt: 'OPS Pick History',
         cardLink: 'View case study →',
