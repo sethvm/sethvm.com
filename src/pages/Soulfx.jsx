@@ -425,8 +425,6 @@ export default function Soulfx() {
                     with the product were critical to the execution of each design phase. Working on this project
                     taught me that effective designs are created by working side-by-side with people who possess
                     varying domains of knowledge, some of which may not overlap.
-                    <br />
-                    <br />
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -438,8 +436,6 @@ export default function Soulfx() {
                     but a critical element of my role as a designer was to learn about the people who do. The
                     project provided an opportunity to leverage this understanding and contribute to improving
                     accessibility to healthcare services through design.
-                    <br />
-                    <br />
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>

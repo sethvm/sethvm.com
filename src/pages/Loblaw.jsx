@@ -809,8 +809,8 @@ export default function Loblaw() {
                 </IndentInner>
                 <Paragraph>
                     Some design opportunities don’t reveal themselves until after a product is launched. Getting the Ops
-                    Portal into the hands of stores opens up a wider pool of users to collect insight from, and in turn
-                    more previously unseen insights.
+                    Portal into the hands of stores opens up a wider pool of users to collect feedback from, and in turn
+                    obtain more previously unseen insights.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>Explore a potential merger with another Ops Portal component</Heading>
