@@ -23,17 +23,17 @@ import ImgCaption from '../components/Page/ImgCaption';
 import Img from '../components/Page/Img';
 
 // visuals
-import EntryPoint from '../assets/loblaw/trx_entry.jpg';
-import ActionDisplay from '../assets/loblaw/trx_action_display.jpg';
+import EntryPoint from '../assets/loblaw/trx_entry.png';
+import ActionDisplay from '../assets/loblaw/trx_action_display.png';
 import JobsToBeDone from '../assets/loblaw/trx_jtbd.svg';
-import ActionProperties from '../assets/loblaw/trx_properties.jpg';
+import ActionProperties from '../assets/loblaw/trx_properties.png';
 
-import CodeDescriptionPairs from '../assets/loblaw/trx_code_description_pairs.jpg';
+import CodeDescriptionPairs from '../assets/loblaw/trx_code_description_pairs.png';
 import StatusLifecycle from '../assets/loblaw/trx_transaction_lifecycle.svg';
-import TRXNavigation from '../assets/loblaw/trx_navigation.jpg';
+import TRXNavigation from '../assets/loblaw/trx_navigation.png';
 
 import InitialRedesign from '../assets/loblaw/ph_initial_redesign.svg';
-import AsIsSub from '../assets/loblaw/trx_as-is_sub.jpg';
+import AsIsSub from '../assets/loblaw/trx_as-is_sub.png';
 import RedesignSub from '../assets/loblaw/ph_redesign_sub.svg';
 import ItemCards from '../assets/loblaw/ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/ph_redesign_navbar.svg';
