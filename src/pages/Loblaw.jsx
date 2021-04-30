@@ -39,7 +39,6 @@ import ItemCards from '../assets/loblaw/ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/ph_redesign_navbar.svg';
 
 import TransactionIterations from '../assets/loblaw/ph_transaction_iterations.svg';
-import MultiToteLifecycle from '../assets/loblaw/ph_multi_tote_transactions.svg';
 import ItemColumnChanges from '../assets/loblaw/ph_item_list_changes.svg';
 
 import ColourSystem from '../assets/loblaw/ph_colours.svg';
@@ -531,14 +530,14 @@ export default function Loblaw() {
                     <li>
                         <Paragraph>
                             <span className='bold'>
-                                Item statuses were easily identified
+                                Item statuses were easily verified
                             </span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
                             <span className='bold'>
-                                Layout drastically decreased the time taken to verify staging times
+                                Layout drastically decreased the time taken to validate staging times
                             </span>
                         </Paragraph>
                     </li>
@@ -548,7 +547,7 @@ export default function Loblaw() {
                     <li>
                         <Paragraph>
                             <span className='bold'>
-                                Pick actions and load actions were hard to distinguish from one another
+                                Pick actions and load actions were difficult to distinguish from one another
                             </span>
                         </Paragraph>
                     </li>
@@ -562,7 +561,7 @@ export default function Loblaw() {
                     <li>
                         <Paragraph>
                             <span className='bold'>
-                                Participants wanted access to the item number, a property that we thought was obsolete
+                                Latest-first transaction sequencing was unintuitive and felt more like a “backwards flow”
                             </span>
                         </Paragraph>
                     </li>
@@ -570,7 +569,7 @@ export default function Loblaw() {
                 <IndentInner>
                     <Heading type={4}>
                         Our redesign excelled in simplifying transaction descriptions and presenting item status upfront.
-                        However, there are still pain points that we had not managed to address.
+                        We also uncovered pain points that needed to be addressed.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -585,7 +584,7 @@ export default function Loblaw() {
             </Section>
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Technical Constraints and Edge Cases</Heading>
+                    <Heading type={4} weight='heavy'>Constraints and Edge Cases</Heading>
                     <Paragraph>
                         New constraints and edge cases were discovered during the development of our new module's API,
                         which consolidates the same pieces of information as the TRX database:
@@ -602,8 +601,7 @@ export default function Loblaw() {
                         <li>
                             <Paragraph>
                                 <span className='bold'>
-                                    If units of an item are picked into multiple totes, each tote’s
-                                    journey will be tracked asynchronously
+                                    Each transaction type provides only one description string (i.e. no “dynamic” descriptions)
                                 </span>
                             </Paragraph>
                         </li>
@@ -617,18 +615,6 @@ export default function Loblaw() {
                     src={TransactionIterations}
                     alt='Transaction iterations'/>
                 </ImgFluid>
-                <SectionInner>
-                    <Heading type={4} weight='heavy'>Multi-Tote Item Journey</Heading>
-                </SectionInner>
-                <ImgFluid>
-                    <Img
-                    src={MultiToteLifecycle}
-                    alt='Multi-tote item journey'/>
-                </ImgFluid>
-                <ImgCaption>
-                    Illustrating a clear multi-tote item journey required picked quantity and/or tote ID
-                    to be specified within stage and load actions
-                </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Item Column Changes</Heading>
                 </SectionInner>
@@ -683,8 +669,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        I introduced key visual elements to help our colleagues distinguish between transactions
-                        and “separate” timelines for different item journeys.
+                        I introduced key visual elements to help our colleagues distinguish between
+                        transactions and “isolate” timelines for different item journeys.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -693,9 +679,13 @@ export default function Loblaw() {
                 <Heading type={3}>Contextual Search</Heading>
                 <Paragraph>
                     It was confirmed after testing that our search bar within our new module would be
-                    contextualized locally. As a user, we will be able to search through a customer
-                    order by item name or item number.
+                    contextualized locally.
                 </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>
+                        As a user, we will be able to search through a customer order by item name or item number.
+                    </Heading>
+                </IndentInner>
             </Section>
             <ImgContainer>
                 <SectionInner>
