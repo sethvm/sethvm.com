@@ -417,7 +417,7 @@ export default function Loblaw() {
                     alt='The initial redesign'/>
                 </ImgFluid>
                 <ImgCaption>
-                    We followed interface patterns that are consistent with the Ops Portal’s existing set of components
+                    An early medium-fidelity prototype
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Technical Constraints</Heading>
@@ -785,9 +785,9 @@ export default function Loblaw() {
                     <Heading type={4}>There is an endless tug-of-war between stakeholder requirements and technical constraints</Heading>
                 </IndentInner>
                 <Paragraph>
-                    As designers, we all endeavour to craft the “perfect” experience for our users. However, striving to design for 
-                    the ideal experience often places compromise on the technical feasibility of a product. It is important to identify
-                    where a design’s constraints lie and make decisions that accommodate these.
+                    As designers, we all endeavour to bring “perfection” to our users. However, striving to design for the
+                    ideal experience often places compromise on the technical feasibility of a product. It is important to
+                    identify where a design’s constraints lie and make decisions that accommodate these.
                 </Paragraph>
             </Section>
             <Section>
