@@ -689,7 +689,7 @@ export default function Loblaw() {
             </Section>
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>If it Fitts’s, It Ships</Heading>
+                    <Heading type={4} weight='heavy'>If it Fitts’s, It Ships (Not a Typo)</Heading>
                     <Paragraph>
                         Our final item column design features a search bar that is 128 pixels wider and placed closer
                         to where our users will be doing most of their navigation.
@@ -701,7 +701,7 @@ export default function Loblaw() {
                     alt='Search bar placement'/>
                 </ImgFluid>
                 <ImgCaption>
-                    Fitts’s Law (not a typo) states that the time to acquire a target is a function of the
+                    Fitts’s Law states that the time to acquire a target is a function of the
                     distance to and size of the target
                 </ImgCaption>
                 <SectionInner>
