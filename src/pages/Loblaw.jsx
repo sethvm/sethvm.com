@@ -107,8 +107,8 @@ export default function Loblaw() {
                 <Paragraph>
                     The Ops Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
                     One of my first projects involved examining the current tool’s transaction logs (collectively referred
-                    to as TRX) and collaborating on the introduction of a renewed experience with another designer. Our final
-                    product is the Pick History - a module designed to succeed TRX within the Ops Portal.
+                    to as TRX) and leading its end-to-end transformation with support from a mentor. Our final product is
+                    the Pick History - a module designed to succeed TRX within the Ops Portal.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
