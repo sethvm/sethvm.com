@@ -792,6 +792,15 @@ export default function Loblaw() {
                     ideal experience often places compromise on the technical feasibility of a product. It is important to
                     identify where a design’s constraints lie and make decisions that accommodate these.
                 </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>Curiosity is a superpower</Heading>
+                </IndentInner>
+                <Paragraph>
+                    Due to in-store training being halted by COVID-19, the biggest challenge I faced while leading this project
+                    was the absence of a hands-on familiarity with the PCX pick procedure. This restriction provided room for
+                    me to sharpen my ability to navigate ambiguity through proactively reaching out and conversing (remotely)
+                    with our colleagues - a non-trivial task because of how busy stores tend to be.
+                </Paragraph>
             </Section>
             <Section>
                 <Heading type={3}>
