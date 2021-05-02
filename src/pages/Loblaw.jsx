@@ -425,16 +425,16 @@ export default function Loblaw() {
                         <li>
                             <Paragraph>
                                 <span className='bold'>
-                                    The data we could display was limited to the same set of data that is being
-                                    displayed by the existing TRX module.
+                                    The data we could utilize and display was limited to what was being
+                                    provided by the existing TRX module.
                                 </span>
                             </Paragraph>
                         </li>
                         <li>
                             <Paragraph>
                                 <span className='bold'>
-                                    To avoid encountering performance issues, we needed to limit the number of
-                                    transactions that can be displayed on the screen at once.
+                                    To avoid encountering performance issues, we needed to restrict the number
+                                    of transactions that can be displayed on the screen at once.
                                 </span>
                             </Paragraph>
                         </li>
@@ -512,9 +512,9 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Validating Usability</Heading>
                 <Paragraph>
-                    We ran moderated tests and had several colleagues conduct mock order investigations
-                    using a prototype of our redesign. Our script outlined scenarios that mirror tasks they would encounter
-                    during their day-to-day work.
+                    We ran moderated usability tests and had several colleagues conduct mock order investigations
+                    using a prototype of our redesign. I put together a script that outlines scenarios they would
+                    encounter during their day-to-day work.
                     <br />
                     <br />
                 </Paragraph>
@@ -705,13 +705,16 @@ export default function Loblaw() {
                     distance to and size of the target
                 </ImgCaption>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Microcopy and States</Heading>
+                    <Heading type={4} weight='heavy'>States and Microcopy</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img
                     src={SearchStates}
                     alt='Search bar states and empty state'/>
                 </ImgFluid>
+                <ImgCaption>
+                    The final placement of the search bar made for a nicely “contained” empty state
+                </ImgCaption>
             </ImgContainer>
             <Section>
                 <IndentInner>
