@@ -250,7 +250,8 @@ export default function Loblaw() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        Colleagues developed proficiency with TRX through memorization rather than intuition.
+                        Information presented by TRX is difficult to understand; colleagues developed proficiency with the module
+                        through memorization rather than intuition.
                     </Heading>
                 </IndentInner>
                 <Paragraph>
@@ -259,7 +260,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        Tracking item movement was a tedious task due to the existing layout of the TRX module.
+                        Tracking item movement was a tedious task due to TRX’s existing layout.
                     </Heading>
                 </IndentInner>
             </Section>
