@@ -24,8 +24,8 @@ import BlueBlock from './components/BlueBlock/BlueBlock';
 import Loading from './pages/Loading';
 
 // page body content
-const Home = lazy(() => import('./pages/Home'));
-const Error = lazy(() => import('./pages/Error'));
+import Home from './pages/Home';
+import Error from './pages/Error';
 const About = lazy(() => import('./pages/About'));
 const FASSB = lazy(() => import('./pages/FASSB'));
 const Soulfx = lazy(() => import('./pages/Soulfx'));
