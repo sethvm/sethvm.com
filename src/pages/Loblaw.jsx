@@ -220,14 +220,14 @@ export default function Loblaw() {
                         <Paragraph>
                             <span className='bold'>
                                 “Some of the descriptions of what a line is can be confusing… like ‘Put’ for example [is]
-                                not a term used anywhere else”
+                                not a term used anywhere else.”
                             </span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
                             <span className='bold'>
-                                “The data is all there but it can be more clear”
+                                “The data is all there but it can be more clear.”
                             </span>
                         </Paragraph>
                     </li>
@@ -426,8 +426,15 @@ export default function Loblaw() {
                         <li>
                             <Paragraph>
                                 <span className='bold'>
-                                    The data we could utilize and display was limited to what was being
-                                    provided by the existing TRX module.
+                                    The redesigned module will be displayed on a single monitor with a
+                                    16:9 aspect ratio
+                                </span>
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                <span className='bold'>
+                                    The data we could display was limited to what was being provided by TRX
                                 </span>
                             </Paragraph>
                         </li>
@@ -435,7 +442,7 @@ export default function Loblaw() {
                             <Paragraph>
                                 <span className='bold'>
                                     To avoid encountering performance issues, we needed to restrict the number
-                                    of transactions that can be displayed on the screen at once.
+                                    of transactions that can be displayed on the screen at once
                                 </span>
                             </Paragraph>
                         </li>
