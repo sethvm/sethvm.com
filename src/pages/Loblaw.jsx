@@ -260,7 +260,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
-                        Tracking item movement was a tedious task due to TRX’s existing layout.
+                        Tracking item movement is a tedious task due to TRX’s existing layout.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -471,8 +471,8 @@ export default function Loblaw() {
                     alt='Substitutions in the initial redesign'/>
                 </ImgFluid>
                 <ImgCaption>
-                    The same substitution cycle in our redesign - the data displayed at transaction-level
-                    changes based on the selected item card
+                    The same substitution as above, reworked - the data displayed at transaction-level re-renders based on
+                    the selected item, and actions are described using simpler language
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Surfacing Visibility of Item Status</Heading>
@@ -652,8 +652,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Traffic Light Colour Sequence</Heading>
                     <Paragraph>
-                        I introduced a traffic light system to distinguish between the varying fulfillment
-                        levels attained by each type of action.
+                        I introduced a traffic light colour sequence to classify transactions based on the levels of
+                        fulfillment they contribute to the pick lifecycle.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -664,8 +664,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>"[An icon] is Worth a Thousand Words"</Heading>
                     <Paragraph>
-                        In adherence to a classic aphorism, timeline icons have been incorporated to serve as
-                        indicators for pick and load actions.
+                        In adherence to a classic aphorism, timeline icons have been incorporated to serve as indicators
+                        for transactions that fall outside of the expected pick actions.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -677,8 +677,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        I introduced key visual elements to help our colleagues distinguish between
-                        transactions and “isolate” timelines for different item journeys.
+                        I introduced key visual elements to help our colleagues highlight transactions of concern and
+                        “isolate” timelines for different item journeys.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -714,6 +714,10 @@ export default function Loblaw() {
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>States and Microcopy</Heading>
+                    <Paragraph>
+                        We designed searchbar states that teach new colleagues about what they can use it for and enable
+                        users to quickly clear search inputs.
+                    </Paragraph>
                 </SectionInner>
                 <ImgFluid>
                     <Img
@@ -789,8 +793,17 @@ export default function Loblaw() {
                 </IndentInner>
                 <Paragraph>
                     Retailers are always looking for ways to operate more efficiently and better serve their consumer base.
-                    I’ve found that I thrive under the pace of delivering to uphold this tenet; designing the Pick History
-                    module felt closer to play than work.
+                    I’ve found that I thrive under the pace of delivering to uphold this tenet, and it made designing the
+                    Pick History module feel closer to play than work.
+                </Paragraph>
+                <IndentInner>
+                    <Heading type={4}>Curiosity is a superpower</Heading>
+                </IndentInner>
+                <Paragraph>
+                    Taking ownership of the Pick History design process instilled me with confidence in my ability to navigate
+                    ambiguity and taught me about the importance of seeking context to solving a problem. TRX presents a
+                    simple-looking interface that belies a complex layer of information, and reaching out remotely to PCX
+                    specialists to understand who we were designing for was a non-trivial task.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>There is an endless tug-of-war between stakeholder requirements and technical constraints</Heading>
@@ -798,16 +811,7 @@ export default function Loblaw() {
                 <Paragraph>
                     As designers, we all endeavour to bring “perfection” to our users. However, striving to design for the
                     ideal experience often places compromise on the technical feasibility of a product. It is important to
-                    identify where a design’s constraints lie and make decisions that accommodate these.
-                </Paragraph>
-                <IndentInner>
-                    <Heading type={4}>Curiosity is a superpower</Heading>
-                </IndentInner>
-                <Paragraph>
-                    Due to in-store training being halted by COVID-19, the biggest challenge I faced while leading this project
-                    was the absence of a hands-on familiarity with the PCX pick procedure. This restriction provided room for
-                    me to sharpen my ability to navigate ambiguity through proactively reaching out and conversing (remotely)
-                    with our colleagues - a non-trivial task because of how busy stores tend to be.
+                    identify where a design’s constraints lie and make decisions that accommodate them.
                 </Paragraph>
             </Section>
             <Section>
