@@ -240,8 +240,8 @@ export default function Loblaw() {
                     alt='Action properties'/>
                 </ImgFluid>
                 <ImgCaption>
-                    Location changes and transaction descriptions are presented in the form of raw data, resulting in a workflow
-                    that can appear difficult to grasp.
+                    Location changes and transaction descriptions are presented as data in the form of numbers,
+                    resulting in a workflow that can appear difficult to grasp.
                 </ImgCaption>
             </ImgContainer>
             <Section>
@@ -398,7 +398,7 @@ export default function Loblaw() {
                 <Heading type={3}>Initial Redesign</Heading>
                 <Paragraph>
                     Putting together (and later refining) our redesign was a team effort that called for input from our product
-                    owner and developers. We elected to split up TRX into two layers of information: the transaction level
+                    owner and developers. I elected to split up TRX into two layers of information: the transaction level
                     and the item level.
                 </Paragraph>
                 <IndentInner>
@@ -426,8 +426,9 @@ export default function Loblaw() {
                         <li>
                             <Paragraph>
                                 <span className='bold'>
-                                    The redesigned module will be displayed on a single monitor with a
-                                    16:9 aspect ratio
+                                    Because TRX is accessed via desktop workstations,
+                                    the redesigned module will be displayed on a single
+                                    monitor with a 16:9 aspect ratio
                                 </span>
                             </Paragraph>
                         </li>
@@ -520,9 +521,9 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Validating Usability</Heading>
                 <Paragraph>
-                    We ran moderated usability tests and had several colleagues conduct mock order investigations
-                    using a prototype of our redesign. I put together a script that outlines scenarios they would
-                    encounter during their day-to-day work.
+                    I ran moderated usability tests and had several colleagues conduct mock order investigations
+                    using a prototype of our redesign. My script outlined scenarios they would encounter during
+                    the day-to-day operation of a store.
                     <br />
                     <br />
                 </Paragraph>
@@ -585,7 +586,7 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Post-Testing Evolution</Heading>
                 <Paragraph>
-                    We focused most of our post-testing efforts on refining our transaction layout. Collaboration with our
+                    I focused most of my post-testing efforts on refining our transaction layout. Collaboration with our
                     developers played a critical role in maintaining alignment regarding technical feasibility
                     as we polished our solution.
                 </Paragraph>
@@ -635,7 +636,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Our iterations led to us opting to sort transactions earliest-first. The latest-first ordering
+                        My iterations led to us opting to sort transactions earliest-first. The latest-first ordering
                         did not align with our users’ mental model due to TRX’s chronologically ascending arrangement.
                     </Heading>
                 </IndentInner>
@@ -715,8 +716,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>States and Microcopy</Heading>
                     <Paragraph>
-                        We designed searchbar states that teach new colleagues about what they can use it for and enable
-                        users to quickly clear search inputs.
+                        I designed searchbar states that teach new colleagues about what they can use it for
+                        and enable users to easily clear search inputs.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -740,7 +741,7 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>The Rebirth</Heading>
                 <Paragraph>
-                    During the closing phases of designing the Pick History module, we supported our developers
+                    During the closing phases of designing the Pick History module, I supported our developers
                     throughout implementation and user acceptance testing (UAT).
                 </Paragraph>
             </Section>
