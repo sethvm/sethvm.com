@@ -1,5 +1,9 @@
-.container {
+.withMargin {
     margin-bottom: 48px;
+}
+
+.noMargin {
+    margin-bottom: 0;
 }
 
 .noBullets {

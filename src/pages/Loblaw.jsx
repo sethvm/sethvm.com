@@ -133,8 +133,8 @@ export default function Loblaw() {
                         Log entries (known as transactions) present critical information that describes an item’s
                         status at a specified timestamp. This includes:
                     </Paragraph>
-                    <IndentInner nobar>
-                        <List>
+                    <IndentInner noBar>
+                        <List noMargin>
                             <li>
                                 <Paragraph>
                                     <span className='bold'>Who</span>

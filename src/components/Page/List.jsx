@@ -1,12 +1,13 @@
 //list component
 import listStyles from './List.module.css';
 
-export default function List({ unBulleted, children }) {
+export default function List({ unBulleted, noMargin, children }) {
 
-    const noBullets = unBulleted ? listStyles.noBullets : '';
+    const bullets = unBulleted ? listStyles.noBullets : '';
+    const margin = noMargin ? listStyles.noMargin : listStyles.withMargin
 
     return (
-        <ul className={`${listStyles.container} ${noBullets}`}>
+        <ul className={`${margin} ${bullets}`}>
             {children}
         </ul>
     );
