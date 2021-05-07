@@ -121,33 +121,36 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Transaction Logs (TRX)</Heading>
                 <Paragraph>
-                    Transaction logs are key elements of the current operations platform. They keep records of every task performed
-                    by a PCX colleague throughout the pick process of a customer order, providing comprehensive insight regarding
-                    item status.
+                    Transaction logs are key elements of the current operations platform. They record every task performed
+                    by a PCX colleague throughout the pick process of a customer order, providing comprehensive insight
+                    regarding fulfillment progress.
                 </Paragraph>
             </Section>
             <ImgContainer>
-
-            <SectionInner>
+                <SectionInner>
                     <Heading type={4} weight='heavy'>Transaction Display</Heading>
                     <Paragraph>
-                        Transactions present critical information regarding item status. These include:
+                        Log entries (known as transactions) present critical information that describes an item’s
+                        status at a specified timestamp. This includes:
                     </Paragraph>
                     <IndentInner nobar>
                         <List>
                             <li>
                                 <Paragraph>
-                                    <span className='bold'>Where an item is</span>
+                                    <span className='bold'>Who</span>
+                                    &nbsp;actioned the task on the item
                                 </Paragraph>
                             </li>
                             <li>
                                 <Paragraph>
-                                    <span className='bold'>Which container an item is placed in</span>
+                                    <span className='bold'>What</span>
+                                    &nbsp;has been done to the item
                                 </Paragraph>
                             </li>
                             <li>
                                 <Paragraph>
-                                    <span className='bold'>Who was responsible for carrying out any given action on an item</span>
+                                    <span className='bold'>Where</span>
+                                    &nbsp;the item is
                                 </Paragraph>
                             </li>
                         </List>
@@ -159,7 +162,7 @@ export default function Loblaw() {
                     alt='Action entry display'/>
                 </ImgFluid>
                 <ImgCaption>
-                    A transaction log - action entries are sorted earliest-first by timestamp
+                    A page of entries - transactions are sorted earliest-first
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Entry Point</Heading>
@@ -264,22 +267,13 @@ export default function Loblaw() {
                     </Heading>
                 </IndentInner>
             </Section>
-
-            <Section>
-                <Heading type={3}>Discovering Opportunities</Heading>
-                <Paragraph>
-                    Before proceeding with our redesign, we needed a deeper understanding of how the item pick lifecycle
-                    works and how our users interact with the existing interface. We worked closely with our colleagues
-                    in documenting our findings.
-                </Paragraph>
-            </Section>
             <ImgContainer>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Deciphering the Item Pick Lifecycle</Heading>
                     <Paragraph>
                         Transaction codes represent the different stages of the pick lifecycle and are paired within a
-                        description (highlighted below). We leveraged our learnings and rephrased every code-description
-                        pair using simpler terminology.
+                        description (highlighted below). I took the time to get an in-depth look at the end-to-end PCX
+                        order journey, working with colleagues and my mentor in documenting our findings.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -356,7 +350,7 @@ export default function Loblaw() {
                     alt='The pick lifecycle visualized' />
                 </ImgFluid>
                 <ImgCaption>
-                    We mapped out the pick lifecycle to obtain a firm grasp on where each status fits within the item journey
+                    I mapped out the pick lifecycle to obtain a firm grasp on where each status fits within the item journey
                 </ImgCaption>
             </ImgContainer>
             <Section>
@@ -371,8 +365,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Navigating the Existing Layout</Heading>
                     <Paragraph>
-                        TRX arranges transactions in sequentially ordered pages. Navigation consists of two sets of “Next” and
-                        “Previous” buttons - the outer buttons enable users to skip pages when larger jumps are needed.
+                        TRX arranges transactions in sequentially ordered pages. Navigation interactions are limited to two
+                        sets of “Next” and “Previous” buttons.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -381,7 +375,7 @@ export default function Loblaw() {
                     alt='TRX navigation controls'/>
                 </ImgFluid>
                 <ImgCaption>
-                    We noticed that the existing solution becomes cumbersome to browse through when investigating logs
+                    I noticed that the existing solution becomes cumbersome to browse through when investigating logs
                     that contain large numbers of transactions.
                 </ImgCaption>
             </ImgContainer>
@@ -398,8 +392,7 @@ export default function Loblaw() {
                 <Heading type={3}>Initial Redesign</Heading>
                 <Paragraph>
                     Putting together (and later refining) our redesign was a team effort that called for input from our product
-                    owner and developers. I elected to split up TRX into two layers of information: the transaction level
-                    and the item level.
+                    owner and developers.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -410,77 +403,84 @@ export default function Loblaw() {
             </Section>
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>The Reworked Module Layout</Heading>
-                </SectionInner>
-                <ImgFluid>
-                    <Img screen
-                    src={InitialRedesign}
-                    alt='The initial redesign'/>
-                </ImgFluid>
-                <ImgCaption>
-                    An early medium-fidelity prototype
-                </ImgCaption>
-                <SectionInner>
-                    <Heading type={4} weight='heavy'>Technical Constraints</Heading>
+                    <Heading type={4} weight='heavy'>Constraints</Heading>
                     <List>
                         <li>
                             <Paragraph>
-                                <span className='bold'>
                                     Because TRX is accessed via desktop workstations,
-                                    the redesigned module will be displayed on a single
-                                    monitor with a 16:9 aspect ratio
+                                    the redesigned module will be
+                                <span className='bold'>
+                                    &nbsp;displayed on a single monitor with a 16:9 aspect ratio
                                 </span>
                             </Paragraph>
                         </li>
                         <li>
                             <Paragraph>
+                                The data we could display was
                                 <span className='bold'>
-                                    The data we could display was limited to what was being provided by TRX
+                                    &nbsp;limited to what was being provided by TRX
                                 </span>
                             </Paragraph>
                         </li>
                         <li>
                             <Paragraph>
-                                <span className='bold'>
-                                    To avoid encountering performance issues, we needed to restrict the number
-                                    of transactions that can be displayed on the screen at once
+                                To avoid encountering performance issues, we needed to
+                                <span className='bold'>    
+                                    &nbsp;restrict the number of transactions that can be displayed
                                 </span>
+                                &nbsp;on the screen at once
                             </Paragraph>
                         </li>
                     </List>
                 </SectionInner>
                 <SectionInner>
+                    <Heading type={4} weight='heavy'>An All-New Layout</Heading>
+                </SectionInner>
+                <ImgFluid>
+                    <Img
+                    src={InitialRedesign}
+                    alt='The initial redesign'/>
+                </ImgFluid>
+                <ImgCaption>
+                    An early medium-fidelity prototype - I elected to split up TRX into two layers of information:
+                    the transaction level and the item level
+                </ImgCaption>
+                <SectionInner>
                     <Heading type={4} weight='heavy'>Unifying a Disjoint Item Journey</Heading>
                     <Paragraph>
-                        To streamline item tracking, transactions are now grouped based on the items they belong to.
-                        Each transaction set is sorted latest-first so that the most “current” state of each item is
-                        available to our colleagues upfront.
+                        To streamline item tracking, I grouped transactions based on the items they belong to.
+                        Each transaction set is sorted latest-first so that the most “current” state of each item
+                        is available to our colleagues upfront.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
                     src={AsIsSub}
-                    alt='Substitutions as they exist in TRX'/>
+                    alt='Transactions displayed in TRX'/>
                 </ImgFluid>
                 <ImgCaption>
-                    A substitution lifecycle in TRX (highlighted in orange) - prior to the redesign, relationships
-                    between ordered and substitute items were indicated by the Line property
+                    <span className='bold'>
+                        Before
+                    </span>
+                    &nbsp;- transactions connected to the same item journey were related through the “Line” property
                 </ImgCaption>
                 <ImgFluid>
                     <Img screen
                     src={RedesignSub}
-                    alt='Substitutions in the initial redesign'/>
+                    alt='Transactions displayed in our redesign'/>
                 </ImgFluid>
                 <ImgCaption>
-                    The same substitution as above, reworked - the data displayed at transaction-level re-renders based on
-                    the selected item, and actions are described using simpler language
+                    <span className='bold'>
+                        After
+                    </span>
+                    &nbsp;- transactions re-render based on the selected item and describe actions using simpler language
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Surfacing Visibility of Item Status</Heading>
                     <Paragraph>
-                        The “All Items” list facilitates one-click access to any transaction regardless of how many
-                        items are present within an order log. Additionally, cards provide insight into an item’s
-                        latest status without the need to select it from the item list.
+                        A navigation column facilitates one-click access to any transaction regardless of how many items are
+                        present within an order log. Additionally, cards provide insight into an item’s latest status without
+                        the need to select it.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -588,30 +588,37 @@ export default function Loblaw() {
                 <Paragraph>
                     I focused most of my post-testing efforts on refining our transaction layout. Collaboration with our
                     developers played a critical role in maintaining alignment regarding technical feasibility
-                    as we polished our solution.
+                    as I polished our solution.
                 </Paragraph>
             </Section>
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Constraints and Edge Cases</Heading>
+                    <Heading type={4} weight='heavy'>More Constraints</Heading>
                     <Paragraph>
-                        New constraints and edge cases were discovered during the development of our new module's API,
+                        New constraints were discovered during the development of our new module's API,
                         which consolidates the same pieces of information as the TRX database:
                     </Paragraph>
                     <List>
                         <li>
                             <Paragraph>
+                                The transaction
                                 <span className='bold'>
-                                    The transaction data model only provides the picked quantity of an item, meaning we
-                                    cannot display how many items were originally ordered by the customer
+                                    &nbsp;data model only provides the picked quantity of an item,
                                 </span>
+                                &nbsp;meaning we
+                                <span className='bold'>
+                                    &nbsp;cannot display how many items were originally ordered
+                                </span>
+                                &nbsp;by the customer
                             </Paragraph>
                         </li>
                         <li>
                             <Paragraph>
+                                Each transaction type provides
                                 <span className='bold'>
-                                    Each transaction type provides only one description string (i.e. no “dynamic” descriptions)
+                                    &nbsp;only one description string
                                 </span>
+                                &nbsp;(i.e. no “dynamic” descriptions)
                             </Paragraph>
                         </li>
                     </List>
@@ -625,12 +632,12 @@ export default function Loblaw() {
                     alt='Transaction iterations'/>
                 </ImgFluid>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Item Column Changes</Heading>
+                    <Heading type={4} weight='heavy'>Navigation Column Changes</Heading>
                 </SectionInner>
                 <ImgFluid>
                     <Img
                     src={ItemColumnChanges}
-                    alt='Item column changes'/>
+                    alt='Navigation column changes'/>
                 </ImgFluid>
             </ImgContainer>
             <Section>
@@ -687,8 +694,8 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Contextual Search</Heading>
                 <Paragraph>
-                    It was confirmed after testing that our search bar within our new module would be
-                    contextualized locally.
+                    It was confirmed by our product owner after testing that the search function within our new module
+                    would be contextualized locally.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>
@@ -700,8 +707,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>If it Fitts’s, It Ships (Not a Typo)</Heading>
                     <Paragraph>
-                        Our final item column design features a search bar that is 128 pixels wider and placed closer
-                        to where our users will be doing most of their navigation.
+                        My final navigation column design features a search bar that is 128 pixels wider and placed
+                        closer to where our users will be doing most of their navigation.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -732,8 +739,8 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Heading type={4}>
-                        Localized context opened the opportunity to utilize an important design heuristic
-                        and streamline interactions with our search bar.
+                        Localized context allowed me to utilize an important design heuristic and
+                        streamline interactions with our search bar.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -785,7 +792,7 @@ export default function Loblaw() {
 
             <Section>
                 <Heading type={3}>
-                    Takeaways
+                    Reflection
                     <br />
                     <br />
                 </Heading>
@@ -795,7 +802,7 @@ export default function Loblaw() {
                 <Paragraph>
                     Retailers are always looking for ways to operate more efficiently and better serve their consumer base.
                     I’ve found that I thrive under the pace of delivering to uphold this tenet, and it made designing the
-                    Pick History module feel closer to play than work.
+                    Pick History module feel like play rather than work.
                 </Paragraph>
                 <IndentInner>
                     <Heading type={4}>Curiosity is a superpower</Heading>
