@@ -18,6 +18,7 @@ import Img from '../components/Page/Img';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
+import Strong from '../components/Typography/Strong';
 
 // banner
 import SoulfxCard from '../assets/soulfx/soulfx-card.svg';
@@ -105,10 +106,10 @@ export default function Soulfx() {
                     pharmaceutical client in executing an end-to-end design project.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Soulfx specializes in the development of software products
                         that drive innovation within the healthcare sector.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -121,10 +122,10 @@ export default function Soulfx() {
                     mitigating the risks imposed by the pandemic on immunocompromised individuals.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         How can we design a platform that will enable our client to deliver their
                         support service to patients remotely?
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -149,10 +150,10 @@ export default function Soulfx() {
                     can be restricted to certain provinces or offered Canada-wide.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Our client works alongside pharmaceutical manufacturers in making prescription
                         payment easier by providing reimbursements for medical expenses.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -179,10 +180,10 @@ export default function Soulfx() {
 
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         We learned about who our users are and what they want out of our platform.
                         What do their journeys within the existing service look like?
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -209,10 +210,10 @@ export default function Soulfx() {
 
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Upon mapping out the patient journey, we learned that each program could provide only one of
                         two types of certificates.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
                 <Paragraph>
                     National-level certificates enable reimbursement access to patients regardless of province, while
@@ -230,10 +231,10 @@ export default function Soulfx() {
                     <br />
                 </Heading>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         It became clear from modelling the caseworker journey that there was
                         a discernible hierarchy in how records are organized.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
                 <Paragraph>
                     We took this as an opportunity to create an architecture diagram and illustrate a granular view
@@ -259,10 +260,10 @@ export default function Soulfx() {
                     with ensuring alignment with our developers.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Clarity was established regarding how our client’s service operates. How can we ensure
                         that our to-be design encompasses the tasks we have outlined?
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -341,10 +342,10 @@ export default function Soulfx() {
 
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Working under tight deadlines, our objective was to get our client operating fully remotely and
                         deliver a design for a public-facing portal that can be iterated upon.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -358,10 +359,10 @@ export default function Soulfx() {
                     any given program.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         We incorporated navigation patterns that aimed to expedite the completion of everyday duties
                         for our client’s caseworkers.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -443,7 +444,7 @@ export default function Soulfx() {
                     </Heading>
                 </IndentInner>
                 <Paragraph>
-                    Features I would explore next include <strong>search and filter functions</strong>. As the number
+                    Features I would explore next include search and filter functions. As the number
                     of registered records within the platform grows, scrolling to find items within lists may become
                     more laborious. The ability to search for and filter items would address such issues by providing
                     our caseworkers direct access to the records they need to work with.

@@ -12,6 +12,7 @@ import List from '../components/Page/List';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
+import Strong from '../components/Typography/Strong';
 
 // img containers
 import Banner from '../components/Page/Banner';
@@ -77,7 +78,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
-                    &nbsp;Shipped 🚢
+                    &nbsp;Shipped 🛳️
                     <br />
                     <br />
                 </Paragraph>
@@ -95,9 +96,9 @@ export default function Loblaw() {
                     as a product designer on the PCX Fulfillment team during the winter of 2021.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Loblaw’s mission is succinctly signified by their slogan - to help Canadians “Live Life Well”.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -110,10 +111,10 @@ export default function Loblaw() {
                     the Pick History - a module designed to succeed TRX within the Ops Portal.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         The Ops Portal initiative aims to enhance the extensibility of Loblaw’s grocery operations
                         platform through a complete in-house rebuild of its existing components.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -197,9 +198,9 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         TRX is a tool used by PCX colleagues to ensure consistent and timely fulfillment of customer orders.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -267,19 +268,19 @@ export default function Loblaw() {
                     It became evident that new hires are faced with a steep learning curve when onboarding onto the PCX pick procedure.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Information presented by TRX is difficult to understand; colleagues developed proficiency with the module
                         through memorization rather than intuition.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
                 <Paragraph>
                     Additionally, we discovered that actions often span multiple pages; colleagues must refer to the Line property to identify
                     which entries are connected to the same sets of lifecycles.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Tracking item movement is a tedious task due to TRX’s existing layout.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
             <ImgContainer>
@@ -396,10 +397,10 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Our next opportunity revolved around enabling the TRX module’s navigation experience to scale
                         more effectively across varying order sizes.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -410,10 +411,10 @@ export default function Loblaw() {
                     owner and developers.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         As PCX colleagues, we need to be able to quickly find any item within a customer order
                         so that we can identify what has happened to it.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
             <ImgContainer>
@@ -526,10 +527,10 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Our first ideations produced some radical changes to TRX, now known as the Pick History.
                         Next, we needed to ensure that the new interface is easy to use.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -602,10 +603,10 @@ export default function Loblaw() {
                     </li>
                 </List>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Our redesign excelled in simplifying transaction descriptions and presenting item status upfront.
                         I also uncovered pain points that needed to be addressed.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -684,10 +685,10 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         My iterations led to us opting to sort transactions earliest-first. The latest-first ordering
                         did not align with our users’ mental model due to TRX’s chronologically ascending arrangement.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -726,10 +727,10 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         I introduced key visual elements to help our colleagues highlight transactions of concern and
                         “isolate” timelines for different item journeys.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
@@ -740,9 +741,9 @@ export default function Loblaw() {
                     would be contextualized locally.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         As a user, we will be able to search through a customer order by item name or item number.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
             <ImgContainer>
@@ -780,10 +781,10 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         Localized context allowed me to utilize an important design heuristic and
                         streamline interactions with our search bar.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
             
@@ -825,10 +826,10 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4}>
+                    <Strong>
                         The Pick History module is currently in UAT and is set to be deployed to production 
                         in early May 2021.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
 
