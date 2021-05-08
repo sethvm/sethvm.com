@@ -15,7 +15,6 @@ import Paragraph from '../components/Typography/Paragraph';
 
 // img containers
 import Banner from '../components/Page/Banner';
-//import LoblawCard from '../assets/loblaw/loblaw-card.svg';
 import PickHistoryBanner from '../assets/loblaw/ph_banner.svg';
 import ImgContainer from '../components/Page/ImgContainer';
 import ImgFluid from '../components/Page/ImgFluid';
@@ -78,7 +77,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
-                    &nbsp;User acceptance testing (UAT) 📈
+                    &nbsp;Shipped 🚢
                     <br />
                     <br />
                 </Paragraph>
@@ -103,7 +102,7 @@ export default function Loblaw() {
             </Section>
 
             <Section>
-                <Heading type={3}>The Ops Portal</Heading>
+                <Heading type={3}>Ops Portal Initiative</Heading>
                 <Paragraph>
                     The Ops Portal is a brand-new internal platform set to replace Loblaw’s aging grocery operations tool.
                     One of my first projects involved examining the current tool’s transaction logs (collectively referred
@@ -213,25 +212,41 @@ export default function Loblaw() {
                 <List unBulleted>
                     <li>
                         <Paragraph>
+                            “As is, I think [TRX] is
                             <span className='bold'>
-                                “As is, I think [TRX] is very intimidating to colleagues because there are so many parts to learn and it’s
-                                full of information in every which way.”
+                                &nbsp;very intimidating to colleagues
                             </span>
+                            &nbsp;because there are so
+                            <span className='bold'>
+                                &nbsp;many parts to learn
+                            </span>
+                            &nbsp;and it’s
+                            <span className='bold'>
+                                &nbsp;full of information
+                            </span>
+                            &nbsp;in every which way."
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
+                            “Some of the descriptions of what a line is
                             <span className='bold'>
-                                “Some of the descriptions of what a line is can be confusing… like ‘Put’ for example [is]
-                                not a term used anywhere else.”
+                                &nbsp;can be confusing
                             </span>
+                            ... like ‘Put’ for example [is]
+                            <span className='bold'>
+                                &nbsp;not a term used anywhere else
+                            </span>
+                            ."
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
+                            "The data is all there but
                             <span className='bold'>
-                                “The data is all there but it can be more clear.”
+                                &nbsp;it can be more clear
                             </span>
+                            ."
                         </Paragraph>
                     </li>
                 </List>
@@ -460,9 +475,9 @@ export default function Loblaw() {
                 </ImgFluid>
                 <ImgCaption>
                     <span className='bold'>
-                        Before
+                        Before:
                     </span>
-                    &nbsp;- transactions connected to the same item journey were related through the “Line” property
+                    &nbsp;transactions connected to the same item journey were related through the “Line” property
                 </ImgCaption>
                 <ImgFluid>
                     <Img screen
@@ -471,9 +486,9 @@ export default function Loblaw() {
                 </ImgFluid>
                 <ImgCaption>
                     <span className='bold'>
-                        After
+                        After:
                     </span>
-                    &nbsp;- transactions re-render based on the selected item and describe actions using simpler language
+                    &nbsp;transactions re-render based on the selected item and describe actions using simpler language
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Surfacing Visibility of Item Status</Heading>
@@ -531,22 +546,25 @@ export default function Loblaw() {
                 <List>
                     <li>
                         <Paragraph>
+                            Action descriptions were
                             <span className='bold'>
-                                Action descriptions were easy to understand
+                                &nbsp;easy to understand
                             </span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
+                            Item statuses were
                             <span className='bold'>
-                                Item statuses were easily verified
+                                &nbsp;easy to verify
                             </span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
+                            Navigation column yielded
                             <span className='bold'>
-                                Layout drastically decreased the time taken to validate staging times
+                                &nbsp;quicker staging time validation
                             </span>
                         </Paragraph>
                     </li>
@@ -555,22 +573,30 @@ export default function Loblaw() {
                 <List>
                     <li>
                         <Paragraph>
+                            Pick actions and load actions were
                             <span className='bold'>
-                                Pick actions and load actions were difficult to distinguish from one another
+                                &nbsp;difficult to distinguish
+                            </span>
+                            &nbsp;from one another
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            Substitution journeys were
+                            <span className='bold'>
+                                &nbsp;confusing to follow
                             </span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
+                            Latest-first transaction sequencing was
                             <span className='bold'>
-                                Substitution journeys were confusing to follow
+                                &nbsp;unintuitive
                             </span>
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
+                            &nbsp;and
                             <span className='bold'>
-                                Latest-first transaction sequencing was unintuitive and felt more like a “backwards flow”
+                                &nbsp;felt more like a “backwards flow”
                             </span>
                         </Paragraph>
                     </li>
@@ -578,7 +604,7 @@ export default function Loblaw() {
                 <IndentInner>
                     <Heading type={4}>
                         Our redesign excelled in simplifying transaction descriptions and presenting item status upfront.
-                        We also uncovered pain points that needed to be addressed.
+                        I also uncovered pain points that needed to be addressed.
                     </Heading>
                 </IndentInner>
             </Section>
@@ -586,10 +612,26 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Post-Testing Evolution</Heading>
                 <Paragraph>
-                    I focused most of my post-testing efforts on refining our transaction layout. Collaboration with our
-                    developers played a critical role in maintaining alignment regarding technical feasibility
-                    as I polished our solution.
+                    My approach to iterating our design encompassed two core foundations:
                 </Paragraph>
+                <List>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Working side-by-side with colleagues
+                            </span>
+                            &nbsp;in polishing our solution
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
+                            <span className='bold'>
+                                Close collaboration with developers
+                            </span>
+                            &nbsp;to preserve alignment on technical feasibility
+                        </Paragraph>
+                    </li>
+                </List>
             </Section>
             <ImgContainer>
                 <SectionInner>
