@@ -27,7 +27,6 @@ import Loading from './pages/Loading';
 import Home from './pages/Home';
 import Error from './pages/Error';
 const About = lazy(() => import('./pages/About'));
-const FASSB = lazy(() => import('./pages/FASSB'));
 const Soulfx = lazy(() => import('./pages/Soulfx'));
 const Loblaw = lazy(() => import('./pages/Loblaw'));
 
@@ -51,9 +50,6 @@ export default function App() {
                     <Route exact
                     path='/patient-support-app'
                     render={() => <Soulfx />} />
-                    <Route exact
-                    path='/employment-services-transformation'
-                    render={() => <FASSB />} />
                     <Route
                     render={() => <Error />} />
                 </Switch>

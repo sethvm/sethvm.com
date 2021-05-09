@@ -1,7 +1,6 @@
 // card images
 import Loblaw from '../assets/loblaw/loblaw-card.svg';
 import Soulfx from '../assets/soulfx/soulfx-card.svg';
-//import FASSB from '../assets/fassb/fassb-card.svg';
 
 // project card and quicklink properties
 export const projectData = [
@@ -20,8 +19,7 @@ export const projectData = [
     {
         heading: 'Patient Support App',
         subHeadings: [
-            'Software Design',
-            'UX Design'
+            'Software Design'
         ],
         description: "Facilitating the remote operation of a client's patient support service",
         img: Soulfx,
@@ -29,17 +27,5 @@ export const projectData = [
         cardLink: 'View case study →',
         quickLinkLabel: 'Soulfx',
         url: '/patient-support-app'
-    },
-    /*{
-        heading: 'Employment Services Transformation',
-        subHeadings: [
-            'Web Design'
-        ],
-        description: "Supporting Employment Ontario's push towards improving provincial employment retention",
-        img: FASSB,
-        alt: 'Employment Services Transformation',
-        cardLink: 'View term recap →',
-        quickLinkLabel: 'FASSB',
-        url: '/employment-services-transformation'
-    }*/
+    }
 ]

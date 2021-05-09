@@ -213,41 +213,23 @@ export default function Loblaw() {
                 <List unBulleted>
                     <li>
                         <Paragraph>
-                            “As is, I think [TRX] is
-                            <span className='bold'>
-                                &nbsp;very intimidating to colleagues
-                            </span>
-                            &nbsp;because there are so
-                            <span className='bold'>
-                                &nbsp;many parts to learn
-                            </span>
-                            &nbsp;and it’s
-                            <span className='bold'>
-                                &nbsp;full of information
-                            </span>
-                            &nbsp;in every which way."
+                            “As is, I think [TRX] is <span className='bold'>
+                            very intimidating to colleagues</span> because there are so <span className='bold'>
+                            many parts to learn</span> and it’s <span className='bold'>full of information
+                            </span> in every which way."
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            “Some of the descriptions of what a line is
-                            <span className='bold'>
-                                &nbsp;can be confusing
-                            </span>
-                            ... like ‘Put’ for example [is]
-                            <span className='bold'>
-                                &nbsp;not a term used anywhere else
-                            </span>
-                            ."
+                            “Some of the descriptions of what a line is <span className='bold'>
+                            can be confusing</span>... like ‘Put’ for example [is] <span className='bold'>
+                            not a term used anywhere else</span>."
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            "The data is all there but
-                            <span className='bold'>
-                                &nbsp;it can be more clear
-                            </span>
-                            ."
+                            "The data is all there but <span className='bold'>
+                            it can be more clear</span>."
                         </Paragraph>
                     </li>
                 </List>
@@ -371,10 +353,10 @@ export default function Loblaw() {
             </ImgContainer>
             <Section>
                 <IndentInner>
-                    <Heading type={4} >
+                    <Strong>
                         We had an opportunity to leverage natural language to make transactions easier to understand for those
                         unfamiliar with the pick procedure.
-                    </Heading>
+                    </Strong>
                 </IndentInner>
             </Section>
             <ImgContainer>
@@ -423,19 +405,16 @@ export default function Loblaw() {
                     <List>
                         <li>
                             <Paragraph>
-                                    Because TRX is accessed via desktop workstations,
-                                    the redesigned module will be
-                                <span className='bold'>
-                                    &nbsp;displayed on a single monitor with a 16:9 aspect ratio
+                                Because TRX is accessed via desktop workstations,
+                                the redesigned module will be <span className='bold'>
+                                displayed on a single monitor with a 16:9 aspect ratio
                                 </span>
                             </Paragraph>
                         </li>
                         <li>
                             <Paragraph>
-                                The data we could display was
-                                <span className='bold'>
-                                    &nbsp;limited to what was being provided by TRX
-                                </span>
+                                The data we could display was <span className='bold'>
+                                limited to what was being provided by TRX</span>
                             </Paragraph>
                         </li>
                         <li>
@@ -547,26 +526,20 @@ export default function Loblaw() {
                 <List>
                     <li>
                         <Paragraph>
-                            Action descriptions were
-                            <span className='bold'>
-                                &nbsp;easy to understand
-                            </span>
+                            Action descriptions were <span className='bold'>
+                            easy to understand</span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            Item statuses were
-                            <span className='bold'>
-                                &nbsp;easy to verify
-                            </span>
+                            Item statuses were <span className='bold'>
+                            easy to verify</span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            Navigation column yielded
-                            <span className='bold'>
-                                &nbsp;quicker staging time validation
-                            </span>
+                            Navigation column yielded <span className='bold'>
+                            quicker staging time validation</span>
                         </Paragraph>
                     </li>
                 </List>
@@ -574,38 +547,28 @@ export default function Loblaw() {
                 <List>
                     <li>
                         <Paragraph>
-                            Pick actions and load actions were
-                            <span className='bold'>
-                                &nbsp;difficult to distinguish
-                            </span>
-                            &nbsp;from one another
+                            Pick actions and load actions were <span className='bold'>
+                            difficult to distinguish</span> from one another
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            Substitution journeys were
-                            <span className='bold'>
-                                &nbsp;confusing to follow
-                            </span>
+                            Substitution journeys were <span className='bold'>
+                            confusing to follow</span>
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            Latest-first transaction sequencing was
-                            <span className='bold'>
-                                &nbsp;unintuitive
-                            </span>
-                            &nbsp;and
-                            <span className='bold'>
-                                &nbsp;felt more like a “backwards flow”
-                            </span>
+                            Latest-first transaction sequencing was <span className='bold'>
+                            unintuitive</span> and <span className='bold'>
+                            felt more like a “backwards flow”</span>
                         </Paragraph>
                     </li>
                 </List>
                 <IndentInner>
                     <Strong>
                         Our redesign excelled in simplifying transaction descriptions and presenting item status upfront.
-                        I also uncovered pain points that needed to be addressed.
+                        We also uncovered pain points that needed to be addressed.
                     </Strong>
                 </IndentInner>
             </Section>
@@ -618,18 +581,14 @@ export default function Loblaw() {
                 <List>
                     <li>
                         <Paragraph>
-                            <span className='bold'>
-                                Working side-by-side with colleagues
-                            </span>
-                            &nbsp;in polishing our solution
+                            <span className='bold'>Working side-by-side with colleagues
+                            </span> in polishing our solution
                         </Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            <span className='bold'>
-                                Close collaboration with developers
-                            </span>
-                            &nbsp;to preserve alignment on technical feasibility
+                            <span className='bold'>Close collaboration with developers
+                            </span> to preserve alignment on technical feasibility
                         </Paragraph>
                     </li>
                 </List>
@@ -644,24 +603,17 @@ export default function Loblaw() {
                     <List>
                         <li>
                             <Paragraph>
-                                The transaction
-                                <span className='bold'>
-                                    &nbsp;data model only provides the picked quantity of an item,
-                                </span>
-                                &nbsp;meaning we
-                                <span className='bold'>
-                                    &nbsp;cannot display how many items were originally ordered
-                                </span>
-                                &nbsp;by the customer
+                                The transaction <span className='bold'>
+                                data model only provides the picked quantity of an item,
+                                </span> meaning we <span className='bold'>
+                                cannot display how many items were originally ordered
+                                </span> by the customer
                             </Paragraph>
                         </li>
                         <li>
                             <Paragraph>
-                                Each transaction type provides
-                                <span className='bold'>
-                                    &nbsp;only one description string
-                                </span>
-                                &nbsp;(i.e. no “dynamic” descriptions)
+                                Each transaction type provides <span className='bold'>
+                                only one description string</span> (i.e. no “dynamic” descriptions)
                             </Paragraph>
                         </li>
                     </List>

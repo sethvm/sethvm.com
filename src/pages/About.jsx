@@ -4,6 +4,7 @@ import { pageTitle } from '../components/Page/pageTitle';
 // layout imports
 import Project from '../components/Page/Project';
 import Section from '../components/Page/Section';
+import List from '../components/Page/List';
 
 // img containers
 import ImgContainer from '../components/Page/ImgContainer';
@@ -33,75 +34,86 @@ export default function About() {
                     <br />
                     <br />
                 </Heading>
-                <Heading type={3} weight='bold'>
+                <Heading type={3} weight='heavy'>
                     ... a student in Human-centered Design
                 </Heading>
                 <Paragraph>
                     I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                     SYDE is a unique program that emphasizes the utilization of multi-disciplinary
-                    approaches to tackling technological and socioeconomical challenges we face today.
+                    approaches to <span className='heavy'>tackling technological and socioeconomical challenges
+                    </span> we face today.
                 </Paragraph>
                 <Paragraph>
-                    My endeavours in design revolve around improving the quality of life for others. I'm
-                    particularly interested in the overlap between technology and problem spaces involving&nbsp;
-                    <strong>commerce</strong>, <strong>healthcare</strong> and <strong>community</strong>.
+                    My endeavours in design revolve around <span className='heavy'>improving the quality of life for others
+                    </span>. I'm particularly interested in the overlap between technology and problem spaces involving
+                    commerce, healthcare and community.
                     <br />
                     <br />
                 </Paragraph>
-                <Heading type={3} weight='bold'>
+                <Heading type={3} weight='heavy'>
                     ... a zealous adrenaline junkie
                 </Heading>
                 <Paragraph>
                     Should you ever need to find me outside of school and work, there's a
-                    good chance I'll be working on dynos at the bouldering gym,
-                    amping up to hit deadlifts in the weight room
-                    or hiking up a mountain somewhere. Occasionally, I enjoy jumping out of
-                    aircraft - with a parachute strapped to my back, of course.
+                    good chance I'll be working on <span className='heavy'>dynos</span> at
+                    the bouldering gym, amping up to hit <span className='heavy'>deadlifts</span> in
+                    the weight room or <span className='heavy'>hiking</span> up a mountain
+                    somewhere. Occasionally, I enjoy <span className='heavy'>jumping out of
+                    aircraft</span> - with a parachute strapped to my back, of course.
                     <br />
                     <br />
                 </Paragraph>
-                <Heading type={3} weight='bold'>
+                <Heading type={3} weight='heavy'>
                     ... an avid baker
                 </Heading>
                 <Paragraph>
-                    Having worked full-time as a baker prior to university,
-                    I also spend time keeping my pastry craft sharp. Lately, I've been working towards
-                    perfecting my soufflé texture.
+                    Having worked as a <span className='heavy'>full-time baker
+                    </span> prior to university, I spend time keeping my pastry craft sharp. Lately,
+                    I've been working towards <span className='heavy'>perfecting my soufflé texture
+                    </span>.
                 </Paragraph>
             </Section>
 
             <Section>
-                <Heading type={2}>
-                    Keen to collab?
-                    Let's get in touch!
-                    <br />
-                    <br />
-                </Heading>
-                <Heading type={3} weight='heavy'>
-                    Say hi on
-                    <ExternalLink
-                    href='https://www.linkedin.com/in/sethvm'>
-                        LinkedIn
-                    </ExternalLink>
-                    <br />
-                    <br />
-                </Heading>
-                <Heading type={3} weight='heavy'>
-                    Toss over an
-                    <ExternalLink
-                    href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
-                        email
-                    </ExternalLink>
-                    <br />
-                    <br />
-                </Heading>
-                <Heading type={3} weight='heavy'>
-                    Running late to a meeting? Grab a
-                    <ExternalLink
-                    href={ResumeFile}>
-                        tl;dr
-                    </ExternalLink> of my experience
-                </Heading>
+                    <Heading type={2}>
+                        Keen to collab?
+                        Let's get in touch!
+                        <br />
+                        <br />
+                    </Heading>
+                <List unBulleted noMargin>
+                    <li>
+                        <Heading type={3} weight='bold'>
+                            Say hi on
+                            <ExternalLink
+                            href='https://www.linkedin.com/in/sethvm'>
+                                LinkedIn
+                            </ExternalLink>
+                            <br />
+                            <br />
+                        </Heading>
+                    </li>
+                    <li>
+                        <Heading type={3} weight='bold'>
+                            Toss over an
+                            <ExternalLink
+                            href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
+                                email
+                            </ExternalLink>
+                            <br />
+                            <br />
+                        </Heading>
+                    </li>
+                    <li>
+                        <Heading type={3} weight='bold'>
+                            Running late to a meeting? Grab a
+                            <ExternalLink
+                            href={ResumeFile}>
+                                tl;dr
+                            </ExternalLink> of my experience
+                        </Heading>
+                    </li>
+                </List>
             </Section>
 
             <ImgContainer clear>

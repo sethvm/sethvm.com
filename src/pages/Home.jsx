@@ -33,16 +33,16 @@ export default function Home() {
                         G'day! I'm Seth.
                     </Heading>
                     <Paragraph>
-                        A <strong>designer</strong> pursuing a degree
-                        in <strong>Systems Design Engineering</strong> -
+                        A <span className='heavy'>designer</span> pursuing a degree
+                        in <span className='heavy'>Systems Design Engineering</span> -
                         passionate about creating products that
-                        help <strong>move the world forward</strong>.
+                        help <span className='heavy'>move the world forward</span>.
                     </Paragraph>
                 </div>
                 <div className='introExperience animate__animated animate__fadeIn'>
                     <Paragraph>
                         Most recently, I designed for
-                        <strong>&nbsp;PC Express fulfillment</strong> at Loblaw Digital.
+                        <span className='heavy'>&nbsp;PC Express fulfillment</span> at Loblaw Digital.
                         <br />
                         <br />
                     </Paragraph>

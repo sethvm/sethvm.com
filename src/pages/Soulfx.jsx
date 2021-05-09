@@ -51,8 +51,7 @@ export default function Soulfx() {
         <Project>
             <Section>
                 <Heading type={2}>Patient Support App</Heading>
-                <SubHeading>Software</SubHeading>&nbsp;/&nbsp;
-                <SubHeading>UX Design</SubHeading>
+                <SubHeading>Software Design</SubHeading>
                 <Paragraph>
                     <br />
                     Soulfx’s Patient Support Application is a web-based platform developed for
@@ -191,7 +190,7 @@ export default function Soulfx() {
                 <Heading type={3}>The Reimbursement Lifecycle</Heading>
                 <Paragraph>
                     We sought to get an in-depth look at how the support platform itself works and how
-                    our users interact with it. To visualize our user journeys, we created a lifecycle
+                    our users interact with it. To visualize our user journeys, I created a lifecycle
                     diagram to document the steps taken from onboarding a new manufacturer to distributing
                     the manufacturer’s program cards to patients.
                 </Paragraph>
@@ -237,7 +236,7 @@ export default function Soulfx() {
                     </Strong>
                 </IndentInner>
                 <Paragraph>
-                    We took this as an opportunity to create an architecture diagram and illustrate a granular view
+                    I took this as an opportunity to create an architecture diagram and illustrate a granular view
                     of the details being managed within each tier of information.
                 </Paragraph>
             </Section>
@@ -281,10 +280,8 @@ export default function Soulfx() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Record Management Dashboard</Heading>
                     <Paragraph>
-                        The majority of our prototyping focus went into ensuring that our record management dashboard
-                        incorporates every bit of information outlined in our information architecture diagram. We employed
-                        a single-column layout to allow caseworkers to quickly scan top-down through lists and record details
-                        - this pattern is kept consistent across all tiers of information.
+                        We employed a single-column layout to allow caseworkers to quickly scan top-down through lists and
+                        record details - this pattern is kept consistent across all tiers of information.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -343,8 +340,8 @@ export default function Soulfx() {
             <Section>
                 <IndentInner>
                     <Strong>
-                        Working under tight deadlines, our objective was to get our client operating fully remotely and
-                        deliver a design for a public-facing portal that can be iterated upon.
+                        Working under tight deadlines, our objective was to get our client operating fully remotely
+                        and deliver designs for our platform that can be iterated upon.
                     </Strong>
                 </IndentInner>
             </Section>

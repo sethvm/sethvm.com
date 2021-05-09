@@ -24,9 +24,11 @@ export default function Error() {
                 </Heading>
                 <Heading type={3}>
                     <br />
-                    Please don't chuck a sickie, hop over to the landing page
+                    <span className='bold'>
+                        Please don't chuck a sickie, hop over to the landing page
+                    </span>
                     <Link to='/'>
-                        &nbsp;<span className='activeLink bold'>here!</span>
+                        &nbsp;<span className='activeLink heavy'>here!</span>
                     </Link>
                 </Heading>
             </Section>
