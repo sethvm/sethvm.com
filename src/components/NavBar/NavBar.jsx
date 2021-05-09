@@ -7,13 +7,11 @@ import {
 import { Link } from 'react-router-dom';
 import { Sling as Hamburger } from 'hamburger-react';
 import { v4 as uuidv4 } from 'uuid';
-import { useScreenWidth } from '../customHooks/useScreenWidth';
 import { navLinks } from './navData';
 import navStyle from './NavBar.module.css';
 
 export default function NavBar() {
 
-    const screenWidth = useScreenWidth();
     const [ expanded, setExpanded ] = useState(false);
 
     const toggleButton = createRef();
@@ -84,13 +82,11 @@ export default function NavBar() {
                     </ul>
                 </div>
             }
-            {(screenWidth >= 992) &&
-                <Link
-                aria-label='About'
-                to='/about'>
-                    <div className={navStyle.desktop}>ABOUT</div>
-                </Link>
-            }
+            <Link
+            aria-label='About'
+            to='/about'>
+                <div className={navStyle.desktop}>ABOUT</div>
+            </Link>
         </nav>
     );
 }
