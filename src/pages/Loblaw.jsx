@@ -497,7 +497,7 @@ export default function Loblaw() {
                 <ImgFluid>
                     <Img screen
                     src={RedesignNav}
-                    alt='Search bar placement'/>
+                    alt='Search bar'/>
                 </ImgFluid>
                 <ImgCaption>
                     The search bar is placed within the navbar to accommodate the potential need for portal-wide
@@ -519,52 +519,58 @@ export default function Loblaw() {
                     I ran moderated usability tests and had several PCX specialists conduct mock order investigations
                     using a prototype of our redesign. My script outlined scenarios they would encounter during
                     the day-to-day operation of a store.
-                    <br />
-                    <br />
                 </Paragraph>
-                <Heading type={4} weight='heavy'>🎯 The Hits</Heading>
-                <List>
-                    <li>
-                        <Paragraph>
-                            Action descriptions were <span className='bold'>
-                            easy to understand</span>
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
-                            Item statuses were <span className='bold'>
-                            easy to verify</span>
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
-                            Navigation column yielded <span className='bold'>
-                            quicker staging time validation</span>
-                        </Paragraph>
-                    </li>
-                </List>
-                <Heading type={4} weight='heavy'>❌ The Misses</Heading>
-                <List>
-                    <li>
-                        <Paragraph>
-                            Pick actions and load actions were <span className='bold'>
-                            difficult to distinguish</span> from one another
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
-                            Substitution journeys were <span className='bold'>
-                            confusing to follow</span>
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
-                            Latest-first transaction sequencing was <span className='bold'>
-                            unintuitive</span> and <span className='bold'>
-                            felt more like a “backwards flow”</span>
-                        </Paragraph>
-                    </li>
-                </List>
+            </Section>
+            <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>🎯 The Hits</Heading>
+                    <List>
+                        <li>
+                            <Paragraph>
+                                Action descriptions were <span className='bold'>
+                                easy to understand</span>
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                Item statuses were <span className='bold'>
+                                easy to verify</span>
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                Navigation column yielded <span className='bold'>
+                                quicker staging time validation</span>
+                            </Paragraph>
+                        </li>
+                    </List>
+                </SectionInner>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>❌ The Misses</Heading>
+                    <List>
+                        <li>
+                            <Paragraph>
+                                Pick actions and load actions were <span className='bold'>
+                                difficult to distinguish</span> from one another
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                Substitution journeys were <span className='bold'>
+                                confusing to follow</span>
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                Latest-first transaction sequencing was <span className='bold'>
+                                unintuitive</span> and <span className='bold'>
+                                felt more like a “backwards flow”</span>
+                            </Paragraph>
+                        </li>
+                    </List>
+                </SectionInner>
+            </ImgContainer>
+            <Section>
                 <IndentInner>
                     <Strong>
                         Our redesign excelled in simplifying transaction descriptions and presenting item status upfront.
