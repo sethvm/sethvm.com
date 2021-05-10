@@ -61,7 +61,7 @@ export default function Loblaw() {
                 <SubHeading>Product Design</SubHeading>
                 <Paragraph>
                     <br />
-                    Loblaw’s Ops Pick History is a tool used by PC Express (PCX) colleagues to investigate
+                    Loblaw’s Ops Pick History is a tool used by PC Express (PCX) specialists to investigate
                     customer order statuses and validate fulfillment completion times.
                 </Paragraph>
                 <Paragraph>
@@ -122,8 +122,8 @@ export default function Loblaw() {
                 <Heading type={3}>Transaction Logs (TRX)</Heading>
                 <Paragraph>
                     Transaction logs are key elements of the current operations platform. They record every task performed
-                    by a PCX colleague throughout the pick process of a customer order, providing comprehensive insight
-                    regarding fulfillment progress.
+                    by a PCX specialist (also known as a store colleague) throughout the pick process of a customer order,
+                    providing comprehensive insight regarding fulfillment progress.
                 </Paragraph>
             </Section>
             <ImgContainer>
@@ -182,7 +182,7 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Usage in PCX Operations</Heading>
                     <Paragraph>
-                        TRX is most often used by PCX colleagues to address issues regarding fulfillment
+                        TRX is most often used by store colleagues to address issues regarding fulfillment
                         and validate order completion times. We reached out to determine what tasks they need to get done
                         during investigation or validation.
                     </Paragraph>
@@ -199,7 +199,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Strong>
-                        TRX is a tool used by PCX colleagues to ensure consistent and timely fulfillment of customer orders.
+                        TRX is a tool used by PCX specialists to ensure consistent and timely fulfillment of customer orders.
                     </Strong>
                 </IndentInner>
             </Section>
@@ -207,8 +207,8 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Uncovering our Problems</Heading>
                 <Paragraph>
-                    To find out how our colleagues feel about using the existing module, we shifted the focus of our conversations
-                    towards user sentiment.
+                    To find out how store colleagues feel about using the existing module, we shifted the focus
+                    of our conversations towards user sentiment.
                 </Paragraph>
                 <List unBulleted>
                     <li>
@@ -251,13 +251,13 @@ export default function Loblaw() {
                 </Paragraph>
                 <IndentInner>
                     <Strong>
-                        Information presented by TRX is difficult to understand; colleagues developed proficiency with the module
-                        through memorization rather than intuition.
+                        Information presented by TRX is difficult to understand; store colleagues developed proficiency
+                        with the module through memorization rather than intuition.
                     </Strong>
                 </IndentInner>
                 <Paragraph>
-                    Additionally, we discovered that actions often span multiple pages; colleagues must refer to the Line property to identify
-                    which entries are connected to the same sets of lifecycles.
+                    Additionally, we discovered that actions are ungrouped and often span multiple pages; the “Line” property
+                    is used to identify which entries are connected to the same sets of pick lifecycles.
                 </Paragraph>
                 <IndentInner>
                     <Strong>
@@ -394,7 +394,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <IndentInner>
                     <Strong>
-                        As PCX colleagues, we need to be able to quickly find any item within a customer order
+                        As PCX specialists, we need to be able to quickly find any item within a customer order
                         so that we can identify what has happened to it.
                     </Strong>
                 </IndentInner>
@@ -445,7 +445,7 @@ export default function Loblaw() {
                     <Paragraph>
                         To streamline item tracking, I grouped transactions based on the items they belong to.
                         Each transaction set is sorted latest-first so that the most “current” state of each item
-                        is available to our colleagues upfront.
+                        is available to users upfront.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -516,7 +516,7 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Validating Usability</Heading>
                 <Paragraph>
-                    I ran moderated usability tests and had several colleagues conduct mock order investigations
+                    I ran moderated usability tests and had several PCX specialists conduct mock order investigations
                     using a prototype of our redesign. My script outlined scenarios they would encounter during
                     the day-to-day operation of a store.
                     <br />
@@ -581,7 +581,7 @@ export default function Loblaw() {
                 <List>
                     <li>
                         <Paragraph>
-                            <span className='bold'>Working side-by-side with colleagues
+                            <span className='bold'>Working side-by-side with store colleagues
                             </span> in polishing our solution
                         </Paragraph>
                     </li>
@@ -647,7 +647,7 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Recognition Over Recall</Heading>
                 <Paragraph>
-                    Upon iterating our transaction designs, I discovered opportunities to better assist our colleagues in
+                    Upon iterating our transaction designs, I discovered opportunities to better assist our users in
                     differentiating action types and item journeys.
                 </Paragraph>
             </Section>
@@ -680,7 +680,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Strong>
-                        I introduced key visual elements to help our colleagues highlight transactions of concern and
+                        I introduced key visual elements to help our colleagues identify transactions of concern and
                         “isolate” timelines for different item journeys.
                     </Strong>
                 </IndentInner>

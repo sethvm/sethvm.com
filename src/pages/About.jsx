@@ -40,7 +40,7 @@ export default function About() {
                 <Paragraph>
                     I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo.
                     SYDE is a unique program that emphasizes the utilization of multi-disciplinary
-                    approaches to <span className='heavy'>tackling technological and socioeconomical challenges
+                    approaches to <span className='heavy'>tackling technological and socio-economic challenges
                     </span> we face today.
                 </Paragraph>
                 <Paragraph>
