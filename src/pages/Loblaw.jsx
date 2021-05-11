@@ -207,34 +207,46 @@ export default function Loblaw() {
             <Section>
                 <Heading type={3}>Uncovering our Problems</Heading>
                 <Paragraph>
-                    To find out how store colleagues feel about using the existing module, we shifted the focus
-                    of our conversations towards user sentiment.
+                    I learned about our problem space through an in-depth look at the end-to-end PCX order journey, working with
+                    my mentor in documenting our findings. Insight regarding the usage experience provided by TRX was obtained
+                    through conversing with specialists.
                 </Paragraph>
-                <List unBulleted>
-                    <li>
-                        <Paragraph>
-                            “As is, I think [TRX] is <span className='bold'>
-                            very intimidating to colleagues</span> because there are so <span className='bold'>
-                            many parts to learn</span> and it’s <span className='bold'>full of information
-                            </span> in every which way."
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
-                            “Some of the descriptions of what a line is <span className='bold'>
-                            can be confusing</span>... like ‘Put’ for example [is] <span className='bold'>
-                            not a term used anywhere else</span>."
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
-                            "The data is all there but <span className='bold'>
-                            it can be more clear</span>."
-                        </Paragraph>
-                    </li>
-                </List>
             </Section>
             <ImgContainer>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Notable Quotes</Heading>
+                    <List unBulleted>
+                        <li>
+                            <Paragraph>
+                                <br />
+                                “As is, I think [TRX] is <span className='bold'>
+                                very intimidating to colleagues</span> because there are so <span className='bold'>
+                                many parts to learn</span> and it’s <span className='bold'>full of information
+                                </span> in every which way."
+                                <br />
+                                <br />
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                “Some of the descriptions of what a line is <span className='bold'>
+                                can be confusing</span>... like ‘Put’ for example [is] <span className='bold'>
+                                not a term used anywhere else</span>."
+                                <br />
+                                <br />
+                            </Paragraph>
+                        </li>
+                        <li>
+                            <Paragraph>
+                                "The data is all there but <span className='bold'>
+                                it can be more clear</span>."
+                            </Paragraph>
+                        </li>
+                    </List>
+                </SectionInner>
+                <SectionInner>
+                    <Heading type={4} weight='heavy'>Information Breakdown</Heading>
+                </SectionInner>
                 <ImgFluid>
                     <Img screen
                     src={ActionProperties}
@@ -269,9 +281,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Deciphering the Item Pick Lifecycle</Heading>
                     <Paragraph>
-                        Transaction codes represent the different stages of the pick lifecycle and are paired within a
-                        description (highlighted below). I took the time to get an in-depth look at the end-to-end PCX
-                        order journey, working with colleagues and my mentor in documenting our findings.
+                        Transaction codes represent the different stages of the pick lifecycle and are paired within a description
+                        (highlighted below). We gathered every possible code-description pairing and rephrased them using natural language.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -457,7 +468,7 @@ export default function Loblaw() {
                     <span className='bold'>
                         Before:
                     </span>
-                    &nbsp;transactions connected to the same item journey were related through the “Line” property
+                    &nbsp;transactions connected to the same item journey (highlighted above) were related through the “Line” property
                 </ImgCaption>
                 <ImgFluid>
                     <Img screen
