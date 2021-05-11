@@ -2,18 +2,21 @@
     font-family: "Gilroy Bold";
     src:local('Gilroy Bold'),
         url('../fonts/gilroy-bold.otf') format('opentype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Gilroy Regular";
     src:local('Gilroy Regular'),
         url('../fonts/gilroy-regular.otf') format('opentype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Gilroy Semi Bold";
     src:local('Gilroy Semi Bold'),
         url('../fonts/gilroy-semibold.otf') format('opentype');
+    font-display: swap;
 }
 
 *,
