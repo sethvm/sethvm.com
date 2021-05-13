@@ -209,12 +209,12 @@ export default function Loblaw() {
                 <Paragraph>
                     I learned about our problem space through an in-depth look at the end-to-end PCX order journey, working with
                     my mentor in documenting our findings. Insight regarding the usage experience provided by TRX was obtained
-                    through conversing with specialists.
+                    through a combination of exploratory and generative research.
                 </Paragraph>
             </Section>
             <ImgContainer>
                 <SectionInner>
-                    <Heading type={4} weight='heavy'>Notable Quotes</Heading>
+                    <Heading type={4} weight='heavy'>User Sentiment</Heading>
                     <List unBulleted>
                         <li>
                             <Paragraph>
