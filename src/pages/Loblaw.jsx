@@ -302,7 +302,7 @@ export default function Loblaw() {
                     <List unBulleted>
                         <li>
                             <Paragraph>
-                                <span className='bold'>300: Picking Induct LP → </span>
+                                <span className='bold'>300: Picking (Induct LP) → </span>
                                 Tote is assigned a license plate (LP) identifier
                             </Paragraph>
                         </li>
@@ -719,8 +719,8 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>If it Fitts’s, It Ships (Not a Typo)</Heading>
                     <Paragraph>
-                        My final navigation column design features a search bar that is 128 pixels wider and placed
-                        closer to where our users will be doing most of their navigation.
+                        My final interface layout features a search bar that is 128 pixels wider and
+                        placed closer to where our users will be doing most of their navigation.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
