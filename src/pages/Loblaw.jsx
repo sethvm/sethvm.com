@@ -333,7 +333,7 @@ export default function Loblaw() {
                         <li>
                             <Paragraph>
                                 <span className='bold'>302: Picking (Put) → </span>
-                                Tote containing the item is staged in a staging area
+                                Tote containing the item is placed in a staging area
                             </Paragraph>
                         </li>
                         <li>
