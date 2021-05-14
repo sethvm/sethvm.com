@@ -70,7 +70,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Role:</span>
-                    &nbsp;Primary Designer with 1 Product Designer, 5 Developers and 1 Product Owner
+                    &nbsp;Primary Designer with 1 Product Designer, 5 Developers, 1 Technical Product Manager and 1 Product Owner
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Timeline:</span>
@@ -817,7 +817,7 @@ export default function Loblaw() {
                     Pick History module feel like play rather than work.
                 </Paragraph>
                 <IndentInner>
-                    <Heading type={4}>Curiosity is a superpower</Heading>
+                    <Heading type={4}>Ambiguity is to be embraced, not feared</Heading>
                 </IndentInner>
                 <Paragraph>
                     Taking ownership of the Pick History design process instilled me with confidence in my ability to navigate
