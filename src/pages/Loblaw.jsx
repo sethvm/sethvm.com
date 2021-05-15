@@ -719,8 +719,9 @@ export default function Loblaw() {
                 <SectionInner>
                     <Heading type={4} weight='heavy'>If it Fitts’s, It Ships (Not a Typo)</Heading>
                     <Paragraph>
-                        My final interface layout features a search bar that is 128 pixels wider and
-                        placed closer to where our users will be doing most of their navigation.
+                        My final interface layout features a search bar that is 128 pixels wider
+                        and placed closer to where our users will be doing most of their navigation.
+                        This reduces the time needed to perform successive item queries.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
@@ -736,7 +737,7 @@ export default function Loblaw() {
                     <Heading type={4} weight='heavy'>States and Microcopy</Heading>
                     <Paragraph>
                         I designed searchbar states that teach new colleagues about what they can use it for
-                        and enable users to easily clear search inputs.
+                        and enable users to quickly clear inputs.
                     </Paragraph>
                 </SectionInner>
                 <ImgFluid>
