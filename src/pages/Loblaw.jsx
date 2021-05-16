@@ -33,7 +33,6 @@ import StatusLifecycle from '../assets/loblaw/trx_transaction_lifecycle.svg';
 import TRXNavigation from '../assets/loblaw/trx_navigation.png';
 
 import InitialRedesign from '../assets/loblaw/ph_initial_redesign.svg';
-import AsIsSub from '../assets/loblaw/trx_as-is_sub.png';
 import RedesignSub from '../assets/loblaw/ph_redesign_sub.svg';
 import ItemCards from '../assets/loblaw/ph_item_cards.svg';
 import RedesignNav from '../assets/loblaw/ph_redesign_navbar.svg';
@@ -246,16 +245,16 @@ export default function Loblaw() {
                 </SectionInner>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Information Breakdown</Heading>
+                    <Paragraph>
+                        Location changes and transaction descriptions are presented as raw data in the form of numbers.
+                        Transactions connected to the same item journey are related through the “Line” property.
+                    </Paragraph>
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
                     src={ActionProperties}
                     alt='Action properties'/>
                 </ImgFluid>
-                <ImgCaption>
-                    Location changes and transaction descriptions are presented as data in the form of numbers,
-                    resulting in a workflow that can appear difficult to grasp.
-                </ImgCaption>
             </ImgContainer>
             <Section>
                 <Paragraph>
@@ -269,7 +268,7 @@ export default function Loblaw() {
                 </IndentInner>
                 <Paragraph>
                     Additionally, we discovered that actions are ungrouped and often span multiple pages; the “Line” property
-                    is used to identify which entries are connected to the same sets of pick lifecycles.
+                    is used to identify which entries are related to the same sets of pick lifecycles.
                 </Paragraph>
                 <IndentInner>
                     <Strong>
@@ -461,25 +460,11 @@ export default function Loblaw() {
                 </SectionInner>
                 <ImgFluid>
                     <Img screen
-                    src={AsIsSub}
-                    alt='Transactions displayed in TRX'/>
-                </ImgFluid>
-                <ImgCaption>
-                    <span className='bold'>
-                        Before:
-                    </span>
-                    &nbsp;transactions connected to the same item journey (highlighted above) were related through the “Line” property
-                </ImgCaption>
-                <ImgFluid>
-                    <Img screen
                     src={RedesignSub}
                     alt='Transactions displayed in our redesign'/>
                 </ImgFluid>
                 <ImgCaption>
-                    <span className='bold'>
-                        After:
-                    </span>
-                    &nbsp;transactions re-render based on the selected item and describe actions using simpler language
+                    Transactions re-render based on the selected item and describe actions using simpler language
                 </ImgCaption>
                 <SectionInner>
                     <Heading type={4} weight='heavy'>Surfacing Visibility of Item Status</Heading>
