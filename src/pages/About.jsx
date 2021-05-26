@@ -45,8 +45,8 @@ export default function About() {
                 </Paragraph>
                 <Paragraph>
                     My endeavours in design revolve around <span className='heavy'>improving the quality of life for others
-                    </span>. I'm particularly interested in the overlap between technology and problem spaces involving
-                    commerce, healthcare and community.
+                    </span>. Most recently, I explored problem spaces within the commerce and healthcare sectors as well as
+                    how they've been affected by the COVID-19 pandemic.
                     <br />
                     <br />
                 </Paragraph>
