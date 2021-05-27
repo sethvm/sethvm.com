@@ -397,7 +397,7 @@ export default function Loblaw() {
             </Section>
 
             <Section>
-                <Heading type={3}>Initial Redesign</Heading>
+                <Heading type={3}>Design Exploration</Heading>
                 <Paragraph>
                     Putting together (and later refining) our redesign was a team effort that called for input from our product
                     owner and developers.
