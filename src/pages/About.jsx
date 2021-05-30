@@ -125,7 +125,7 @@ export default function About() {
                     src={Gondola}
                     alt='Hiking up Sulphur Mountain in Banff' />
                 </ImgFluid>
-            </ImgContainer>           
+            </ImgContainer>
         </Project>
     );
 }
