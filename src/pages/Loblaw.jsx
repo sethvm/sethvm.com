@@ -783,7 +783,7 @@ export default function Loblaw() {
                 <IndentInner>
                     <Strong>
                         The Pick History module is currently in UAT and is set to be deployed to production 
-                        in early May 2021.
+                        in Summer 2021.
                     </Strong>
                 </IndentInner>
             </Section>
