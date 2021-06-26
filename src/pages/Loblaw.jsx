@@ -77,7 +77,7 @@ export default function Loblaw() {
                 </Paragraph>
                 <Paragraph>
                     <span className='bold'>Status:</span>
-                    &nbsp;Shipped 🛳️
+                    &nbsp;Launched {'\u{1F680}'}
                     <br />
                     <br />
                 </Paragraph>
@@ -782,8 +782,7 @@ export default function Loblaw() {
             <Section>
                 <IndentInner>
                     <Strong>
-                        The Pick History module is currently in UAT and is set to be deployed to production 
-                        in Summer 2021.
+                        The Pick History module is currently being deployed to stores as part of the Ops Portal rollout.
                     </Strong>
                 </IndentInner>
             </Section>
